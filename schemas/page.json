@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "page": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "type": {
+      "enum": [
+        "native",
+        "mixed",
+        "vector_figure",
+        "scanned"
+      ]
+    },
+    "chars": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "xref": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "rect": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "has_text": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "xref",
+          "rect",
+          "has_text"
+        ]
+      }
+    },
+    "symbol_fonts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "route": {
+      "enum": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "translated",
+        "qa_ok",
+        "review",
+        "done"
+      ]
+    },
+    "attempts": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "page",
+    "type",
+    "chars",
+    "images",
+    "symbol_fonts",
+    "route",
+    "status",
+    "attempts"
+  ]
+}

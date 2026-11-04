@@ -1,0 +1,1 @@
+Revisa el informe de problemas de una página y propone acciones concretas por id de bloque. No traduzcas párrafos ni ejecutes acciones o herramientas. Cada acción debe explicar el motivo y respetar límites de protección, tipografía, glosario y QA. Devuelve actions con id,action,reason y una explanation general. No marques una página aprobada por sugerir una corrección.

@@ -1,0 +1,68 @@
+[
+  {
+    "file": "NotoSans-Regular.ttf",
+    "url": "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf",
+    "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+    "bytes": 569208
+  },
+  {
+    "file": "NotoSansSymbols-Regular.ttf",
+    "url": "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSansSymbols/NotoSansSymbols-Regular.ttf",
+    "sha256": "8f02f31959bbdf6061547a188248e13f84dc5fdd940326ec494675f453f072bb",
+    "bytes": 258156
+  },
+  {
+    "file": "NotoSansSymbols2-Regular.ttf",
+    "url": "https://raw.githubusercontent.com/notofonts/noto-fonts/main/hinted/ttf/NotoSansSymbols2/NotoSansSymbols2-Regular.ttf",
+    "sha256": "630846d528dbe4c4981370a4d0a9475a1fd1491a129bb411f8e157cdb5de13c6",
+    "bytes": 656852
+  },
+  {
+    "file": "LICENSE-OFL.txt",
+    "url": "https://raw.githubusercontent.com/notofonts/noto-fonts/main/LICENSE",
+    "sha256": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+    "bytes": 4377
+  },
+  {
+    "file": "RobotoSerif[GRAD,opsz,wdth,wght].ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotoserif/RobotoSerif%5BGRAD,opsz,wdth,wght%5D.ttf",
+    "sha256": "351ced75f3851806aa6d846b669361521eb1925cfc530396df9c1a1b77061ddb",
+    "bytes": 3944924,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "RobotoSerif-Italic[GRAD,opsz,wdth,wght].ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotoserif/RobotoSerif-Italic%5BGRAD,opsz,wdth,wght%5D.ttf",
+    "sha256": "695ffbe6bfd0893a8de90b1ea13632e7e838bc7427b818584e1daf82b36b99de",
+    "bytes": 4680368,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "RobotoSerif-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotoserif/OFL.txt",
+    "sha256": "34dbfbb43e0b4fdeef445d77b9ac0b988e5ad7a9bbf16808c97b66c66d51f553",
+    "bytes": 4489,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "NotoSans[wdth,wght].ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosans/NotoSans%5Bwdth,wght%5D.ttf",
+    "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+    "bytes": 2049096,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "NotoSans-Italic[wdth,wght].ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosans/NotoSans-Italic%5Bwdth,wght%5D.ttf",
+    "sha256": "58e6e0ebd1931b29a365aa2d3e2ee9a9e831a3af7cf3ad1462d4e72154f0b291",
+    "bytes": 2322640,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "NotoSans-Variable-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosans/OFL.txt",
+    "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+    "bytes": 4396,
+    "license": "SIL Open Font License 1.1"
+  }
+]

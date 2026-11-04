@@ -1,0 +1,1 @@
+Traduce en conjunto las etiquetas traducibles de una figura del inglés al español, usando su contexto y glosario aprobado. Devuelve cada id exactamente una vez y mantén los marcadores protegidos sin cambios. Conserva significado y usa etiquetas breves; no inventes abreviaturas. No traduzcas glifos ni valores. Devuelve solo labels según el esquema.

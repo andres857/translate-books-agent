@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "ok",
+        "revisar"
+      ]
+    },
+    "residual_english": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "overlaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "verdict",
+    "residual_english",
+    "overlaps",
+    "notes"
+  ],
+  "additionalProperties": false
+}

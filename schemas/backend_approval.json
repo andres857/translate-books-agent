@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "approved",
+    "backend",
+    "config_sha256",
+    "approved_by",
+    "approved_at",
+    "alcance",
+    "authorized_phases",
+    "route",
+    "backend_config_sha256"
+  ],
+  "properties": {
+    "approved": {
+      "const": true
+    },
+    "backend": {
+      "enum": [
+        "codex_sdk",
+        "codex_exec",
+        "openai_api"
+      ]
+    },
+    "config_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "approved_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "approval_type": {
+      "enum": [
+        "partial",
+        "full"
+      ]
+    },
+    "alcance": {
+      "type": "string"
+    },
+    "exclusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authorized_phases": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "reinsertion",
+          "pilot",
+          "production",
+          "fidelity"
+        ]
+      }
+    },
+    "route": {
+      "enum": [
+        "pymupdf"
+      ]
+    },
+    "fallback": {
+      "enum": [
+        "none",
+        "codex_exec",
+        "openai_api"
+      ]
+    },
+    "backend_config_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "approved_settings": {
+      "type": "object"
+    },
+    "babeldoc_comparison_waived": {
+      "type": "boolean"
+    },
+    "waiver_reason": {
+      "type": "string"
+    },
+    "phase_authorization_notes": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "translation": {
+            "type": "string"
+          },
+          "glossary_terms_used": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "grammatical_corrections": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Objective source grammatical errors corrected, or empty. Source wording is attached locally by the pipeline."
+          }
+        },
+        "required": [
+          "id",
+          "translation",
+          "glossary_terms_used",
+          "grammatical_corrections"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "blocks"
+  ],
+  "additionalProperties": false
+}

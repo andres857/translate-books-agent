@@ -1,0 +1,89 @@
+{
+  "kind": "synthetic offline test only",
+  "fit": {
+    "cache_key": "d9681f0263e49efd079a9606cecc0f4937c5939f91b673cfe19aa2c82bc779e5",
+    "page": 2,
+    "source_sha256": "7438ecc6405f0e97d72ae1003c13b11d4f446981680b9984a04eef1caad444dc",
+    "blocks": [
+      {
+        "bbox": [
+          40.0,
+          53.17499923706055,
+          71.18500518798828,
+          68.28900146484375
+        ],
+        "edit_bbox": [
+          40.0,
+          53.17499923706055,
+          71.18500518798828,
+          68.28900146484375
+        ],
+        "source": "Planet",
+        "target": "Planeta",
+        "fit": true,
+        "scale": 0.8033472803347281,
+        "review": false
+      }
+    ],
+    "status": "pending_qa",
+    "output": "/home/andres/Documents/projects/personal/translate_books/tests/fixtures/book/work/translated-p0002.pdf",
+    "output_sha256": "0498731f7d65f00beb6a60c2db1361609e0e3c871daa0b640f7d4d3b87477594"
+  },
+  "qa": {
+    "source_sha256": "7438ecc6405f0e97d72ae1003c13b11d4f446981680b9984a04eef1caad444dc",
+    "candidate_sha256": "0498731f7d65f00beb6a60c2db1361609e0e3c871daa0b640f7d4d3b87477594",
+    "pages": [
+      {
+        "page": 1,
+        "verdict": "revisar",
+        "residual_english": [
+          "The planets and houses",
+          "degrees"
+        ],
+        "residual_english_method": "Lingua EN/ES local confidence >=0.70 plus whole-word source matches; short labels require human review",
+        "glossary_missing": [],
+        "glyph_set_equal": true,
+        "min_scale": 1,
+        "non_text_pixel_diff": 0.0,
+        "vlm_notes": "Not run: VLM evidence required",
+        "vlm_complete": false,
+        "language_check_complete": true,
+        "deterministic_ok": false,
+        "human_graphics_review": false
+      },
+      {
+        "page": 2,
+        "verdict": "revisar",
+        "residual_english": [
+          "Degree"
+        ],
+        "residual_english_method": "Lingua EN/ES local confidence >=0.70 plus whole-word source matches; short labels require human review",
+        "glossary_missing": [],
+        "glyph_set_equal": true,
+        "min_scale": 0.8033472803347281,
+        "non_text_pixel_diff": 0.0,
+        "vlm_notes": "Not run: VLM evidence required",
+        "vlm_complete": false,
+        "language_check_complete": true,
+        "deterministic_ok": false,
+        "human_graphics_review": false
+      },
+      {
+        "page": 3,
+        "verdict": "revisar",
+        "residual_english": [],
+        "residual_english_method": "Lingua EN/ES local confidence >=0.70 plus whole-word source matches; short labels require human review",
+        "glossary_missing": [],
+        "glyph_set_equal": true,
+        "min_scale": 1,
+        "non_text_pixel_diff": 0.0,
+        "vlm_notes": "Not run: VLM evidence required",
+        "vlm_complete": false,
+        "language_check_complete": true,
+        "deterministic_ok": false,
+        "human_graphics_review": false
+      }
+    ]
+  },
+  "real_api_calls": 0
+}

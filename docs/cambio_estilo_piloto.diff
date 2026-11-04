@@ -1,0 +1,20 @@
+--- guía G3 anterior
++++ guía G3 aprobada para piloto
+@@ -3,6 +3,8 @@
+ Estado: pendiente de aprobación humana. Libro: *Astrology: Using the Wisdom of the Stars in Your Everyday Life*, de Carole Taylor. Traducción del inglés al español neutro latinoamericano; tono divulgativo, cercano, claro y fiel a la autora.
+ 
+ ## Voz y fidelidad
++
++- Se corrigen en la traducción solo los errores gramaticales objetivos del original (concordancia, ortografía, erratas). No se cambian el contenido, los datos ni el estilo de la autora. Cada corrección se registra en el informe de la página con el texto original.
+ 
+ - Usar «tú» cuando la autora se dirija al lector; evitar alternarlo con «usted» o «vos».
+ - Conservar posibilidades y matices: no convertir una tendencia, hipótesis o sugerencia en una certeza. No añadir interpretación astrológica ni corregir afirmaciones de la autora.
+@@ -23,6 +25,8 @@
+ 
+ ## Mayúsculas y presentación
+ 
++- Usar comillas inglesas “ ” en todo el libro; para citas dentro de citas, comillas simples ‘ ’.
++
+ Planetas, luminarias, signos y Quirón llevan mayúscula inicial cuando funcionan como nombres propios. Se proponen Ascendente, Descendente, Medio Cielo y Fondo del Cielo para puntos de la carta. Aspectos, casas, elementos, modalidades y nodos llevan minúscula en texto corrido; los títulos siguen mayúscula inicial normal. Escribir «zodíaco» con tilde de forma consistente.
+ 
+ Conservar nombres de personas, marcas, créditos y referencias bibliográficas. No traducir títulos de obras citadas por una equivalencia inventada; una edición española verificada requiere decisión editorial. La traducción del título del propio libro forma parte del trabajo ya autorizado: se realizará mediante scripts después de G3 y se revisará en el piloto y en la revisión final.

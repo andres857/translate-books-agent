@@ -1,0 +1,32 @@
+[
+  {
+    "page": 1,
+    "reason": "QA incomplete or preservation check failed",
+    "artifacts": [
+      "/home/andres/Documents/projects/personal/translate_books/tests/fixtures/book/work/qa/p0001.json",
+      "/home/andres/Documents/projects/personal/translate_books/tests/fixtures/book/work/renders/p0001-before.png",
+      "/home/andres/Documents/projects/personal/translate_books/tests/fixtures/book/work/renders/p0001-after.png"
+    ],
+    "suggested_action": "Review geometry, language, and masked VLM evidence; resolve all checks"
+  },
+  {
+    "page": 2,
+    "reason": "QA incomplete or preservation check failed",
+    "artifacts": [
+      "/home/andres/Documents/projects/personal/translate_books/tests/fixtures/book/work/qa/p0002.json",
+      "/home/andres/Documents/projects/personal/translate_books/tests/fixtures/book/work/renders/p0002-before.png",
+      "/home/andres/Documents/projects/personal/translate_books/tests/fixtures/book/work/renders/p0002-after.png"
+    ],
+    "suggested_action": "Review geometry, language, and masked VLM evidence; resolve all checks"
+  },
+  {
+    "page": 3,
+    "reason": "QA incomplete or preservation check failed",
+    "artifacts": [
+      "/home/andres/Documents/projects/personal/translate_books/tests/fixtures/book/work/qa/p0003.json",
+      "/home/andres/Documents/projects/personal/translate_books/tests/fixtures/book/work/renders/p0003-before.png",
+      "/home/andres/Documents/projects/personal/translate_books/tests/fixtures/book/work/renders/p0003-after.png"
+    ],
+    "suggested_action": "Review geometry, language, and masked VLM evidence; resolve all checks"
+  }
+]

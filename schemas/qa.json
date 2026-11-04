@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "page": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "verdict": {
+      "enum": [
+        "ok",
+        "revisar"
+      ]
+    },
+    "residual_english": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "glossary_missing": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "glyph_set_equal": {
+      "type": "boolean"
+    },
+    "min_scale": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "non_text_pixel_diff": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "vlm_notes": {
+      "type": "string"
+    },
+    "protected_spans_equal": {
+      "type": "boolean",
+      "description": "Conservación de todos los caracteres de spans protegidos, con fuente y geometría; no solo cifras/glifos."
+    }
+  },
+  "required": [
+    "page",
+    "verdict",
+    "residual_english",
+    "glossary_missing",
+    "glyph_set_equal",
+    "min_scale",
+    "non_text_pixel_diff",
+    "vlm_notes"
+  ]
+}

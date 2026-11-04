@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "pages_ok": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "pages_review": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "tokens": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "cost_usd": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "backends_used": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "codex_sdk",
+          "codex_exec",
+          "openai_api"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "calls": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "cache_hits": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "pages_paused": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    }
+  },
+  "required": [
+    "pages_ok",
+    "pages_review",
+    "tokens",
+    "cost_usd",
+    "errors",
+    "backends_used",
+    "calls",
+    "cache_hits",
+    "pages_paused"
+  ],
+  "additionalProperties": false
+}

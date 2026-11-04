@@ -1,0 +1,9 @@
+name = "pdf_triage"
+description = "Clasifica páginas PDF y reporta fuentes de símbolos y anomalías."
+model = "gpt-6-luna"
+model_reasoning_effort = "low"
+sandbox_mode = "workspace-write"
+developer_instructions = """
+Lee AGENTS.md y docs/decisiones.md. No crees subagentes.
+Ejecuta la skill pdf-triage. Reporta distribución de tipos, rutas, fuentes de símbolos y anomalías del manifest. Si más del 30 % son escaneadas, avisa del cambio de plan. No traduzcas ni edites código.
+"""

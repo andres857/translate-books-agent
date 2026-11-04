@@ -1,0 +1,26 @@
+[project]
+name = "astro-translate"
+version = "0.1.0"
+description = "Conservative, gated PDF translation pipeline"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pymupdf",
+    "babeldoc",
+    "paddleocr",
+    "paddlepaddle",
+    "pillow",
+    "openai",
+    "jsonschema",
+    "pymupdf4llm",
+    "lingua-language-detector>=2.2.0",
+    "openai-codex>=0.163.0",
+    "fonttools>=4.68.0",
+    "pypdf>=6.21.4",
+]
+[dependency-groups]
+dev = ["pytest"]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,15 @@
+{
+  "page": 3,
+  "verdict": "revisar",
+  "residual_english": [],
+  "residual_english_method": "Lingua EN/ES local confidence >=0.70 plus whole-word source matches; short labels require human review",
+  "glossary_missing": [],
+  "glyph_set_equal": true,
+  "min_scale": 1,
+  "non_text_pixel_diff": 0.0,
+  "vlm_notes": "Not run: VLM evidence required",
+  "vlm_complete": false,
+  "language_check_complete": true,
+  "deterministic_ok": false,
+  "human_graphics_review": false
+}

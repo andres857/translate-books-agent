@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "translation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "translation"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "labels"
+  ],
+  "additionalProperties": false
+}

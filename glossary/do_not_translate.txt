@@ -1,0 +1,44 @@
+# Propuesta pendiente de aprobación humana G3.
+# Conservar cada token literalmente; no normalizar su forma ni posición.
+# Esta lista complementa la protección local de cifras y fuentes simbólicas.
+# La ausencia de un carácter en esta lista no autoriza traducirlo.
+R
+Rx
+Asc
+ASC
+MC
+IC
+DSC
+UT
+GMT
+☉
+☽
+☿
+♀
+♁
+♂
+♃
+♄
+♅
+♆
+♇
+♈
+♉
+♊
+♋
+♌
+♍
+♎
+♏
+♐
+♑
+♒
+♓
+☊
+☋
+⚷
+⚸
+⊕
+°
+′
+″
