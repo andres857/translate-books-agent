@@ -1,0 +1,40 @@
+# Libros originales, resultados, renders y estado privado del pipeline
+/books/
+/work/
+/tmp/
+
+# Entornos Python y archivos generados
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/build/
+/dist/
+
+# Cachés de herramientas y cobertura
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Credenciales y configuración local (conservar la plantilla)
+.env
+.env.*
+!.env.example
+.codex/auth.json
+.codex/config.local.toml
+
+# Archivos locales del editor y del sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.log
