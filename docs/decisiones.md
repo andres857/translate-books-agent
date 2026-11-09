@@ -673,3 +673,4 @@ Tests sobre páginas reales en `tests/test_audit_batch21.py`. Ninguna regla por 
 - **Cifras protegidas: aviso, nunca cambio.** G3 dice «Conservar literalmente toda numeración… no convertir… separadores… La guía no autoriza normalizar ninguno de ellos». Por eso «25,000» (p14) y «siglo 4» (p12, también p15 «siglo 19») no se tocan. `text_quality.format_warnings` los anota en `qa['text_warnings']` (`english_thousands_separator`, `arabic_century_numeral`, acción `none`) y no afectan a `local_fidelity_ok`. Convertirlos exigiría un suplemento G3 aprobado.
 
 Retraducción necesaria: 14, 15 (frase conjunta), 17 (régimen), 21 (subtítulo), 12, 13, 18 y 19 (uniones entre páginas, que ahora la QA exige conjuntas). Las frases ya válidas salen de la memoria; solo las uniones y las memorias rechazadas llaman al modelo.
+- **batch-30 (p80–99) sin auditar (2026-11-09):** la auditoría se detuvo por la orden «para todo» de andres. Queda pendiente al retomar.
