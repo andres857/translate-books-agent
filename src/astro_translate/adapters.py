@@ -177,38 +177,64 @@ def fidelity_translate(book,glossary,style,do_not_translate,pages,*,config_path,
     if phase=='pilot' and len(selected)>20:raise Blocked('Pilot is limited to twenty explicit pages')
     output=book/'work'/phase;output.mkdir(parents=True,exist_ok=True);extras=read_extras(do_not_translate)
     local_units=[];model_units=[];page_stats={};quote_jobs=[]
+    def classify(doc,number,stats,local_units,model_units,quote_jobs):
+        extracted=extract_fidelity_units(doc[number-1],extras);stats['units']=len(extracted)
+        from .editorial_rules import protected_editorial_units
+        editorial_ids={x['unit_id'] for x in protected_editorial_units(doc[number-1],extracted)}
+        from .composition_corrections import quote_job
+        jobs=quote_job(doc[number-1],extracted,sha256(book/'source.pdf'))
+        quote_jobs.extend(jobs)
+        quote_ids={identifier for job in jobs for identifier in job['unit']['composed_ids']}
+        for unit in extracted:
+            preserve_editorial=unit['id'] in editorial_ids
+            complete_quote=unit['id'] in quote_ids
+            unit={**unit,'id':f'p{number:04d}_'+unit['id'],'page':number}
+            if complete_quote:
+                local_units.append({**unit,'target':unit['source'],
+                    'target_runs':[{'text':unit['source'][r['start']:r['end']],'style':r['style']} for r in unit['style_runs']],
+                    'translation_method':'requires_joined_quote_correction'})
+                continue
+            if preserve_editorial:
+                local_units.append({**unit,'target':unit['source'],
+                    'target_runs':[{'text':unit['source'][r['start']:r['end']],'style':r['style']} for r in unit['style_runs']],
+                    'translation_method':'preserved_published_work'})
+                continue
+            try:target=translate_date(unit['source'])
+            except ValueError as exc:raise Blocked('Invalid date label on page '+str(number)+': '+str(exc)) from None
+            if target is not None:
+                local_units.append({**unit,'target':target,'target_runs':[{'text':target,'style':unit['style']}],'translation_method':'deterministic_date'});stats['dates_local']+=1
+            else:
+                if looks_like_date(unit['source']):raise Blocked('Unsupported date label must be handled locally before inference')
+                if any(c.isdigit() for c in unit['source']):stats['numeric_prose_units']+=1
+                model_units.append(unit)
     with fitz.open(book/'source.pdf') as doc:
         for number in selected:
-            extracted=extract_fidelity_units(doc[number-1],extras);stats={'page':number,'units':len(extracted),'dates_local':0,'numeric_prose_units':0};page_stats[number]=stats
-            from .editorial_rules import protected_editorial_units
-            editorial_ids={x['unit_id'] for x in protected_editorial_units(doc[number-1],extracted)}
-            from .composition_corrections import quote_job
-            jobs=quote_job(doc[number-1],extracted,sha256(book/'source.pdf'))
-            quote_jobs.extend(jobs)
-            quote_ids={identifier for job in jobs for identifier in job['unit']['composed_ids']}
-            for unit in extracted:
-                preserve_editorial=unit['id'] in editorial_ids
-                complete_quote=unit['id'] in quote_ids
-                unit={**unit,'id':f'p{number:04d}_'+unit['id'],'page':number}
-                if complete_quote:
-                    local_units.append({**unit,'target':unit['source'],
-                        'target_runs':[{'text':unit['source'][r['start']:r['end']],'style':r['style']} for r in unit['style_runs']],
-                        'translation_method':'requires_joined_quote_correction'})
-                    continue
-                if preserve_editorial:
-                    local_units.append({**unit,'target':unit['source'],
-                        'target_runs':[{'text':unit['source'][r['start']:r['end']],'style':r['style']} for r in unit['style_runs']],
-                        'translation_method':'preserved_published_work'})
-                    continue
-                try:target=translate_date(unit['source'])
-                except ValueError as exc:raise Blocked('Invalid date label on page '+str(number)+': '+str(exc)) from None
-                if target is not None:
-                    local_units.append({**unit,'target':target,'target_runs':[{'text':target,'style':unit['style']}],'translation_method':'deterministic_date'});stats['dates_local']+=1
-                else:
-                    if looks_like_date(unit['source']):raise Blocked('Unsupported date label must be handled locally before inference')
-                    if any(c.isdigit() for c in unit['source']):stats['numeric_prose_units']+=1
-                    model_units.append(unit)
-    plan=build_plan(model_units)
+            stats={'page':number,'units':0,'dates_local':0,'numeric_prose_units':0};page_stats[number]=stats
+            classify(doc,number,stats,local_units,model_units,quote_jobs)
+        # A sentence continued from/to a page outside the selection is sent with
+        # its other fragment (auditor batch-21, p14 «…and Egyptian» | p15 «symbolism.»).
+        neighbours=[]
+        for number in sorted({n+d for n in selected for d in (-1,1)}-set(selected)):
+            if not 1<=number<=len(doc):continue
+            local,model=[],[]
+            try:classify(doc,number,{'dates_local':0,'numeric_prose_units':0},local,model,[])
+            except Blocked:continue  # a neighbour's own date defect is reported on that page
+            neighbours.extend(local+model)
+    from .page_context import story_continuations,neighbour_fragment
+    inside={u['id'] for u in model_units}
+    outside={u['id']:u for u in neighbours if not u.get('translation_method')}
+    joins=[];context_units=[]
+    for tail,head,boundary in story_continuations(local_units+model_units+neighbours):
+        if tail not in inside and head not in inside:continue
+        for identifier,side in ((tail,'tail'),(head,'head')):
+            if identifier not in inside:context_units.append(neighbour_fragment(outside[identifier],side))
+        joins.append((tail,head))
+        for identifier in (tail,head):
+            number=int(identifier[1:5])
+            if number in page_stats:page_stats[number].setdefault('story_continuations',[]).append({'tail':tail,'head':head,'boundary':boundary})
+    # Context-only fragments of neighbour pages are planned, never written.
+    model_units=sorted(model_units+context_units,key=lambda u:u['page'])
+    plan=build_plan(model_units,joins=joins)
     task=config['tasks']['translate_page']
     def configured_path(value):
         p=Path(value);return p if p.is_absolute() else ROOT/p
@@ -253,7 +279,7 @@ def fidelity_translate(book,glossary,style,do_not_translate,pages,*,config_path,
                 saved_units.extend(u for u in data.get('blocks',[]) if is_body(u))
         result=LLMResult({'blocks':[]},task['model'],task['effort'],0,0,config['provider']['backend'],True,0,cached_input_tokens=0)
         records=[]
-        payload={'_book':str(book),'_config':str(config_path),'_phase':phase,'_pages':selected}
+        payload={'_book':str(book),'_config':str(config_path),'_phase':phase,'_pages':sorted(set(selected)|{u['page'] for u in context_units})}
         limit=min(6000,int(config.get('batching',{}).get('max_chars_per_call',6000)))
         def call(rows):
             # Whole pages per call: a page's clauses are never split across calls.

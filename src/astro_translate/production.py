@@ -442,6 +442,13 @@ class Production:
                 spread=read(self.path(facing,'translation.json'),{}).get('blocks',[]) if 1<=facing<=len(src) else []
                 issues=page_issues(fit['blocks'],source_page=src[n-1],candidate_page=dst[fit.get('output_page',n-1)],
                                    glossary=terms,style_guide=self.style.read_text(),spread_units=spread)
+            # A sentence continued across the page break must be one translation
+            # (blocking); literal protected numbers are non-blocking notes (audit batch-21).
+            from .page_context import cross_page_continuity
+            from .text_quality import format_warnings
+            continuity,continuity_warnings=cross_page_continuity(self.folder,n)
+            issues=issues+continuity
+            qa['text_warnings']=format_warnings(fit['blocks'])+continuity_warnings
             qa['text_quality_issues']=issues
             # Same source phrase on other pages, other wording: minor, non-blocking
             # evidence for the auditor (G3 terms are enforced by the validator).

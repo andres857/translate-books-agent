@@ -314,16 +314,32 @@ def initial_upper_units(units):
     """Running-text headings/titles whose source opens with a capital (audit batch-21, p21).
 
     «Earth-centred» → «geocéntrico»: a subhead must open with a capital as in
-    the source. Paragraphs (a continuation may open in lower case), all-caps
+    the source. Only running-text labels at least as large as the page's body
+    text count. Paragraphs (a continuation may open in lower case), all-caps
     titles (``source_case`` owns them), lines continuing a stacked line above,
-    and locally kept units are excluded.
+    locally kept units and pages without body text are excluded.
     """
     below = _stacked_below(units)
+    body = {}
+    for unit in units:
+        if is_body(unit):
+            for run in unit.get('style_runs', []):
+                key = (unit.get('page'), round(run['style'].get('size') or 0, 1))
+                body[key] = body.get(key, 0)+run['end']-run['start']
+    body_size = {}
+    for (page, size), count in body.items():
+        if size and count > body.get((page, body_size.get(page)), 0):
+            body_size[page] = size
     result = set()
     for unit in units:
         source = unit.get('source', '').strip()
         if (unit.get('kind') != 'label' or unit.get('context', 'running_text') != 'running_text'
                 or unit['id'] in below or unit.get('translation_method') or unit.get('native_ordinal')):
+            continue
+        # A subhead is set at least at the page's body size; smaller labels
+        # (diagram legends, epithets under a name) are not judged.
+        size = _unit_size(unit)
+        if unit.get('page') not in body_size or not size or size < body_size[unit.get('page')]-.1:
             continue
         if not source or not source[0].isupper() or not any(c.islower() for c in source):
             continue

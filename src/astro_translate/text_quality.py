@@ -1000,6 +1000,12 @@ def page_issues(units, *, source_page=None, candidate_page=None, glossary=(), st
         emphasis=_style_ranges(unit) if emphasis is None else emphasis
         issues.extend(_inline_issues(unit,emphasis,glossary)+_glyph_issues(unit)+_case_issues(unit)+
                       _punctuation_issues(unit)+_display_text_issues(unit)+merged_style_break_issues(unit))
+    # A subhead opens with a capital as its source does (p21 «Earth-centred» → «geocéntrico»).
+    from .page_context import initial_upper_units
+    headings = initial_upper_units(logical)
+    for unit in logical:
+        if unit['id'] in headings and lowercase_initial(unit.get('target', '')):
+            issues.append(_issue(unit['id'], 'heading_initial_case'))
     if candidate_page is not None:
         # Saved targets are not evidence of the actual PDF spelling. Inspect
         # every lexical word, including running headers; assign only spatially
