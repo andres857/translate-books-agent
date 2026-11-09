@@ -15,7 +15,7 @@ Lee `PROMPT_AGENTES.md`, `docs/decisiones.md` y la skill de la fase. `search.md`
 - PyMuPDF se usa bajo AGPL. No cambiar la decisión de licencia sin preguntar.
 - Lotes de 20 páginas, partes BabelDOC ≤50. Tres errores repetidos detienen el lote. G5 exige ≥90 % QA OK.
 - Gates humanas obligatorias: G1b backend (hoy `claude_cli`), G3 glosario/estilo, G4 piloto, G7 final. Revisión humana de todas las páginas con gráficos y muestra del texto.
-- Subagentes solo cuando la fase lo indique. Profundidad máxima uno: los subagentes no crean otros. En esta sesión máximo tres subagentes simultáneos más el orquestador.
+- Subagentes: sin límite de número por política del proyecto; el orquestador puede lanzar en paralelo los que necesite (por ejemplo, uno por lote o por archivo). Evitar que dos agentes editen el mismo archivo a la vez. (Cambio pedido por andres, 2026-11-09.)
 - `pipeline_engineer` trabaja con TDD y pytest. No declarar G1 con pruebas omitidas ni presentar mocks como integración real. Los módulos incompletos deben bloquearse explícitamente.
 
 Modelos de agentes y modelos API son capas independientes. Ver `docs/decisiones.md` para el mapeo autorizado por disponibilidad. No cambiar el modelo activo o permisos de la sesión por suponer que una configuración de proyecto lo hace.

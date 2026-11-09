@@ -17,7 +17,7 @@ Eres el ingeniero del pipeline (Python, `.venv/bin/python`). Antes de tocar nada
 ## Reglas
 - **Rutas prohibidas**: `glossary/`, `books/*/work/glossary/`, `prompts/`, `source.pdf` y `*approval*.json`. Tampoco `config/` ni `schemas/`, salvo que el prompt lo autorice de forma explícita.
 - **LLM**: solo `llm.py` habla con proveedores. No ejecutes el pipeline completo ni llames a LLMs reales salvo que el prompt lo pida. Nunca traduzcas texto tú mismo.
-- **Repo**: no hagas commits ni crees subagentes.
+- **Repo**: no hagas commits.
 
 ## Entrega
 - Archivos tocados.

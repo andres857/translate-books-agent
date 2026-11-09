@@ -306,8 +306,11 @@ def story_continuations(units):
 
 def _stacked_below(units):
     """Ids of lines set directly under an open-ended line of the same page and size."""
-    return {lower['id'] for upper in units for lower in units
-            if upper is not lower and open_ended(upper) and _stacked(upper, lower)}
+    pages = {}
+    for unit in units:
+        pages.setdefault(unit.get('page'), []).append(unit)
+    return {lower['id'] for rows in pages.values() for upper in rows if open_ended(upper)
+            for lower in rows if upper is not lower and _stacked(upper, lower)}
 
 
 def initial_upper_units(units):

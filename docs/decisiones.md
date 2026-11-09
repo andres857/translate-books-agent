@@ -649,3 +649,27 @@ andres ordena entregar el libro traducido «como salga», con su porcentaje de a
 - **No se cambia la extracción:** `source`/`spans` de las traducciones guardadas siguen siendo los mismos (procedencia validada en `reinsert_fidelity`), así que no hay retraducción. Contrapartida: el LLM no vio esas comas; la traducción decide la puntuación.
 - **QA (`orphan_source_punctuation`, acción `recompose`):** cualquier span original de solo puntuación (sin comillas, que pueden ser decorativas) que sigue idéntico en el candidato y cuyo vecino con letras se reescribió, o con texto nuevo que lo interseca o queda a menos de 3 pt en su banda. Bloquea `local_fidelity_ok`.
 - **Barrido:** de 174 traducciones guardadas, solo p9 y p21 cambian. Los puntos finales de p15, 17, 23, 26, 28, 37, 173 y 176, y las comas de p175, ya eran `relocated_punctuation`.
+
+## Frases entre páginas y QA gramatical determinista (batch-21, 2026-11-09; pipeline-engineer, sin LLM)
+
+Tests sobre páginas reales en `tests/test_audit_batch21.py`. Ninguna regla por número de página. Los prompts de `prompts/` y la guía G3 no cambian.
+
+- **Frase partida (p14 «…and Egyptian» | p15 «symbolism.»).**
+  - `page_context.story_continuations` detecta las continuaciones. Un párrafo de cuerpo sin puntuación final se une al siguiente párrafo del mismo tamaño en orden de lectura (columna, luego y), si este empieza en minúscula. Puede ser en la misma página (`column`) o del último de la página N al primero de N+1 (`page`).
+  - No se unen tres casos: el párrafo cerrado por un subtítulo, una línea apilada debajo de la cola o encima de la cabeza (citas de p175/p176) y las líneas de índice (≥3 números).
+  - En las 192 páginas hay 3 uniones entre páginas (12→13, 14→15, 18→19) y unas 235 entre columnas, sobre todo entradas de signos partidas.
+  - `consistency.build_plan(units, joins)` envía la última frase de la cola y la primera de la cabeza como una sola petición. Un marcador `{vK}` señala el corte y `resolve_plan` reparte cada lado en su unidad, con `story_continuation` (socio y clave).
+  - Si la otra página no está en la selección, `adapters.fidelity_translate` añade solo el fragmento vecino, como contexto que no se escribe (`neighbour_fragment`). La memoria de frases guarda la respuesta conjunta, así que el lote siguiente la reutiliza sin llamada nueva.
+- **Instrucción nueva, en código y no en el prompt.** `page_context.STORY_BREAK_INSTRUCTIONS` viaja por fila como `story_break_instructions` y forma parte de la clave de caché del bloque. Ordena traducir la frase entera y dejar el marcador una vez, en límite de palabra, con al menos una palabra a cada lado.
+- **Validación con reintento `validation_error`** (`llm._validate` y la revalidación de cachés):
+  - Marcador de corte ausente, repetido, con un lado vacío o dentro de una palabra.
+  - Subtítulo que empieza en minúscula (`_initial_upper`, ver abajo).
+  - `preposition_regime`, dentro de `text_issues`: régimen preposicional omitido en verbos que siempre lo rigen (carecer/adolecer/prescindir/percatarse/jactarse de, consistir en) en una oración de relativo. Para depender/insistir/renunciar/referirse, solo con sujeto explícito entre «lo que» y el verbo. Caso: p17 «lo que la astrología carece».
+  - Las memorias y cachés guardadas que fallan se descartan y se piden de nuevo vía `run_task`.
+- **Subtítulos.** `page_context.initial_upper_units` cubre las etiquetas `running_text` de tamaño ≥ cuerpo de su página, con mayúscula inicial en el original, que no son todo mayúsculas ni continúan una línea apilada. Las etiquetas de diagrama más pequeñas (p87 «The wounded healer») quedan fuera. El código de QA es `heading_initial_case` (retraducir). En las traducciones guardadas de producción solo aparece p21.
+- **QA entre páginas** (`page_context.cross_page_continuity`, integrada en `production.compose_and_qa`):
+  - Bloquea `cross_page_sentence_not_joint` si el fragmento de esta página se tradujo aparte.
+  - Avisa `cross_page_partner_stale` si esta página ya tiene la versión conjunta y la vecina no.
+- **Cifras protegidas: aviso, nunca cambio.** G3 dice «Conservar literalmente toda numeración… no convertir… separadores… La guía no autoriza normalizar ninguno de ellos». Por eso «25,000» (p14) y «siglo 4» (p12, también p15 «siglo 19») no se tocan. `text_quality.format_warnings` los anota en `qa['text_warnings']` (`english_thousands_separator`, `arabic_century_numeral`, acción `none`) y no afectan a `local_fidelity_ok`. Convertirlos exigiría un suplemento G3 aprobado.
+
+Retraducción necesaria: 14, 15 (frase conjunta), 17 (régimen), 21 (subtítulo), 12, 13, 18 y 19 (uniones entre páginas, que ahora la QA exige conjuntas). Las frases ya válidas salen de la memoria; solo las uniones y las memorias rechazadas llaman al modelo.

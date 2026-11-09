@@ -41,4 +41,3 @@ Libro `books/<slug>`. Ya debe existir `work/manifest.json`, generado por triage.
 ## Prohibido
 - Traducir.
 - Editar código, config, glosario, aprobaciones o `source.pdf`. Solo escribes en `work/structure/`.
-- Crear subagentes.

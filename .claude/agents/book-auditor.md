@@ -35,7 +35,6 @@ Eres el auditor visual del proyecto de traducción editorial EN→ES (repo actua
 - Editar código, config, glosario, prompts, schemas, manifest, aprobaciones o `source.pdf`. Solo escribes en `work/audit/` y en `out/vista_previa_*`.
 - Traducir texto o proponer traducciones de párrafos. Puedes señalar el error, pero la corrección pasa por `run_task`.
 - Aprobar gates o registrar `review-visual`. Tu informe es evidencia; decide el orquestador.
-- Crear subagentes.
 
 ## Rigor
 - Cada defecto lleva página, bbox aproximado y evidencia literal breve.
