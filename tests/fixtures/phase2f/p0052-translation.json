@@ -1,0 +1,1153 @@
+{
+  "page": 52,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Zodiac Signs",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        133.5836944580078,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Zodiac Signs",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            133.5836944580078,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0052_u0000",
+      "container_id": "p0052_c0000",
+      "scale_group": "p0052_display_12.0",
+      "page": 52,
+      "target": "Los signos del zodíaco",
+      "target_runs": [
+        {
+          "text": "Los signos del zodíaco",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE",
+      "line_height": 1.05,
+      "bbox": [
+        36.076900482177734,
+        86.57816314697266,
+        59.8489990234375,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            36.076900482177734,
+            86.57816314697266,
+            59.8489990234375,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0052_u0001",
+      "container_id": "p0052_c0001",
+      "scale_group": "p0052_display_11.0",
+      "page": 52,
+      "target": "EL",
+      "target_runs": [
+        {
+          "text": "EL",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "SIGN OF THE ZODIAC",
+      "line_height": 1.05,
+      "bbox": [
+        86.6741943359375,
+        86.57816314697266,
+        192.76809692382812,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": " SIGN OF THE ZODIAC",
+          "bbox": [
+            86.6741943359375,
+            86.57816314697266,
+            192.76809692382812,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0052_u0002",
+      "container_id": "p0052_c0002",
+      "scale_group": "p0052_display_11.0",
+      "page": 52,
+      "target": "SIGNO DEL ZODÍACO",
+      "target_runs": [
+        {
+          "text": "SIGNO DEL ZODÍACO",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "LEO",
+      "line_height": 1.05,
+      "bbox": [
+        36.34939956665039,
+        100.04248046875,
+        137.34939575195312,
+        150.04248046875
+      ],
+      "spans": [
+        {
+          "source": "LEO",
+          "bbox": [
+            36.34939956665039,
+            100.04248046875,
+            137.34939575195312,
+            150.04248046875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 50.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 50.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0052_u0003",
+      "container_id": "p0052_c0003",
+      "scale_group": "p0052_display_50.0",
+      "page": 52,
+      "target": "LEO",
+      "target_runs": [
+        {
+          "text": "LEO",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "23 JULY–22 AUGUST",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        150.2714385986328,
+        229.38902282714844,
+        171.2714385986328
+      ],
+      "spans": [
+        {
+          "source": "23 JULY–22 AUGUST",
+          "bbox": [
+            36.0,
+            150.2714385986328,
+            229.38902282714844,
+            171.2714385986328
+          ],
+          "font": "SohoPro-Light",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 21.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 21.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0052_u0004",
+      "container_id": "p0052_c0004",
+      "scale_group": "p0052_display_21.0",
+      "page": 52,
+      "target": "23 de julio–22 de agosto",
+      "target_runs": [
+        {
+          "text": "23 de julio–22 de agosto",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "translation_method": "deterministic_date"
+    },
+    {
+      "source": "The Sun in Leo",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        387.1340026855469,
+        195.05935668945312,
+        404.1340026855469
+      ],
+      "spans": [
+        {
+          "source": "The Sun in Leo",
+          "bbox": [
+            116.9291000366211,
+            387.1340026855469,
+            195.05935668945312,
+            404.1340026855469
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0052_u0005",
+      "container_id": "p0052_c0005",
+      "scale_group": "p0052_display_17.0",
+      "page": 52,
+      "target": "El Sol en Leo",
+      "target_runs": [
+        {
+          "text": "El Sol en Leo",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "If the Sun is in the Leo section of your chart, Leo is your “Sun sign.” You like to develop your creativity and take centre stage or lead the pack. You’ll attract loyalty in return for your inspiration, support, and strength.",
+      "line_height": 1.1429988316127233,
+      "bbox": [
+        116.9291000366211,
+        408.2535705566406,
+        461.22698974609375,
+        454.2575378417969
+      ],
+      "spans": [
+        {
+          "source": "If the Sun is in the Leo section of your chart, Leo is your “Sun sign.” You  ",
+          "bbox": [
+            116.9291000366211,
+            408.2535705566406,
+            458.9562072753906,
+            422.2535705566406
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "like to develop your creativity and take centre stage or lead the pack.  ",
+          "bbox": [
+            116.9291000366211,
+            424.25555419921875,
+            445.92071533203125,
+            438.25555419921875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "You’ll attract loyalty in return for your inspiration, support, and strength.",
+          "bbox": [
+            116.9291000366211,
+            440.2575378417969,
+            461.22698974609375,
+            454.2575378417969
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 225,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0052_u0006",
+      "container_id": "p0052_c0006",
+      "scale_group": "p0052_display_14.0",
+      "page": 52,
+      "target": "Si el Sol está en la sección de Leo de tu carta, Leo es tu “signo solar”. Te gusta desarrollar tu creatividad y ocupar el centro de atención o liderar al grupo. A cambio de tu inspiración, apoyo y fortaleza, atraerás lealtad.",
+      "target_runs": [
+        {
+          "text": "Si el Sol está en la sección de Leo de tu carta, Leo es tu “signo solar”. Te gusta desarrollar tu creatividad y ocupar el centro de atención o liderar al grupo. A cambio de tu inspiración, apoyo y fortaleza, atraerás lealtad.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Your planets in Leo",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        471.2257995605469,
+        219.31842041015625,
+        488.2257995605469
+      ],
+      "spans": [
+        {
+          "source": "Your planets in Leo",
+          "bbox": [
+            116.9291000366211,
+            471.2257995605469,
+            219.31842041015625,
+            488.2257995605469
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 19,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0052_u0007",
+      "container_id": "p0052_c0007",
+      "scale_group": "p0052_display_17.0",
+      "page": 52,
+      "target": "Tus planetas en Leo",
+      "target_runs": [
+        {
+          "text": "Tus planetas en Leo",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "The planets in the Leo section of your chart will act with courage, pride, and a sense of performance. These planets shine with star quality, attracting praise from others.",
+      "line_height": 1.143003191266741,
+      "bbox": [
+        116.9291000366211,
+        492.3452453613281,
+        430.9574890136719,
+        538.3493041992188
+      ],
+      "spans": [
+        {
+          "source": "The planets in the Leo section of your chart will act with courage, ",
+          "bbox": [
+            116.9291000366211,
+            492.3452453613281,
+            430.9574890136719,
+            506.3452453613281
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "pride, and a sense of performance. These planets shine with star ",
+          "bbox": [
+            116.9291000366211,
+            508.3472595214844,
+            425.0634765625,
+            522.3472900390625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "quality, attracting praise from others. ",
+          "bbox": [
+            116.9291000366211,
+            524.3493041992188,
+            295.7203063964844,
+            538.3493041992188
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 172,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0052_u0008",
+      "container_id": "p0052_c0008",
+      "scale_group": "p0052_display_14.0",
+      "page": 52,
+      "target": "Los planetas en la sección de Leo de tu carta actuarán con valentía, orgullo y sentido del espectáculo. Estos planetas brillan con luz propia y atraen los elogios de los demás.",
+      "target_runs": [
+        {
+          "text": "Los planetas en la sección de Leo de tu carta actuarán con valentía, orgullo y sentido del espectáculo. Estos planetas brillan con luz propia y atraen los elogios de los demás.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Leo at the cusp of a house",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        556.2037353515625,
+        254.62738037109375,
+        573.2037353515625
+      ],
+      "spans": [
+        {
+          "source": "Leo at the cusp of a house",
+          "bbox": [
+            116.9291000366211,
+            556.2037353515625,
+            254.62738037109375,
+            573.2037353515625
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 26,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0052_u0009",
+      "container_id": "p0052_c0009",
+      "scale_group": "p0052_display_17.0",
+      "page": 52,
+      "target": "Leo en la cúspide de una casa",
+      "target_runs": [
+        {
+          "text": "Leo en la cúspide de una casa",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "If Leo is right at the beginning point of a house, this area of your life will be close to your heart, a place where you can shine and develop your creativity. You put lots of energy into this, seeking praise and approval.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        116.9291000366211,
+        577.3231811523438,
+        461.0043029785156,
+        623.3272094726562
+      ],
+      "spans": [
+        {
+          "source": "If Leo is right at the beginning point of a house, this area of your life will ",
+          "bbox": [
+            116.9291000366211,
+            577.3231811523438,
+            461.0043029785156,
+            591.3231811523438
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "be close to your heart, a place where you can shine and develop your ",
+          "bbox": [
+            116.9291000366211,
+            593.3251953125,
+            444.6076354980469,
+            607.3251953125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "creativity. You put lots of energy into this, seeking praise and approval.",
+          "bbox": [
+            116.9291000366211,
+            609.3272094726562,
+            450.1346435546875,
+            623.3272094726562
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 222,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0052_u0010",
+      "container_id": "p0052_c0010",
+      "scale_group": "p0052_display_14.0",
+      "page": 52,
+      "target": "Si Leo está justo al comienzo de una casa, esta área de tu vida te llegará al corazón: será un ámbito donde podrás brillar y desarrollar tu creatividad. Dedicas mucha energía a esto, en busca de elogios y aprobación.",
+      "target_runs": [
+        {
+          "text": "Si Leo está justo al comienzo de una casa, esta área de tu vida te llegará al corazón: será un ámbito donde podrás brillar y desarrollar tu creatividad. Dedicas mucha energía a esto, en busca de elogios y aprobación.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

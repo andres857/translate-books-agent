@@ -33,6 +33,97 @@ def response(id='a',text='Sol'):return {'blocks':[{'id':id,'translation':text,'g
 
 def use(monkeypatch,fake):monkeypatch.setattr(llm,'_make_backend',lambda *a,**k:fake)
 
+
+@pytest.mark.parametrize(('source','bad','good'), [
+    ('EDUCATION', 'EDUCACION', 'EDUCACIÓN'),
+    ('COMMUNICATION', 'COMUNICACION', 'COMUNICACIÓN'),
+    ('The Zodiac', 'El ZODIACO', 'El ZODÍACO'),
+    ('the Teapot', 'la Tetera la Tetera', 'la Tetera'),
+])
+def test_i6_text_retry_and_both_old_cache_layers(setup, monkeypatch, source, bad, good):
+    import sqlite3
+    book, _, payload = setup
+    payload['blocks'] = [{'id': 'a', 'source': source}]
+    fake = FakeBackend([response(text=bad), response(text=good), response(text=good)])
+    use(monkeypatch, fake)
+    assert llm.run_task('translate_page', payload).data['blocks'][0]['translation'] == good
+    assert len(fake.calls) == 2 and 'validation_error' in fake.calls[1][1]
+    with sqlite3.connect(book/'work/llm_cache.sqlite') as db:
+        for table in ('blocks', 'responses'):
+            for key, raw in db.execute(f'SELECT key,result FROM {table}').fetchall():
+                db.execute(f'UPDATE {table} SET result=? WHERE key=?', (raw.replace(good, bad), key))
+    assert not llm.run_task('translate_page', payload).cached
+    assert len(fake.calls) == 3
+
+
+def test_i6_persistent_failure_never_cached(setup, monkeypatch):
+    import sqlite3
+    book, _, payload = setup
+    payload['blocks'] = [{'id': 'a', 'source': 'EDUCATION'}]
+    use(monkeypatch, FakeBackend([response(text='EDUCACION')]*3))
+    with pytest.raises(llm.ValidationFailure, match='uppercase_accent'):
+        llm.run_task('translate_page', payload)
+    with sqlite3.connect(book/'work/llm_cache.sqlite') as db:
+        assert db.execute('SELECT count(*) FROM blocks').fetchone()[0] == 0
+        assert db.execute('SELECT count(*) FROM responses').fetchone()[0] == 0
+
+
+def test_i6_caption_boundary_retry_masks_context_values(setup, monkeypatch):
+    _, _, payload = setup
+    payload['blocks'] = [
+        {'id': 'a', 'source': 'the Teapot', 'quality_neighbors': [
+            {'id': 'next', 'request_id': 'b', 'side': 'after', 'source': 'asterism 153 ♈', 'target': 'la Tetera 153 ♈'}]},
+        {'id': 'b', 'source': 'asterism 153 ♈'},
+    ]
+    bad = {'blocks': [response('a', 'la Tetera')['blocks'][0],
+                      response('b', 'la Tetera {n1} {n2}')['blocks'][0]]}
+    fake = FakeBackend([bad]*3)
+    use(monkeypatch, fake)
+    with pytest.raises(llm.ValidationFailure, match='repeated_ngram'):
+        llm.run_task('translate_page', payload)
+    assert len(fake.calls) == 3
+    wire = json.dumps([call[1] for call in fake.calls], ensure_ascii=False)
+    assert '153' not in wire and '♈' not in wire
+
+
+def test_numeric_quantifier_retries_and_preserves_hidden_values(setup,monkeypatch):
+    book,c,p=setup
+    p['blocks']=[{'id':'a','source':'The 12 signs'}]
+    fake=FakeBackend([response(text='Los signos {n1}'),response(text='Los {n1} signos')]);use(monkeypatch,fake)
+    result=llm.run_task('translate_page',p)
+    assert result.data['blocks'][0]['translation']=='Los 12 signos'
+    assert len(fake.calls)==2
+    assert 'numeric quantifier' in fake.calls[1][1]['validation_error']
+    assert '12' not in json.dumps([call[1] for call in fake.calls])
+    assert llm.run_task('translate_page',p).cached
+
+
+def test_numeric_quantifier_persistent_failure_is_not_cached(setup,monkeypatch):
+    import sqlite3
+    book,c,p=setup;p['blocks']=[{'id':'a','source':'The 12 signs'}]
+    fake=FakeBackend([response(text='Los signos {n1}')]*3);use(monkeypatch,fake)
+    with pytest.raises(llm.ValidationFailure,match='numeric quantifier'):
+        llm.run_task('translate_page',p)
+    with sqlite3.connect(book/'work/llm_cache.sqlite') as db:
+        assert db.execute('SELECT count(*) FROM blocks').fetchone()[0]==0
+        assert db.execute('SELECT count(*) FROM responses').fetchone()[0]==0
+    assert json.loads((book/'work/review_queue.json').read_text())[0]['reason']=='llm_validation'
+
+
+def test_numeric_quantifier_rechecks_both_legacy_cache_layers(setup,monkeypatch):
+    import sqlite3
+    book,c,p=setup;p['blocks']=[{'id':'a','source':'The 12 signs'}]
+    fake=FakeBackend([response(text='Los {n1} signos')]*2);use(monkeypatch,fake)
+    llm.run_task('translate_page',p)
+    # Simulate pre-I2 cached output, only in the isolated temporary book.
+    with sqlite3.connect(book/'work/llm_cache.sqlite') as db:
+        for table in ('blocks','responses'):
+            for key,raw in db.execute(f'SELECT key,result FROM {table}').fetchall():
+                db.execute(f'UPDATE {table} SET result=? WHERE key=?',(raw.replace('12 signos','signos 12'),key))
+    result=llm.run_task('translate_page',p)
+    assert not result.cached and len(fake.calls)==2
+    assert result.data['blocks'][0]['translation']=='Los 12 signos'
+
 def test_cache_identical_call_does_not_spend(setup,monkeypatch):
     book,c,p=setup;fake=FakeBackend([response()]);use(monkeypatch,fake)
     assert not llm.run_task('translate_page',p).cached
@@ -90,7 +181,7 @@ def test_prompt_change_invalidates_cache(setup,monkeypatch):
 
 def test_cache_partition_by_backend(setup,monkeypatch):
     book,c,p=setup;fake=FakeBackend([response(),response()]);use(monkeypatch,fake)
-    llm.run_task('translate_page',p);c.write_text(c.read_text().replace('backend="codex_sdk"','backend="codex_exec"'))
+    llm.run_task('translate_page',p);c.write_text(c.read_text().replace('backend="codex_sdk"','backend="claude_cli"'))
     assert not llm.run_task('translate_page',p).cached and len(fake.calls)==2
 
 def test_import_boundary():
@@ -140,15 +231,33 @@ def test_chunking_keeps_page_batches_under_limit(setup,monkeypatch):
     assert all(sum(len(r['source']) for r in call[1]['blocks'])<=5 for call in fake.calls)
 
 
+@pytest.mark.parametrize('name',['codex_sdk','codex_exec'])
+def test_codex_backends_retired_with_clear_error(tmp_path,name):
+    # Codex backends were retired on 2026-11-08 (docs/decisiones.md, Limpieza del sistema Codex).
+    with pytest.raises(llm.BackendError,match='Codex backend retired 2026-11-08'):
+        llm._make_backend(name,tmp_path/'work',{'backend':name})
+    assert name in llm.SUBSCRIPTION_BACKENDS  # historical costs.jsonl rows stay readable
+    assert not hasattr(llm,'CodexSDKBackend') and not hasattr(llm,'CodexExecBackend')
+    assert not hasattr(llm,'_profile_overrides') and not hasattr(llm,'_safe_overrides') and not hasattr(llm,'_account_chatgpt')
+
+
+def test_llm_module_has_no_codex_imports():
+    tree=ast.parse(Path(llm.__file__).read_text())
+    names=[a.name for n in ast.walk(tree) if isinstance(n,ast.Import) for a in n.names]
+    names+=[n.module or '' for n in ast.walk(tree) if isinstance(n,ast.ImportFrom)]
+    assert not any(x.split('.')[0]=='openai_codex' for x in names)
+
+
+def test_retired_backend_run_task_blocks_without_spending(setup):
+    book,c,p=setup
+    with pytest.raises(llm.BackendError,match='retired'):llm.run_task('translate_page',p)
+    assert not (book/'work/costs.jsonl').exists() or 'ok' not in (book/'work/costs.jsonl').read_text()
+
+
 def test_sandbox_cannot_use_repo_root(tmp_path):
     with pytest.raises(llm.IsolationError):llm._sandbox_folder(tmp_path/'work',{'sandbox_dir':str(tmp_path)})
 
 
-def test_dynamic_mcp_disable(tmp_path,monkeypatch):
-    monkeypatch.setenv('CODEX_HOME',str(tmp_path))
-    (tmp_path/'translator.config.toml').write_text('sandbox_mode="read-only"\n')
-    (tmp_path/'config.toml').write_text('[mcp_servers.future]\ncommand="example"\n')
-    assert 'mcp_servers."future".enabled=false' in llm._profile_overrides('translator')
 
 
 def test_impossible_shortening_glossary_is_local_preflight(setup,monkeypatch):
@@ -159,24 +268,6 @@ def test_impossible_shortening_glossary_is_local_preflight(setup,monkeypatch):
     assert not fake.calls and (book/'work/review_queue.json').exists()
 
 
-def test_exec_jsonl_effort_auth_and_no_paid_env(tmp_path,monkeypatch):
-    from types import SimpleNamespace
-    monkeypatch.setenv('OPENAI_API_KEY','secret');monkeypatch.setenv('CODEX_HOME',str(tmp_path))
-    (tmp_path/'translator.config.toml').write_text('sandbox_mode="read-only"\napproval_policy="never"\n')
-    commands=[]
-    def fake(command,**kwargs):
-        commands.append(command)
-        assert not kwargs['env'].get('OPENAI_API_KEY')
-        if 'login' in command:return SimpleNamespace(returncode=0,stdout='',stderr='Logged in using ChatGPT')
-        assert kwargs['input'].startswith(llm.FIXED_INSTRUCTION)
-        assert not list(Path(kwargs['cwd']).iterdir())
-        return SimpleNamespace(returncode=0,stderr='',stdout='\n'.join(json.dumps(x) for x in [
-            {'type':'item.completed','item':{'type':'agent_message','text':'{"ok":true}'}},
-            {'type':'turn.completed','usage':{'input_tokens':17,'cached_input_tokens':12,'output_tokens':3}}]))
-    monkeypatch.setattr(llm.subprocess,'run',fake)
-    result=llm.CodexExecBackend(tmp_path/'work',{}).complete_json('test',{}, {'type':'object'},'test-model','low')
-    assert result.data=={'ok':True} and result.input_tokens==17 and result.cached_input_tokens==12 and result.backend=='codex_exec'
-    assert '--ephemeral' in commands[1] and 'model_reasoning_effort="low"' in commands[1]
 
 
 def test_quota_cli_returns_75(tmp_path,monkeypatch):
@@ -206,11 +297,6 @@ def test_native_does_not_swallow_quota_from_fitting(setup,monkeypatch):
     with pytest.raises(llm.QuotaPaused):adapters.native_translate(book,paths['glossary'],paths['style_guide'],paths['do_not_translate'],'1',config_path=c,phase='smoke')
 
 
-def test_ancestor_mcp_also_disabled(tmp_path,monkeypatch):
-    home=tmp_path/'home';home.mkdir();monkeypatch.setenv('CODEX_HOME',str(home));(home/'translator.config.toml').write_text('sandbox_mode="read-only"')
-    project=tmp_path/'project';(project/'.codex').mkdir(parents=True);(project/'.codex/config.toml').write_text('[mcp_servers.ancestor]\ncommand="example"')
-    sandbox=project/'books/demo/work/.codex_llm_sandbox';sandbox.mkdir(parents=True)
-    assert 'mcp_servers."ancestor".enabled=false' in llm._profile_overrides('translator',sandbox)
 
 
 def test_cached_input_tokens_are_logged_and_cache_is_zero(setup,monkeypatch):

@@ -1,0 +1,2032 @@
+{
+  "page": 16,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Story of Astrology",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        157.51170349121094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Story of Astrology",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            157.51170349121094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0016_u0000",
+      "container_id": "p0016_c0000",
+      "scale_group": "p0016_display_12.0",
+      "page": 16,
+      "target": "La historia de la astrología",
+      "target_runs": [
+        {
+          "text": "La historia de la astrología",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "ASTROLOGY TODAY",
+      "line_height": 1.05,
+      "bbox": [
+        36.33549880981445,
+        158.86990356445312,
+        490.4155578613281,
+        207.00390625
+      ],
+      "spans": [
+        {
+          "source": "ASTROLOGY",
+          "bbox": [
+            36.33549880981445,
+            159.00390625,
+            308.72589111328125,
+            207.00390625
+          ],
+          "font": "SohoPro-Light",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " TODAY",
+          "bbox": [
+            309.071533203125,
+            158.86990356445312,
+            490.4155578613281,
+            206.86990356445312
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 10,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 48.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 48.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0016_u0001",
+      "container_id": "p0016_c0001",
+      "scale_group": "p0016_display_48.0",
+      "page": 16,
+      "target": "LA ASTROLOGÍA HOY",
+      "target_runs": [
+        {
+          "text": "LA ASTROLOGÍA ",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "HOY",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Popular horoscope",
+      "line_height": 1.05,
+      "bbox": [
+        199.7480926513672,
+        420.5323486328125,
+        322.4148254394531,
+        433.5323486328125
+      ],
+      "spans": [
+        {
+          "source": "Popular horoscope ",
+          "bbox": [
+            199.7480926513672,
+            420.5323486328125,
+            322.4148254394531,
+            433.5323486328125
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0016_u0002",
+      "container_id": "p0016_c0002",
+      "scale_group": "p0016_display_13.0",
+      "page": 16,
+      "target": "Horóscopo popular",
+      "target_runs": [
+        {
+          "text": "Horóscopo popular",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "In 1930, British astrologer R. H. Naylor wrote a newspaper article about the horoscope of the newborn princess, Margaret. The article was popular, and he was hired to write more. When he correctly predicted an air disaster, he was given a weekly column. Other British papers soon had similar horoscope columns.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        199.7480926513672,
+        436.1584167480469,
+        350.20391845703125,
+        601.1914672851562
+      ],
+      "spans": [
+        {
+          "source": "In 1930, British astrologer  ",
+          "bbox": [
+            199.7480926513672,
+            436.1584167480469,
+            330.85595703125,
+            447.1584167480469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "R. H. Naylor wrote a ",
+          "bbox": [
+            199.7480926513672,
+            450.16143798828125,
+            298.4279479980469,
+            461.16143798828125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "newspaper article about the ",
+          "bbox": [
+            199.7480926513672,
+            464.1644592285156,
+            340.24993896484375,
+            475.1644592285156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "horoscope of the newborn ",
+          "bbox": [
+            199.7480926513672,
+            478.1674499511719,
+            331.2300109863281,
+            489.1674499511719
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "princess, Margaret. The article ",
+          "bbox": [
+            199.7480926513672,
+            492.1704406738281,
+            348.93994140625,
+            503.1704406738281
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "was popular, and he was hired ",
+          "bbox": [
+            199.7480926513672,
+            506.1734313964844,
+            350.20391845703125,
+            517.1734619140625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to write more. When he ",
+          "bbox": [
+            199.7480926513672,
+            520.176513671875,
+            316.7651062011719,
+            531.176513671875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "correctly predicted an air ",
+          "bbox": [
+            199.7480926513672,
+            534.1795043945312,
+            324.1250305175781,
+            545.1795043945312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "disaster, he was given a ",
+          "bbox": [
+            199.7480926513672,
+            548.1824951171875,
+            317.7109680175781,
+            559.1824951171875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "weekly column. Other British ",
+          "bbox": [
+            199.7480926513672,
+            562.1854858398438,
+            344.31024169921875,
+            573.1854858398438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "papers soon had similar ",
+          "bbox": [
+            199.7480926513672,
+            576.1884765625,
+            317.71099853515625,
+            587.1884765625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "horoscope columns.",
+          "bbox": [
+            199.7480926513672,
+            590.1914672851562,
+            296.0640869140625,
+            601.1914672851562
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 310,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0016_u0003",
+      "container_id": "p0016_c0003",
+      "scale_group": "p0016_display_11.0",
+      "page": 16,
+      "target": "En 1930, el astrólogo británico R. H. Naylor escribió un artículo periodístico sobre el horóscopo de la recién nacida princesa Margarita. El artículo tuvo buena acogida y lo contrataron para escribir más. Cuando predijo correctamente un desastre aéreo, le dieron una columna semanal. Pronto, otros periódicos británicos tenían columnas similares de horóscopo.",
+      "target_runs": [
+        {
+          "text": "En 1930, el astrólogo británico R. H. Naylor escribió un artículo periodístico sobre el horóscopo de la recién nacida princesa Margarita. El artículo tuvo buena acogida y lo contrataron para escribir más. Cuando predijo correctamente un desastre aéreo, le dieron una columna semanal. Pronto, otros periódicos británicos tenían columnas similares de horóscopo.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The full zodiac is far more complex than the simple “Sun-sign” horoscopes in newspapers. Modern astrology combines psychology and astrology. It offers answers to who we are and why we act as we do.",
+      "line_height": 1.25,
+      "bbox": [
+        36.425201416015625,
+        259.31719970703125,
+        497.7940979003906,
+        373.31719970703125
+      ],
+      "spans": [
+        {
+          "source": "The full zodiac is far more complex than the simple ",
+          "bbox": [
+            36.425201416015625,
+            259.31719970703125,
+            452.6980895996094,
+            283.31719970703125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "“Sun-sign” horoscopes in newspapers. Modern astrology ",
+          "bbox": [
+            36.425201416015625,
+            289.31719970703125,
+            497.7940979003906,
+            313.31719970703125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "combines psychology and astrology. It offers answers to ",
+          "bbox": [
+            36.425201416015625,
+            319.31719970703125,
+            493.6180725097656,
+            343.31719970703125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "who we are and why we act as we do. ",
+          "bbox": [
+            36.425201416015625,
+            349.31719970703125,
+            348.8523864746094,
+            373.31719970703125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 197,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 24.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 24.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0016_u0004",
+      "container_id": "p0016_c0004",
+      "scale_group": "p0016_display_24.0",
+      "page": 16,
+      "target": "El zodíaco completo es mucho más complejo que los sencillos horóscopos por “signo solar” de los periódicos. La astrología moderna combina la psicología y la astrología. Ofrece respuestas sobre quiénes somos y por qué actuamos como lo hacemos.",
+      "target_runs": [
+        {
+          "text": "El zodíaco completo es mucho más complejo que los sencillos horóscopos por “signo solar” de los periódicos. La astrología moderna combina la psicología y la astrología. Ofrece respuestas sobre quiénes somos y por qué actuamos como lo hacemos.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Naylor invented a system",
+      "line_height": 1.05,
+      "bbox": [
+        372.56689453125,
+        422.3535461425781,
+        499.1537780761719,
+        433.3535461425781
+      ],
+      "spans": [
+        {
+          "source": "Naylor invented a system ",
+          "bbox": [
+            372.56689453125,
+            422.3535461425781,
+            499.1537780761719,
+            433.3535461425781
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 24,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0005",
+      "container_id": "p0016_c0005",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "Naylor inventó un sistema",
+      "target_runs": [
+        {
+          "text": "Naylor inventó un sistema",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "based on the 12 zodiac signs.",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        436.3565368652344,
+        506.74383544921875,
+        447.3565368652344
+      ],
+      "spans": [
+        {
+          "source": "based on the 12 zodiac signs. ",
+          "bbox": [
+            364.06390380859375,
+            436.3565368652344,
+            506.74383544921875,
+            447.3565368652344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 29,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0006",
+      "container_id": "p0016_c0006",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "basado en los 12 signos del zodíaco.",
+      "target_runs": [
+        {
+          "text": "basado en los 12 signos del zodíaco.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "He placed (in order) each sign",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        450.3595275878906,
+        509.6687316894531,
+        461.3595275878906
+      ],
+      "spans": [
+        {
+          "source": "He placed (in order) each sign ",
+          "bbox": [
+            364.06390380859375,
+            450.3595275878906,
+            509.6687316894531,
+            461.3595275878906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 30,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0007",
+      "container_id": "p0016_c0007",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "Colocó (en orden) cada signo",
+      "target_runs": [
+        {
+          "text": "Colocó (en orden) cada signo",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "in the first astrological house,",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        464.362548828125,
+        510.60479736328125,
+        475.362548828125
+      ],
+      "spans": [
+        {
+          "source": "in the first astrological house, ",
+          "bbox": [
+            364.06390380859375,
+            464.362548828125,
+            510.60479736328125,
+            475.362548828125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 32,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0008",
+      "container_id": "p0016_c0008",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "en la primera casa astrológica,",
+      "target_runs": [
+        {
+          "text": "en la primera casa astrológica,",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "noting where the planets fell",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        478.3655700683594,
+        508.2399597167969,
+        489.3655700683594
+      ],
+      "spans": [
+        {
+          "source": "noting where the planets fell ",
+          "bbox": [
+            364.06390380859375,
+            478.3655700683594,
+            508.2399597167969,
+            489.3655700683594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 29,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0009",
+      "container_id": "p0016_c0009",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "anotando dónde caían los planetas",
+      "target_runs": [
+        {
+          "text": "anotando dónde caían los planetas",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "on the wheel. For a person",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        492.3685607910156,
+        496.4039611816406,
+        503.3685607910156
+      ],
+      "spans": [
+        {
+          "source": "on the wheel. For a person ",
+          "bbox": [
+            364.06390380859375,
+            492.3685607910156,
+            496.4039611816406,
+            503.3685607910156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 26,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0010",
+      "container_id": "p0016_c0010",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "en la rueda. Para una persona",
+      "target_runs": [
+        {
+          "text": "en la rueda. Para una persona",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "born with the Sun in Aries,",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        506.3715515136719,
+        500.1218566894531,
+        517.37158203125
+      ],
+      "spans": [
+        {
+          "source": "born with the Sun in Aries,  ",
+          "bbox": [
+            364.06390380859375,
+            506.3715515136719,
+            500.1218566894531,
+            517.37158203125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 27,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0011",
+      "container_id": "p0016_c0011",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "nacida con el Sol en Aries,",
+      "target_runs": [
+        {
+          "text": "nacida con el Sol en Aries,",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "the sign of Aries would be in",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        520.3746337890625,
+        505.7428283691406,
+        531.3746337890625
+      ],
+      "spans": [
+        {
+          "source": "the sign of Aries would be in ",
+          "bbox": [
+            364.06390380859375,
+            520.3746337890625,
+            505.7428283691406,
+            531.3746337890625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 29,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0012",
+      "container_id": "p0016_c0012",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "el signo de Aries estaría en",
+      "target_runs": [
+        {
+          "text": "el signo de Aries estaría en",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "the 1st house, and so on,",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        534.3776245117188,
+        486.62481689453125,
+        545.3776245117188
+      ],
+      "spans": [
+        {
+          "source": "the 1st house, and so on, ",
+          "bbox": [
+            364.06390380859375,
+            534.3776245117188,
+            486.62481689453125,
+            545.3776245117188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 25,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0013",
+      "container_id": "p0016_c0013",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "la 1.ª casa, y así sucesivamente,",
+      "target_runs": [
+        {
+          "text": "la 1.ª casa, y así sucesivamente,",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "around the wheel. With this",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        548.380615234375,
+        503.33392333984375,
+        559.380615234375
+      ],
+      "spans": [
+        {
+          "source": "around the wheel. With this ",
+          "bbox": [
+            364.06390380859375,
+            548.380615234375,
+            503.33392333984375,
+            559.380615234375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 27,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0014",
+      "container_id": "p0016_c0014",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "alrededor de la rueda. Con este",
+      "target_runs": [
+        {
+          "text": "alrededor de la rueda. Con este",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "system, he could create",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        562.3836059570312,
+        482.6317443847656,
+        573.3836059570312
+      ],
+      "spans": [
+        {
+          "source": "system, he could create  ",
+          "bbox": [
+            364.06390380859375,
+            562.3836059570312,
+            482.6317443847656,
+            573.3836059570312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 23,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0015",
+      "container_id": "p0016_c0015",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "sistema, podía crear",
+      "target_runs": [
+        {
+          "text": "sistema, podía crear",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "12 short forecasts based",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        576.3865966796875,
+        487.394775390625,
+        587.3865966796875
+      ],
+      "spans": [
+        {
+          "source": "12 short forecasts based  ",
+          "bbox": [
+            364.06390380859375,
+            576.3865966796875,
+            487.394775390625,
+            587.3865966796875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 24,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0016",
+      "container_id": "p0016_c0016",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "12 breves pronósticos basados",
+      "target_runs": [
+        {
+          "text": "12 breves pronósticos basados",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "on the date of a person’s birth.",
+      "line_height": 1.05,
+      "bbox": [
+        364.06390380859375,
+        590.3895874023438,
+        511.8368835449219,
+        601.3895874023438
+      ],
+      "spans": [
+        {
+          "source": "on the date of a person’s birth.",
+          "bbox": [
+            364.06390380859375,
+            590.3895874023438,
+            511.8368835449219,
+            601.3895874023438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 32,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0016_u0017",
+      "container_id": "p0016_c0017",
+      "scale_group": "p0016_table_b5_11.0_300_100",
+      "page": 16,
+      "target": "en la fecha de nacimiento de una persona.",
+      "target_runs": [
+        {
+          "text": "en la fecha de nacimiento de una persona.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

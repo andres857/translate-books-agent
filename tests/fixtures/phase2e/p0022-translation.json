@@ -1,0 +1,2036 @@
+{
+  "page": 22,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Story of Astrology",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        157.51170349121094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Story of Astrology",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            157.51170349121094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0022_u0000",
+      "container_id": "p0022_c0000",
+      "scale_group": "p0022_display_12.0",
+      "page": 22,
+      "target": "La historia de la astrología",
+      "target_runs": [
+        {
+          "text": "La historia de la astrología",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "ZODIAC SIGNS, PLANETS,",
+      "line_height": 1.0000001589457195,
+      "bbox": [
+        34.351200103759766,
+        111.85997772216797,
+        413.6328125,
+        207.8599853515625
+      ],
+      "spans": [
+        {
+          "source": "ZODIAC SIGNS, ",
+          "bbox": [
+            34.351200103759766,
+            111.85997772216797,
+            413.6328125,
+            159.8599853515625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "PLANETS,  ",
+          "bbox": [
+            34.351200103759766,
+            159.8599853515625,
+            310.87921142578125,
+            207.8599853515625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 48.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 48.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0022_u0001",
+      "container_id": "p0022_c0001",
+      "scale_group": "p0022_display_48.0",
+      "page": 22,
+      "target": "SIGNOS DEL ZODÍACO, PLANETAS,",
+      "target_runs": [
+        {
+          "text": "SIGNOS DEL ZODÍACO, PLANETAS,",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "AND MORE",
+      "line_height": 1.05,
+      "bbox": [
+        34.3511962890625,
+        207.99398803710938,
+        277.8551940917969,
+        255.99398803710938
+      ],
+      "spans": [
+        {
+          "source": "AND MORE",
+          "bbox": [
+            34.3511962890625,
+            207.99398803710938,
+            277.8551940917969,
+            255.99398803710938
+          ],
+          "font": "SohoPro-Light",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 8,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 48.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 48.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0022_u0002",
+      "container_id": "p0022_c0002",
+      "scale_group": "p0022_display_48.0",
+      "page": 22,
+      "target": "Y MÁS",
+      "target_runs": [
+        {
+          "text": "Y MÁS",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrology is based on the birth chart, which contains the planets, signs, houses, and more. Together, they make up the map of a person.",
+      "line_height": 1.25,
+      "bbox": [
+        36.0,
+        302.7699890136719,
+        333.09130859375,
+        416.7699890136719
+      ],
+      "spans": [
+        {
+          "source": "Astrology is based on the birth chart, ",
+          "bbox": [
+            36.0,
+            302.7699890136719,
+            333.09130859375,
+            326.7699890136719
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "which contains the planets, signs, ",
+          "bbox": [
+            36.0,
+            332.7699890136719,
+            310.2503662109375,
+            356.7699890136719
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "houses, and more. Together, they  ",
+          "bbox": [
+            36.0,
+            362.7699890136719,
+            312.40557861328125,
+            386.7699890136719
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "make up the map of a person.",
+          "bbox": [
+            36.0,
+            392.7699890136719,
+            274.3631896972656,
+            416.7699890136719
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 135,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 24.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 24.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0022_u0003",
+      "container_id": "p0022_c0003",
+      "scale_group": "p0022_display_24.0",
+      "page": 22,
+      "target": "La astrología se basa en la carta natal, que contiene los planetas, los signos, las casas y mucho más. Juntos, conforman el mapa de una persona.",
+      "target_runs": [
+        {
+          "text": "La astrología se basa en la carta natal, que contiene los planetas, los signos, las casas y mucho más. Juntos, conforman el mapa de una persona.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Most people know their “Sun sign,” but we are all much more than one sign.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        36.14680099487305,
+        476.8259582519531,
+        176.4286651611328,
+        515.8319702148438
+      ],
+      "spans": [
+        {
+          "source": "Most people know ",
+          "bbox": [
+            70.01580047607422,
+            476.8259582519531,
+            161.4467010498047,
+            487.8259582519531
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "their “Sun sign,” but we are  ",
+          "bbox": [
+            36.14680099487305,
+            490.8289489746094,
+            173.35972595214844,
+            501.8289489746094
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "all much more than one sign.",
+          "bbox": [
+            36.14680099487305,
+            504.8319396972656,
+            176.4286651611328,
+            515.8319702148438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 74,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0022_u0004",
+      "container_id": "p0022_c0004",
+      "scale_group": "p0022_display_11.0",
+      "page": 22,
+      "target": "La mayoría de las personas conoce su “signo solar”, pero todas somos mucho más que un solo signo.",
+      "target_runs": [
+        {
+          "text": "La mayoría de las personas conoce su “signo solar”, pero todas somos mucho más que un solo signo.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The horoscope (birth or natal chart) is a stylised map of the heavens at the time and place of your birth. It reflects you and what motivates you. It says",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        36.14680480957031,
+        518.8349609375,
+        178.2327117919922,
+        599.8499755859375
+      ],
+      "spans": [
+        {
+          "source": "The horoscope (birth or ",
+          "bbox": [
+            44.649803161621094,
+            518.8349609375,
+            161.32569885253906,
+            529.8349609375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "natal chart) is a stylised map ",
+          "bbox": [
+            36.14680480957031,
+            532.8380126953125,
+            178.2327117919922,
+            543.8380126953125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "of the heavens at the time ",
+          "bbox": [
+            36.14680480957031,
+            546.8410034179688,
+            167.43069458007812,
+            557.8410034179688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and place of your birth. It ",
+          "bbox": [
+            36.14680480957031,
+            560.843994140625,
+            160.70970153808594,
+            571.843994140625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "reflects you and what ",
+          "bbox": [
+            36.14680480957031,
+            574.8469848632812,
+            145.44171142578125,
+            585.8469848632812
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "motivates you. It says ",
+          "bbox": [
+            36.14680480957031,
+            588.8499755859375,
+            144.2218017578125,
+            599.8499755859375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 154,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0022_u0005",
+      "container_id": "p0022_c0005",
+      "scale_group": "p0022_display_11.0",
+      "page": 22,
+      "target": "El horóscopo (carta natal) es un mapa estilizado del cielo en el momento y el lugar de tu nacimiento. Te refleja y muestra qué te motiva. Dice",
+      "target_runs": [
+        {
+          "text": "El horóscopo (carta natal) es un mapa estilizado del cielo en el momento y el lugar de tu nacimiento. Te refleja y muestra qué te motiva. Dice",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "something about the circumstances of your life and what you hope to achieve. It combines past experiences, present situations, and future possibilities.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        196.44979858398438,
+        476.84796142578125,
+        326.94281005859375,
+        571.8660278320312
+      ],
+      "spans": [
+        {
+          "source": "something about the ",
+          "bbox": [
+            196.44979858398438,
+            476.84796142578125,
+            301.43377685546875,
+            487.84796142578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "circumstances of your life  ",
+          "bbox": [
+            196.44979858398438,
+            490.8509826660156,
+            326.94281005859375,
+            501.8509826660156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and what you hope to ",
+          "bbox": [
+            196.44979858398438,
+            504.8539733886719,
+            306.063720703125,
+            515.85400390625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "achieve. It combines  ",
+          "bbox": [
+            196.44979858398438,
+            518.8569946289062,
+            299.06884765625,
+            529.8569946289062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "past experiences,  ",
+          "bbox": [
+            196.44979858398438,
+            532.8599853515625,
+            286.6817321777344,
+            543.8599853515625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "present situations,  ",
+          "bbox": [
+            196.44979858398438,
+            546.863037109375,
+            291.9077453613281,
+            557.863037109375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and future possibilities.",
+          "bbox": [
+            196.44979858398438,
+            560.8660278320312,
+            310.9917297363281,
+            571.8660278320312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 152,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0022_u0006",
+      "container_id": "p0022_c0006",
+      "scale_group": "p0022_display_11.0",
+      "page": 22,
+      "target": "algo sobre las circunstancias de tu vida y lo que esperas lograr. Combina experiencias pasadas, situaciones presentes y posibilidades futuras.",
+      "target_runs": [
+        {
+          "text": "algo sobre las circunstancias de tu vida y lo que esperas lograr. Combina experiencias pasadas, situaciones presentes y posibilidades futuras.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Your Birth Chart  see pp.166—183",
+      "line_height": 1.05,
+      "bbox": [
+        196.4409942626953,
+        591.3396606445312,
+        327.7041015625,
+        599.3396606445312
+      ],
+      "spans": [
+        {
+          "source": "Your Birth Chart  see pp.166—183",
+          "bbox": [
+            196.4409942626953,
+            591.3396606445312,
+            327.7041015625,
+            599.3396606445312
+          ],
+          "font": "SohoPro-Medium",
+          "size": 8.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 32,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 8.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 8.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0022_u0007",
+      "container_id": "p0022_c0007",
+      "scale_group": "p0022_body_8.0",
+      "page": 22,
+      "target": "Tu carta natal, véanse las pp.166—183",
+      "target_runs": [
+        {
+          "text": "Tu carta natal, véanse las pp.166—183",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOUR SUN SIGN",
+      "line_height": 1.05,
+      "bbox": [
+        394.9501037597656,
+        293.287109375,
+        463.4220886230469,
+        305.287109375
+      ],
+      "spans": [
+        {
+          "source": "YOUR SUN SIGN",
+          "bbox": [
+            394.9501037597656,
+            293.287109375,
+            463.4220886230469,
+            305.287109375
+          ],
+          "font": "SohoPro-Condensed",
+          "size": 12.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Condensed",
+        "size": 12.0,
+        "color": 7303023,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-Condensed",
+      "size": 12.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0022_u0008",
+      "container_id": "p0022_c0008",
+      "scale_group": "p0022_display_12.0",
+      "page": 22,
+      "target": "TU SIGNO SOLAR",
+      "target_runs": [
+        {
+          "text": "TU SIGNO SOLAR",
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "We say “She’s a Scorpio” or “He’s a Gemini” as shorthand for the zodiac sign occupied by the Sun when a person was born. The Sun is the centre of a birth chart. It holds a person’s creative gift and sense of identity. The Sun see pp.88—91",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        365.9582214355469,
+        309.3878479003906,
+        514.1368408203125,
+        453.90155029296875
+      ],
+      "spans": [
+        {
+          "source": "We say “She’s a  ",
+          "bbox": [
+            394.8662109375,
+            309.3878479003906,
+            473.4051208496094,
+            320.3878479003906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Scorpio” or “He’s a Gemini” as ",
+          "bbox": [
+            365.9582214355469,
+            323.3908386230469,
+            508.9231262207031,
+            334.3908386230469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "shorthand for the zodiac sign ",
+          "bbox": [
+            365.9582214355469,
+            337.3938293457031,
+            511.7181701660156,
+            348.3938293457031
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "occupied by the Sun when a ",
+          "bbox": [
+            365.9582214355469,
+            351.3968200683594,
+            505.9321594238281,
+            362.3968200683594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "person was born. The Sun is ",
+          "bbox": [
+            365.9582214355469,
+            365.3998107910156,
+            505.3822326660156,
+            376.3998107910156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the centre of a birth chart. It ",
+          "bbox": [
+            365.9582214355469,
+            379.4028015136719,
+            505.8453063964844,
+            390.4028015136719
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "holds a person’s creative gift ",
+          "bbox": [
+            365.9582214355469,
+            393.4057922363281,
+            506.64715576171875,
+            404.4057922363281
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and sense of identity. ",
+          "bbox": [
+            365.9582214355469,
+            407.4087829589844,
+            472.547119140625,
+            418.4087829589844
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "                  The Sun ",
+          "bbox": [
+            437.9527893066406,
+            434.90155029296875,
+            497.36077880859375,
+            442.90155029296875
+          ],
+          "font": "SohoPro-Medium",
+          "size": 8.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "see pp.88—91",
+          "bbox": [
+            464.6007995605469,
+            445.90155029296875,
+            514.1368408203125,
+            453.90155029296875
+          ],
+          "font": "SohoPro-Medium",
+          "size": 8.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 218,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 218,
+          "end": 238,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0022_u0009",
+      "container_id": "p0022_c0009",
+      "scale_group": "p0022_display_11.0",
+      "page": 22,
+      "target": "Decimos “Es Escorpio” o “Es Géminis” como forma abreviada de referirnos al signo del zodíaco que ocupaba el Sol cuando nació una persona. El Sol es el centro de una carta natal. Alberga el don creativo y el sentido de identidad de una persona. El Sol, véanse las pp.88—91",
+      "target_runs": [
+        {
+          "text": "Decimos “Es Escorpio” o “Es Géminis” como forma abreviada de referirnos al signo del zodíaco que ocupaba el Sol cuando nació una persona. El Sol es el centro de una carta natal. Alberga el don creativo y el sentido de identidad de una persona.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": " El Sol, véanse las pp.88—91",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOUR MOON SIGN",
+      "line_height": 1.05,
+      "bbox": [
+        397.2178039550781,
+        479.72637939453125,
+        473.5126037597656,
+        491.72637939453125
+      ],
+      "spans": [
+        {
+          "source": "YOUR MOON SIGN",
+          "bbox": [
+            397.2178039550781,
+            479.72637939453125,
+            473.5126037597656,
+            491.72637939453125
+          ],
+          "font": "SohoPro-Condensed",
+          "size": 12.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Condensed",
+        "size": 12.0,
+        "color": 7303023,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-Condensed",
+      "size": 12.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0022_u0010",
+      "container_id": "p0022_c0010",
+      "scale_group": "p0022_display_12.0",
+      "page": 22,
+      "target": "TU SIGNO LUNAR",
+      "target_runs": [
+        {
+          "text": "TU SIGNO LUNAR",
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Moon represents our basic needs, instincts, and emotional lives. As the brightest beings in the sky, the Sun and Moon are called the “Luminaries.” They are the central forces in any chart. The Moon  see pp.92—95",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        363.1181945800781,
+        495.8272399902344,
+        522.56591796875,
+        612.3409423828125
+      ],
+      "spans": [
+        {
+          "source": "The Moon represents  ",
+          "bbox": [
+            397.1339111328125,
+            495.8272399902344,
+            504.9670104980469,
+            506.8272399902344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "our basic needs, instincts, and ",
+          "bbox": [
+            363.1219177246094,
+            509.8302307128906,
+            511.8628234863281,
+            520.8302612304688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "emotional lives. As the brightest ",
+          "bbox": [
+            363.1219177246094,
+            523.833251953125,
+            522.56591796875,
+            534.833251953125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "beings in the sky, the Sun  ",
+          "bbox": [
+            363.1219177246094,
+            537.8363037109375,
+            493.0419006347656,
+            548.8363037109375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and Moon are called the ",
+          "bbox": [
+            363.1219177246094,
+            551.8392944335938,
+            481.63482666015625,
+            562.8392944335938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "“Luminaries.” They are the ",
+          "bbox": [
+            363.1219177246094,
+            565.84228515625,
+            494.8459167480469,
+            576.84228515625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "central forces in any chart.",
+          "bbox": [
+            363.1219177246094,
+            579.8452758789062,
+            492.7778625488281,
+            590.8452758789062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "The Moon  see pp.92—95",
+          "bbox": [
+            363.1181945800781,
+            604.3409423828125,
+            458.8934631347656,
+            612.3409423828125
+          ],
+          "font": "SohoPro-Medium",
+          "size": 8.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 193,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 193,
+          "end": 215,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0022_u0011",
+      "container_id": "p0022_c0011",
+      "scale_group": "p0022_display_11.0",
+      "page": 22,
+      "target": "La Luna representa nuestras necesidades básicas, nuestros instintos y nuestra vida emocional. Por ser los astros más brillantes del cielo, el Sol y la Luna se llaman “luminarias”. Son las fuerzas centrales de cualquier carta. La Luna, véanse las pp.92—95",
+      "target_runs": [
+        {
+          "text": "La Luna representa nuestras necesidades básicas, nuestros instintos y nuestra vida emocional. Por ser los astros más brillantes del cielo, el Sol y la Luna se llaman “luminarias”. Son las fuerzas centrales de cualquier carta.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": " La Luna, véanse las pp.92—95",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOUR INDIVIDUAL MAP",
+      "line_height": 1.05,
+      "bbox": [
+        70.09960174560547,
+        461.4201965332031,
+        172.55203247070312,
+        473.4201965332031
+      ],
+      "spans": [
+        {
+          "source": "YOUR INDIVIDUAL MAP",
+          "bbox": [
+            70.09960174560547,
+            461.4201965332031,
+            172.55203247070312,
+            473.4201965332031
+          ],
+          "font": "SohoPro-Condensed",
+          "size": 12.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 19,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Condensed",
+        "size": 12.0,
+        "color": 7303023,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-Condensed",
+      "size": 12.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0022_u0012",
+      "container_id": "p0022_c0012",
+      "scale_group": "p0022_display_12.0",
+      "page": 22,
+      "target": "TU MAPA INDIVIDUAL",
+      "target_runs": [
+        {
+          "text": "TU MAPA INDIVIDUAL",
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

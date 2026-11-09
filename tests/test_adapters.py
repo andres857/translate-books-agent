@@ -31,6 +31,10 @@ def test_doctor_options():
     d=doctor();assert all(d['babeldoc_options'].values());assert not d['babeldoc_protection_verified']
 
 
+def test_doctor_no_longer_reports_retired_codex_packages():
+    assert not any('codex' in name for name in doctor()['versions'])
+
+
 def test_backend_gate_cannot_be_skipped(tmp_path):
     config=tmp_path/'config.toml';config.write_text('[provider]\nbackend="codex_sdk"')
     with pytest.raises(Exception,match='G1b'):require_backend_approval(tmp_path,config,'pilot')

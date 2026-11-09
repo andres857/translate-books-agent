@@ -1,9 +1,0 @@
-name = "assembler"
-description = "Ensambla el PDF, TOC y el informe final de calidad."
-model = "gpt-6-luna"
-model_reasoning_effort = "low"
-sandbox_mode = "workspace-write"
-developer_instructions = """
-Lee AGENTS.md y docs/decisiones.md. No crees subagentes.
-Ejecuta assemble-book tras G6. Une partes en orden sin duplicados ni páginas ausentes, usa TOC ya traducido por scripts, subset_fonts y ez_save. Genera out/informe_calidad.md con páginas, advertencias, costos y casos manuales. No traduzcas títulos en tu contexto ni apruebes G7.
-"""

@@ -1,0 +1,2780 @@
+{
+  "page": 45,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "SOCIAL BUTTERFLY",
+      "line_height": 1.125,
+      "bbox": [
+        369.9212951660156,
+        186.0532989501953,
+        457.7293701171875,
+        220.0532989501953
+      ],
+      "spans": [
+        {
+          "source": "SOCIAL ",
+          "bbox": [
+            369.9212951660156,
+            186.0532989501953,
+            432.6893310546875,
+            202.0532989501953
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "BUTTERFLY",
+          "bbox": [
+            369.9212951660156,
+            204.0532989501953,
+            457.7293701171875,
+            220.0532989501953
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0045_u0000",
+      "container_id": "p0045_c0000",
+      "scale_group": "p0045_display_16.0",
+      "page": 45,
+      "target": "MARIPOSA SOCIAL",
+      "target_runs": [
+        {
+          "text": "MARIPOSA SOCIAL",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "With planets in Gemini, you make friends easily. Your social circle is likely to be wide and diverse.",
+      "line_height": 1.1669998168945312,
+      "bbox": [
+        369.9212951660156,
+        223.50880432128906,
+        503.9936828613281,
+        263.51678466796875
+      ],
+      "spans": [
+        {
+          "source": "With planets in Gemini, you make ",
+          "bbox": [
+            369.9212951660156,
+            223.50880432128906,
+            503.9936828613281,
+            235.50880432128906
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "friends easily. Your social circle is ",
+          "bbox": [
+            369.9212951660156,
+            237.51280212402344,
+            501.1028747558594,
+            249.51280212402344
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "likely to be wide and diverse. ",
+          "bbox": [
+            369.9212951660156,
+            251.5167999267578,
+            485.7681884765625,
+            263.51678466796875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 101,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0045_u0001",
+      "container_id": "p0045_c0001",
+      "scale_group": "p0045_display_12.0",
+      "page": 45,
+      "target": "Con planetas en Géminis, haces amistades con facilidad. Es probable que tu círculo social sea amplio y diverso.",
+      "target_runs": [
+        {
+          "text": "Con planetas en Géminis, haces amistades con facilidad. Es probable que tu círculo social sea amplio y diverso.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "PLAYFUL & FUN",
+      "line_height": 0.8389991021925404,
+      "bbox": [
+        365.40118408203125,
+        40.85038757324219,
+        476.4432067871094,
+        97.85935974121094
+      ],
+      "spans": [
+        {
+          "source": "PLAYFUL  ",
+          "bbox": [
+            365.6181945800781,
+            40.85038757324219,
+            476.4432067871094,
+            71.85038757324219
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "& FUN",
+          "bbox": [
+            365.40118408203125,
+            66.85935974121094,
+            434.4071960449219,
+            97.85935974121094
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0045_u0002",
+      "container_id": "p0045_c0002",
+      "scale_group": "p0045_display_31.0",
+      "page": 45,
+      "target": "JUGUETÓN Y DIVERTIDO",
+      "target_runs": [
+        {
+          "text": "JUGUETÓN Y DIVERTIDO",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "As a Gemini, you can be flirtatious and get attention by being funny and making others laugh.",
+      "line_height": 1.1670023600260417,
+      "bbox": [
+        365.4014892578125,
+        99.16459655761719,
+        529.1378784179688,
+        139.1726531982422
+      ],
+      "spans": [
+        {
+          "source": "As a Gemini, you can be flirtatious and ",
+          "bbox": [
+            365.4014892578125,
+            99.16459655761719,
+            518.7109985351562,
+            111.16459655761719
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "get attention by being funny and making ",
+          "bbox": [
+            365.4014892578125,
+            113.16862487792969,
+            529.1378784179688,
+            125.16862487792969
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "others laugh. ",
+          "bbox": [
+            365.4014892578125,
+            127.17265319824219,
+            418.99224853515625,
+            139.1726531982422
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 93,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0045_u0003",
+      "container_id": "p0045_c0003",
+      "scale_group": "p0045_display_12.0",
+      "page": 45,
+      "target": "Como Géminis, puedes ser coqueto y llamar la atención haciendo bromas y haciendo reír a los demás.",
+      "target_runs": [
+        {
+          "text": "Como Géminis, puedes ser coqueto y llamar la atención haciendo bromas y haciendo reír a los demás.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "TWO IN ONE",
+      "line_height": 1.05,
+      "bbox": [
+        36.51969909667969,
+        261.3124084472656,
+        137.4156951904297,
+        277.3124084472656
+      ],
+      "spans": [
+        {
+          "source": "TWO IN ONE",
+          "bbox": [
+            36.51969909667969,
+            261.3124084472656,
+            137.4156951904297,
+            277.3124084472656
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0045_u0004",
+      "container_id": "p0045_c0004",
+      "scale_group": "p0045_display_16.0",
+      "page": 45,
+      "target": "DOS EN UNO",
+      "target_runs": [
+        {
+          "text": "DOS EN UNO",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Sometimes thought to be two-faced, Geminis can find themselves as the go-between when friends take different sides.",
+      "line_height": 1.2,
+      "bbox": [
+        36.51969909667969,
+        280.4874267578125,
+        201.71176147460938,
+        326.4874267578125
+      ],
+      "spans": [
+        {
+          "source": "Sometimes thought to be ",
+          "bbox": [
+            36.51969909667969,
+            280.4874267578125,
+            159.63272094726562,
+            290.4874267578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "two-faced, Geminis can find ",
+          "bbox": [
+            36.51969909667969,
+            292.4874267578125,
+            173.84971618652344,
+            302.4874267578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "themselves as the go-between ",
+          "bbox": [
+            36.51969909667969,
+            304.4874267578125,
+            187.32273864746094,
+            314.4874267578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "when friends take different sides. ",
+          "bbox": [
+            36.51969909667969,
+            316.4874267578125,
+            201.71176147460938,
+            326.4874267578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 115,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0045_u0005",
+      "container_id": "p0045_c0005",
+      "scale_group": "p0045_display_10.0",
+      "page": 45,
+      "target": "A veces se cree que tienen dos caras; las personas Géminis pueden acabar haciendo de intermediarias cuando sus amistades toman partido por bandos distintos.",
+      "target_runs": [
+        {
+          "text": "A veces se cree que tienen dos caras; las personas Géminis pueden acabar haciendo de intermediarias cuando sus amistades toman partido por bandos distintos.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "LOOK WHO’S TALKING",
+      "line_height": 1.05,
+      "bbox": [
+        146.56149291992188,
+        41.57737350463867,
+        330.5815124511719,
+        56.57737350463867
+      ],
+      "spans": [
+        {
+          "source": "LOOK WHO’S TALKING",
+          "bbox": [
+            146.56149291992188,
+            41.57737350463867,
+            330.5815124511719,
+            56.57737350463867
+          ],
+          "font": "SohoPro-Bold",
+          "size": 15.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 15.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 15.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0045_u0006",
+      "container_id": "p0045_c0006",
+      "scale_group": "p0045_display_15.0",
+      "page": 45,
+      "target": "MIRA QUIÉN HABLA",
+      "target_runs": [
+        {
+          "text": "MIRA QUIÉN HABLA",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The image of the twins shows a need for conversation and social contact.",
+      "line_height": 1.125,
+      "bbox": [
+        146.4591064453125,
+        58.71101760864258,
+        330.4287109375,
+        110.71101379394531
+      ],
+      "spans": [
+        {
+          "source": "The image of the twins shows ",
+          "bbox": [
+            146.4591064453125,
+            58.71101760864258,
+            330.4287109375,
+            74.71101379394531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "a need for conversation and ",
+          "bbox": [
+            146.4591064453125,
+            76.71101379394531,
+            315.9007568359375,
+            92.71101379394531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "social contact. ",
+          "bbox": [
+            146.4591064453125,
+            94.71101379394531,
+            233.787109375,
+            110.71101379394531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 72,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0045_u0007",
+      "container_id": "p0045_c0007",
+      "scale_group": "p0045_display_16.0",
+      "page": 45,
+      "target": "La imagen de los gemelos refleja la necesidad de conversar y mantener el contacto social.",
+      "target_runs": [
+        {
+          "text": "La imagen de los gemelos refleja la necesidad de conversar y mantener el contacto social.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "SEEKING OUT STIMULATION",
+      "line_height": 1.125,
+      "bbox": [
+        358.8431091308594,
+        456.1681823730469,
+        485.01922607421875,
+        490.1681823730469
+      ],
+      "spans": [
+        {
+          "source": "SEEKING OUT ",
+          "bbox": [
+            358.8431091308594,
+            456.1681823730469,
+            471.94720458984375,
+            472.1681823730469
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "STIMULATION   ",
+          "bbox": [
+            358.8431091308594,
+            474.1681823730469,
+            485.01922607421875,
+            490.1681823730469
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 23,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0045_u0008",
+      "container_id": "p0045_c0008",
+      "scale_group": "p0045_display_16.0",
+      "page": 45,
+      "target": "EN BUSCA DE ESTÍMULOS",
+      "target_runs": [
+        {
+          "text": "EN BUSCA DE ESTÍMULOS",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "A restless need for movement, activity, and stimulation is common among Geminis.",
+      "line_height": 1.1670023600260417,
+      "bbox": [
+        358.8421936035156,
+        490.7900695800781,
+        528.595458984375,
+        516.7941284179688
+      ],
+      "spans": [
+        {
+          "source": "A restless need for movement, activity, and ",
+          "bbox": [
+            358.8421936035156,
+            490.7900695800781,
+            528.595458984375,
+            502.7900695800781
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "stimulation is common among Geminis.  ",
+          "bbox": [
+            358.8421936035156,
+            504.7940979003906,
+            514.2301635742188,
+            516.7941284179688
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 80,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0045_u0009",
+      "container_id": "p0045_c0009",
+      "scale_group": "p0045_display_12.0",
+      "page": 45,
+      "target": "La inquietud y la necesidad de movimiento, actividad y estímulos son comunes entre las personas Géminis.",
+      "target_runs": [
+        {
+          "text": "La inquietud y la necesidad de movimiento, actividad y estímulos son comunes entre las personas Géminis.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "ALWAYS CURIOUS",
+      "line_height": 1.05,
+      "bbox": [
+        49.11940002441406,
+        139.66029357910156,
+        247.1101837158203,
+        170.66029357910156
+      ],
+      "spans": [
+        {
+          "source": "ALWAYS CURIOUS",
+          "bbox": [
+            49.11940002441406,
+            139.66029357910156,
+            247.1101837158203,
+            170.66029357910156
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0045_u0010",
+      "container_id": "p0045_c0010",
+      "scale_group": "p0045_display_31.0",
+      "page": 45,
+      "target": "SIEMPRE CURIOSOS",
+      "target_runs": [
+        {
+          "text": "SIEMPRE CURIOSOS",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "GEMINIS ARE CURIOUS AND LOVE TO LEARN. THEY LIKE TO MEET NEW PEOPLE AND FIND OUT ABOUT DIFFERENT PLACES.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        49.000579833984375,
+        172.33216857910156,
+        302.4006042480469,
+        234.3382110595703
+      ],
+      "spans": [
+        {
+          "source": "GEMINIS ARE CURIOUS AND LOVE  ",
+          "bbox": [
+            49.0005989074707,
+            172.33216857910156,
+            302.4006042480469,
+            186.33216857910156
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "TO LEARN. THEY LIKE TO MEET  ",
+          "bbox": [
+            49.00059509277344,
+            188.3341827392578,
+            282.3665771484375,
+            202.3341827392578
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "NEW PEOPLE AND FIND OUT  ",
+          "bbox": [
+            49.000579833984375,
+            204.33619689941406,
+            262.0525817871094,
+            218.33619689941406
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ABOUT DIFFERENT PLACES. ",
+          "bbox": [
+            49.000579833984375,
+            220.3382110595703,
+            257.97442626953125,
+            234.3382110595703
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 104,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0045_u0011",
+      "container_id": "p0045_c0011",
+      "scale_group": "p0045_display_14.0",
+      "page": 45,
+      "target": "A LAS PERSONAS GÉMINIS LES DA CURIOSIDAD TODO Y LES ENCANTA APRENDER. LES GUSTA CONOCER GENTE NUEVA Y DESCUBRIR LUGARES DIFERENTES.",
+      "target_runs": [
+        {
+          "text": "A LAS PERSONAS GÉMINIS LES DA CURIOSIDAD TODO Y LES ENCANTA APRENDER. LES GUSTA CONOCER GENTE NUEVA Y DESCUBRIR LUGARES DIFERENTES.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "CHANGE IS GOOD",
+      "line_height": 1.05,
+      "bbox": [
+        95.34220123291016,
+        453.22039794921875,
+        282.0799865722656,
+        484.22039794921875
+      ],
+      "spans": [
+        {
+          "source": "CHANGE IS GOOD",
+          "bbox": [
+            95.34220123291016,
+            453.22039794921875,
+            282.0799865722656,
+            484.22039794921875
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0045_u0012",
+      "container_id": "p0045_c0012",
+      "scale_group": "p0045_display_31.0",
+      "page": 45,
+      "target": "EL CAMBIO ES BUENO",
+      "target_runs": [
+        {
+          "text": "EL CAMBIO ES BUENO",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE WORST THING FOR A GEMINI IS TO FEEL BORED BY ROUTINE.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        95.22339630126953,
+        485.892333984375,
+        342.7014465332031,
+        515.8943481445312
+      ],
+      "spans": [
+        {
+          "source": "THE WORST THING FOR A GEMINI ",
+          "bbox": [
+            95.22339630126953,
+            485.892333984375,
+            342.7014465332031,
+            499.892333984375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "IS TO FEEL BORED BY ROUTINE. ",
+          "bbox": [
+            95.22339630126953,
+            501.89434814453125,
+            327.731201171875,
+            515.8943481445312
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 57,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0045_u0013",
+      "container_id": "p0045_c0013",
+      "scale_group": "p0045_display_14.0",
+      "page": 45,
+      "target": "LO PEOR PARA UNA PERSONA GÉMINIS ES ABURRIRSE DE LA RUTINA.",
+      "target_runs": [
+        {
+          "text": "LO PEOR PARA UNA PERSONA GÉMINIS ES ABURRIRSE DE LA RUTINA.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "WHAT NEXT?",
+      "line_height": 1.05,
+      "bbox": [
+        370.1379089355469,
+        339.435302734375,
+        518.3798217773438,
+        370.4353332519531
+      ],
+      "spans": [
+        {
+          "source": "WHAT NEXT?",
+          "bbox": [
+            370.1379089355469,
+            339.435302734375,
+            518.3798217773438,
+            370.4353332519531
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0045_u0014",
+      "container_id": "p0045_c0014",
+      "scale_group": "p0045_display_31.0",
+      "page": 45,
+      "target": "¿QUÉ SIGUE?",
+      "target_runs": [
+        {
+          "text": "¿QUÉ SIGUE?",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "STAYING FOCUSED ON ONE HOBBY OR SCHOOL SUBJECT CAN BE TOUGH.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        370.01910400390625,
+        372.10723876953125,
+        512.2171020507812,
+        434.1132507324219
+      ],
+      "spans": [
+        {
+          "source": "STAYING FOCUSED  ",
+          "bbox": [
+            370.01910400390625,
+            372.10723876953125,
+            512.2171020507812,
+            386.10723876953125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ON ONE HOBBY OR ",
+          "bbox": [
+            370.01910400390625,
+            388.1092529296875,
+            507.665771484375,
+            402.1092529296875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "SCHOOL SUBJECT  ",
+          "bbox": [
+            370.01910400390625,
+            404.11126708984375,
+            502.26312255859375,
+            418.11126708984375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "CAN BE TOUGH. ",
+          "bbox": [
+            370.01910400390625,
+            420.1132507324219,
+            487.4356994628906,
+            434.1132507324219
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 60,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0045_u0015",
+      "container_id": "p0045_c0015",
+      "scale_group": "p0045_display_14.0",
+      "page": 45,
+      "target": "PUEDE SER DIFÍCIL MANTENER LA CONCENTRACIÓN EN UN SOLO PASATIEMPO O MATERIA ESCOLAR.",
+      "target_runs": [
+        {
+          "text": "PUEDE SER DIFÍCIL MANTENER LA CONCENTRACIÓN EN UN SOLO PASATIEMPO O MATERIA ESCOLAR.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "NEGATIVE TRAITS",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        358.19488525390625,
+        177.05599975585938,
+        374.19488525390625
+      ],
+      "spans": [
+        {
+          "source": "NEGATIVE TRAITS",
+          "bbox": [
+            36.0,
+            358.19488525390625,
+            177.05599975585938,
+            374.19488525390625
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0045_u0016",
+      "container_id": "p0045_c0016",
+      "scale_group": "p0045_display_16.0",
+      "page": 45,
+      "target": "RASGOS NEGATIVOS",
+      "target_runs": [
+        {
+          "text": "RASGOS NEGATIVOS",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "At worst, Gemini skims the surface, reluctant to explore deeper feelings and consequences. This sign can play one side against the other.",
+      "line_height": 1.2,
+      "bbox": [
+        36.0,
+        377.3699951171875,
+        217.2230224609375,
+        423.3700256347656
+      ],
+      "spans": [
+        {
+          "source": "At worst, Gemini skims the surface, ",
+          "bbox": [
+            36.0,
+            377.3699951171875,
+            208.85008239746094,
+            387.3700256347656
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "reluctant to explore deeper feelings ",
+          "bbox": [
+            36.0,
+            389.3699951171875,
+            210.1040802001953,
+            399.3700256347656
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and consequences. This sign can play ",
+          "bbox": [
+            36.0,
+            401.3699951171875,
+            217.2230224609375,
+            411.3700256347656
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "one side against the other.",
+          "bbox": [
+            36.0,
+            413.3699951171875,
+            163.57302856445312,
+            423.3700256347656
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 137,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0045_u0017",
+      "container_id": "p0045_c0017",
+      "scale_group": "p0045_display_10.0",
+      "page": 45,
+      "target": "En el peor de los casos, Géminis se queda en la superficie, sin ganas de explorar sentimientos y consecuencias más profundas. Este signo puede enfrentar un bando con otro.",
+      "target_runs": [
+        {
+          "text": "En el peor de los casos, Géminis se queda en la superficie, sin ganas de explorar sentimientos y consecuencias más profundas. Este signo puede enfrentar un bando con otro.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Gemini",
+      "line_height": 1.05,
+      "bbox": [
+        459.0234069824219,
+        21.864179611206055,
+        487.5594177246094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Gemini",
+          "bbox": [
+            459.0234069824219,
+            21.864179611206055,
+            487.5594177246094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 10,
+      "id": "p0045_u0018",
+      "container_id": "p0045_c0018",
+      "scale_group": "p0045_display_12.0",
+      "page": 45,
+      "target": "Géminis",
+      "target_runs": [
+        {
+          "text": "Géminis",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "NETWORKING",
+      "line_height": 1.05,
+      "bbox": [
+        237.18870544433594,
+        355.1015930175781,
+        348.74078369140625,
+        371.1015930175781
+      ],
+      "spans": [
+        {
+          "source": "NETWORKING",
+          "bbox": [
+            237.18870544433594,
+            355.1015930175781,
+            348.74078369140625,
+            371.1015930175781
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0045_u0019",
+      "container_id": "p0045_c0019",
+      "scale_group": "p0045_display_16.0",
+      "page": 45,
+      "target": "HACER CONTACTOS",
+      "target_runs": [
+        {
+          "text": "HACER CONTACTOS",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "For a Gemini, it’s important to make connections to others, without getting tied to one group.",
+      "line_height": 1.2,
+      "bbox": [
+        237.18870544433594,
+        374.276611328125,
+        346.7096862792969,
+        432.276611328125
+      ],
+      "spans": [
+        {
+          "source": "For a Gemini, it’s ",
+          "bbox": [
+            237.18870544433594,
+            374.276611328125,
+            318.14971923828125,
+            384.276611328125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "important to make ",
+          "bbox": [
+            237.18870544433594,
+            386.276611328125,
+            328.1287536621094,
+            396.276611328125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "connections to others, ",
+          "bbox": [
+            237.18870544433594,
+            398.276611328125,
+            346.7096862792969,
+            408.276611328125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "without getting tied  ",
+          "bbox": [
+            237.18870544433594,
+            410.276611328125,
+            340.19873046875,
+            420.276611328125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to one group.  ",
+          "bbox": [
+            237.188720703125,
+            422.276611328125,
+            304.7887268066406,
+            432.276611328125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 94,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0045_u0020",
+      "container_id": "p0045_c0020",
+      "scale_group": "p0045_display_10.0",
+      "page": 45,
+      "target": "Para una persona Géminis, es importante relacionarse con los demás sin quedar atada a un solo grupo.",
+      "target_runs": [
+        {
+          "text": "Para una persona Géminis, es importante relacionarse con los demás sin quedar atada a un solo grupo.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "LIGHT VS. DARK THE BRIGHT CELESTIAL TWIN AND THE DARK EARTHLY TWIN EXIST TOGETHER IN GEMINI. IT IS IMPORTANT TO RECOGNISE BOTH.",
+      "line_height": 1.058999454273897,
+      "bbox": [
+        125.7072982788086,
+        546.009765625,
+        506.9290771484375,
+        617.0655517578125
+      ],
+      "spans": [
+        {
+          "source": "LIGHT VS. DARK  ",
+          "bbox": [
+            125.7072982788086,
+            546.009765625,
+            290.2299499511719,
+            563.009765625
+          ],
+          "font": "SohoPro-Heavy",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "THE BRIGHT CELESTIAL ",
+          "bbox": [
+            290.3489685058594,
+            546.0565795898438,
+            506.9290771484375,
+            563.0565795898438
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 8882055,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 8882055,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "TWIN AND THE DARK EARTHLY TWIN ",
+          "bbox": [
+            125.7072982788086,
+            564.0595703125,
+            464.6312255859375,
+            581.0595703125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 8882055,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 8882055,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "EXIST TOGETHER IN GEMINI. IT IS ",
+          "bbox": [
+            125.7072982788086,
+            582.0625610351562,
+            427.63592529296875,
+            599.0625610351562
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 8882055,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 8882055,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "IMPORTANT TO RECOGNISE BOTH. ",
+          "bbox": [
+            125.7072982788086,
+            600.0655517578125,
+            434.7299499511719,
+            617.0655517578125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 8882055,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 8882055,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 15,
+          "end": 127,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 8882055,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Heavy",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Heavy",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0045_u0021",
+      "container_id": "p0045_c0021",
+      "scale_group": "p0045_display_17.0",
+      "page": 45,
+      "target": "LUZ FRENTE A. OSCURIDAD EL GEMELO CELESTIAL LUMINOSO Y EL GEMELO TERRENAL OSCURO COEXISTEN EN GÉMINIS. ES IMPORTANTE RECONOCER A AMBOS.",
+      "target_runs": [
+        {
+          "text": "LUZ FRENTE A. OSCURIDAD ",
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "EL GEMELO CELESTIAL LUMINOSO Y EL GEMELO TERRENAL OSCURO COEXISTEN EN GÉMINIS. ES IMPORTANTE RECONOCER A AMBOS.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 8882055,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

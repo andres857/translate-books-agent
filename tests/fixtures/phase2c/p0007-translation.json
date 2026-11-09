@@ -1,0 +1,3476 @@
+{
+  "page": 7,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "THE HOUSES                                         136",
+      "line_height": 1.05,
+      "bbox": [
+        36.097900390625,
+        165.8014678955078,
+        270.8500061035156,
+        179.84054565429688
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            36.097900390625,
+            165.84054565429688,
+            66.35330200195312,
+            179.84054565429688
+          ],
+          "font": "SohoPro-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "HOUSES                                         136",
+          "bbox": [
+            66.44989776611328,
+            165.8014678955078,
+            270.8500061035156,
+            179.8014678955078
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 4,
+          "end": 54,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0007_u0000",
+      "container_id": "p0007_c0000",
+      "scale_group": "p0007_display_14.0",
+      "page": 7,
+      "target": "LAS CASAS                                         136",
+      "target_runs": [
+        {
+          "text": "LAS ",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "CASAS                                         136",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The 12 Houses",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        192.02723693847656,
+        110.95201110839844,
+        205.52723693847656
+      ],
+      "spans": [
+        {
+          "source": "The 12 Houses",
+          "bbox": [
+            36.0,
+            192.02723693847656,
+            110.95201110839844,
+            205.52723693847656
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0001",
+      "container_id": "p0007_c0001",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Las 12 casas",
+      "target_runs": [
+        {
+          "text": "Las 12 casas",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "1st House",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        212.02073669433594,
+        89.2710189819336,
+        225.52073669433594
+      ],
+      "spans": [
+        {
+          "source": "1st House ",
+          "bbox": [
+            36.0,
+            212.02073669433594,
+            89.2710189819336,
+            225.52073669433594
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0002",
+      "container_id": "p0007_c0002",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 1",
+      "target_runs": [
+        {
+          "text": "Casa 1",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Self and personality",
+      "line_height": 1.05,
+      "bbox": [
+        89.2710189819336,
+        211.85321044921875,
+        191.16900634765625,
+        225.35321044921875
+      ],
+      "spans": [
+        {
+          "source": " Self and personality ",
+          "bbox": [
+            89.2710189819336,
+            211.85321044921875,
+            191.16900634765625,
+            225.35321044921875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 20,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0003",
+      "container_id": "p0007_c0003",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Identidad y personalidad",
+      "target_runs": [
+        {
+          "text": "Identidad y personalidad",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "2nd House",
+      "line_height": 1.05,
+      "bbox": [
+        36.01350402832031,
+        232.0142364501953,
+        92.99701690673828,
+        245.5142364501953
+      ],
+      "spans": [
+        {
+          "source": "2nd House ",
+          "bbox": [
+            36.01350402832031,
+            232.0142364501953,
+            92.99701690673828,
+            245.5142364501953
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0004",
+      "container_id": "p0007_c0004",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 2",
+      "target_runs": [
+        {
+          "text": "Casa 2",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Possessions, money, and finance 142",
+      "line_height": 1.05,
+      "bbox": [
+        92.99701690673828,
+        231.84671020507812,
+        271.0215148925781,
+        245.34671020507812
+      ],
+      "spans": [
+        {
+          "source": " Possessions, money, and finance 142",
+          "bbox": [
+            92.99701690673828,
+            231.84671020507812,
+            271.0215148925781,
+            245.34671020507812
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 35,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0005",
+      "container_id": "p0007_c0005",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Posesiones, dinero y finanzas 142",
+      "target_runs": [
+        {
+          "text": "Posesiones, dinero y finanzas 142",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "3rd House",
+      "line_height": 1.05,
+      "bbox": [
+        36.02699279785156,
+        252.0077362060547,
+        90.60750579833984,
+        265.50775146484375
+      ],
+      "spans": [
+        {
+          "source": "3rd House ",
+          "bbox": [
+            36.02699279785156,
+            252.0077362060547,
+            90.60750579833984,
+            265.50775146484375
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0006",
+      "container_id": "p0007_c0006",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 3",
+      "target_runs": [
+        {
+          "text": "Casa 3",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Communication",
+      "line_height": 1.05,
+      "bbox": [
+        90.60750579833984,
+        251.8402099609375,
+        172.97096252441406,
+        265.3402099609375
+      ],
+      "spans": [
+        {
+          "source": " Communication  ",
+          "bbox": [
+            90.60750579833984,
+            251.8402099609375,
+            172.97096252441406,
+            265.3402099609375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0007",
+      "container_id": "p0007_c0007",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Comunicación",
+      "target_runs": [
+        {
+          "text": "Comunicación",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "4th House",
+      "line_height": 1.05,
+      "bbox": [
+        36.040496826171875,
+        272.0012512207031,
+        91.79549407958984,
+        285.5012512207031
+      ],
+      "spans": [
+        {
+          "source": "4th House ",
+          "bbox": [
+            36.040496826171875,
+            272.0012512207031,
+            91.79549407958984,
+            285.5012512207031
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0008",
+      "container_id": "p0007_c0008",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 4",
+      "target_runs": [
+        {
+          "text": "Casa 4",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Home and family",
+      "line_height": 1.05,
+      "bbox": [
+        91.79549407958984,
+        271.8337097167969,
+        177.45164489746094,
+        285.3337097167969
+      ],
+      "spans": [
+        {
+          "source": " Home and family ",
+          "bbox": [
+            91.79549407958984,
+            271.8337097167969,
+            177.45164489746094,
+            285.3337097167969
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0009",
+      "container_id": "p0007_c0009",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Hogar y familia",
+      "target_runs": [
+        {
+          "text": "Hogar y familia",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "5th House",
+      "line_height": 1.05,
+      "bbox": [
+        36.053985595703125,
+        291.9947509765625,
+        91.2824935913086,
+        305.4947509765625
+      ],
+      "spans": [
+        {
+          "source": "5th House ",
+          "bbox": [
+            36.053985595703125,
+            291.9947509765625,
+            91.2824935913086,
+            305.4947509765625
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0010",
+      "container_id": "p0007_c0010",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 5",
+      "target_runs": [
+        {
+          "text": "Casa 5",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Creativity and children",
+      "line_height": 1.05,
+      "bbox": [
+        91.2824935913086,
+        291.82720947265625,
+        203.41346740722656,
+        305.32720947265625
+      ],
+      "spans": [
+        {
+          "source": " Creativity and children ",
+          "bbox": [
+            91.2824935913086,
+            291.82720947265625,
+            203.41346740722656,
+            305.32720947265625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 23,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0011",
+      "container_id": "p0007_c0011",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Creatividad e hijos",
+      "target_runs": [
+        {
+          "text": "Creatividad e hijos",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "6th House",
+      "line_height": 1.05,
+      "bbox": [
+        36.067474365234375,
+        311.9882507324219,
+        89.52748107910156,
+        325.4882507324219
+      ],
+      "spans": [
+        {
+          "source": "6th House",
+          "bbox": [
+            36.067474365234375,
+            311.9882507324219,
+            89.52748107910156,
+            325.4882507324219
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0012",
+      "container_id": "p0007_c0012",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 6",
+      "target_runs": [
+        {
+          "text": "Casa 6",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Health and well-being",
+      "line_height": 1.05,
+      "bbox": [
+        97.073974609375,
+        311.8207092285156,
+        200.83493041992188,
+        325.3207092285156
+      ],
+      "spans": [
+        {
+          "source": "Health and well-being ",
+          "bbox": [
+            97.073974609375,
+            311.8207092285156,
+            200.83493041992188,
+            325.3207092285156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 21,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0013",
+      "container_id": "p0007_c0013",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Salud y bienestar",
+      "target_runs": [
+        {
+          "text": "Salud y bienestar",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "7th House",
+      "line_height": 1.05,
+      "bbox": [
+        36.08097839355469,
+        331.98175048828125,
+        93.48298645019531,
+        345.48175048828125
+      ],
+      "spans": [
+        {
+          "source": "7th House  ",
+          "bbox": [
+            36.08097839355469,
+            331.98175048828125,
+            93.48298645019531,
+            345.48175048828125
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0014",
+      "container_id": "p0007_c0014",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 7",
+      "target_runs": [
+        {
+          "text": "Casa 7",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Relationships",
+      "line_height": 1.05,
+      "bbox": [
+        97.08747863769531,
+        331.814208984375,
+        161.00997924804688,
+        345.314208984375
+      ],
+      "spans": [
+        {
+          "source": "Relationships ",
+          "bbox": [
+            97.08747863769531,
+            331.814208984375,
+            161.00997924804688,
+            345.314208984375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0015",
+      "container_id": "p0007_c0015",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Relaciones",
+      "target_runs": [
+        {
+          "text": "Relaciones",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "8th House",
+      "line_height": 1.05,
+      "bbox": [
+        36.08099365234375,
+        351.9752502441406,
+        89.72999572753906,
+        365.4752502441406
+      ],
+      "spans": [
+        {
+          "source": "8th House",
+          "bbox": [
+            36.08099365234375,
+            351.9752502441406,
+            89.72999572753906,
+            365.4752502441406
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0016",
+      "container_id": "p0007_c0016",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 8",
+      "target_runs": [
+        {
+          "text": "Casa 8",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Intimacy and shared possessions 156",
+      "line_height": 1.05,
+      "bbox": [
+        89.72999572753906,
+        351.8077087402344,
+        271.0889892578125,
+        365.3077087402344
+      ],
+      "spans": [
+        {
+          "source": "  Intimacy and shared possessions 156",
+          "bbox": [
+            89.72999572753906,
+            351.8077087402344,
+            271.0889892578125,
+            365.3077087402344
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 35,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0017",
+      "container_id": "p0007_c0017",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Intimidad y posesiones compartidas 156",
+      "target_runs": [
+        {
+          "text": "Intimidad y posesiones compartidas 156",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "9th House",
+      "line_height": 1.05,
+      "bbox": [
+        36.094482421875,
+        371.96875,
+        89.55448913574219,
+        385.46875
+      ],
+      "spans": [
+        {
+          "source": "9th House",
+          "bbox": [
+            36.094482421875,
+            371.96875,
+            89.55448913574219,
+            385.46875
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0018",
+      "container_id": "p0007_c0018",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 9",
+      "target_runs": [
+        {
+          "text": "Casa 9",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Quest and adventure",
+      "line_height": 1.05,
+      "bbox": [
+        89.55448913574219,
+        371.80120849609375,
+        197.18861389160156,
+        385.30120849609375
+      ],
+      "spans": [
+        {
+          "source": "  Quest and adventure  ",
+          "bbox": [
+            89.55448913574219,
+            371.80120849609375,
+            197.18861389160156,
+            385.30120849609375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 19,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0019",
+      "container_id": "p0007_c0019",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Búsqueda y aventura",
+      "target_runs": [
+        {
+          "text": "Búsqueda y aventura",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "10th House",
+      "line_height": 1.05,
+      "bbox": [
+        36.10798645019531,
+        391.9622497558594,
+        98.15398406982422,
+        405.4622497558594
+      ],
+      "spans": [
+        {
+          "source": "10th House ",
+          "bbox": [
+            36.10798645019531,
+            391.9622497558594,
+            98.15398406982422,
+            405.4622497558594
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0020",
+      "container_id": "p0007_c0020",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 10",
+      "target_runs": [
+        {
+          "text": "Casa 10",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Career and calling",
+      "line_height": 1.05,
+      "bbox": [
+        98.15398406982422,
+        391.7947082519531,
+        182.21849060058594,
+        405.2947082519531
+      ],
+      "spans": [
+        {
+          "source": "Career and calling ",
+          "bbox": [
+            98.15398406982422,
+            391.7947082519531,
+            182.21849060058594,
+            405.2947082519531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0021",
+      "container_id": "p0007_c0021",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Carrera y vocación",
+      "target_runs": [
+        {
+          "text": "Carrera y vocación",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "11th House",
+      "line_height": 1.05,
+      "bbox": [
+        36.10798645019531,
+        411.95574951171875,
+        95.17048645019531,
+        425.45574951171875
+      ],
+      "spans": [
+        {
+          "source": "11th House",
+          "bbox": [
+            36.10798645019531,
+            411.95574951171875,
+            95.17048645019531,
+            425.45574951171875
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0022",
+      "container_id": "p0007_c0022",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 11",
+      "target_runs": [
+        {
+          "text": "Casa 11",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Friendship and community",
+      "line_height": 1.05,
+      "bbox": [
+        95.17048645019531,
+        411.7882080078125,
+        222.5564727783203,
+        425.2882080078125
+      ],
+      "spans": [
+        {
+          "source": " Friendship and community ",
+          "bbox": [
+            95.17048645019531,
+            411.7882080078125,
+            222.5564727783203,
+            425.2882080078125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 24,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0023",
+      "container_id": "p0007_c0023",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Amistad y comunidad",
+      "target_runs": [
+        {
+          "text": "Amistad y comunidad",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "12th House",
+      "line_height": 1.05,
+      "bbox": [
+        36.10798645019531,
+        431.9492492675781,
+        99.86848449707031,
+        445.4492492675781
+      ],
+      "spans": [
+        {
+          "source": "12th House  ",
+          "bbox": [
+            36.10798645019531,
+            431.9492492675781,
+            99.86848449707031,
+            445.4492492675781
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0024",
+      "container_id": "p0007_c0024",
+      "scale_group": "p0007_table_b2_13.5_500_75",
+      "page": 7,
+      "target": "Casa 12",
+      "target_runs": [
+        {
+          "text": "Casa 12",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Service and sacrifice",
+      "line_height": 1.05,
+      "bbox": [
+        99.86848449707031,
+        431.7817077636719,
+        195.40525817871094,
+        445.2817077636719
+      ],
+      "spans": [
+        {
+          "source": "Service and sacrifice ",
+          "bbox": [
+            99.86848449707031,
+            431.7817077636719,
+            195.40525817871094,
+            445.2817077636719
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 21,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0007_u0025",
+      "container_id": "p0007_c0025",
+      "scale_group": "p0007_table_b2_13.5_300_75",
+      "page": 7,
+      "target": "Servicio y sacrificio",
+      "target_runs": [
+        {
+          "text": "Servicio y sacrificio",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOUR BIRTH CHART",
+      "line_height": 1.05,
+      "bbox": [
+        289.231689453125,
+        165.8014678955078,
+        435.3916931152344,
+        179.84054565429688
+      ],
+      "spans": [
+        {
+          "source": "YOUR ",
+          "bbox": [
+            289.231689453125,
+            165.84054565429688,
+            329.1177062988281,
+            179.84054565429688
+          ],
+          "font": "SohoPro-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "BIRTH CHART ",
+          "bbox": [
+            329.2156982421875,
+            165.8014678955078,
+            435.3916931152344,
+            179.8014678955078
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 5,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0007_u0026",
+      "container_id": "p0007_c0026",
+      "scale_group": "p0007_display_14.0",
+      "page": 7,
+      "target": "TU CARTA NATAL",
+      "target_runs": [
+        {
+          "text": "TU ",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "CARTA NATAL",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "A Picture of You",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        192.02723693847656,
+        371.36114501953125,
+        205.52723693847656
+      ],
+      "spans": [
+        {
+          "source": "A Picture of You",
+          "bbox": [
+            289.1339111328125,
+            192.02723693847656,
+            371.36114501953125,
+            205.52723693847656
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0007_u0027",
+      "container_id": "p0007_c0027",
+      "scale_group": "p0007_table_b4_13.5_500_75",
+      "page": 7,
+      "target": "Un retrato de ti",
+      "target_runs": [
+        {
+          "text": "Un retrato de ti",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Ascendant-Descendant",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        211.85321044921875,
+        417.5999755859375,
+        225.35321044921875
+      ],
+      "spans": [
+        {
+          "source": "The Ascendant-Descendant ",
+          "bbox": [
+            289.1339111328125,
+            211.85321044921875,
+            417.5999755859375,
+            225.35321044921875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 24,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0007_u0028",
+      "container_id": "p0007_c0028",
+      "scale_group": "p0007_table_b4_13.5_300_75",
+      "page": 7,
+      "target": "El Ascendente-Descendente",
+      "target_runs": [
+        {
+          "text": "El Ascendente-Descendente",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "The MC-IC",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        231.84671020507812,
+        337.4220275878906,
+        245.34671020507812
+      ],
+      "spans": [
+        {
+          "source": "The MC-IC ",
+          "bbox": [
+            289.1339111328125,
+            231.84671020507812,
+            337.4220275878906,
+            245.34671020507812
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0007_u0029",
+      "container_id": "p0007_c0029",
+      "scale_group": "p0007_table_b4_13.5_300_75",
+      "page": 7,
+      "target": "El MC-IC",
+      "target_runs": [
+        {
+          "text": "El MC-IC",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Moon’s Nodes",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        251.8402099609375,
+        374.4525451660156,
+        265.3402099609375
+      ],
+      "spans": [
+        {
+          "source": "The Moon’s Nodes ",
+          "bbox": [
+            289.1339111328125,
+            251.8402099609375,
+            374.4525451660156,
+            265.3402099609375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0007_u0030",
+      "container_id": "p0007_c0030",
+      "scale_group": "p0007_table_b4_13.5_300_75",
+      "page": 7,
+      "target": "Los nodos lunares",
+      "target_runs": [
+        {
+          "text": "Los nodos lunares",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Wheel of Rulership",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        271.8337097167969,
+        398.4284362792969,
+        285.3337097167969
+      ],
+      "spans": [
+        {
+          "source": "The Wheel of Rulership ",
+          "bbox": [
+            289.1339111328125,
+            271.8337097167969,
+            398.4284362792969,
+            285.3337097167969
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0007_u0031",
+      "container_id": "p0007_c0031",
+      "scale_group": "p0007_table_b4_13.5_300_75",
+      "page": 7,
+      "target": "La rueda de las regencias",
+      "target_runs": [
+        {
+          "text": "La rueda de las regencias",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Aspects",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        291.82720947265625,
+        352.37469482421875,
+        305.32720947265625
+      ],
+      "spans": [
+        {
+          "source": "The Aspects  ",
+          "bbox": [
+            289.1339111328125,
+            291.82720947265625,
+            352.37469482421875,
+            305.32720947265625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 11,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0007_u0032",
+      "container_id": "p0007_c0032",
+      "scale_group": "p0007_table_b4_13.5_300_75",
+      "page": 7,
+      "target": "Los aspectos",
+      "target_runs": [
+        {
+          "text": "Los aspectos",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Reading a Birth Chart",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        311.8207092285156,
+        390.26239013671875,
+        325.3207092285156
+      ],
+      "spans": [
+        {
+          "source": "Reading a Birth Chart ",
+          "bbox": [
+            289.1339111328125,
+            311.8207092285156,
+            390.26239013671875,
+            325.3207092285156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 21,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0007_u0033",
+      "container_id": "p0007_c0033",
+      "scale_group": "p0007_table_b4_13.5_300_75",
+      "page": 7,
+      "target": "Interpretación de una carta natal",
+      "target_runs": [
+        {
+          "text": "Interpretación de una carta natal",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Glossary",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        351.8211975097656,
+        331.0379638671875,
+        365.3211975097656
+      ],
+      "spans": [
+        {
+          "source": "Glossary ",
+          "bbox": [
+            289.1339111328125,
+            351.8211975097656,
+            331.0379638671875,
+            365.3211975097656
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 8,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0007_u0034",
+      "container_id": "p0007_c0034",
+      "scale_group": "p0007_display_13.5",
+      "page": 7,
+      "target": "Glosario",
+      "target_runs": [
+        {
+          "text": "Glosario",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Index",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        371.814697265625,
+        317.24090576171875,
+        385.314697265625
+      ],
+      "spans": [
+        {
+          "source": "Index ",
+          "bbox": [
+            289.1339111328125,
+            371.814697265625,
+            317.24090576171875,
+            385.314697265625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0007_u0035",
+      "container_id": "p0007_c0035",
+      "scale_group": "p0007_display_13.5",
+      "page": 7,
+      "target": "Índice",
+      "target_runs": [
+        {
+          "text": "Índice",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Acknowledgments",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        391.8081970214844,
+        376.4924621582031,
+        405.3081970214844
+      ],
+      "spans": [
+        {
+          "source": "Acknowledgments ",
+          "bbox": [
+            289.1339111328125,
+            391.8081970214844,
+            376.4924621582031,
+            405.3081970214844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0007_u0036",
+      "container_id": "p0007_c0036",
+      "scale_group": "p0007_display_13.5",
+      "page": 7,
+      "target": "Agradecimientos",
+      "target_runs": [
+        {
+          "text": "Agradecimientos",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

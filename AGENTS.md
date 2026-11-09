@@ -14,13 +14,39 @@ Lee `PROMPT_AGENTES.md`, `docs/decisiones.md` y la skill de la fase. `search.md`
 - Registrar modelo, tokens y costos de llamadas en `work/costs.jsonl`; costos desconocidos no son cero. Nunca registrar claves.
 - PyMuPDF se usa bajo AGPL. No cambiar la decisión de licencia sin preguntar.
 - Lotes de 20 páginas, partes BabelDOC ≤50. Tres errores repetidos detienen el lote. G5 exige ≥90 % QA OK.
-- Gates humanas obligatorias: G1b backend Codex, G3 glosario/estilo, G4 piloto, G7 final. Revisión humana de todas las páginas con gráficos y muestra del texto.
+- Gates humanas obligatorias: G1b backend (hoy `claude_cli`), G3 glosario/estilo, G4 piloto, G7 final. Revisión humana de todas las páginas con gráficos y muestra del texto.
 - Subagentes solo cuando la fase lo indique. Profundidad máxima uno: los subagentes no crean otros. En esta sesión máximo tres subagentes simultáneos más el orquestador.
 - `pipeline_engineer` trabaja con TDD y pytest. No declarar G1 con pruebas omitidas ni presentar mocks como integración real. Los módulos incompletos deben bloquearse explícitamente.
 
 Modelos de agentes y modelos API son capas independientes. Ver `docs/decisiones.md` para el mapeo autorizado por disponibilidad. No cambiar el modelo activo o permisos de la sesión por suponer que una configuración de proyecto lo hace.
 
-## Capa B mediante SDK oficial Codex
+## Capa B vigente (2026-11-08): Claude Code CLI
+
+Sustituye a Codex, sin suscripción desde 2026-11-07. Ver `docs/workflow_claude.md` y `docs/retrospectiva_codex.md`. Las reglas Codex de abajo siguen siendo válidas por analogía.
+
+**Backend y modelos**
+- Backend `claude_cli`: `claude -p` oficial con el login de suscripción del usuario.
+- Modelos: Sonnet 5.5 (`sonnet`) para todas las tareas. Escalada configurable a `opus`/high.
+
+**Aislamiento de cada llamada**
+- Sin herramientas (`--tools ""`), sin settings, MCP, slash commands ni sesión persistente.
+- `autoMemoryEnabled:false`, para que no se filtre la memoria del usuario.
+- Directorio de trabajo en `work/.codex_llm_sandbox/call-*`.
+- Se eliminan del entorno `ANTHROPIC_API_KEY` y `ANTHROPIC_AUTH_TOKEN`.
+- Solo `llm.py` invoca el binario `claude`.
+- Las imágenes van en base64 por stream-json, nunca por herramientas.
+
+**Errores y paradas**
+- Límite de sesión, semanal o de familia de modelos → `quota_pause.json`, con hora de reset y salida 75.
+- Escalada no disponible → la unidad pasa a `review` y el lote continúa.
+
+**Agentes de capa A**
+- `.claude/agents/`: `structure-analyst`, `pipeline-engineer` y `book-auditor`, todos con Opus/high.
+- El auditor aplica `docs/criterios_aceptacion.md`. Su informe es la evidencia de G5.
+
+**Aprobación G1b del backend `claude_cli`**: aprobada por andres el 2026-11-08 para The Secrets of Astrology. Registro en `books/the-secrets-of-astrology/work/backend_approval.json` y `docs/decisiones.md`. G4 queda obsoleta por el cambio de modelo: hay que repetir el piloto con Sonnet y auditarlo antes de producción.
+
+## Capa B mediante SDK oficial Codex (histórico)
 
 - Toda llamada LLM de los scripts pasa por `astro_translate.llm.run_task`. Solo llm.py puede importar openai_codex u openai.
 - Los hilos de Codex usados como LLM se ejecutan en `work/.codex_llm_sandbox/` con el perfil `translator`; nunca en la raíz del repo. Desactivar instrucciones de ancestros, skills, herramientas, web y MCP; sandbox read-only, sin aprobaciones, hilo efímero por unidad.
@@ -45,3 +71,12 @@ Excepción visual 1d aprobada: conservar las letras decorativas PLANETS de la il
 ## Autorización humana actual: correcciones y piloto20
 
 El usuario aprobó G4 con condiciones y autorizó ejecutar el piloto después de corregir negrita de signos p7, medianil y párrafos p15, y concordancia de Nodos p121. No se abre otra fase. Se aprueba la redacción final de dos adiciones a la guía G3: correcciones gramaticales objetivas registradas con el original, sin cambiar contenido/datos/estilo; comillas inglesas “ ” y simples ‘ ’ para citas internas. Historial y nuevos hashes en work/approval_history y glossary_approval.json. Selección en docs/seleccion_piloto.md; anexo Mercurio separado. Intentar juez VLM con exclusiones seguras y declarar cobertura real. Entregar veinte comparativas, consumo frente a proyección e incidencias; detenerse para revisión visual del piloto, sin producción. Esta autorización reemplaza las prohibiciones históricas de ejecutar el piloto, no autoriza producción.
+
+## Autorización humana vigente (2026-11-06): delegación completa a Claude — The Secrets of Astrology
+
+El usuario (andres) delega en Claude, como orquestador, todas las decisiones del proyecto para traducir `books/the-secrets-of-astrology` completo con la máxima fidelidad, Fases 1–5 de `docs/plan_secrets_of_astrology.md`, sin detenerse a preguntar. Esta autorización reemplaza, solo para ese libro, las paradas humanas de G4, G5 y G7 y las preguntas editoriales:
+- Claude decide G4, la ampliación de G1b a `production`, G5 por lote, formas cortas, excepciones artísticas y cambios editoriales. Cada decisión se registra con `approved_by: "claude (delegación explícita de andres, 2026-11-06)"`, fecha, evidencia (renders/QA) y hash, en `work/approval_history/` y `docs/decisiones.md`. No son aprobaciones ficticias: son decisiones delegadas trazables.
+- Cambios al glosario o la guía (G3) solo si son imprescindibles, como suplemento versionado con nuevo hash y registro; nunca reescribir el CSV G3 original.
+- Se mantienen: `source.pdf` inmutable; nada de traducir texto en la conversación (todo vía `llm.run_task`); proteger números/grados/glifos; registrar costos; el agente `pipeline-engineer` implementa el código (TDD) y el orquestador revisa y ejecuta; el `book-auditor` inspecciona renders; licencias de fuentes verificadas; PyMuPDF bajo AGPL.
+- Única causa de parada: agotamiento de la cuota de la suscripción Claude (código 75 / `quota_pause.json` persistente). G5 bloqueante (código 76) exige corregir y recomponer, o una decisión registrada en `g5_decision-NN.json`. Ante una pausa temporal, respetar la espera indicada y reanudar; detenerse e informar solo si la cuota está agotada.
+- La revisión visual final del libro por el usuario es posterior a la entrega y no bloquea.

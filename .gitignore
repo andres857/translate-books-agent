@@ -38,3 +38,11 @@ Thumbs.db
 *.swo
 *~
 *.log
+
+# Resultados de ejecución (traducciones, candidatos, auditorías, vistas previas) y estado local de Claude Code
+/books/*/work/
+/books/*/out/
+/out/
+.claude/scheduled_tasks.lock
+.claude/settings.local.json
+.claude/worktrees/

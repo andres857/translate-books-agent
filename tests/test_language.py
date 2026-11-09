@@ -7,6 +7,9 @@ def test_clear_english_and_spanish():
 def test_allowed_terms():
     assert residual_english(['London','Ascendente'],allowed=['London','Ascendente'])==[]
 
+def test_residual_english_ignores_ordinal_label_made_only_of_spanish_function_words():
+    assert residual_english(['Y DE LA ª','de la 9ª'])==[]
+
 def test_longest_nonoverlapping_glossary_matches():
     from astro_translate.language import glossary_matches
     rows=[{'source':'Sun','target':'Sol'},{'source':'Sun sign','target':'signo solar'}]

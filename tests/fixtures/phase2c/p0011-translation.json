@@ -1,0 +1,357 @@
+{
+  "page": 11,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "blocks": [
+    {
+      "source": "CHAPTER",
+      "line_height": 1.05,
+      "bbox": [
+        412.7059020996094,
+        240.30186462402344,
+        500.90191650390625,
+        257.3018798828125
+      ],
+      "spans": [
+        {
+          "source": "CHAPTER",
+          "bbox": [
+            412.7059020996094,
+            240.30186462402344,
+            500.90191650390625,
+            257.3018798828125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 10329500,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 10329500,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 7,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 10329500,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 17.0,
+        "color": 10329500,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 17.0,
+      "color": 10329500,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0011_u0000",
+      "container_id": "p0011_c0000",
+      "scale_group": "p0011_display_17.0",
+      "page": 11,
+      "target": "CAPÍTULO",
+      "target_runs": [
+        {
+          "text": "CAPÍTULO",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 10329500,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "provenance": {
+        "backend": "codex_sdk",
+        "model": "gpt-6-luna",
+        "input_tokens": 19584,
+        "output_tokens": 681,
+        "response_sha256": "2cbdf02cef2efbaa481e6bc1dcfbfb850e4ed8eacaecb54489f398c8f9d0476c",
+        "entry_point": "astro_translate.llm.run_task"
+      }
+    },
+    {
+      "source": "THE STORY OF ASTROLOGY",
+      "line_height": 1.2,
+      "bbox": [
+        134.86013793945312,
+        449.30584716796875,
+        526.8600463867188,
+        559.4454345703125
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            241.51010131835938,
+            449.4454650878906,
+            346.5600891113281,
+            499.4454650878906
+          ],
+          "font": "SohoPro-Light",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "STORY ",
+          "bbox": [
+            345.91009521484375,
+            449.30584716796875,
+            526.8600463867188,
+            499.30584716796875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "OF",
+          "bbox": [
+            134.86013793945312,
+            509.4454650878906,
+            194.51014709472656,
+            559.4454345703125
+          ],
+          "font": "SohoPro-Light",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " ASTROLOGY",
+          "bbox": [
+            193.86013793945312,
+            509.30584716796875,
+            516.4051513671875,
+            559.3058471679688
+          ],
+          "font": "SohoPro-Bold",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 4,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 10,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 13,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 50.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 50.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0011_u0001",
+      "container_id": "p0011_c0001",
+      "scale_group": "p0011_display_50.0",
+      "page": 11,
+      "target": "LA HISTORIA DE LA ASTROLOGÍA",
+      "target_runs": [
+        {
+          "text": "LA ",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "HISTORIA ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "DE LA ",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "ASTROLOGÍA",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "provenance": {
+        "backend": "codex_sdk",
+        "model": "gpt-6-luna",
+        "input_tokens": 19584,
+        "output_tokens": 681,
+        "response_sha256": "2cbdf02cef2efbaa481e6bc1dcfbfb850e4ed8eacaecb54489f398c8f9d0476c",
+        "entry_point": "astro_translate.llm.run_task"
+      }
+    }
+  ]
+}

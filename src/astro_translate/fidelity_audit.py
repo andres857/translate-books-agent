@@ -25,6 +25,11 @@ def audit_rendered_styles(page, result):
     """
     issues = []
     checked = 0
+    import hashlib
+    embedded={}
+    for row in page.get_fonts(full=True):
+        data=page.parent.extract_font(row[0])[3]
+        if data:embedded.setdefault(_font_key(row[3]),set()).add(hashlib.sha256(data).hexdigest())
     for block in result['blocks']:
         rect = fitz.Rect(block['edit_bbox']) + (-.1, -.1, .1, .1)
         observed = []
@@ -55,7 +60,7 @@ def audit_rendered_styles(page, result):
                 reasons.add('run_color_changed')
             if abs(span['size'] - font['size']) > .02:
                 reasons.add('run_size_changed')
-            if _font_key(span['font']) != _font_key(font['engine_name']):
+            if (_font_key(span['font']) != _font_key(font['engine_name']) and not (font.get('source')=='original' and embedded.get(_font_key(span['font']))=={font['sha256']})):
                 reasons.add('run_font_changed')
         issues.extend({'id': block['id'], 'reason': reason} for reason in sorted(reasons))
     return {'ok': not issues, 'characters_checked': checked, 'issues': issues,

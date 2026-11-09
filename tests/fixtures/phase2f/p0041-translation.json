@@ -1,0 +1,2486 @@
+{
+  "page": 41,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "THE PHYSICAL WORLD",
+      "line_height": 1.125,
+      "bbox": [
+        366.0487976074219,
+        45.91789245605469,
+        485.12091064453125,
+        79.91789245605469
+      ],
+      "spans": [
+        {
+          "source": "THE PHYSICAL ",
+          "bbox": [
+            366.0487976074219,
+            45.91789245605469,
+            485.12091064453125,
+            61.91789245605469
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "WORLD",
+          "bbox": [
+            366.0487976074219,
+            63.91789245605469,
+            426.38482666015625,
+            79.91789245605469
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0041_u0000",
+      "container_id": "p0041_c0000",
+      "scale_group": "p0041_display_16.0",
+      "page": 41,
+      "target": "EL MUNDO FÍSICO",
+      "target_runs": [
+        {
+          "text": "EL MUNDO FÍSICO",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Taurians like simple sensory pleasures such as delicious food, music, and the arts.",
+      "line_height": 1.2,
+      "bbox": [
+        366.0487976074219,
+        83.09303283691406,
+        483.688720703125,
+        129.09303283691406
+      ],
+      "spans": [
+        {
+          "source": "Taurians like simple ",
+          "bbox": [
+            366.0487976074219,
+            83.09303283691406,
+            463.3398132324219,
+            93.09303283691406
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "sensory pleasures such  ",
+          "bbox": [
+            366.0487976074219,
+            95.09303283691406,
+            483.45880126953125,
+            105.09303283691406
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "as delicious food, music, ",
+          "bbox": [
+            366.0487976074219,
+            107.09303283691406,
+            483.688720703125,
+            117.09303283691406
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and the arts. ",
+          "bbox": [
+            366.0487976074219,
+            119.09303283691406,
+            429.1988220214844,
+            129.09303283691406
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 83,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0041_u0001",
+      "container_id": "p0041_c0001",
+      "scale_group": "p0041_display_10.0",
+      "page": 41,
+      "target": "A los Tauro les gustan los placeres sensoriales sencillos, como la comida deliciosa, la música y las artes.",
+      "target_runs": [
+        {
+          "text": "A los Tauro les gustan los placeres sensoriales sencillos, como la comida deliciosa, la música y las artes.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "ENDURING & PERSISTENT ONCE YOU HAVE COMMITTED YOURSELF TO A COURSE OF ACTION, YOU CAN BE RELIED ON TO STICK WITH IT.",
+      "line_height": 1.058999454273897,
+      "bbox": [
+        56.549800872802734,
+        553.2939453125,
+        430.0321960449219,
+        624.302978515625
+      ],
+      "spans": [
+        {
+          "source": "ENDURING & PERSISTENT",
+          "bbox": [
+            56.549800872802734,
+            554.9608764648438,
+            261.98529052734375,
+            569.9608764648438
+          ],
+          "font": "SohoPro-Bold",
+          "size": 15.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ONCE YOU HAVE ",
+          "bbox": [
+            269.4519958496094,
+            553.2939453125,
+            417.7378845214844,
+            570.2939453125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "COMMITTED YOURSELF TO A COURSE OF ",
+          "bbox": [
+            56.561004638671875,
+            571.2969970703125,
+            417.5492248535156,
+            588.2969970703125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ACTION, YOU CAN BE RELIED ON TO STICK ",
+          "bbox": [
+            56.561004638671875,
+            589.2999877929688,
+            430.0321960449219,
+            606.2999877929688
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "WITH IT. ",
+          "bbox": [
+            56.561004638671875,
+            607.302978515625,
+            137.17332458496094,
+            624.302978515625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 22,
+          "end": 116,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 15.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 17.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0041_u0002",
+      "container_id": "p0041_c0002",
+      "scale_group": "p0041_display_17.0",
+      "page": 41,
+      "target": "CONSTANTE Y PERSEVERANTE UNA VEZ QUE TE HAS COMPROMETIDO A SEGUIR UN CURSO DE ACCIÓN, SE PUEDE CONFIAR EN QUE LO MANTENDRÁS.",
+      "target_runs": [
+        {
+          "text": "CONSTANTE Y PERSEVERANTE ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "UNA VEZ QUE TE HAS COMPROMETIDO A SEGUIR UN CURSO DE ACCIÓN, SE PUEDE CONFIAR EN QUE LO MANTENDRÁS.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "SLOW TO ANGER",
+      "line_height": 0.8390000866305444,
+      "bbox": [
+        368.15899658203125,
+        183.4449920654297,
+        471.6028747558594,
+        240.45399475097656
+      ],
+      "spans": [
+        {
+          "source": "SLOW TO ",
+          "bbox": [
+            368.15899658203125,
+            183.4449920654297,
+            471.6028747558594,
+            214.4449920654297
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "ANGER",
+          "bbox": [
+            368.15899658203125,
+            209.45399475097656,
+            445.4109802246094,
+            240.45399475097656
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0041_u0003",
+      "container_id": "p0041_c0003",
+      "scale_group": "p0041_display_31.0",
+      "page": 41,
+      "target": "TARDAS EN ENFADARTE",
+      "target_runs": [
+        {
+          "text": "TARDAS EN ENFADARTE",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "Taureans are known for being calm—most of the time! But you can have a temper when pushed.",
+      "line_height": 1.1669998168945312,
+      "bbox": [
+        367.9424133300781,
+        241.7591094970703,
+        498.5492248535156,
+        281.76708984375
+      ],
+      "spans": [
+        {
+          "source": "Taureans are known for being ",
+          "bbox": [
+            367.9424133300781,
+            241.7591094970703,
+            488.0359191894531,
+            253.7591094970703
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "calm—most of the time! But you ",
+          "bbox": [
+            367.9424133300781,
+            255.7631072998047,
+            494.52923583984375,
+            267.7630920410156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "can have a temper when pushed.",
+          "bbox": [
+            367.9424133300781,
+            269.76708984375,
+            498.5492248535156,
+            281.76708984375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 90,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0041_u0004",
+      "container_id": "p0041_c0004",
+      "scale_group": "p0041_display_12.0",
+      "page": 41,
+      "target": "Se sabe que las personas Tauro son tranquilas, casi siempre! Pero puedes enfadarte cuando te provocan.",
+      "target_runs": [
+        {
+          "text": "Se sabe que las personas Tauro son tranquilas, casi siempre! Pero puedes enfadarte cuando te provocan.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "STEADY DOES IT After the spring rush of Aries, Taurus is calm and considered, slow and deliberate.",
+      "line_height": 1.124999761581421,
+      "bbox": [
+        35.9993896484375,
+        35.01411819458008,
+        260.62823486328125,
+        87.01411437988281
+      ],
+      "spans": [
+        {
+          "source": "STEADY DOES IT ",
+          "bbox": [
+            36.104801177978516,
+            35.88047409057617,
+            176.7298126220703,
+            50.88047409057617
+          ],
+          "font": "SohoPro-Bold",
+          "size": 15.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "After the ",
+          "bbox": [
+            177.327392578125,
+            35.01411819458008,
+            235.27943420410156,
+            51.01411819458008
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "spring rush of Aries, Taurus is calm ",
+          "bbox": [
+            35.9993896484375,
+            53.01411819458008,
+            251.6026153564453,
+            69.01411437988281
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and considered, slow and deliberate.  ",
+          "bbox": [
+            35.9993896484375,
+            71.01411437988281,
+            260.62823486328125,
+            87.01411437988281
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 15,
+          "end": 98,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 15.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0041_u0005",
+      "container_id": "p0041_c0005",
+      "scale_group": "p0041_display_16.0",
+      "page": 41,
+      "target": "PASO FIRME Después del ajetreo primaveral de Aries, Tauro es tranquilo y reflexivo, lento y deliberado.",
+      "target_runs": [
+        {
+          "text": "PASO FIRME ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Después del ajetreo primaveral de Aries, Tauro es tranquilo y reflexivo, lento y deliberado.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "LOVE OF SECURITY",
+      "line_height": 1.05,
+      "bbox": [
+        342.99139404296875,
+        478.5032958984375,
+        494.86358642578125,
+        494.5032958984375
+      ],
+      "spans": [
+        {
+          "source": "LOVE OF SECURITY",
+          "bbox": [
+            342.99139404296875,
+            478.5032958984375,
+            494.86358642578125,
+            494.5032958984375
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0041_u0006",
+      "container_id": "p0041_c0006",
+      "scale_group": "p0041_display_16.0",
+      "page": 41,
+      "target": "AMOR POR LA SEGURIDAD",
+      "target_runs": [
+        {
+          "text": "AMOR POR LA SEGURIDAD",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "A Taurean values stability and dislikes upheaval and change.",
+      "line_height": 1.1669972737630208,
+      "bbox": [
+        342.9921875,
+        497.9607849121094,
+        496.08697509765625,
+        523.9647827148438
+      ],
+      "spans": [
+        {
+          "source": "A Taurean values stability and dislikes ",
+          "bbox": [
+            342.9921875,
+            497.9607849121094,
+            496.08697509765625,
+            509.9607849121094
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "upheaval and change. ",
+          "bbox": [
+            342.9921875,
+            511.9647521972656,
+            431.0229797363281,
+            523.9647827148438
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 60,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0041_u0007",
+      "container_id": "p0041_c0007",
+      "scale_group": "p0041_display_12.0",
+      "page": 41,
+      "target": "Una persona Tauro valora la estabilidad y no le gustan los trastornos ni los cambios.",
+      "target_runs": [
+        {
+          "text": "Una persona Tauro valora la estabilidad y no le gustan los trastornos ni los cambios.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "PATIENCE A VIRTUE",
+      "line_height": 1.05,
+      "bbox": [
+        36.73630142211914,
+        140.39381408691406,
+        259.55810546875,
+        171.39381408691406
+      ],
+      "spans": [
+        {
+          "source": "PATIENCE A VIRTUE",
+          "bbox": [
+            36.73630142211914,
+            140.39381408691406,
+            259.55810546875,
+            171.39381408691406
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0041_u0008",
+      "container_id": "p0041_c0008",
+      "scale_group": "p0041_display_31.0",
+      "page": 41,
+      "target": "LA PACIENCIA ES UNA VIRTUD",
+      "target_runs": [
+        {
+          "text": "LA PACIENCIA ES UNA VIRTUD",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "ONE OF YOUR MOST VALUABLE SKILLS IS KNOWING THAT GOOD THINGS COME TO THOSE WHO WAIT. YOU CAN SIT BACK PATIENTLY WITH CALM ACCEPTANCE.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        36.61749267578125,
+        173.0657501220703,
+        265.9333190917969,
+        267.0758056640625
+      ],
+      "spans": [
+        {
+          "source": "ONE OF YOUR MOST VALUABLE ",
+          "bbox": [
+            36.61750030517578,
+            173.0657501220703,
+            265.9333190917969,
+            187.0657501220703
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "SKILLS IS KNOWING THAT  ",
+          "bbox": [
+            36.61750030517578,
+            189.06776428222656,
+            233.20550537109375,
+            203.06776428222656
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "GOOD THINGS COME TO THOSE ",
+          "bbox": [
+            36.61749267578125,
+            205.0697784423828,
+            262.7567138671875,
+            219.0697784423828
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "WHO WAIT. YOU CAN SIT  ",
+          "bbox": [
+            36.61749267578125,
+            221.07179260253906,
+            222.49549865722656,
+            235.07179260253906
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "BACK PATIENTLY WITH  ",
+          "bbox": [
+            36.61749267578125,
+            237.0738067626953,
+            213.38150024414062,
+            251.0738067626953
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "CALM ACCEPTANCE.",
+          "bbox": [
+            36.61749267578125,
+            253.07582092285156,
+            184.4980926513672,
+            267.0758056640625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 133,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0041_u0009",
+      "container_id": "p0041_c0009",
+      "scale_group": "p0041_display_14.0",
+      "page": 41,
+      "target": "UNA DE TUS HABILIDADES MÁS VALIOSAS ES SABER QUE A QUIEN SABE ESPERAR LE LLEGAN COSAS BUENAS. PUEDES ESPERAR CON PACIENCIA Y ACEPTACIÓN SERENA.",
+      "target_runs": [
+        {
+          "text": "UNA DE TUS HABILIDADES MÁS VALIOSAS ES SABER QUE A QUIEN SABE ESPERAR LE LLEGAN COSAS BUENAS. PUEDES ESPERAR CON PACIENCIA Y ACEPTACIÓN SERENA.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "POSSESSIVE",
+      "line_height": 1.05,
+      "bbox": [
+        45.74489974975586,
+        470.065185546875,
+        189.89181518554688,
+        501.0652160644531
+      ],
+      "spans": [
+        {
+          "source": "POSSESSIVE ",
+          "bbox": [
+            45.74489974975586,
+            470.065185546875,
+            189.89181518554688,
+            501.0652160644531
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0041_u0010",
+      "container_id": "p0041_c0010",
+      "scale_group": "p0041_display_31.0",
+      "page": 41,
+      "target": "POSESIVO",
+      "target_runs": [
+        {
+          "text": "POSESIVO",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "TAURIANS OFTEN HESITATE TO LET GO OF IDEAS, PEOPLE, AND OBJECTS.",
+      "line_height": 1.1429966517857142,
+      "bbox": [
+        45.6260986328125,
+        502.737060546875,
+        312.0852966308594,
+        532.739013671875
+      ],
+      "spans": [
+        {
+          "source": "TAURIANS OFTEN HESITATE TO LET ",
+          "bbox": [
+            45.6260986328125,
+            502.737060546875,
+            307.48211669921875,
+            516.737060546875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "GO OF IDEAS, PEOPLE, AND OBJECTS. ",
+          "bbox": [
+            45.6260986328125,
+            518.739013671875,
+            312.0852966308594,
+            532.739013671875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 64,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0041_u0011",
+      "container_id": "p0041_c0011",
+      "scale_group": "p0041_display_14.0",
+      "page": 41,
+      "target": "A LAS PERSONAS TAURO A MENUDO LES CUESTA DESPRENDERSE DE IDEAS, PERSONAS Y OBJETOS.",
+      "target_runs": [
+        {
+          "text": "A LAS PERSONAS TAURO A MENUDO LES CUESTA DESPRENDERSE DE IDEAS, PERSONAS Y OBJETOS.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "$ WISE",
+      "line_height": 1.05,
+      "bbox": [
+        357.6377868652344,
+        353.87762451171875,
+        433.6497802734375,
+        384.87762451171875
+      ],
+      "spans": [
+        {
+          "source": "$ WISE",
+          "bbox": [
+            357.6377868652344,
+            353.87762451171875,
+            433.6497802734375,
+            384.87762451171875
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0041_u0012",
+      "container_id": "p0041_c0012",
+      "scale_group": "p0041_display_31.0",
+      "page": 41,
+      "target": "$ SABIO",
+      "target_runs": [
+        {
+          "text": "$ SABIO",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "WITH PLANETS IN TAURUS, YOU WILL BE GOOD AT MANAGING MONEY.",
+      "line_height": 1.1429988316127233,
+      "bbox": [
+        357.735595703125,
+        386.5494384765625,
+        504.4794006347656,
+        448.555419921875
+      ],
+      "spans": [
+        {
+          "source": "WITH PLANETS  ",
+          "bbox": [
+            357.735595703125,
+            386.5494384765625,
+            478.6955871582031,
+            400.5494384765625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "IN TAURUS, YOU  ",
+          "bbox": [
+            357.735595703125,
+            402.55145263671875,
+            483.9176025390625,
+            416.55145263671875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "WILL BE GOOD AT  ",
+          "bbox": [
+            357.735595703125,
+            418.5534362792969,
+            490.62359619140625,
+            432.5534362792969
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "MANAGING MONEY. ",
+          "bbox": [
+            357.735595703125,
+            434.555419921875,
+            504.4794006347656,
+            448.555419921875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 59,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0041_u0013",
+      "container_id": "p0041_c0013",
+      "scale_group": "p0041_display_14.0",
+      "page": 41,
+      "target": "CON PLANETAS EN TAURO, SE TE DARÁ BIEN ADMINISTRAR EL DINERO.",
+      "target_runs": [
+        {
+          "text": "CON PLANETAS EN TAURO, SE TE DARÁ BIEN ADMINISTRAR EL DINERO.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "NEGATIVE TRAITS",
+      "line_height": 1.05,
+      "bbox": [
+        80.75789642333984,
+        380.4585876464844,
+        221.81387329101562,
+        396.4585876464844
+      ],
+      "spans": [
+        {
+          "source": "NEGATIVE TRAITS",
+          "bbox": [
+            80.75789642333984,
+            380.4585876464844,
+            221.81387329101562,
+            396.4585876464844
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0041_u0014",
+      "container_id": "p0041_c0014",
+      "scale_group": "p0041_display_16.0",
+      "page": 41,
+      "target": "RASGOS NEGATIVOS",
+      "target_runs": [
+        {
+          "text": "RASGOS NEGATIVOS",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The bull can be immensely stubborn, sometimes against its own best interests. As fixed earth, Taurus can at times be greedy or self-indulgent.",
+      "line_height": 1.2,
+      "bbox": [
+        80.75788879394531,
+        399.63360595703125,
+        260.78790283203125,
+        445.6336364746094
+      ],
+      "spans": [
+        {
+          "source": "The bull can be immensely stubborn, ",
+          "bbox": [
+            80.75789642333984,
+            399.63360595703125,
+            259.9789733886719,
+            409.6336364746094
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "sometimes against its own best ",
+          "bbox": [
+            80.75789642333984,
+            411.63360595703125,
+            234.60992431640625,
+            421.6336364746094
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "interests. As fixed earth, Taurus can  ",
+          "bbox": [
+            80.75789642333984,
+            423.63360595703125,
+            260.78790283203125,
+            433.6336364746094
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "at times be greedy or self-indulgent.",
+          "bbox": [
+            80.75788879394531,
+            435.63360595703125,
+            255.79998779296875,
+            445.6336364746094
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 142,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0041_u0015",
+      "container_id": "p0041_c0015",
+      "scale_group": "p0041_display_10.0",
+      "page": 41,
+      "target": "El toro puede ser sumamente terco, a veces incluso en perjuicio propio. Como tierra fija, Tauro puede ser a veces codicioso o indulgente consigo mismo.",
+      "target_runs": [
+        {
+          "text": "El toro puede ser sumamente terco, a veces incluso en perjuicio propio. Como tierra fija, Tauro puede ser a veces codicioso o indulgente consigo mismo.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Taurus",
+      "line_height": 1.05,
+      "bbox": [
+        459.2633056640625,
+        21.864179611206055,
+        487.559326171875,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Taurus",
+          "bbox": [
+            459.2633056640625,
+            21.864179611206055,
+            487.559326171875,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 10,
+      "id": "p0041_u0016",
+      "container_id": "p0041_c0016",
+      "scale_group": "p0041_display_12.0",
+      "page": 41,
+      "target": "Tauro",
+      "target_runs": [
+        {
+          "text": "Tauro",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "ROMANTIC",
+      "line_height": 1.05,
+      "bbox": [
+        56.444801330566406,
+        292.4389953613281,
+        144.476806640625,
+        308.4389953613281
+      ],
+      "spans": [
+        {
+          "source": "ROMANTIC",
+          "bbox": [
+            56.444801330566406,
+            292.4389953613281,
+            144.476806640625,
+            308.4389953613281
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 8,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0041_u0017",
+      "container_id": "p0041_c0017",
+      "scale_group": "p0041_display_16.0",
+      "page": 41,
+      "target": "ROMÁNTICO",
+      "target_runs": [
+        {
+          "text": "ROMÁNTICO",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Taurus is ruled by Venus,  goddess of love. Your planets here respond to strong friendships and romance.",
+      "line_height": 1.1669998168945312,
+      "bbox": [
+        56.444801330566406,
+        311.89459228515625,
+        223.68641662597656,
+        351.902587890625
+      ],
+      "spans": [
+        {
+          "source": "Taurus is ruled by Venus,  goddess of love. ",
+          "bbox": [
+            56.444801330566406,
+            311.89459228515625,
+            223.68641662597656,
+            323.89459228515625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Your planets here respond to strong ",
+          "bbox": [
+            56.444801330566406,
+            325.8985900878906,
+            198.48641967773438,
+            337.8985900878906
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "friendships and romance.",
+          "bbox": [
+            56.444801330566406,
+            339.902587890625,
+            155.94764709472656,
+            351.902587890625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 104,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0041_u0018",
+      "container_id": "p0041_c0018",
+      "scale_group": "p0041_display_12.0",
+      "page": 41,
+      "target": "Tauro está regido por Venus, diosa del amor. Tus planetas aquí responden a las amistades sólidas y al romance.",
+      "target_runs": [
+        {
+          "text": "Tauro está regido por Venus, diosa del amor. Tus planetas aquí responden a las amistades sólidas y al romance.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

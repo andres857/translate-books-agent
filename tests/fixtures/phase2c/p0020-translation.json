@@ -1,0 +1,1445 @@
+{
+  "page": 20,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Story of Astrology",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        157.51170349121094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Story of Astrology",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            157.51170349121094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0020_u0000",
+      "container_id": "p0020_c0000",
+      "scale_group": "p0020_display_12.0",
+      "page": 20,
+      "target": "La historia de la astrología",
+      "target_runs": [
+        {
+          "text": "La historia de la astrología",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THINK LIKE AN",
+      "line_height": 1.05,
+      "bbox": [
+        36.33549880981445,
+        116.19879913330078,
+        373.15155029296875,
+        164.19879150390625
+      ],
+      "spans": [
+        {
+          "source": "THINK LIKE AN",
+          "bbox": [
+            36.33549880981445,
+            116.19879913330078,
+            373.15155029296875,
+            164.19879150390625
+          ],
+          "font": "SohoPro-Light",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 48.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 48.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0020_u0001",
+      "container_id": "p0020_c0001",
+      "scale_group": "p0020_display_48.0",
+      "page": 20,
+      "target": "PIENSA COMO UN",
+      "target_runs": [
+        {
+          "text": "PIENSA COMO UN",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "ASTROLOGER",
+      "line_height": 1.05,
+      "bbox": [
+        36.33551025390625,
+        164.06478881835938,
+        388.9387512207031,
+        212.06478881835938
+      ],
+      "spans": [
+        {
+          "source": "ASTROLOGER ",
+          "bbox": [
+            36.33551025390625,
+            164.06478881835938,
+            388.9387512207031,
+            212.06478881835938
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 48.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 48.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0020_u0002",
+      "container_id": "p0020_c0002",
+      "scale_group": "p0020_display_48.0",
+      "page": 20,
+      "target": "ASTRÓLOGO",
+      "target_runs": [
+        {
+          "text": "ASTRÓLOGO",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "As above, so below",
+      "line_height": 1.05,
+      "bbox": [
+        200.9763946533203,
+        419.3511657714844,
+        325.5281066894531,
+        432.3511657714844
+      ],
+      "spans": [
+        {
+          "source": "As above, so below ",
+          "bbox": [
+            200.9763946533203,
+            419.3511657714844,
+            325.5281066894531,
+            432.3511657714844
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0020_u0003",
+      "container_id": "p0020_c0003",
+      "scale_group": "p0020_display_13.0",
+      "page": 20,
+      "target": "Como es arriba, es abajo",
+      "target_runs": [
+        {
+          "text": "Como es arriba, es abajo",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrology rests on an ancient philosophy: “As above, so below.” This means that life on Earth is a mirror of the heavenly picture.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        200.9763946533203,
+        436.39453125,
+        346.5823059082031,
+        503.40655517578125
+      ],
+      "spans": [
+        {
+          "source": "Astrology rests on an ancient ",
+          "bbox": [
+            200.9763946533203,
+            436.39453125,
+            346.5823059082031,
+            447.39453125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "philosophy: “As above, so ",
+          "bbox": [
+            200.9763946533203,
+            450.3975524902344,
+            325.7812805175781,
+            461.3975524902344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "below.” This means that life  ",
+          "bbox": [
+            200.9763946533203,
+            464.4005432128906,
+            339.6302795410156,
+            475.4005432128906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "on Earth is a mirror of the ",
+          "bbox": [
+            200.9763946533203,
+            478.4035339355469,
+            328.8503112792969,
+            489.4035339355469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "heavenly picture. ",
+          "bbox": [
+            200.9763946533203,
+            492.40655517578125,
+            288.0083923339844,
+            503.40655517578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 130,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0020_u0004",
+      "container_id": "p0020_c0004",
+      "scale_group": "p0020_display_11.0",
+      "page": 20,
+      "target": "La astrología se basa en una filosofía antigua: “Como es arriba, es abajo”. Esto significa que la vida en la Tierra es un reflejo del panorama celestial.",
+      "target_runs": [
+        {
+          "text": "La astrología se basa en una filosofía antigua: “Como es arriba, es abajo”. Esto significa que la vida en la Tierra es un reflejo del panorama celestial.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Each planet governs everything in the universe that reflects its particular energy. So, the Sun governs solar things (monarchs, leaders, gold, sunflowers, the heart). The Moon governs",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        200.9763946533203,
+        506.4095764160156,
+        345.6802673339844,
+        601.4276123046875
+      ],
+      "spans": [
+        {
+          "source": "Each planet governs ",
+          "bbox": [
+            209.47940063476562,
+            506.4095764160156,
+            311.04132080078125,
+            517.4096069335938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "everything in the universe ",
+          "bbox": [
+            200.9763946533203,
+            520.41259765625,
+            334.7364501953125,
+            531.41259765625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "that reflects its particular ",
+          "bbox": [
+            200.9763946533203,
+            534.4155883789062,
+            327.7173156738281,
+            545.4155883789062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "energy. So, the Sun governs ",
+          "bbox": [
+            200.9763946533203,
+            548.4185791015625,
+            339.1793212890625,
+            559.4185791015625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "solar things (monarchs, ",
+          "bbox": [
+            200.9763946533203,
+            562.4215698242188,
+            317.916259765625,
+            573.4215698242188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "leaders, gold, sunflowers, the ",
+          "bbox": [
+            200.9763946533203,
+            576.424560546875,
+            345.6802673339844,
+            587.424560546875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "heart). The Moon governs ",
+          "bbox": [
+            200.9763946533203,
+            590.4276123046875,
+            329.09234619140625,
+            601.4276123046875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 183,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0020_u0005",
+      "container_id": "p0020_c0005",
+      "scale_group": "p0020_display_11.0",
+      "page": 20,
+      "target": "Cada planeta rige todo lo que hay en el universo y refleja su energía particular. Así, el Sol rige las cosas solares (monarcas, líderes, oro, girasoles, el corazón). La Luna rige",
+      "target_runs": [
+        {
+          "text": "Cada planeta rige todo lo que hay en el universo y refleja su energía particular. Así, el Sol rige las cosas solares (monarcas, líderes, oro, girasoles, el corazón). La Luna rige",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrology belongs to a magical mindset that sees Earth as a reflection of the heavens. You do not have to be a philosopher to use astrology, but it does help your understanding of it.",
+      "line_height": 1.25,
+      "bbox": [
+        36.0,
+        258.67938232421875,
+        469.24078369140625,
+        372.67938232421875
+      ],
+      "spans": [
+        {
+          "source": "Astrology belongs to a magical mindset that sees  ",
+          "bbox": [
+            36.0,
+            258.67938232421875,
+            441.69354248046875,
+            282.67938232421875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Earth as a reflection of the heavens. You do not have  ",
+          "bbox": [
+            36.0,
+            288.67938232421875,
+            469.24078369140625,
+            312.67938232421875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "to be a philosopher to use astrology, but it does help ",
+          "bbox": [
+            36.0,
+            318.67938232421875,
+            459.90484619140625,
+            342.67938232421875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "your understanding of it.",
+          "bbox": [
+            36.0,
+            348.67938232421875,
+            238.3656005859375,
+            372.67938232421875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 183,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 24.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 24.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0020_u0006",
+      "container_id": "p0020_c0006",
+      "scale_group": "p0020_display_24.0",
+      "page": 20,
+      "target": "La astrología pertenece a una mentalidad mágica que ve la Tierra como un reflejo de los cielos. No hace falta ser filósofo para usar la astrología, aunque sí ayuda a comprenderla.",
+      "target_runs": [
+        {
+          "text": "La astrología pertenece a una mentalidad mágica que ve la Tierra como un reflejo de los cielos. No hace falta ser filósofo para usar la astrología, aunque sí ayuda a comprenderla.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "lunar things (mothers and carers, food and nourishment). Each planet has a territory that reaches through every level of life, from the physical to the mental.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        365.9527893066406,
+        422.3535461425781,
+        517.9827270507812,
+        503.3685607910156
+      ],
+      "spans": [
+        {
+          "source": "lunar things (mothers and ",
+          "bbox": [
+            365.9527893066406,
+            422.3535461425781,
+            496.1147766113281,
+            433.3535461425781
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "carers, food and nourishment). ",
+          "bbox": [
+            365.9527893066406,
+            436.3565368652344,
+            517.9827270507812,
+            447.3565368652344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Each planet has a territory ",
+          "bbox": [
+            365.9527893066406,
+            450.3595275878906,
+            497.97369384765625,
+            461.3595275878906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "that reaches through every ",
+          "bbox": [
+            365.9527893066406,
+            464.362548828125,
+            502.90283203125,
+            475.362548828125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "level of life, from the physical ",
+          "bbox": [
+            365.9527893066406,
+            478.3655700683594,
+            511.67974853515625,
+            489.3655700683594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to the mental. ",
+          "bbox": [
+            365.9527893066406,
+            492.3685607910156,
+            436.1878356933594,
+            503.3685607910156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 159,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0020_u0007",
+      "container_id": "p0020_c0007",
+      "scale_group": "p0020_display_11.0",
+      "page": 20,
+      "target": "las cosas lunares (madres y cuidadores, alimentos y nutrición). Cada planeta tiene un territorio que se extiende por todos los niveles de la vida, desde el físico hasta el mental.",
+      "target_runs": [
+        {
+          "text": "las cosas lunares (madres y cuidadores, alimentos y nutrición). Cada planeta tiene un territorio que se extiende por todos los niveles de la vida, desde el físico hasta el mental.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "It’s all in us",
+      "line_height": 1.05,
+      "bbox": [
+        365.9527893066406,
+        516.9774780273438,
+        437.8804931640625,
+        529.9774780273438
+      ],
+      "spans": [
+        {
+          "source": "It’s all in us",
+          "bbox": [
+            365.9527893066406,
+            516.9774780273438,
+            437.8804931640625,
+            529.9774780273438
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0020_u0008",
+      "container_id": "p0020_c0008",
+      "scale_group": "p0020_display_13.0",
+      "page": 20,
+      "target": "Todo está en nosotros",
+      "target_runs": [
+        {
+          "text": "Todo está en nosotros",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The ancient worldview was that “man is a microcosm,” which means that each of us is a universe in miniature. Your birth chart reflects this view.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        365.9527893066406,
+        534.0208740234375,
+        518.3677978515625,
+        601.0328369140625
+      ],
+      "spans": [
+        {
+          "source": "The ancient worldview was ",
+          "bbox": [
+            365.9527893066406,
+            534.0208740234375,
+            503.3746643066406,
+            545.0208740234375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "that “man is a microcosm,” ",
+          "bbox": [
+            365.9527893066406,
+            548.0238647460938,
+            496.6977233886719,
+            559.0238647460938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "which means that each of us ",
+          "bbox": [
+            365.9527893066406,
+            562.02685546875,
+            509.44451904296875,
+            573.02685546875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "is a universe in miniature. Your ",
+          "bbox": [
+            365.9527893066406,
+            576.0298461914062,
+            518.3677978515625,
+            587.0298461914062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "birth chart reflects this view. ",
+          "bbox": [
+            365.9527893066406,
+            590.0328369140625,
+            509.4687194824219,
+            601.0328369140625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 145,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0020_u0009",
+      "container_id": "p0020_c0009",
+      "scale_group": "p0020_display_11.0",
+      "page": 20,
+      "target": "La cosmovisión antigua sostenía que “el ser humano es un microcosmos”, lo que significa que cada uno de nosotros es un universo en miniatura. Tu carta natal refleja esta perspectiva.",
+      "target_runs": [
+        {
+          "text": "La cosmovisión antigua sostenía que “el ser humano es un microcosmos”, lo que significa que cada uno de nosotros es un universo en miniatura. Tu carta natal refleja esta perspectiva.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

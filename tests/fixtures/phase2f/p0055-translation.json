@@ -1,0 +1,1093 @@
+{
+  "page": 55,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "Virgo",
+      "line_height": 1.05,
+      "bbox": [
+        465.5393981933594,
+        21.864179611206055,
+        487.5594177246094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Virgo",
+          "bbox": [
+            465.5393981933594,
+            21.864179611206055,
+            487.5594177246094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0055_u0000",
+      "container_id": "p0055_c0000",
+      "scale_group": "p0055_display_12.0",
+      "page": 55,
+      "target": "Virgo",
+      "target_runs": [
+        {
+          "text": "Virgo",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Porrima contains two almost identical white stars",
+      "line_height": 1.1109992133246527,
+      "bbox": [
+        425.2994079589844,
+        264.3773498535156,
+        520.7390747070312,
+        293.3753356933594
+      ],
+      "spans": [
+        {
+          "source": "Porrima contains two ",
+          "bbox": [
+            425.2994079589844,
+            264.3773498535156,
+            520.7390747070312,
+            273.3773498535156
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "almost identical ",
+          "bbox": [
+            437.4584045410156,
+            274.3763427734375,
+            508.582763671875,
+            283.3763427734375
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "white stars",
+          "bbox": [
+            447.3944091796875,
+            284.3753356933594,
+            496.9295349121094,
+            293.3753356933594
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 49,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 2,
+      "id": "p0055_u0001_join_u0002_u0003",
+      "container_id": "p0055_c0001_join_u0002_join_u0003",
+      "merged_from": [
+        "u0001",
+        "u0002",
+        "u0003"
+      ],
+      "scale_group": "p0055_body_9.0",
+      "page": 55,
+      "target": "Porrima contiene dos estrellas blancas casi idénticas",
+      "target_runs": [
+        {
+          "text": "Porrima contiene dos estrellas blancas casi idénticas",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Vindemiatrix is a giant yellow star",
+      "line_height": 1.1110026041666667,
+      "bbox": [
+        281.79443359375,
+        515.0993041992188,
+        341.2970886230469,
+        544.0972900390625
+      ],
+      "spans": [
+        {
+          "source": "Vindemiatrix ",
+          "bbox": [
+            281.79443359375,
+            515.0993041992188,
+            341.2970886230469,
+            524.0993041992188
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "is a giant ",
+          "bbox": [
+            291.44244384765625,
+            525.0983276367188,
+            331.6418151855469,
+            534.0983276367188
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "yellow star",
+          "bbox": [
+            286.096435546875,
+            535.0972900390625,
+            335.2796630859375,
+            544.0972900390625
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 35,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 5,
+      "id": "p0055_u0004_join_u0005",
+      "container_id": "p0055_c0004_join_u0005",
+      "merged_from": [
+        "u0004",
+        "u0005"
+      ],
+      "scale_group": "p0055_body_9.0",
+      "page": 55,
+      "target": "Vindemiatrix es una estrella amarilla gigante",
+      "target_runs": [
+        {
+          "text": "Vindemiatrix es una estrella amarilla gigante",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "A large, Y-shaped pattern of stars forms this part of the maiden’s figure",
+      "line_height": 1.1109992133246527,
+      "bbox": [
+        274.8104553222656,
+        245.36927795410156,
+        357.71759033203125,
+        284.36627197265625
+      ],
+      "spans": [
+        {
+          "source": "A large, Y-shaped",
+          "bbox": [
+            278.75244140625,
+            245.36927795410156,
+            353.7701416015625,
+            254.36927795410156
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "pattern of stars ",
+          "bbox": [
+            282.3164367675781,
+            255.36827087402344,
+            351.9296569824219,
+            264.3682861328125
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "forms this part of ",
+          "bbox": [
+            278.47344970703125,
+            265.3672790527344,
+            355.7752990722656,
+            274.3672790527344
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the maiden’s figure",
+          "bbox": [
+            274.8104553222656,
+            275.36627197265625,
+            357.71759033203125,
+            284.36627197265625
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 73,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "center",
+      "source_block": 7,
+      "id": "p0055_u0006_join_u0007",
+      "container_id": "p0055_c0006_join_u0007",
+      "merged_from": [
+        "u0006",
+        "u0007"
+      ],
+      "scale_group": "p0055_body_9.0",
+      "page": 55,
+      "target": "Un gran patrón de estrellas en forma de Y forma esta parte de la figura de la doncella",
+      "target_runs": [
+        {
+          "text": "Un gran patrón de estrellas en forma de Y forma esta parte de la figura de la doncella",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Spica, a blue- white star, is the brightest star in Virgo",
+      "line_height": 1.1109992133246527,
+      "bbox": [
+        456.7724609375,
+        347.6092834472656,
+        515.5757446289062,
+        386.60626220703125
+      ],
+      "spans": [
+        {
+          "source": "Spica, a blue-",
+          "bbox": [
+            457.0604553222656,
+            347.6092834472656,
+            513.5669555664062,
+            356.6092834472656
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "white star, is ",
+          "bbox": [
+            457.4564514160156,
+            357.6082763671875,
+            514.890869140625,
+            366.6082763671875
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the brightest ",
+          "bbox": [
+            456.7724609375,
+            367.6072692871094,
+            515.5757446289062,
+            376.6072692871094
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "star in Virgo",
+          "bbox": [
+            458.80645751953125,
+            377.60626220703125,
+            511.8290710449219,
+            386.60626220703125
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 57,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 9,
+      "id": "p0055_u0008_join_u0009",
+      "container_id": "p0055_c0008_join_u0009",
+      "merged_from": [
+        "u0008",
+        "u0009"
+      ],
+      "scale_group": "p0055_body_9.0",
+      "page": 55,
+      "target": "Spica, una estrella azul blanquecina, es la más brillante de Virgo",
+      "target_runs": [
+        {
+          "text": "Spica, una estrella azul blanquecina, es la más brillante de Virgo",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Virgo in the sky",
+      "line_height": 1.05,
+      "bbox": [
+        279.21258544921875,
+        62.98417663574219,
+        426.4322204589844,
+        81.98417663574219
+      ],
+      "spans": [
+        {
+          "source": "Virgo in the sky",
+          "bbox": [
+            279.21258544921875,
+            62.98417663574219,
+            426.4322204589844,
+            81.98417663574219
+          ],
+          "font": "SerifaStd-Bold",
+          "size": 19.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Bold",
+        "size": 19.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Bold",
+      "size": 19.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0055_u0010",
+      "container_id": "p0055_c0010",
+      "scale_group": "p0055_display_19.0",
+      "page": 55,
+      "target": "Virgo en el cielo",
+      "target_runs": [
+        {
+          "text": "Virgo en el cielo",
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The figure of Virgo is named after a maiden goddess. What this large constellation lacks in bright star groups, it makes up for in the number of the galaxies it contains. Virgo can be seen equally well in both the Northern and Southern hemispheres. It is especially bright in springtime. The Virgo group of galaxies lies 50 million light-years away.",
+      "line_height": 1.0709991455078125,
+      "bbox": [
+        279.21258544921875,
+        84.82793426513672,
+        519.4049072265625,
+        218.77993774414062
+      ],
+      "spans": [
+        {
+          "source": "The figure of Virgo is named after  ",
+          "bbox": [
+            279.21258544921875,
+            84.82793426513672,
+            486.0008544921875,
+            98.82793426513672
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "a maiden goddess. What this large ",
+          "bbox": [
+            279.21258544921875,
+            99.82195281982422,
+            487.8909606933594,
+            113.82195281982422
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "constellation lacks in bright star groups, ",
+          "bbox": [
+            279.21258544921875,
+            114.81597137451172,
+            519.4049072265625,
+            128.81597900390625
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "it makes up for in the number of the ",
+          "bbox": [
+            279.21258544921875,
+            129.80999755859375,
+            495.287109375,
+            143.80999755859375
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "galaxies it contains. Virgo can be seen ",
+          "bbox": [
+            279.21258544921875,
+            144.80398559570312,
+            512.253662109375,
+            158.80398559570312
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "equally well in both the Northern and ",
+          "bbox": [
+            279.21258544921875,
+            159.7979736328125,
+            504.7889404296875,
+            173.7979736328125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Southern hemispheres. It is especially ",
+          "bbox": [
+            279.21258544921875,
+            174.79196166992188,
+            506.7391052246094,
+            188.79196166992188
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "bright in springtime. The Virgo group of ",
+          "bbox": [
+            279.21258544921875,
+            189.78594970703125,
+            519.3951416015625,
+            203.78594970703125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "galaxies lies 50 million light-years away.",
+          "bbox": [
+            279.21258544921875,
+            204.77993774414062,
+            516.609130859375,
+            218.77993774414062
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 349,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Light",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Light",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0055_u0011",
+      "container_id": "p0055_c0011",
+      "scale_group": "p0055_display_14.0",
+      "page": 55,
+      "target": "La figura de Virgo lleva el nombre de una diosa doncella. Lo que a esta gran constelación le falta en grupos de estrellas brillantes lo compensa con la cantidad de galaxias que contiene. Virgo puede observarse igual de bien en los hemisferios norte y sur. Es especialmente brillante en primavera. El cúmulo de galaxias de Virgo se encuentra a 50 millones de años luz.",
+      "target_runs": [
+        {
+          "text": "La figura de Virgo lleva el nombre de una diosa doncella. Lo que a esta gran constelación le falta en grupos de estrellas brillantes lo compensa con la cantidad de galaxias que contiene. Virgo puede observarse igual de bien en los hemisferios norte y sur. Es especialmente brillante en primavera. El cúmulo de galaxias de Virgo se encuentra a 50 millones de años luz.",
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1153 @@
+{
+  "page": 44,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Zodiac Signs",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        133.5836944580078,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Zodiac Signs",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            133.5836944580078,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0044_u0000",
+      "container_id": "p0044_c0000",
+      "scale_group": "p0044_display_12.0",
+      "page": 44,
+      "target": "Los signos del zodíaco",
+      "target_runs": [
+        {
+          "text": "Los signos del zodíaco",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE",
+      "line_height": 1.05,
+      "bbox": [
+        36.076900482177734,
+        86.57816314697266,
+        59.8489990234375,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            36.076900482177734,
+            86.57816314697266,
+            59.8489990234375,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0044_u0001",
+      "container_id": "p0044_c0001",
+      "scale_group": "p0044_display_11.0",
+      "page": 44,
+      "target": "EL",
+      "target_runs": [
+        {
+          "text": "EL",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "SIGN OF THE ZODIAC",
+      "line_height": 1.05,
+      "bbox": [
+        86.65229797363281,
+        86.57816314697266,
+        192.74620056152344,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": " SIGN OF THE ZODIAC",
+          "bbox": [
+            86.65229797363281,
+            86.57816314697266,
+            192.74620056152344,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0044_u0002",
+      "container_id": "p0044_c0002",
+      "scale_group": "p0044_display_11.0",
+      "page": 44,
+      "target": "SIGNO DEL ZODÍACO",
+      "target_runs": [
+        {
+          "text": "SIGNO DEL ZODÍACO",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "GEMINI",
+      "line_height": 1.05,
+      "bbox": [
+        36.34939956665039,
+        100.04248046875,
+        231.3994140625,
+        150.04248046875
+      ],
+      "spans": [
+        {
+          "source": "GEMINI",
+          "bbox": [
+            36.34939956665039,
+            100.04248046875,
+            231.3994140625,
+            150.04248046875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 50.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 50.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0044_u0003",
+      "container_id": "p0044_c0003",
+      "scale_group": "p0044_display_50.0",
+      "page": 44,
+      "target": "GÉMINIS",
+      "target_runs": [
+        {
+          "text": "GÉMINIS",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "22 MAY–21 JUNE",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        150.2714385986328,
+        193.684814453125,
+        171.2714385986328
+      ],
+      "spans": [
+        {
+          "source": "22 MAY–21 JUNE",
+          "bbox": [
+            36.0,
+            150.2714385986328,
+            193.684814453125,
+            171.2714385986328
+          ],
+          "font": "SohoPro-Light",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 21.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 21.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0044_u0004",
+      "container_id": "p0044_c0004",
+      "scale_group": "p0044_display_21.0",
+      "page": 44,
+      "target": "22 de mayo–21 de junio",
+      "target_runs": [
+        {
+          "text": "22 de mayo–21 de junio",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "translation_method": "deterministic_date"
+    },
+    {
+      "source": "The Sun in Gemini",
+      "line_height": 1.05,
+      "bbox": [
+        116.8582992553711,
+        389.5776062011719,
+        214.487548828125,
+        406.5776062011719
+      ],
+      "spans": [
+        {
+          "source": "The Sun in Gemini",
+          "bbox": [
+            116.8582992553711,
+            389.5776062011719,
+            214.487548828125,
+            406.5776062011719
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0044_u0005",
+      "container_id": "p0044_c0005",
+      "scale_group": "p0044_display_17.0",
+      "page": 44,
+      "target": "El Sol en Géminis",
+      "target_runs": [
+        {
+          "text": "El Sol en Géminis",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "If the Sun is in the Gemini section of your chart, Gemini is your “Sun sign.” You need to find your “twin.” Every Gemini has light and dark sides, and it is your task to find out about both characters within yourself.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        116.8582992553711,
+        410.6970520019531,
+        468.96533203125,
+        456.7010803222656
+      ],
+      "spans": [
+        {
+          "source": "If the Sun is in the Gemini section of your chart, Gemini is your “Sun sign.” ",
+          "bbox": [
+            116.8582992553711,
+            410.6970520019531,
+            468.96533203125,
+            424.6970520019531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "You need to find your “twin.” Every Gemini has light and dark sides, and it ",
+          "bbox": [
+            116.8582992553711,
+            426.6990661621094,
+            467.1593017578125,
+            440.6990661621094
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "is your task to find out about both characters within yourself.",
+          "bbox": [
+            116.8582992553711,
+            442.7010803222656,
+            407.6480712890625,
+            456.7010803222656
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 217,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0044_u0006",
+      "container_id": "p0044_c0006",
+      "scale_group": "p0044_display_14.0",
+      "page": 44,
+      "target": "Si el Sol está en la sección de Géminis de tu carta, Géminis es tu “signo solar”. Necesitas encontrar a tu “gemelo”. Todas las personas Géminis tienen un lado luminoso y uno oscuro, y tu tarea es descubrir ambos personajes dentro de ti.",
+      "target_runs": [
+        {
+          "text": "Si el Sol está en la sección de Géminis de tu carta, Géminis es tu “signo solar”. Necesitas encontrar a tu “gemelo”. Todas las personas Géminis tienen un lado luminoso y uno oscuro, y tu tarea es descubrir ambos personajes dentro de ti.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Your planets in Gemini",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        474.17901611328125,
+        238.81741333007812,
+        491.17901611328125
+      ],
+      "spans": [
+        {
+          "source": "Your planets in Gemini",
+          "bbox": [
+            116.9291000366211,
+            474.17901611328125,
+            238.81741333007812,
+            491.17901611328125
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0044_u0007",
+      "container_id": "p0044_c0007",
+      "scale_group": "p0044_display_17.0",
+      "page": 44,
+      "target": "Tus planetas en Géminis",
+      "target_runs": [
+        {
+          "text": "Tus planetas en Géminis",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "The planets in the Gemini section of your chart tend to adapt themselves easily to new environments and situations. Here, you will need to express yourself with lightness.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        116.9291000366211,
+        495.2985534667969,
+        468.2816467285156,
+        541.3025512695312
+      ],
+      "spans": [
+        {
+          "source": "The planets in the Gemini section of your chart tend to adapt themselves ",
+          "bbox": [
+            116.9291000366211,
+            495.2985534667969,
+            464.3334655761719,
+            509.2985534667969
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "easily to new environments and situations. Here, you will need to express ",
+          "bbox": [
+            116.9291000366211,
+            511.3005676269531,
+            468.2816467285156,
+            525.3005981445312
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "yourself with lightness. ",
+          "bbox": [
+            116.9291000366211,
+            527.3025512695312,
+            231.40565490722656,
+            541.3025512695312
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 171,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0044_u0008",
+      "container_id": "p0044_c0008",
+      "scale_group": "p0044_display_14.0",
+      "page": 44,
+      "target": "Los planetas en la sección de Géminis de tu carta suelen adaptarse con facilidad a nuevos entornos y situaciones. Aquí tendrás que expresarte con ligereza.",
+      "target_runs": [
+        {
+          "text": "Los planetas en la sección de Géminis de tu carta suelen adaptarse con facilidad a nuevos entornos y situaciones. Aquí tendrás que expresarte con ligereza.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Gemini on the cusp of a house",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        558.8697509765625,
+        276.982421875,
+        575.8697509765625
+      ],
+      "spans": [
+        {
+          "source": "Gemini on the cusp of a house",
+          "bbox": [
+            116.9291000366211,
+            558.8697509765625,
+            276.982421875,
+            575.8697509765625
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 29,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0044_u0009",
+      "container_id": "p0044_c0009",
+      "scale_group": "p0044_display_17.0",
+      "page": 44,
+      "target": "Géminis en la cúspide de una casa",
+      "target_runs": [
+        {
+          "text": "Géminis en la cúspide de una casa",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "If Gemini is right at the beginning point of a house, this is an area of life where you apply logic rather than emotion. You are curious and you need continual change and mental stimulus.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        116.9291000366211,
+        579.9891967773438,
+        430.2169189453125,
+        625.9931640625
+      ],
+      "spans": [
+        {
+          "source": "If Gemini is right at the beginning point of a house, this is an area  ",
+          "bbox": [
+            116.9291000366211,
+            579.9891967773438,
+            429.55609130859375,
+            593.9891967773438
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "of life where you apply logic rather than emotion. You are curious  ",
+          "bbox": [
+            116.9291000366211,
+            595.9912109375,
+            430.2169189453125,
+            609.9912109375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and you need continual change and mental stimulus.",
+          "bbox": [
+            116.9291000366211,
+            611.9931640625,
+            365.664306640625,
+            625.9931640625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 187,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0044_u0010",
+      "container_id": "p0044_c0010",
+      "scale_group": "p0044_display_14.0",
+      "page": 44,
+      "target": "Si Géminis está justo al comienzo de una casa, en esta área de la vida aplicas la lógica en lugar de la emoción. Tienes curiosidad y necesitas cambios y estímulos mentales constantes.",
+      "target_runs": [
+        {
+          "text": "Si Géminis está justo al comienzo de una casa, en esta área de la vida aplicas la lógica en lugar de la emoción. Tienes curiosidad y necesitas cambios y estímulos mentales constantes.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -214,3 +214,438 @@ El juez VLM ya funciona sobre copias diagnósticas de texto nativo con tinta pro
 El ensamblado de la muestra usa pypdf6.21.4 para preservar /Group y formularios de transparencia: la unión mediante insert_pdf perdía el grupo de la página69 y alteraba el color al renderizar. La decisión de PyMuPDF bajo AGPL permanece intacta; pypdf es un complemento del ensamblado. Se verifican veinte renders ensamblados contra sus candidatos a110dpi y se inspeccionan comparativas Poppler independientes.
 
 No se interpreta el éxito geométrico como QA editorial completo. El manifest y review_queue conservan las veinte páginas en revisión, con incidencias concretas y aprobación visual humana pendiente. No se inicia producción ni se crea autorización ficticia. El consumo se obtiene de costs.jsonl, incluidos reintentos conocidos, caché SQLite y usage.last.cached_input_tokens; los intentos sin uso expuesto siguen siendo desconocidos.
+
+### Ordinales — The Secrets of Astrology
+
+Incidencia I3 de Fase 1: regla **determinista y local, pendiente de confirmación humana en G4**. No modifica `glossary/`, la guía G3, la configuración ni aprobaciones. Se aplica exclusivamente mediante el contexto de composición de este libro, después de validar las traducciones y los overrides guardados. La extracción, sus ids y sus hashes de origen siguen iguales; no se rebasean ni se invalidan traducciones válidas para esta corrección.
+
+- `THE {n}{suf} SIGN OF THE ZODIAC` se compone como `EL {n}.er SIGNO DEL ZODÍACO` para 1 y 3; para los demás, `EL {n}.º SIGNO DEL ZODÍACO`. Se conserva la tilde en **ZODÍACO**. El sufijo español conserva tamaño, peso, color y origen del sufijo inglés. Se usa la fuente original cuando cubre el texto; para `º`, ausente de SohoPro-Bold, se usa el reemplazo equivalente de I1, sin cambiar la fuente de la cifra. El prefijo y el texto posterior se colocan con un solo espacio, anclados a la cifra y al sufijo.
+- En títulos `{n}{suf} HOUSE`, la salida es `CASA {n}`: CASA usa el estilo de HOUSE. La cifra se desplaza después del espacio. El span numérico se copia del PDF original, sin volver a escribir sus glifos: conserva valor, fuente, tamaño y color. En los títulos de signo conserva también sus coordenadas y tinta. Los encabezados se componen a escala 1; si no caben o invaden otros elementos, se bloquean en vez de reducir la cifra.
+- Otros ordinales: `.er` para 1/3 masculinos, `.º` para los demás masculinos y `.ª` para femenino solo con concordancia inequívoca. Los ya resueltos como «casa N» se conservan. No se infiere género de ordinales aislados sin contexto; quedan protegidos y pendientes. Los ocho ordinales gráficos de p173 siguen protegidos y diferidos a Fase 4.
+- QA local valida el encabezado contra los spans originales y el texto, fuente, tamaño y color efectivamente extraídos del candidato antes de admitir la sustitución del sufijo. La cuenta global de cifras sigue siendo estricta; solo se admite el `º` añadido por un encabezado verificado. VLM sigue ocultando las cifras y los ordinales ingleses conservados; `.er/.º/.ª` son morfología editorial, no valores protegidos alterados. Los símbolos `º/ª` aislados siguen enmascarados. Estas pruebas no constituyen un juicio VLM ni aprobación visual.
+
+Inventario nativo de las veinte páginas del piloto (24 apariciones, contrastado con las traducciones guardadas):
+
+| Página | Apariciones | Tratamiento |
+|---|---:|---|
+| 34 | 1 (`1ST`) | Encabezado local: `EL 1.er SIGNO DEL ZODÍACO`. |
+| 60 | 1 (`7TH`) | Encabezado local: `EL 7.º SIGNO DEL ZODÍACO`. |
+| 141 | 5 (`1st/1ST`) | Encabezado, prosa y rótulo ya resueltos como «casa 1»; conservar. |
+| 154 | 8 (`7th`) | Título local `CASA 7`; otras siete apariciones ya resueltas como «casa 7», incluidas cinco elipsis de «house». |
+| 173 | 9 | Pie `4th house` ya resuelto como «casa 4». Ocho rótulos del diagrama: `3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th`, todos **texto nativo**, conservados para Fase 4. |
+| 1, 5, 19, 28, 35, 69, 86, 87, 100, 101, 128, 169, 175, 179, 180 | 0 | Sin ordinales nativos con sufijo inglés detectados. |
+
+No quedan otros ordinales ingleses pendientes por concordancia en los candidatos guardados. El inventario es de texto nativo; no presupone cobertura OCR de imágenes. No hace falta retraducción ni `--stage retranslate --units` para I3. Recomponer **34, 60 y 154** usando las respuestas existentes, manteniendo las reparaciones de tabla de 34/60 y su procedencia.
+
+Comandos para la ejecución posterior desde la raíz (no ejecutados como parte de la implementación de I3):
+
+```bash
+.venv/bin/python books/the-secrets-of-astrology/work/pilot/rebuild_pilot.py --pages 34,60,154 --stage compose
+.venv/bin/python books/the-secrets-of-astrology/work/pilot/rebuild_pilot.py --pages 34,60,154 --stage qa-local
+.venv/bin/python books/the-secrets-of-astrology/work/pilot/rebuild_pilot.py --pages 34,60,154 --stage assemble
+```
+
+`assemble` recompone el paquete de veinte páginas según su contrato existente. Estos comandos son locales, no ejecutan la etapa `vlm`; las comparativas actualizadas y la confirmación editorial siguen pendientes de revisión humana en G4. Las pruebas I3 componen copias temporales de los encabezados reales; no reemplazan los candidatos ni la comparativa publicada del piloto.
+
+## The Secrets of Astrology — decisiones delegadas de Fase 1 (Claude, delegación explícita de andres, 2026-11-06/07)
+
+Registro de decisiones tomadas por Claude como orquestador bajo la sección «Autorización humana vigente (2026-11-06)» de AGENTS.md. Evidencia en `books/the-secrets-of-astrology/work/pilot/` (i*-delivery.txt, i*-evidence/, history/, rebuild-log.json).
+
+1. **Fuente de reemplazo (I1).** SohoPro es slab serif; sin cobertura de acentos se usa RobotoSlab[wght] (Apache-2.0, fonts/provenance.json) instanciada al peso y calibrada en ancho. Itálicas slab siguen con RobotoSerif-Italic (limitación). Activado por libro (`classify_slab`), sin cambio para astrology-wisdom-stars.
+2. **Orden de cuantificadores (I2).** Validador `numeric_order` rechaza «sustantivo + cifra» cuando el origen es «cifra + sustantivo»; la unidad se retraduce vía run_task. Retraducción correctiva por unidad (`--stage retranslate`), nunca por página completa.
+3. **Ordinales nativos (I3).** «1.er/3.er» y «N.º» para signos; «CASA N» para títulos de casa; cifra original intacta. Confirmado como regla del libro. Ordinales gráficos del diagrama p173 → Fase 4.
+4. **Listas con título en línea (I4)** y **etiquetas entre valores protegidos (I5).** Escala uniforme por columna/tabla; se aceptan escalas 0,76–0,80 con marca de revisión cuando el espacio no permite más (p179 0,76).
+5. **Calidad textual (I6).** Repeticiones, tildes en mayúsculas, «zodíaco», estilo inline y espacio ante glifo se controlan en QA; los defectos de redacción se retraducen vía run_task. Términos extranjeros citados en cursiva e idénticos al original (p. ej. *plouton*) se conservan como `quoted_foreign_term`, no cuentan como inglés.
+6. **Segmentación de leyendas.** Las líneas de una misma leyenda se unen antes de traducir (`--stage resegment`); solo se traducen las unidades unidas.
+7. **p169 (I7).** Sin acortar: títulos pueden envolver y crecer hacia espacio libre; escala 1,00. No se aprobó ninguna forma corta.
+8. **Texto curvo/raster** (portada, banda SHINE|NURTURE p86, rueda PISCES/ARIES p28, ordinales gráficos p173, 18 escaneadas) → Fase 4.
+
+9. **p173, regresión I8 (2026-11-07).** El crecimiento conserva como mínimo el ancho de la unidad original y de sus límites de columna explícitos. Se prueba la caja original a escala 1 y los ensanches con hasta 1 pt de ajuste de interlínea antes de aceptar altura adicional; después se conserva la búsqueda I8 para huecos estrechos. No se recorta ninguna caja para esquivar guardas: una colisión bloquea el candidato. Causa comprobada: la búsqueda anterior recorría todas las alturas para cada ancho; aceptaba el título IC estrecho en dos líneas y el cuerpo en tres líneas en la reproducción local, antes de probar los ensanches que conservaban una/dos líneas. La caja geométrica no se había reducido respecto de `bbox`: el ancho efectivo elegido era menor que el de la composición anterior a I8. Con la corrección, IC usa 68,803 pt de ancho para el título (+16 pt sobre `bbox`) y 151,476 pt para el cuerpo (+8 pt), sin crecer en alto. MC conserva una/dos líneas y CLAVE una. La escala conjunta de títulos sigue en 0,99 por Descendente y su guía gráfica; no se rompe el grupo para forzar 1,00. Los ajustes individuales de IC/MC/CLAVE caben a 1,00. Evidencia local, sin recompilar el piloto: `work/pilot/i8-p173-evidence/scales.json`, pruebas reales en `tests/test_caption_growth.py` y comparativa de una copia temporal. Ninguna aprobación de página ni juicio VLM.
+10. **Ordinales nativos de casas (decisión editorial comunicada en el encargo del 2026-11-07).** `approved_by: "claude (delegación explícita de andres, 2026-11-06)"`. Los ordinales sueltos que identifican casas en el diagrama se componen en femenino: `3.ª` a `10.ª` en p173. Esta decisión sustituye el aplazamiento de estos ocho rótulos en los puntos 3 y 8 y en el inventario histórico de I3. La detección es por patrón, sin número de página: cohorte de cifras/sufijos superíndices separados, distribución bidimensional, contexto de casas, ejes MC/IC y gráficos. Los casos sin contexto inequívoco siguen protegidos. Cada cifra copia el operador nativo original, conserva span, fuente, tamaño, color, posición y tinta a 220 dpi; `.ª` usa el tamaño, peso, color y origen del sufijo original, con fuente original si tiene cobertura o reemplazo equivalente. Escala 1 obligatoria. QA contrasta procedencia, texto, estilos, posición del superíndice y tinta de la cifra, incluida `10`; no exime la cifra del control de inmutables. Las máscaras VLM siguen ocultando todas las cifras y sufijos ingleses; reconocen morfología española entre spans adyacentes, sin descubrir fuentes protegidas ni `º/ª` aislados. La política de máscaras forma parte del hash de caché. Evidencia: `tests/test_native_ordinals.py`, `work/pilot/test_ordinal_masks.py` y `work/pilot/i8-p173-evidence/`. Se registra aquí la decisión ya recibida; no se escriben archivos `*approval*.json` por prohibición expresa del encargo. Sin LLM, sin producción y sin ejecutar `rebuild_pilot`.
+
+### G4 delegada y ampliación G1b → production (2026-11-07)
+Claude, por delegación explícita, aprueba el piloto de 20 páginas con condiciones (registro: `books/the-secrets-of-astrology/work/pilot_approval.json`, copia en `work/approval_history/G4_delegated.json`) y amplía `authorized_phases` de G1b con `production` (copia previa en `G1b_before_production.json`). Base: revisión visual completa de `out/piloto_comparativa.pdf` tras I1–I8 y D1/D3; 19/20 páginas incluidas, QA local 17/20 (p1, p28, p86 → Fase 4). Condiciones: Fase 2 antes de producción; Fase 4 antes del ensamblado final; escalas 0,76–0,82 aceptadas con revisión. D2 («zodiaco» en cabeceras) fue falso positivo de la revisión a baja resolución: el texto ya dice «zodíaco».
+
+### Fase 2C — reglas editoriales delegadas comunicadas en el encargo (2026-11-07)
+
+Se implementan las reglas recibidas de andres para la corrección general del lote 1. Este registro no concede una gate ni modifica la guía G3, el CSV original o archivos de aprobación. No se ejecutan llamadas LLM en esta fase de implementación.
+
+- **Obras publicadas citadas:** una atribución junto a una cita destacada, con patrón autor + título y subtítulo, se conserva como texto nativo. Se excluye antes de la traducción y de la redacción PDF; así conserva también la itálica que pudiera estar codificada en la matriz. El caso comprobado es la atribución de Kim Farley en p9. No se extiende la excepción a prosa editorial sin atribución verificable.
+- **Créditos:** `proper_name` exige identidad exacta entre fuente y candidato, capitalización y patrón de nombre/entidad, dentro de una página reconocida por varios roles editoriales. Direcciones, correo, URL e ISBN tienen motivos propios y estrechos. Cada fragmento exceptuado queda en `language_exceptions` del QA; no se exceptúan párrafos completos ni nombres traducidos. La palabra «Copyright» fuera de esos nombres sigue señalada como inglés residual y requiere retraducción.
+- **Comillas G3:** la composición normaliza de forma determinista a “ ” y, para citas internas, ‘ ’, manteniendo los runs. QA marca comillas angulares o rectas en el texto traducido. Los títulos publicados conservados como original no se recomponen.
+
+**Evidencia técnica:** `docs/historico/fase2c_correcciones.md` y `books/the-secrets-of-astrology/work/phase2c/`. Las comparativas son diagnósticas, no aprobaciones. La corrección de flujo entre columnas mejora p19 y p87 del piloto; se guardan sus nuevas comparativas y QA aparte, sin sustituir los candidatos ni el golden aprobado. La unidad con inglés residual de p4, la cita completa de p9 y el texto nativo de p11 quedan preparados para `llm.run_task`; no se redacta ninguna traducción nueva manualmente.
+
+## The Secrets of Astrology — lote 1 tras Fase 2C (2026-11-07)
+
+approved_by: "claude (delegación explícita de andres, 2026-11-06)"
+
+- Fase 2C revisada: flujo de texto por cadenas de columnas (`column_flow.py`), índice con folios fijos, cita p9 en una sola petición, VLM con máscaras en producción, reglas editoriales (títulos publicados en idioma original, nombres propios en créditos, comillas “ ”). Evidencia: `books/the-secrets-of-astrology/work/phase2c/evidence/`.
+- Retraducción de 4 unidades (p4, p9, p11) vía `llm.run_task` (2 intentos, 1 validation_error; costs.jsonl).
+- Recomposición `produce --pages 1-20 --resume --recompose` (batch-02.json). Revisión visual delegada lado a lado de p3, p5–p7, p9, p12–p20: aceptadas (`review-visual`). Escala de cuerpo 0,85–0,89 (RobotoSlab Light, cuerpo 11 pt → 9,4–9,8 pt), dentro del mínimo general.
+- p3: escala 0,78 en título display (sustituto sans pesado); aceptada con advertencia tras revisión visual.
+- Excepción editorial: «Copyright ©» en créditos (p4) se conserva como mención legal habitual en ediciones en español; «DK Publishing Special Markets» es nombre propio de departamento.
+- Pendiente lote 1: p11 (excepción de composición «No isolated point for selected source glyph») y p4 (excepción Copyright) → Fase 2D. G5 lote 1 provisional 14/16 = 87,5 %; se reevalúa tras 2D.
+
+### Fase 2D — mención legal en créditos (2026-11-07)
+
+`approved_by: "claude (delegación explícita de andres, 2026-11-06)"`.
+Decisión editorial recibida en el encargo: conservar la mención exacta
+**«Copyright ©»** como excepción lingüística estrecha en los créditos de
+`books/the-secrets-of-astrology`, página PDF 4. Sustituye únicamente la instrucción
+histórica de Fase 2C de retraducir esa mención. No exceptúa «copyright» aislado,
+las condiciones legales que la rodean ni otros libros/páginas.
+
+Implementada en `work/profile.toml`, sección `[[language_exceptions]]`, código
+`legal_copyright`, página 4 y contexto `credits`. El perfil está ligado al hash
+del original; QA exige la frase exacta tanto en fuente como en candidato y
+reconoce la página por múltiples roles editoriales. La excepción queda registrada
+en `language_exceptions` del QA. No se modifica G3 ni se crea un archivo de
+aprobación: el encargo los prohíbe expresamente.
+
+SHA-256 del perfil tras esta decisión:
+`b7b452d7421def25635a94aec2ab0f1609d7de56be7089f1a8f5b8500b969745`.
+
+Evidencia: `tests/test_phase2d.py::test_real_credits_copyright_exception` recompone
+la respuesta guardada y verifica QA local satisfactorio en un temporal;
+`test_copyright_exception_is_exact_book_page_and_credit_scoped` verifica los
+límites de la excepción. Fixtures y hashes en `tests/fixtures/phase2c/`;
+informe reproducible en `docs/historico/fase2d_correcciones.md`. Sin inferencia LLM/VLM ni
+recomposición de los artefactos activos de producción.
+
+## 2026-11-07 — Fase 2G, encargo de código offline
+
+Por instrucción explícita de andres se reemplaza el wire de parejas de énfasis
+por traducción plana y anotaciones de substrings. Las parejas/estilos originales
+permanecen locales; el nuevo contrato se define en código, sin editar prompts,
+schemas ni aprobaciones. Se implementa el escalado de validación a
+`gpt-6-astra/high` solicitado, con procedencia y costos en la ejecución futura.
+No se hizo ninguna llamada real, `produce` ni commit en este encargo.
+
+Se acota el crecimiento al margen editorial original, se comprueba la tinta en
+QA y se añade detección de aperturas españolas ausentes. Las correcciones
+inequívocas son registros `grammatical_correction` ligados al original; las
+ambiguas se preparan para retraducción. Se conserva la política G3 original.
+Detalles, cambios geométricos declarados y comandos en `docs/historico/fase2g_enfasis.md`.
+Esta entrada no es una aprobación nueva ni amplía permisos de producción.
+
+## Cambio de modelo Codex por indisponibilidad (2026-11-07 16:18 UTC)
+approved_by: "claude (delegación explícita de andres, 2026-11-06)"
+- El catálogo de modelos de la cuenta ChatGPT (`~/.codex/models_cache.json`, fetched_at 2026-11-07T16:18:53Z) ya no incluye `gpt-6-astra`; Codex responde «The 'gpt-6-astra' model is not supported when using Codex with a ChatGPT account». Disponibles: gpt-6-luna, gpt-5.6-terra, gpt-5.6-luna.
+- No es agotamiento de cuota (gpt-6-luna sigue respondiendo en la capa B), así que no es causa de parada. La implementación de código (Codex rescue) continúa con `gpt-6-luna --effort xhigh`, con revisión de diffs más estricta por Claude.
+- Capa B: G1b solo aprueba luna/low y astra/high. No se aprueba otro modelo; las escaladas a astra/high fallarán y esas unidades quedan en revisión. Si astra vuelve al catálogo se reanuda su uso.
+
+## Disco lleno durante el lote 9 (2026-11-07)
+approved_by: "claude (delegación explícita de andres, 2026-11-06)"
+- El sistema quedó al 100 % (740 MB libres); p174/176/177 fallaron con «No space left on device». Causa: cada candidato `p*-translated.pdf` es una copia completa del libro (~65 MB) y las recomposiciones de diagnóstico 2C/2E/2F duplicaban esas copias.
+- Se eliminaron 121 PDF de diagnóstico (>10 MB) de work/phase2c, phase2e y phase2f, regenerables con scripts/recompose_production.py; se conservan PNG de evidencia, JSON, hashes e informes. Lista en el scratchpad de la sesión (deleted_pdfs.txt). Disco: 7,8 GB libres.
+- Corrección pendiente (Codex): guardar candidatos de una sola página y que el ensamblado final los inserte.
+
+## Fase 2I — almacenamiento, costos y política ordinal (2026-11-07)
+
+Implementación offline, sin modificar artefactos activos de `work/production`, aprobaciones, glosario, configuración ni originales.
+
+- Los nuevos candidatos de producción se reducen a una página después de terminar sus capas de composición; se mantienen recursos/fontes incrustados y se guardan con garbage collection y compresión. Los consumidores reciben `output_page=0`. `assemble-final` toma candidatos QA completos y candidatos nativos `partial_deferred`; páginas `deferred_raster` permanecen desde el original. La comparativa se compone por página sin concatenar PDFs completos por candidato.
+- `scripts/migrate_single_page_candidates.py --book books/the-secrets-of-astrology` convierte legados idempotentemente. Antes de reemplazar cada archivo compara su render a 220 dpi píxel a píxel; registra `old_sha256 → new_sha256` en `work/production/candidate_hash_migrations.jsonl`, actualiza hashes de `fit`, QA, revisiones visuales y checkpoints equivalentes. La evidencia VLM se conserva porque el render y el origen son iguales. El piloto conserva su estructura completa histórica: su golden aprobado y rutas de evidencia dependen de ella; su tamaño (20 muestras) no causa el agotamiento de producción.
+- `cost_usd=0` de llamadas `codex_sdk` no-cache históricas se presenta como desconocido; `costs.jsonl` es de solo anexado y no se reescribe. Cache hits locales de costo cero siguen siendo costo cero conocido. Los resúmenes de lote, proyección de cuota e informe final aplican esta normalización.
+- `native_ordinals.py` mantiene el mecanismo de adaptación/render/QA. Las reglas MC/IC de Secrets viven en `secrets_ordinal_policy.py`, ligadas al SHA-256 exacto de su original (`517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c`). El conjunto de golden debe comprobar que el resultado no cambia.
+- La configuración en `.codex/` quedó obsoleta: perfiles de agentes y skills stub todavía apuntan a `gpt-6-astra`, retirado del catálogo de la cuenta el 2026-11-07. No se editó `.codex/`. El cambio de modelo de capa B y los fallos de escalada se rigen por la decisión previa de cambio de modelo.
+
+Ejecución de migración limitada a un directorio temporal con tres copias; el libro real se deja para el comando explícito anterior. Comandos, cobertura y tamaños medidos se registran en [`docs/historico/fase2i_almacenamiento.md`](fase2i_almacenamiento.md).
+
+## G1b: backend `claude_cli` aprobado (2026-11-08)
+
+- **Aprobación:** andres («si apruebo»). Es una aprobación humana directa, no delegada.
+- **Backend:** `claude_cli` (`claude -p` oficial, suscripción OAuth).
+- **Modelos:**
+  - Sonnet 5.5: `low` para traducir y etiquetar; `medium` para el juez y el glosario.
+  - Escalada: `opus`/high.
+- **Sustituye a:** `codex_sdk`, cuya suscripción se perdió el 2026-11-07.
+- **Evidencia:** smoke real de texto e imagen, `tests/test_claude_cli.py` y suite completa con 696 tests en verde. Ver `docs/workflow_claude.md`.
+- **Configuración:**
+  - `books/the-secrets-of-astrology/work/pipeline.toml` pasa a `claude_cli` y conserva las rutas de su glosario G3, que no cambian.
+  - `backend_config_sha256`: `f41f09cc…196b`.
+  - Copias de lo anterior en `work/approval_history/*.codex_sdk.2026-11-08*`.
+- **Consecuencia:** G4 (`pilot_approval.json`) queda obsoleta por el cambio de config, y es lo correcto: el piloto se aprobó con gpt-6-luna. Antes de seguir con la producción, hay que repetir el piloto con Sonnet y pasarlo por el `book-auditor`. Las páginas piloto propuestas están en `work/structure/structure.md`.
+- **Pendiente:** astrology-wisdom-stars y mercury-technical-annex usan `config/pipeline.toml` y no tienen aprobación para `claude_cli`. No se registra hasta que se retomen.
+
+## 2026-11-08 — Gaps 8, 9 y 11 de `the-secrets-of-astrology` (pipeline-engineer, sin LLM)
+
+`approved_by` de la política editorial del índice: «claude (delegación explícita de andres, 2026-11-06)», decisión del orquestador comunicada en el encargo. El resto son correcciones técnicas generales.
+
+- **Triage v2 (G-ROUTE).** `core.classify_page`: una página con raster a página completa solo es escaneada (ruta C) si además no tiene texto nativo visible (≥8 letras dentro de la caja de página, sin modo 3 invisible, sin fuentes de símbolos). Las líneas de imprenta fuera de la caja no cuentan. Las aperturas 11/25/85/137/167 pasan a `mixed`/A; las 13 ilustraciones siguen en C. En wisdom-stars solo cambian sus aperturas y portadillas con texto. `triage` ya no reescribe estados si cambia la configuración: fusiona. **No se reescribió el manifest real.** Re-triaje seguro: `.venv/bin/python -m astro_translate retriage --book books/the-secrets-of-astrology` (simulación) y, revisado el resultado, añadir `--apply`. Solo toca `type`, `route` y `stages` (añade rutas nuevas como `pending`) y deja `retriage_history`.
+- **Cintas A13 (G-DETECT).** Cada glifo lleva su propio ángulo (de +2,8° a −0,6°). Se aceptan como etiqueta recta, a lo largo de la cuerda, las series en orden de contenido con desviación angular ≤3,5°, ≤0,06°/pt y residuo de línea base ≤0,06 em. Las ruedas 26–31/177 y el trayecto de p175 siguen como curvas. Los separadores `|` no se inventarían. `native_redaction` verifica la geometría retenida por glifo (texttrace), no por la agrupación de líneas de rawdict.
+- **Leyendas de constelación.** `chart_callouts.mark_figure_legends`: texto de ≤10 pt, todo en cursiva y alcanzado por una línea guía (trazo abierto de 1–2 segmentos, también discontinuo). `column_flow` excluye `figure_legend` de las historias de columna, con un cambio mínimo de enrutamiento. Afecta exactamente a 35, 39…81 (cada 4), 47 y 73.
+- **Survey v2.** Usa el clasificador vigente y marca `retriage_pending`. Incluye además:
+  - tablas: filas clave/valor repetidas con valores protegidos (p179) y filas de glifos con rótulo (p86, 87, 180, 182);
+  - citas display de una sola unidad, con comillas vectoriales (p13 y p19);
+  - etiquetas `index`/`glossary`;
+  - OCR local PaddleOCR (`enable_mkldnn=False`; oneDNN falla en este equipo) para rasters sin texto nativo. Si el OCR no está disponible, se marca `None`, nunca `True`.
+- **Índice y glosario (G-INDEX), `book_index.py`.**
+  - **Detección:** es estructural. El índice ocupa 188–191; p192 («About the author») no es índice. El glosario ocupa 186–187.
+  - **Traducción:** solo términos, rótulos y destinos de remisión, únicos, vía `run_task` (`translate_labels`). Las definiciones del glosario van por `translate_page`. Los localizadores nunca se envían.
+  - **Orden:** es-ES palabra a palabra. Se ignora el artículo inicial; ñ va tras n; acentos y caja solo desempatan; los números se ordenan como números.
+  - **Localizadores:** se copian literalmente.
+  - **Composición:** se recompone en la misma rejilla de columnas, con interlínea, sangrías (subentrada y continuación) y tipografía originales. Las letras-cabecera se regeneran. La escala es uniforme y como mínimo 0,75; si no cabe, `Blocked`.
+  - **Glosario:** una ficha por entrada, que nunca se parte.
+  - **QA local:** multiconjunto de localizadores, folios, píxeles fuera de los marcos y desbordamiento.
+  - **Enrutamiento:** `production.run` y `compose-offline --pseudo` derivan estas páginas a `book_index` mediante un cambio mínimo.
+
+## 2026-11-08 — Gaps 5, 6, 7 y 12 de `the-secrets-of-astrology` (pipeline-engineer, composición, sin LLM)
+
+Correcciones generales con test rojo sobre páginas reales (`tests/test_composition_gaps.py`). Ninguna regla por número de página en el código común.
+
+- **¡/¿ (gap 6, p37/p41/p56).** La pérdida no estaba en el compositor: la memoria de cláusulas (`consistency.build_plan`) envía el núcleo sin el `!`/`?` final, que se repone localmente como sufijo, así que ningún traductor podía escribir la apertura. `resolve_plan` repone ahora `¡`/`¿` por oración, al inicio de la cláusula exclamativa o interrogativa (dentro de la comilla de apertura que la encierra). Es puntuación de composición y se aplica solo si falta. El wire y la clave de memoria no cambian.
+- **Binding del perfil (gap 7, p34/p60).** El contenido de las unidades era idéntico; solo cambiaba el orden. Producción guarda primero las unidades del modelo y después las locales; el pseudo ordenaba por id. `profiles.units_digest` pasa a ser canónico (id, source y spans en orden de id), y `pseudo_page_payload` conserva el orden de producción, que es del que dependen los `composition_sha256` de los overrides guardados. Re-vinculación reproducible con `.venv/bin/python scripts/rebind_profile_units.py --book books/the-secrets-of-astrology --pages 34,60 --write`. El script exige que la traducción guardada tenga los mismos ids, sources y spans (si no, se niega) y recalcula `units_sha256` y `policy_sha256` solo en la tabla de esas páginas. Las páginas 28, 141, 173 y 175 conservan su hash, porque su orden ya era canónico. El cambio del perfil altera la dependencia de producción de todas las páginas (`Production.dependencies` incluye `profile.data`).
+- **Ficha p46 (gap 7).** Un run de mismo estilo que cruza filas de la tabla («Symbol» + «Polarity») solo podía partirse adivinando palabras. El detector de filas (`structured_layout.field_cell_starts`) marca esos límites de celda y el wire lleva un marcador `{vN}` por celda (`consistency._annotate`). `resolve_plan` conserva el límite como `cell_start` y `prepare_saved_field_rows` parte por runs exactos. Las traducciones guardadas sin `cell_start` mantienen el comportamiento anterior. Las fichas cambian de `marked_source`, así que necesitan traducción nueva en el contexto `claude_cli`.
+- **fit_failed (gap 5).** Ninguna escala baja de 0,75:
+  - **p22.** El icono al inicio de la columna pasa a ser una banda de obstáculo (`story_bands`), no un sangrado de primera línea.
+  - **p23.** Los fragmentos de un mismo párrafo cortados al rodear un icono o una pestaña de puzle (sin puntuación final, mismo estilo, línea siguiente) se unen en composición (`column_flow.prepare_wrapped_paragraphs`). Fluyen por rects con los bordes izquierdos originales y un interlineado escalado continuo, en el grupo de escala de sus hermanos.
+  - **p53 y p57.** El crecimiento exige fondo liso solo en la franja añadida (`fidelity._growth_clear`); los guards de raster y vector siguen validando la tinta. Se añaden candidatas de crecimiento puramente horizontal y de párrafo «asentado 1–2 pt + crecimiento hacia abajo». El crecimiento o desplazamiento vertical hacia una leyenda vecina (`caption_growth` o `kind=caption`) solo puede ocupar la mitad del hueco original (`fidelity._share_vertical_gaps`), porque las leyendas se ajustan después que los cuerpos (regresión vista en p35).
+  - **p47.** Lo resuelve el detector de leyendas de figura del ingeniero de detección (`figure_legend`).
+- **TOC (gap 12, p4/p7).** Cada fila termina en su propio folio, no en el mínimo de la columna. La cabecera de otro tamaño forma su propio grupo de escala. Los espacios nativos entre el título y el folio en línea se redactan junto con el título.
+
+## G-FONT 1–4: fuentes de reemplazo de The Secrets of Astrology (2026-11-08)
+
+`approved_by: "claude (delegación explícita de andres, 2026-11-06)"`. Evidencia: `tests/test_font_fallback_fidelity.py`, `tests/test_slab_fonts.py` y el pseudo offline 1–60 en `books/the-secrets-of-astrology/work/pseudo-fonts/`.
+
+1. **Acentos de mayúscula recortados (p45 «JUGUETÓN»).** La causa no era la cobertura: Roboto Slab sí tiene el contorno de Ó.
+   - MuPDF Story recorta la tinta al rectángulo de colocación y sitúa la primera línea base a 0,8 em × interlineado del borde superior, sin tener en cuenta el ascendente de la fuente. Las mayúsculas acentuadas suben unos 0,9 em.
+   - El pseudo previo perdía la tilde en 314 de 743 mayúsculas acentuadas de bloques normales y en 41 de 56 de citas display.
+   - Corrección: `fonts.insert_htmlbox_headroom` amplía el rectángulo 0,6 em arriba y a los lados y aplica el mismo padding al body. La línea base, los cortes de línea y el espacio sobrante no cambian; la parte inferior no se amplía.
+   - Se usa en la ruta de bloque de `fidelity` y en las citas display no centradas.
+   - La tinta que queda fuera de la caja (`ink_bbox`) pasa por los mismos guardas vectoriales y raster y se excluye de `non_text_pixel_diff` solo en ese rectángulo.
+2. **Clasificación.** `fonts.FAMILY_CLASSES` clasifica por nombre: Avenir y Futura como sans, Serifa como slab, Lilita One como display. Solo se aplica con `[fonts].classify_slab`, de modo que astrology-wisdom-stars conserva su elección validada. También queda declarado en `[fonts].classification` del perfil.
+3. **Cursiva slab.** Se usa Bitter Italic[wght] (OFL, google/fonts) en lugar de Roboto Serif Italic.
+   - Cobertura completa del español, con tinta.
+   - Altura de x de 0,522 frente a 0,528 de Roboto Slab.
+   - Las instancias se renombran por el Reserved Font Name.
+4. **p3.** LilitaOne usa su propia publicación libre (`LilitaOne-Regular.ttf`, OFL) y RobotoSlab-Regular usa Roboto Slab[wght]. Ambas tienen procedencia en `fonts/provenance.json`.
+5. **Peso y espaciado (perfil `calibrate_weight`, `calibrate_space`).**
+   - El peso nominal sale del nombre (ExtraLight 200, Heavy/Black 900).
+   - El eje wght se biseca para que las astas, ya con la calibración horizontal aplicada, igualen las del original medidas por render. Ejemplo: LightCompressed pasa a wght 462 con escala horizontal 0,50.
+   - El espacio de palabra toma el avance del original: los reemplazos eran hasta un 32 % más anchos.
+   - El peso declarado en OS/2 no cambia. La evidencia queda en `weight_calibration` y `metric_calibration`.
+6. **Informe pseudo.** Un fallback verificado por `fonts.verify_fallback` (cobertura con tinta, clase, cursiva, ancho calibrado y peso) se lista como `font_fallback_applied` en una tabla informativa aparte. Si no está verificado, sigue siendo el defecto `font_fallback`.
+
+Los candidatos de producción compuestos antes de este cambio usan las fuentes anteriores y deben recomponerse para heredarlo.
+
+## Limpieza del sistema Codex (aprobada por andres el 2026-11-08)
+
+Se aplica después de las entregas de los gaps 1–12.
+
+**Se borra:**
+- `.codex/` y `.agents/skills/`.
+- Las instantáneas de diagnóstico `work/phase2c…2h/input_snapshot`.
+
+**Se retira:**
+- Los backends `codex_sdk` y `codex_exec`, junto con sus tests y la dependencia `openai-codex`, mediante pipeline-engineer.
+- `openai_api` se queda como respaldo opcional.
+
+**Se mueve:**
+- Los scripts de fase (`prepare_phase2*`, `check_phase2*_golden`, `phase2*_report`) pasan a `scripts/legacy/`.
+- Los informes `docs/historico/fase2*.md` pasan a `docs/historico/`.
+
+**Se descarta:**
+- El plan de retraducción 2H y las propuestas de formas cortas generadas por luna.
+- La traducción con luna en caché y memoria: todo el libro se retraduce con Sonnet. Las traducciones de luna se guardan solo como referencia.
+
+**Se conserva:** `short_forms/approved-v1.json`, aprobado por hash.
+- **Limpieza aplicada (2026-11-09):**
+  - Borrados `.codex/` y `.agents/` (siguen en git) y `work/phase2h/input_snapshot` (289 MB).
+  - `docs/fase2*.md` movidos a `docs/historico/`.
+  - Se mantienen en su sitio los scripts `check_phase2*_golden` y `prepare_phase2*`, porque los tests de regresión (`test_phase2e_*`, `test_phase2f`, `test_phase2g`) los importan.
+  - Backends Codex retirados (2026-11-09, pipeline-engineer): `llm.py` ya no contiene `CodexSDKBackend`, `CodexExecBackend`, `_safe_overrides`, `_profile_overrides`, `_account_chatgpt` ni imports de `openai_codex`. `_make_backend('codex_sdk'|'codex_exec')` falla con «Codex backend retired 2026-11-08»; `doctor` marca esa configuración como error y ya no informa de versiones `openai-codex*`. Los nombres siguen en `SUBSCRIPTION_BACKENDS` y en los enums de `schemas/` como valores históricos legibles. Dependencia `openai-codex` retirada de `pyproject.toml` y `uv.lock` (el venv no se desinstaló). El default de `provider.backend` pasa a `claude_cli`. `config/pipeline.toml` conserva `codex_profile` porque forma parte del hash de la aprobación G1b vigente.
+
+## 2026-11-09 — Cintas rotadas, etiquetas verticales y extracción de candidatos (pipeline-engineer, sin LLM)
+
+Correcciones generales con test rojo sobre páginas reales (`tests/test_rotated_candidate_qa.py`). Evidencia: pseudo offline 86–135 en `books/the-secrets-of-astrology/work/pseudo-rot/`. Ninguna regla por número de página.
+
+- **`ink_outside_edit_boxes` (28 de 29 páginas).** No venía de las cintas: `candidate_storage.extract_page` copiaba la página con `insert_pdf`, que omite `/Group` (grupo de transparencia con espacio ICC). Sin él, todos los colores planos se renderizaban un nivel distintos (p90: 46 % de los píxeles fuera de texto). Ahora se injerta el `/Group` original y el candidato de una página es idéntico píxel a píxel al original.
+- **Pruebas rotadas tras la extracción.** Las pruebas `verified_rotated_spans` quedaban ligadas al hash anterior a la extracción, así que la QA no las veía: 74 spans «omitidos» en p89 y las `R` aisladas de HEART/PURPOSE contadas como inmutables alteradas. `candidate_storage.extract_candidate` extrae la página y vuelve a ligar solo las pruebas de ese mismo candidato. `production.compose_and_qa` guarda además el `fit.json` ya extraído.
+- **Separadores `|`.** Se emiten como pruebas `preserved_separator` solo si `separator_character_proofs` confirma que los operadores nativos son idénticos. Un span de cinta con espacio («R ») lleva además una prueba gemela con solo letras, el mismo bbox y el mismo destino.
+- **Margen editorial de etiquetas rotadas.** El límite es la medida más amplia evidenciada en la hoja (bordes propios unidos al reflejo de la página enfrentada) o el propio original, si ya la excedía (`editorial_margins.rotated_label_bounds`). Antes se usaba la medida de una lista lateral (p89: borde derecho 237 pt). La QA mide solo las palabras propias de la etiqueta. El compositor la respeta y, si hace falta, desplaza la etiqueta a lo largo de su misma línea base (`baseline_offset`).
+- **Separación mínima.** 0,2 em entre la etiqueta nueva y los glifos nativos vecinos de la cinta. Todos los originales A13 tienen 0,23 em o más.
+- **Tildes de mayúscula.** En las etiquetas rotadas y verticales, el área editada y todos los guardas (vector, raster, vecinos y página) usan la tinta real renderizada además de las cajas de glifo (`ink_bbox`). `insert_text` no recorta, así que no hace falta `insert_htmlbox_headroom`.
+- **Fuentes de las etiquetas verticales.** `fonts.profile_font_options` reúne las opciones `[fonts]` del perfil (`classify_slab`, `classification`, `calibrate_weight`, `calibrate_space`). Lo usan `select_group_fonts` y `vertical_labels.fit_vertical`. Soho Pro pasa a Roboto Slab.
+
+Los candidatos de producción compuestos antes de este cambio deben recomponerse.
+
+- **Verificación de la redacción vertical (p86).** `apply_redactions` reescribe el contenido e instancia los Form XObjects del texto compuesto. Por eso los orígenes se recalculan en float32 y pueden moverse un ulp: la «b» de AstroSlab pasa de 490,43447876 a 490,43450928. La identidad redondeada a 1e-3 cambiaba de valor en el límite de 0,0005 y bloqueaba la página. Ahora `vertical_labels.redaction_preserved` exige una correspondencia uno a uno entre glifos: mismo carácter, misma fuente y origen a ≤0,001 pt, igual que `native_redaction`. Sigue bloqueando cualquier glifo perdido o desplazado y cualquier glifo de origen que quede en la página. No era un defecto de los cambios de cintas: el fallo dependía de la posición del texto del cuerpo.
+
+## 2026-11-09 — Ajuste de composición 61–192 de `the-secrets-of-astrology` (pipeline-engineer, sin LLM)
+
+Correcciones generales con test rojo sobre páginas reales (`tests/test_composition_fit61.py`), validadas con el pseudo offline 1–192 (`work/pseudo-fit/`; antes: `work/pseudo-fit-before/`). Ninguna regla por número de página en el código común; ninguna escala por debajo de 0,75.
+
+- **Run-in (p91…p135).** Cada entrada puede subir hasta la mitad del hueco blanco que la separa del filete (o la tinta) de arriba (`run_in_layout`, `layout_top`). Primero se prueban las cajas con la parte superior original; la subida es la mínima necesaria. Las columnas de 91–135 pasan de 0,75–0,79 a 0,85. Las páginas de casas (143–165) tienen 2–4 pt de hueco: siguen entre 0,75 y 0,80 (revisión).
+- **MERGE (composición).** La extracción canónica no cambia: ids, fuentes y traducciones guardadas siguen valiendo. `fidelity.split_style_breaks` separa en composición, antes del finalizador, las unidades que el bloque PDF fundió: un cambio de tamaño en un salto de línea (p22: «The Sun see pp.88—91», 8 pt, bajo el cuerpo de 11 pt) o una línea de otro peso que empieza más arriba y en otra columna (p170: «The Ascendant–Descendant axis» dentro de la cola de la llamada). Una primera parte de una sola línea es un título y la sigue gestionando `run_in_layout`. El corte se hace en el único límite de runs de estilo del destino que encaja con las dos partes de origen y conserva las cifras de cada una; la segunda parte se llama `<id>_split`. Las dos partes conservan el grupo de escala de la unidad en la que se imprimieron, así que la separación no cambia la escala de hermanos ajenos (p22: «Tu carta natal, véanse…» sigue a 1,00). Si no hay un corte único, la unidad queda entera y la QA local la marca con `merged_style_break` (acción `recompose`). Se probó primero separar en la extracción, pero cambiaba los ids de 18 páginas e invalidaba traducciones y fixtures guardados (p14, p15, p22, p128…); se descartó.
+- **Ángulos espaciados.** «D C» e «I C» (p139) son tokens protegidos como MC/IC.
+- **Bindings.** Una corrección unida (cita display `u0007_quote`) conserva sus miembros (`source_members`); `units_digest` los expande, así que p173 mantiene su `units_sha256` (mismo contenido). Una página con `composition_translations` revisadas (p175) es dueña de todos sus destinos: no genera trabajo de cita unida y las correcciones guardadas se registran como `superseded_by`. El hook de p141 exige el hash de origen; el del destino solo identifica la traducción revisada (una nueva sin el clítico aislado no se repara ni se bloquea). Hash nuevo de `profile_hooks.py` en `[hooks]`. No hizo falta `rebind_profile_units.py`.
+- **Cita centrada (p97).** Puede crecer simétricamente (mismos centros) hacia espacio libre y plano dentro de los márgenes editoriales; el reparto en líneas usa la caja candidata.
+- **Marca de agua pálida (p183).** La excepción de subyacente pálido verificado (tinta original sobre ambos tonos, bajo contraste) se aplica a todo bloque, no solo a historias.
+- **Validador (p183).** Una repetición inmediata del origen autoriza una repetición del destino aunque el término aprobado tenga otro número de palabras («Aspect patterns» → «Configuraciones de aspectos»).
+- **Holgura de tildes.** `caption_growth.insert_anchored` usa `insert_htmlbox_headroom` (p4: la «Á» de un pie perdía la punta). Las historias de `column_flow`, la capitular y el flujo en L ensanchan solo el recorte de cada marco (arriba y a los lados) en el overlay escrito; la tinta real se sigue comprobando. Las etiquetas protegidas usan `insert_text`, que no recorta.
+- **Formas cortas.** Si un grupo no cabe a 0,75 se preparan a la vez todas las peticiones de forma corta de los miembros que no caben solos (sin inferencia). Los fallos llevan `reason` = `needs_short_form`, `group_blocked_by_sibling` o `fit_failed_at_0.75` (las etiquetas protegidas conservan su motivo histórico) y `needs_short_form`.
+- **Pseudo.** Una palabra extranjera en cursiva por matriz («plouton», p128) se conserva como haría un traductor, y la composición restaura su cursiva.
+
+## G4 provisional para el piloto Sonnet (2026-11-09)
+
+- **Decisión delegada:** claude, por la delegación explícita de andres del 2026-11-06.
+- **Alcance:** las 25 páginas piloto de `work/structure/structure.json` v2 (3, 4, 7, 11, 15, 22, 23, 25, 37, 46, 47, 86, 87, 89, 93, 138, 139, 159, 175, 176, 179, 183, 186, 188, 192), por la ruta `produce`.
+- **Requisito previo:** pseudo-traducción 1–192 sin defectos bloqueantes salvo los aceptados:
+  - formas cortas del pseudo en p83, p93, p138 y p179;
+  - Fase 4: texto curvo y portada.
+- **Copia del G4 anterior (luna):** `work/approval_history/pilot_approval.luna.2026-11-09.json`.
+- **G4 definitivo:** depende del informe del `book-auditor`.
+- **Auditoría de lotes heredados (2026-11-09):** los lotes 1–15 (luna/Codex) se excluyen del hook de auditoría porque son obsoletos. Lista en `work/audit/legacy_batches.json`.
+
+## 2026-11-09 — Auditoría batch-16: ordinales, inglés residual, contexto de traducción y estado diferido (pipeline-engineer, sin LLM)
+
+Correcciones generales con test rojo sobre páginas reales (`tests/test_audit_batch16.py`). Ninguna regla por número de página en el código común.
+
+- **Ordinales de rueda partida en un pliego (p138/139, 170/171, 172/173).** Se extiende la decisión 10 (casas = femenino, `3.ª`…`10.ª`). `approved_by: "claude (delegación explícita de andres, 2026-11-06)"`, decisión comunicada en el encargo del orquestador. `secrets_ordinal_policy.house_diagram_lines` ya no exige que la rueda entera esté en una hoja:
+  - Si la cohorte propia no basta, se usa la hoja enfrentada (misma paridad que `editorial_margins`).
+  - La hoja enfrentada tiene que tener su propia cohorte, sin repetir ninguna casa, y entre las dos sumar al menos 6 casas.
+  - Cada hoja necesita distribución 2D (≥5 % en cada eje).
+  - El contexto house/MC/IC es el del pliego.
+  - El sufijo admite espacio final («rd »). La pareja cifra/sufijo puede ir seguida de otra etiqueta en la misma línea PDF («11th» + «Friendships»).
+  - Resultado: `11.ª`, `12.ª`, `1.ª`, `2.ª` en 138/172, y `3.ª` a `10.ª` en 139/171. p173 no cambia.
+  - Una rueda se convierte entera o no se convierte (`native_ordinals.diagram_layout_conflicts`). En p170, «11th» toca la caja métrica del título de 48 pt (u0005). El guarda de candidatos de `fidelity` compara cajas de unidad, no tinta, así que no se podría colocar. En ese caso las cuatro etiquetas siguen protegidas y la QA de ordinales mantiene la página en `review`. El paso a guarda por tinta queda pendiente del ingeniero de composición.
+- **QA de inglés residual sobre valores protegidos.** Nuevo código `english_ordinal_suffix`:
+  - `text_quality.english_ordinal_issues` revisa el candidato: la cifra protegida seguida de st/nd/rd/th, tanto el sufijo volado como el inline.
+  - Las fuentes de reemplazo cuyo nombre parece de símbolos («AstroSlab») cuentan como texto si su hash está verificado.
+  - `text_issues` rechaza `{nN}ND`/`2nd` en el destino. Así lo rechazan el validador LLM y la memoria de frases.
+  - Este control encontró p142–p145 («la casa 2nd», «CASA 2ND/3RD»), que se retraducen.
+- **Homógrafos ES/EN.** `language.SPANISH_HOMOGRAPHS` es evidencia léxica, nunca un mapa de traducción. «• Romance» (p139) deja de contar como inglés residual.
+- **Contexto de pies y etiquetas (p47).** El plan deduplicaba cláusulas sin el cuerpo de su página. Ahora `adapters.fidelity_translate`, con ayuda de `page_context.py`:
+  - Traduce primero el cuerpo y empaqueta páginas enteras por llamada.
+  - Después envía pies, etiquetas y callouts con `term_context`: las cláusulas del cuerpo de la misma página o pliego, ya traducidas, que comparten un nombre propio. Las acompaña una instrucción por fila; el prompt no cambia.
+  - `llm._validate` rechaza la fila si nombra el objeto con el término de otro nombre.
+  - Una memoria guardada que falla este control se retraduce y se reemplaza (`SentenceMemory.put(replace=True)`, solo tras un control cruzado).
+- **QA de consistencia (`term_consistency_issues`).** Alinea por orden los nombres en mayúscula solo cuando las cuentas coinciden por frase. Marca una unidad cuando a la vez:
+  - le falta la traducción unánime de un nombre;
+  - usa en su lugar la traducción de otro nombre ausente de su origen;
+  - o tiene una traducción minoritaria del nombre.
+
+  Los términos del glosario quedan para el validador de glosario. En producción el pliego entra como evidencia. Barrido sobre las 174 traducciones guardadas: solo p47; 0 en piloto y en wisdom-stars.
+- **Glosario en títulos apilados (p176).** El validador ya era insensible a la caja. El fallo venía de que el título THE WHEEL OF / RULERSHIP se traducía como dos unidades: cada línea pasaba por separado y la composición las unía («LA RUEDA DE LA REGENCIA»).
+  - `page_context.stacked_glossary_pairs` detecta las líneas apiladas cuyo término aprobado cruza el salto.
+  - Esas filas llevan `line_continuation`, y `_validate` exige la forma aprobada en la concatenación.
+  - La memoria previa que lo incumple se rechaza.
+- **Estado diferido (p176).** `finish_qa` da `partial_deferred` solo si se cumplen tres condiciones:
+  - la QA nativa es correcta;
+  - todas las regiones tienen bbox y motivo;
+  - todo texto rotado omitido cae dentro de una región registrada.
+
+  Si no, queda en `review` con `untranslated_text_outside_deferred_regions`. `native_failure_causes` nombra la causa. En p176 era `glossary_missing` (el título), no la región diferida: tras retraducir el título queda `partial_deferred`.
+
+Retraducción (memoria rechazada): 47 y 176, y 142–145 cuando se resuelva el bloqueo G5. Recomposición sin traducción: 138 y 139, y 171–172 cuando se resuelva el bloqueo G5. p170 espera al guarda por tinta.
+
+## 2026-11-09 — Composición del lote 16 (auditoría del piloto Sonnet; pipeline-engineer, sin LLM)
+
+Correcciones generales con test rojo sobre páginas reales compuestas con la traducción Sonnet guardada (`tests/test_batch16_composition.py`). Ninguna regla por número de página; ninguna escala por debajo de 0,75. Ids, fuentes y traducciones guardadas no cambian.
+
+- **Títulos alineados a la derecha (p11, p25).** La alineación se medía por span y el borde derecho incluía el espacio final de «STORY »/«THE ». Ahora se mide por línea con el borde de los glifos visibles (`fidelity.visible_lines`): varias líneas con el mismo borde visible (<1 pt) y arranques distintos son `right` (en todo el libro solo cambia p11). Una unidad `right` se ancla en el borde visible (`_ink_bbox`) y ninguna caja candidata lo sobrepasa. p11 pasa de 0,79 a 0,90.
+- **Saltos de línea de listas (p4, p138, p139).** `fidelity.split_line_items` compone una unidad hija por línea (o segmento) de origen cuando el corte del destino tiene evidencia exacta: viñetas «•» al inicio de línea (mismo número en origen y destino), líneas de crédito (todas en mayúscula y cada salto en un límite de runs de estilo con la misma secuencia en el destino), filas de leyenda (un estilo, ≤5 palabras, anclas de glosario aprobado o token protegido como IC/MC) y saltos forzados de bloques legales (línea en blanco, o línea corta de un bloque centrado que termina en número protegido o fin de oración, con recuento igual en el destino). Cada pieza conserva sus números, viñetas y tokens protegidos; si no, la unidad queda entera. Una línea de origen es una línea compuesta (`single_line`). Las hijas heredan `kind` y grupo de escala; `finalize_paragraphs` no vuelve a unirlas. En todo el libro (174 traducciones guardadas) solo cambian p4, p138 y p139.
+- **Pilas centradas (p4).** `fidelity.center_stacked_lines`: una cadena vertical de ≥3 unidades pequeñas adyacentes con el mismo eje visible (<1,5 pt) y arranques distintos es una columna centrada; sus miembros de una línea pasan de `left` a `center`. Solo afecta a p4.
+- **Comillas decorativas (p15, p138).** Las comillas vectoriales que enmarcan texto display de ≥20 pt (`display_quotes.quote_mark_rects`/`framed`, mismo criterio de forma que el survey) son obstáculo en `_test_fit`: el texto nuevo no puede tener tinta sobre la comilla ni sobre la banda de la línea de origen a la que acompaña (la comilla de cierre sigue a la última palabra). Holgura de 1 pt, nunca mayor que la del original. Un texto enmarcado no se desplaza (`shifted_candidates`), así sigue anclado a la comilla de apertura. p15 queda a 0,91 (la cita crece hacia el blanco libre); en p138 «experiencia / cotidiana.» vuelve a dos líneas con la comilla detrás y se aleja del recuadro «CÓMO FUNCIONAN» (1,00). Sin cambios de escala en las demás citas del libro con traducción guardada (9, 13, 19, 23, 33, 59, 97, 111, 153, 173, 174).
+- **Cabecera sobre marca de agua pálida (p93).** «La Luna» fallaba la guarda raster en todas las cajas (motas blancas dilatadas de la estrella pálida sobre la que ya está impreso «The Moon»), y el ajuste pedía forma corta. Excepción acotada (`raster_obstacles.build_region_obstacles(pale_footprint=…)`): dentro de la banda de línea del texto original (cajas de span ±0,1 em en vertical), los píxeles claros (RGB mínimo >175) sobre fondo claro (>180) no son obstáculo si la tinta original ya los pisa. Fuera de la huella, o con píxeles oscuros, la guarda no cambia. Además, `fidelity._short_form_request` no pide forma corta si el destino a 0,75 ya cabe en la caja más ancha: el fallo no es de anchura.
+- **QA local.** `fidelity.composition_line_issues` (en `fidelity_qa`, acción `recompose`): `bullet_line_merge`, `quote_mark_overlap` y `right_edge_overflow`. Detecta los defectos en los candidatos auditados (p15, p25, p138, p139) y queda limpia en los recompuestos.
+- **Guarda de ordinales nativos por tinta (p170).** El guarda de candidatos `native_ordinal` comparaba la caja de edición con las cajas métricas de las demás unidades: «11th» de la rueda de p170 solapa unos 0,6 pt la caja del título de 48 pt («THE ASCENDANT -DESCENDANT»), cuya tinta termina muy por encima. Ahora compara con la tinta real de los glifos (`fidelity.unit_ink_rects`, vía `safe_vlm._glyph_ink_bounds`; caja métrica solo si no se conoce la tinta). Con el guarda nuevo, la rueda de p170 se convierte entera (1.ª, 2.ª, 11.ª, 12.ª a 1,00). La exclusión `native_ordinals.diagram_layout_conflicts` en `adapt_headings` ya no es necesaria; la retira su dueño (ordinales).
+- **QA `quote_mark_overlap`.** Compara píxeles original/candidato dentro de la zona de cada comilla, igual que la comprobación de composición. La versión inicial comparaba cajas de glifo (más anchas que la tinta) y daba un falso positivo en las citas fragmentadas históricas de `test_phase2c` (p15/p17 del fixture). La expectativa del test no cambia.
+- **p147/p149 «SIGNOS Y 4 CASA PLANETAS».** No es de composición ni de restauración de marcadores: el destino guardado ya trae ese texto (el modelo recibe «{v4}AND 4TH HOUSE PLANETS» y suprime el sufijo). El mismo encabezado tiene tres traducciones en 141–165: correcta («SIGNOS Y PLANETAS DE LA CASA N»: 141, 151, 155, 157, 159, 161, 163), con inglés residual («CASA 2ND/3RD»: 143, 145) y con orden invertido («Y N CASA PLANETAS»: 147, 149, 165). Hay que retraducir `u0003` de 143, 145, 147, 149 y 165 (dominio de traducción/ordinales).
+- **Pendiente menor (sin cambio):** en p4 «Impreso y encuadernado en China» ya no conserva el hueco previo, porque el bloque de ventas traducido ocupa una línea más; la separación de la fila «Círculo de la carta natal» respecto a la muestra roja (p139) es de unos 2 pt.
+
+Los candidatos de producción compuestos antes de este cambio deben recomponerse.
+
+## 2026-11-09 — Auditoría batch-17: separadores diferidos, tildes display, filetes, ordinales y consistencia (pipeline-engineer, sin LLM)
+
+Correcciones generales con test rojo sobre páginas reales (`tests/test_audit_batch17.py`). Ninguna regla por número de página en el código común; ninguna escala por debajo de 0,75. Glosario, guía y aprobaciones intactos.
+
+- **Separadores en franjas diferidas (p89, p93).** `production.uncovered_deferred_text` ya no cuenta los spans sin letras («|», viñetas, cifras sueltas) como texto sin traducir fuera de las regiones de Fase 4. Una palabra real fuera de todas las regiones sigue impidiendo `partial_deferred`. Con la QA guardada, p89 y p93 pasan a `partial_deferred`.
+- **Tildes de mayúsculas display (p37, p46).** Nuevo `line_clearance.py`: holgura de tinta real (`safe_vlm._glyph_ink_bounds`) entre líneas consecutivas en cuerpos ≥17 pt. Mínimo `max(1 pt; 0,04 em)`, nunca más del que el original ya tenía en ese mismo lugar (descendentes sobre ascendentes en interlineados apretados siguen siendo legales). En `_test_fit` (inserción plana), si la tinta nueva queda más cerca de la línea superior (propia o vecina, esta medida con la tinta del original), se sube el interlineado de la unidad. El paso entre líneas crece en el incremento completo y la primera línea base baja la mitad (semi-interlineado). Hasta 4 intentos; si la caja no lo admite, se rechaza esa caja y escala, y las escalas menores lo resuelven. La unidad registra `accent_leading` (interlineado de origen y final). Resultado: p37 «VALIENTE E / INTRÉPIDO» a 0,98, con holgura ≥1 pt; p46 «CÁNCER» a 0,91, a ≥1,8 pt de «SIGNO». En el barrido de 174 páginas cambian 37, 42, 44, 46, 48, 88 y 102. QA: `line_ink_collision` en `composition_line_issues` (acción `recompose`).
+- **Filetes y paneles (p176).** Nuevo `rule_limits.py`, sobre el render del original, así que sirve igual para vectores que para ráster de página completa (p176 lo es). Un filete es un tramo fino (≤4 pt) de color uniforme a ≤0,75 em sobre o bajo la tinta que cubre ≥80 % de su anchura. Un panel son ≥max(4 pt; 0,25 em) columnas contiguas de color plano junto a la banda de la tinta. El fondo es la moda de un anillo de 3 pt alrededor de la tinta, porque con negras muy gruesas la mediana de la caja daba negro. `_candidate_boxes` recorta las cajas al final del filete y a `min(holgura original; max(3 pt; 0,25 em))` del panel, sin encoger nunca la huella del original. No se aplica a ordinales nativos, etiquetas protegidas, historias, índice, callouts, pies con crecimiento propio ni columnas fijas. p176 «LA RUEDA DE LAS / REGENCIAS» queda a 0,86, con la tinta ≤373 pt (filete en 372,5). QA: `rule_or_panel_overflow`. Tras el render a 4× se vacía la caché de imágenes de MuPDF, porque una decodificación a otra resolución alteraba en un nivel de color las pruebas de píxeles posteriores (tinta de cifras de ordinales a 220 dpi).
+- **Punto de ordinal volado (p138, p139, p171–173).** `native_ordinals.heading_overlay`: si el sufijo está elevado respecto de la cifra, el «.» va en la línea base de la cifra y solo «ª» conserva el origen volado (mismo estilo y tamaño del sufijo original). `qa_adjustments` admite esta forma y la antigua; la antigua la marca `point_issues` → `ordinal_point_off_baseline`. Los signos («4.º», sufijo en la línea base) no cambian.
+- **Ordinal entre paréntesis (p139).** `native_ordinals.parenthesized_ordinals`, activado por `editorial.ordinals` del perfil: «(1st)» traducido «(1)» pasa a «(1.ª)» solo si la misma unidad dice «1st house» (concordancia inequívoca con «casa», femenino). Solo se añade la marca tras la cifra, en su propio run (también en los párrafos unidos). «(9th house)» → «(casa 9)» se conserva. Sin concordancia no se añade nada y la QA lo marca con `ordinal_suffix_dropped` (`text_quality.ordinal_suffix_issues`, en `page_issues`). En las 174 traducciones guardadas solo cambia p139.
+- **Consistencia «middle of the heavens» (p23/p139).** G3 fija Midheaven/Medium Coeli = Medio Cielo e Imum Coeli = Fondo del Cielo, y el validador ya los exige (p186 cumple). No fija «middle/bottom of the heavens», así que lo marca la QA y no el validador. Nuevo `consistency.phrase_consistency_issues`:
+  - Toma frases nominales de origen repetidas entre páginas: 3–6 palabras, sin pronombres, modales ni auxiliares, y ≥2 palabras de contenido traducidas, no copiadas como MC/IC.
+  - Su versión española es la ventana mínima con las raíces compartidas, después de enmascarar las formas del glosario y las palabras copiadas. Esa ventana solo puede contener esas raíces, en el mismo orden, y palabras funcionales, sin cifras.
+  - Se informa cuando difieren artículos, preposiciones o número.
+  - En producción, `qa['consistency_warnings']` es un aviso menor y no bloqueante: la evidencia son las traducciones guardadas de las demás páginas.
+  - Barrido del libro: 42 avisos en 37 páginas, entre ellos p23/p139 («mitad de los cielos» / «Mitad del cielo», «parte inferior de los cielos» / «Parte inferior del cielo»). El glosario no se toca.
+- **Tests de batch-16 sobre artefactos retraducidos.** Cuatro tests leían los defectos de p47/p176 de los artefactos guardados, que ya estaban corregidos. Ahora comprueban que el artefacto actual está limpio y que el defecto auditado, inyectado sobre él, se sigue detectando.
+- **Deriva previa (sin relación con este cambio).** Recomponer con el código actual, con o sin estas correcciones, deja p49 y p51 en `needs_short_form`, aunque su `fit.json` de producción está completo. p178 se bloquea con «Fidelity payload must cover every editable container exactly once». Hay otras diferencias de escala respecto de los `fit.json` de producción que vienen de cambios anteriores. Las únicas escalas que mueven estas correcciones son p4 (0,97 → 0,94, filete) y p48 (0,96 → 0,91, tilde).
+
+Recomposición sin traducción: 4, 28, 37, 39, 41, 42, 44, 45, 46, 48, 85, 88, 89, 93, 100, 102, 116, 138, 139, 156, 167, 171, 172, 173 y 176. Retraducción: ninguna obligatoria. Los avisos de consistencia (p23/p139 y otros) quedan a decisión del orquestador.
+
+## 2026-11-09 — inline_style por correspondencia del énfasis, no por posición (pipeline-engineer, sin LLM)
+
+- **Falso positivo (p15, p23; auditor batch-17).** `text_quality._inline_issues` exigía la misma secuencia ligera/negrita que el original. Las citas display «**Buscar significado en el cielo** parece…» (p15) y «**El Sol** representa el **don creativo** y el **sentido de identidad** individuales…» (p23) anteponen o posponen sintagmas con toda legitimidad. Se marcaban `inline_style` → `retranslate`.
+- **Regla nueva (`_emphasis_correspondence`).** Las anclas son locales y léxicas: palabras idénticas (incluidas MC/IC), cognados ortográficos mutuamente únicos (prefijo ≥4 y ≥60 % de la palabra corta) y pares del glosario G3 con una sola aparición a cada lado.
+  - Con otro orden se acepta solo si hay correspondencia positiva: el mismo número de frases enfatizadas por estilo; cada una anclada o, como mucho, una sin ancla por estilo a cada lado, con una longitud entre 0,5× y 2×; y al menos un ancla confirmada.
+  - Con el mismo orden también se marca la contradicción: énfasis que se extiende a una palabra que era ligera en el original, o frase enfatizada sin ninguna ancla que conserve el estilo.
+  - Se tolera una palabra que queda fuera, junto a una frase anclada («the **sign on the MC**» → «el signo **del MC**», p173 del piloto).
+- **Barrido de los 166 `fit.json` de producción.** Desaparece el aviso en p15 y p23. Aparecen dos defectos reales que el chequeo por secuencia no veía: p17 («Older **forms**» → «Las formas **más antiguas**») y p26 («most **essential creative gift**» → «don creativo más **esencial**»). Ninguna página más cambia.
+
+## Candidatos no deterministas (2026-11-09)
+
+Cada guardado de un candidato escribía un `/ID` aleatorio en el trailer del PDF. Así, cada recomposición cambiaba el `candidate_sha256` aunque la página fuera idéntica, y dejaba obsoletas `review-visual` y las aprobaciones ligadas al hash. Es una de las causas de la invalidación en cascada que sufrimos en la etapa Codex.
+
+**Corrección:** guardado determinista, encargado a pipeline-engineer.
+- **batch-19 (2026-11-09):** recomposición r4 con candidatos no deterministas. Su auditoría se hace tras el arreglo de /ID; marcador `work/audit/batch-19.inprogress`.
+
+## 2026-11-09 — Candidatos deterministas, latín citado y «ª» volada una sola vez (pipeline-engineer, sin LLM)
+
+Correcciones generales con test rojo sobre páginas reales (`tests/test_candidate_determinism.py`, `tests/test_latin_terms_and_ordinal_indicator.py`). Ninguna regla por número de página. Glosario, guía y aprobaciones intactos.
+
+- **Guardado determinista (p37).** Había dos fuentes de azar. La primera, el `/ID` aleatorio del trailer. La segunda, que fontTools sellaba con la hora (`head.modified`) cada instancia estática nueva de las fuentes de reemplazo. Esa hora cambiaba el hash del archivo y, con él, el nombre de familia calibrada embebido (`AstroSlab-<hash>`). Ahora:
+  - `core.save_deterministic` / `deterministic_pdf_bytes` es la única ruta de escritura. La usan `_save_pdf` (fidelity, verticales, rotadas, raster, índice) y `candidate_storage._save_compact` (`extract_page`/`extract_candidate`).
+  - Borra `CreationDate`/`ModDate` de Info y escribe sin `/ID` (`no_new_id`). Después pone `/ID [<h><h>]`, donde `h` son los primeros 16 bytes del sha256 de esos bytes. El orden de objetos es la recolección determinista de MuPDF.
+  - `fonts.fallback_font` instancia y calibra con `recalcTimestamp=False`. Los archivos ya cacheados no se regeneran, así que sus nombres no cambian.
+  - Resultado: componer p37 dos veces en dos snapshots distintos da el mismo sha256, antes y después de la extracción.
+  - Cada candidato cambia de hash una sola vez, en la próxima recomposición; a partir de ahí es estable.
+- **Latín citado (p23).** `language.LATIN_ASTROLOGICAL_TERMS` es una lista cerrada de nombres latinos de varias palabras (Medium/Imum Coeli, Pars Fortunae, Caput/Cauda Draconis, Via Combusta, Anima Mundi). `source_identical_latin_terms` exime un nombre solo si aparece con la misma grafía en el origen de la propia unidad y en su destino. `fidelity_qa` lo añade a `language_exceptions`. No se usa Lingua con latín, porque da «The Ascendant» como latín. El inglés copiado del origen sigue contando, y una palabra suelta («medium») nunca cuenta como latín.
+- **«ª» volada una sola vez (p138/p139, ruedas de casas).** Antes «ª» se dibujaba en el origen elevado del sufijo inglés. Como el glifo ya es volado, su tinta subía 2,2 pt por encima de las cifras («11. ª»). Ahora, con sufijo de origen elevado, «.ª» va en la línea base de la cifra y a su tamaño (`native_ordinals.indicator_style`, con la marca `superior_glyph` para que el run no comparta estilo con la cifra nativa).
+  - La tinta de «ª» queda en la franja del «st» original: 0,9 pt de diferencia en la parte superior y nunca por encima de las cifras.
+  - Esta corrección sustituye, en ese único punto, la parte de la decisión 10 según la cual `.ª` «usa el tamaño … y origen del sufijo original». La cifra nativa, su tinta y la QA de procedencia no cambian.
+  - QA: `point_issues` añade `ordinal_indicator_raised_twice` (acción `recompose`). `qa_adjustments` sigue validando las formas anteriores, para que se puedan informar.
+  - Los signos («4.º», sufijo en la línea base) no cambian.
+
+Recomposición sin traducción: todas las páginas con candidato de producción. El código forma parte de la dependencia, así que todas quedan obsoletas, y además cada candidato cambia de hash una sola vez. En particular: 23 (QA), 138, 139 y 170–173 (ruedas). Las revisiones `review-visual` ligadas a hashes anteriores tendrán que rehacerse una vez.
+
+## G5 con auditoría en paralelo (2026-11-09)
+
+- **Decisión delegada:** claude, por la delegación explícita de andres del 2026-11-06.
+- **Motivo:** andres criticó el retraso. Cada lote quedaba en `g5_blocked` solo por la revisión visual obligatoria, que exige auditoría, y la producción se detenía hasta que terminaba el auditor.
+- **Nueva regla:**
+  - Al cerrar cada lote se registra `g5_decision-NN.json` con `continue`. La evidencia es la auditoría de ese lote, que corre en paralelo.
+  - G5 de cada lote se evalúa con el informe del book-auditor.
+  - Los defectos se corrigen por causa y se recomponen sin retraducir.
+  - G7 exige que todos los lotes tengan auditoría con G5 ≥ 0,90 tras las correcciones.
+- **Primer caso:** batch-16 (piloto). Las auditorías de batch-17 y batch-18 dan 15/15 en alcance; batch-20 (r5 determinista) se está auditando.
+
+## G4 definitivo, piloto Sonnet (2026-11-09)
+
+- **Decisión delegada:** claude.
+- **Base:** batch-20, recomposición determinista, con 15/15 en alcance según el book-auditor. Los bloqueantes de batch-16 están todos corregidos.
+- **Revisión visual:** registrada en las 15 páginas.
+- **Fase 4:** 86, 89, 93, 175 y 176 quedan como `partial_deferred`.
+
+## Entrega inmediata del libro (2026-11-09, instrucción de andres)
+
+andres ordena entregar el libro traducido «como salga», con su porcentaje de acierto, sin esperar a que G5 llegue al 90 % y sin cancelar trabajo en curso.
+
+**Ejecución:**
+- G5 deja de bloquear. Cada lote se cierra con `g5_decision` «continue».
+- `assemble-final` ensambla todas las páginas con su mejor candidato.
+- El informe final da el porcentaje de páginas OK según la QA local y según el book-auditor, y lista lo que no está OK.
+
+**Correcciones en curso:** puntuación huérfana y frases entre páginas. Si llegan antes del ensamblado, se aplican con una recomposición.
+
+## Puntuación original huérfana (batch-21, 2026-11-09)
+
+- **Defecto:** un span que solo contiene puntuación (`,` `.` `:` `/` `-`) entra en la clase inmutable de `immutable_span` y se conservaba pintado junto al texto nuevo. p9: coma de «MAP,» (SohoPro-LightCondensed 50 pt, x 144,0–152,7), «MAP,A DEL TESORO». p21: coma de «astrology,» (x 429,4–436,4), coma doble. La comprobación de inmutables lo daba por bueno.
+- **Corrección (composición, `orphan_punctuation.absorb_adjacent_punctuation`):** el span de puntuación que toca (misma banda, hueco ≤1,5 pt) el texto de una unidad compuesta pasa a `absorbed_punctuation` de la unidad que posee el texto precedente. Se redacta con ella, sale de los guardas y del control de inmutables. La puntuación española la pone la traducción. No se absorbe si el texto precedente no se recompone (título publicado conservado, cifra protegida), ni si es final de unidad y la traducción no termina con ese signo: en ese caso no se borra en silencio y lo marca la QA.
+- **No se cambia la extracción:** `source`/`spans` de las traducciones guardadas siguen siendo los mismos (procedencia validada en `reinsert_fidelity`), así que no hay retraducción. Contrapartida: el LLM no vio esas comas; la traducción decide la puntuación.
+- **QA (`orphan_source_punctuation`, acción `recompose`):** cualquier span original de solo puntuación (sin comillas, que pueden ser decorativas) que sigue idéntico en el candidato y cuyo vecino con letras se reescribió, o con texto nuevo que lo interseca o queda a menos de 3 pt en su banda. Bloquea `local_fidelity_ok`.
+- **Barrido:** de 174 traducciones guardadas, solo p9 y p21 cambian. Los puntos finales de p15, 17, 23, 26, 28, 37, 173 y 176, y las comas de p175, ya eran `relocated_punctuation`.

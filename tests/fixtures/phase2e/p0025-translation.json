@@ -1,0 +1,280 @@
+{
+  "page": 25,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "CHAPTER",
+      "line_height": 1.05,
+      "bbox": [
+        428.4425964355469,
+        240.30186462402344,
+        516.6386108398438,
+        257.3018798828125
+      ],
+      "spans": [
+        {
+          "source": "CHAPTER",
+          "bbox": [
+            428.4425964355469,
+            240.30186462402344,
+            516.6386108398438,
+            257.3018798828125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 10329500,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 10329500,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 7,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 10329500,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 17.0,
+        "color": 10329500,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 17.0,
+      "color": 10329500,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0025_u0000",
+      "container_id": "p0025_c0000",
+      "scale_group": "p0025_display_17.0",
+      "page": 25,
+      "target": "CAPÍTULO",
+      "target_runs": [
+        {
+          "text": "CAPÍTULO",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 10329500,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE",
+      "line_height": 1.05,
+      "bbox": [
+        420.7571105957031,
+        449.09527587890625,
+        526.80712890625,
+        499.09527587890625
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            420.7571105957031,
+            449.09527587890625,
+            526.80712890625,
+            499.09527587890625
+          ],
+          "font": "SohoPro-Light",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 50.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 50.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0025_u0001",
+      "container_id": "p0025_c0001",
+      "scale_group": "p0025_display_50.0",
+      "page": 25,
+      "target": "EL",
+      "target_runs": [
+        {
+          "text": "EL",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "ZODIAC SIGNS",
+      "line_height": 1.05,
+      "bbox": [
+        159.30709838867188,
+        508.95562744140625,
+        516.4071655273438,
+        558.9556274414062
+      ],
+      "spans": [
+        {
+          "source": "ZODIAC SIGNS",
+          "bbox": [
+            159.30709838867188,
+            508.95562744140625,
+            516.4071655273438,
+            558.9556274414062
+          ],
+          "font": "SohoPro-Bold",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 12,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 50.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 50.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0025_u0002",
+      "container_id": "p0025_c0002",
+      "scale_group": "p0025_display_50.0",
+      "page": 25,
+      "target": "SIGNOS DEL ZODÍACO",
+      "target_runs": [
+        {
+          "text": "SIGNOS DEL ZODÍACO",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

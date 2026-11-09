@@ -1,0 +1,1064 @@
+{
+  "page": 47,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "Cancer",
+      "line_height": 1.05,
+      "bbox": [
+        459.85150146484375,
+        21.864179611206055,
+        487.5594787597656,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Cancer",
+          "bbox": [
+            459.85150146484375,
+            21.864179611206055,
+            487.5594787597656,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0047_u0000",
+      "container_id": "p0047_c0000",
+      "scale_group": "p0047_display_12.0",
+      "page": 47,
+      "target": "Cáncer",
+      "target_runs": [
+        {
+          "text": "Cáncer",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "A large open-star group is at the heart of Cancer",
+      "line_height": 1.1110026041666667,
+      "bbox": [
+        273.9295959472656,
+        573.542724609375,
+        350.6446533203125,
+        602.5407104492188
+      ],
+      "spans": [
+        {
+          "source": "A large open-star ",
+          "bbox": [
+            273.9295959472656,
+            573.542724609375,
+            350.6446533203125,
+            582.542724609375
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "group is at the ",
+          "bbox": [
+            280.53558349609375,
+            583.5416870117188,
+            344.03955078125,
+            592.5416870117188
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "heart of Cancer",
+          "bbox": [
+            278.132568359375,
+            593.5407104492188,
+            344.7280578613281,
+            602.5407104492188
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 49,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 2,
+      "id": "p0047_u0001_join_u0002",
+      "container_id": "p0047_c0001_join_u0002",
+      "merged_from": [
+        "u0001",
+        "u0002"
+      ],
+      "scale_group": "p0047_body_9.0",
+      "page": 47,
+      "target": "Un gran grupo de estrellas abiertas está en el corazón de Cáncer",
+      "target_runs": [
+        {
+          "text": "Un gran grupo de estrellas abiertas está en el corazón de Cáncer",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Beehive was known to the ancient Greeks, who",
+      "line_height": 1.1110009087456598,
+      "bbox": [
+        431.7355651855469,
+        244.67372131347656,
+        521.4791259765625,
+        273.6717224121094
+      ],
+      "spans": [
+        {
+          "source": "The Beehive was ",
+          "bbox": [
+            438.8365783691406,
+            244.67372131347656,
+            514.3699340820312,
+            253.67372131347656
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "known to the ",
+          "bbox": [
+            446.6935729980469,
+            254.67271423339844,
+            506.5174255371094,
+            263.6727294921875
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ancient Greeks, who ",
+          "bbox": [
+            431.7355651855469,
+            264.6717224121094,
+            521.4791259765625,
+            273.6717224121094
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 48,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "center",
+      "source_block": 4,
+      "id": "p0047_u0003_join_u0004",
+      "container_id": "p0047_c0003_join_u0004",
+      "merged_from": [
+        "u0003",
+        "u0004"
+      ],
+      "scale_group": "p0047_body_9.0",
+      "page": 47,
+      "target": "El Pesebre era conocido por los antiguos griegos, quienes",
+      "target_runs": [
+        {
+          "text": "El Pesebre era conocido por los antiguos griegos, quienes",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "could see it as a misty spot in the sky Two stars positioned opposite",
+      "line_height": 1.1109992133246527,
+      "bbox": [
+        275.24359130859375,
+        272.7357177734375,
+        520.9472045898438,
+        293.6697082519531
+      ],
+      "spans": [
+        {
+          "source": "could see it as a ",
+          "bbox": [
+            442.4095764160156,
+            274.67071533203125,
+            510.806884765625,
+            283.67071533203125
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "misty spot in the sky",
+          "bbox": [
+            430.55657958984375,
+            284.6697082519531,
+            520.9472045898438,
+            293.6697082519531
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Two stars ",
+          "bbox": [
+            296.97857666015625,
+            272.7357177734375,
+            340.9705810546875,
+            281.7357177734375
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "positioned opposite ",
+          "bbox": [
+            275.24359130859375,
+            282.7347106933594,
+            362.72723388671875,
+            291.7347106933594
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 69,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0047_u0005",
+      "container_id": "p0047_c0005",
+      "scale_group": "p0047_body_9.0",
+      "page": 47,
+      "target": "podían verlo como una mancha brumosa en el cielo. Dos estrellas situadas en lados opuestos",
+      "target_runs": [
+        {
+          "text": "podían verlo como una mancha brumosa en el cielo. Dos estrellas situadas en lados opuestos",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "each other form the claws",
+      "line_height": 1.1109992133246527,
+      "bbox": [
+        283.45159912109375,
+        292.73370361328125,
+        356.21661376953125,
+        311.7326965332031
+      ],
+      "spans": [
+        {
+          "source": "each other form  ",
+          "bbox": [
+            283.45159912109375,
+            292.73370361328125,
+            356.21661376953125,
+            301.73370361328125
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the claws",
+          "bbox": [
+            297.1405944824219,
+            302.7326965332031,
+            339.0932312011719,
+            311.7326965332031
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 25,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 7,
+      "id": "p0047_u0006_join_u0007",
+      "container_id": "p0047_c0006_join_u0007",
+      "merged_from": [
+        "u0006",
+        "u0007"
+      ],
+      "scale_group": "p0047_body_9.0",
+      "page": 47,
+      "target": "forman las pinzas",
+      "target_runs": [
+        {
+          "text": "forman las pinzas",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Cancer in the sky",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        62.98417663574219,
+        450.0391845703125,
+        81.98417663574219
+      ],
+      "spans": [
+        {
+          "source": "Cancer in the sky",
+          "bbox": [
+            289.1339111328125,
+            62.98417663574219,
+            450.0391845703125,
+            81.98417663574219
+          ],
+          "font": "SerifaStd-Bold",
+          "size": 19.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Bold",
+        "size": 19.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Bold",
+      "size": 19.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0047_u0008",
+      "container_id": "p0047_c0008",
+      "scale_group": "p0047_display_19.0",
+      "page": 47,
+      "target": "Cáncer en el cielo",
+      "target_runs": [
+        {
+          "text": "Cáncer en el cielo",
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Cancer is the faintest of the 12 zodiac constellations. Its major star group, Praesepe, is also called the Beehive or Manger. It was named the Manger because the stars Gamma and Delta Cancri look like two donkeys feeding at a manger. In Greek mythology, Cancer the crab attacked Hercules during his fight with the Hydra. The crab was crushed during the struggle.",
+      "line_height": 1.0709991455078125,
+      "bbox": [
+        289.1339111328125,
+        84.82793426513672,
+        518.1416625976562,
+        233.77392578125
+      ],
+      "spans": [
+        {
+          "source": "Cancer is the faintest of the 12 zodiac ",
+          "bbox": [
+            289.1339111328125,
+            84.82793426513672,
+            515.7518310546875,
+            98.82793426513672
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "constellations. Its major star group, ",
+          "bbox": [
+            289.1339111328125,
+            99.82195281982422,
+            499.0036315917969,
+            113.82195281982422
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Praesepe, is also called the Beehive or ",
+          "bbox": [
+            289.1339111328125,
+            114.81597137451172,
+            518.1416625976562,
+            128.81597900390625
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Manger. It was named the Manger ",
+          "bbox": [
+            289.1339111328125,
+            129.80999755859375,
+            497.8486328125,
+            143.80999755859375
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "because the stars Gamma and Delta ",
+          "bbox": [
+            289.1339111328125,
+            144.80398559570312,
+            508.9534912109375,
+            158.80398559570312
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Cancri look like two donkeys feeding ",
+          "bbox": [
+            289.1339111328125,
+            159.7979736328125,
+            510.5509033203125,
+            173.7979736328125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "at a manger. In Greek mythology, ",
+          "bbox": [
+            289.1339111328125,
+            174.79196166992188,
+            488.2291564941406,
+            188.79196166992188
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Cancer the crab attacked Hercules ",
+          "bbox": [
+            289.1339111328125,
+            189.78594970703125,
+            497.75628662109375,
+            203.78594970703125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "during his fight with the Hydra. The ",
+          "bbox": [
+            289.1339111328125,
+            204.77993774414062,
+            506.5117492675781,
+            218.77993774414062
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "crab was crushed during the struggle.",
+          "bbox": [
+            289.1339111328125,
+            219.77392578125,
+            515.4143676757812,
+            233.77392578125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 362,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Light",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Light",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0047_u0009",
+      "container_id": "p0047_c0009",
+      "scale_group": "p0047_display_14.0",
+      "page": 47,
+      "target": "Cáncer es la menos brillante de las 12 constelaciones del zodíaco. Su principal grupo de estrellas, Praesepe, también se llama el Pesebre o el Enjambre. Se le dio el nombre de Pesebre porque las estrellas Gamma y Delta Cancri parecen dos asnos que comen en un pesebre. En la mitología griega, Cáncer, el cangrejo, atacó a Hércules durante su lucha contra la Hidra. El cangrejo fue aplastado durante la lucha.",
+      "target_runs": [
+        {
+          "text": "Cáncer es la menos brillante de las 12 constelaciones del zodíaco. Su principal grupo de estrellas, Praesepe, también se llama el Pesebre o el Enjambre. Se le dio el nombre de Pesebre porque las estrellas Gamma y Delta Cancri parecen dos asnos que comen en un pesebre. En la mitología griega, Cáncer, el cangrejo, atacó a Hércules durante su lucha contra la Hidra. El cangrejo fue aplastado durante la lucha.",
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

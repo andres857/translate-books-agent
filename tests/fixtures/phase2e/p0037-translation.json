@@ -1,0 +1,2807 @@
+{
+  "page": 37,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "CHILDLIKE",
+      "line_height": 1.05,
+      "bbox": [
+        370.0260925292969,
+        185.98382568359375,
+        427.64111328125,
+        200.98382568359375
+      ],
+      "spans": [
+        {
+          "source": "CHILDLIKE",
+          "bbox": [
+            370.0260925292969,
+            185.98382568359375,
+            427.64111328125,
+            200.98382568359375
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 15.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 15.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 15.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0037_u0000",
+      "container_id": "p0037_c0000",
+      "scale_group": "p0037_display_15.0",
+      "page": 37,
+      "target": "INFANTIL",
+      "target_runs": [
+        {
+          "text": "INFANTIL",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "This sign is straightforward and sometimes naïve. An Aries can be upset when others aren’t honest and upfront, or when things do not go as planned.",
+      "line_height": 1.1669998168945312,
+      "bbox": [
+        369.9212951660156,
+        205.13368225097656,
+        504.7413330078125,
+        273.149658203125
+      ],
+      "spans": [
+        {
+          "source": "This sign is straightforward and ",
+          "bbox": [
+            369.9212951660156,
+            205.13368225097656,
+            497.8388977050781,
+            217.13368225097656
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "sometimes naïve. An Aries can be ",
+          "bbox": [
+            369.9212951660156,
+            219.13768005371094,
+            504.7413330078125,
+            231.13768005371094
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "upset when others aren’t honest ",
+          "bbox": [
+            369.9212951660156,
+            233.1416778564453,
+            501.0537414550781,
+            245.1416778564453
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and upfront, or when things do ",
+          "bbox": [
+            369.9212951660156,
+            247.1456756591797,
+            494.8377685546875,
+            259.1456604003906
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "not go as planned.",
+          "bbox": [
+            369.9212951660156,
+            261.149658203125,
+            441.4880676269531,
+            273.149658203125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 147,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0037_u0001",
+      "container_id": "p0037_c0001",
+      "scale_group": "p0037_display_12.0",
+      "page": 37,
+      "target": "Este signo es directo y a veces ingenuo. Un Aries puede molestarse cuando los demás no son honestos ni francos, o cuando las cosas no salen según lo planeado.",
+      "target_runs": [
+        {
+          "text": "Este signo es directo y a veces ingenuo. Un Aries puede molestarse cuando los demás no son honestos ni francos, o cuando las cosas no salen según lo planeado.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "FIGHTING SPIRIT WHERE ARIES FALLS IN YOUR CHART, YOU SHOW COMPETITIVENESS AND HATE TO GIVE UP.",
+      "line_height": 1.0617532169117647,
+      "bbox": [
+        56.56379699707031,
+        561.04248046875,
+        459.5912780761719,
+        614.0952758789062
+      ],
+      "spans": [
+        {
+          "source": "FIGHTING SPIRIT  ",
+          "bbox": [
+            56.56380081176758,
+            561.04248046875,
+            231.01779174804688,
+            578.04248046875
+          ],
+          "font": "SohoPro-Heavy",
+          "size": 17.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "WHERE ARIES FALLS IN ",
+          "bbox": [
+            231.1367950439453,
+            561.0892944335938,
+            445.8927917480469,
+            578.0892944335938
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "YOUR CHART, YOU SHOW COMPETITIVENESS ",
+          "bbox": [
+            56.56379699707031,
+            579.09228515625,
+            459.5912780761719,
+            596.09228515625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "AND HATE TO GIVE UP.",
+          "bbox": [
+            56.56379699707031,
+            597.0952758789062,
+            260.16943359375,
+            614.0952758789062
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 16,
+          "end": 94,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Heavy",
+        "size": 17.0,
+        "color": 5723990,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Heavy",
+      "size": 17.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0037_u0002",
+      "container_id": "p0037_c0002",
+      "scale_group": "p0037_display_17.0",
+      "page": 37,
+      "target": "ESPÍRITU COMBATIVO DONDE TENGAS A ARIES EN TU CARTA, MUESTRAS COMPETITIVIDAD Y ODIAS RENDIRTE.",
+      "target_runs": [
+        {
+          "text": "ESPÍRITU COMBATIVO ",
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "DONDE TENGAS A ARIES EN TU CARTA, MUESTRAS COMPETITIVIDAD Y ODIAS RENDIRTE.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "BRAVE & FEARLESS",
+      "line_height": 0.8389991021925404,
+      "bbox": [
+        365.6181945800781,
+        41.55918884277344,
+        478.3031921386719,
+        98.56816101074219
+      ],
+      "spans": [
+        {
+          "source": "BRAVE & ",
+          "bbox": [
+            365.6181945800781,
+            41.55918884277344,
+            469.0621032714844,
+            72.55918884277344
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "FEARLESS",
+          "bbox": [
+            365.6181945800781,
+            67.56816101074219,
+            478.3031921386719,
+            98.56816101074219
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0037_u0003",
+      "container_id": "p0037_c0003",
+      "scale_group": "p0037_display_31.0",
+      "page": 37,
+      "target": "VALIENTE Y AUDAZ",
+      "target_runs": [
+        {
+          "text": "VALIENTE Y AUDAZ",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "This sign enjoys risk. Your planets here will seek out danger as a means of testing and proving their strength.",
+      "line_height": 1.1670023600260417,
+      "bbox": [
+        365.4014892578125,
+        99.87327575683594,
+        519.9087524414062,
+        139.88133239746094
+      ],
+      "spans": [
+        {
+          "source": "This sign enjoys risk. Your planets here ",
+          "bbox": [
+            365.4014892578125,
+            99.87327575683594,
+            519.9087524414062,
+            111.87327575683594
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "will seek out danger as a means of ",
+          "bbox": [
+            365.4014892578125,
+            113.87730407714844,
+            503.5058898925781,
+            125.87730407714844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "testing and proving their strength. ",
+          "bbox": [
+            365.4014892578125,
+            127.88133239746094,
+            503.81787109375,
+            139.88133239746094
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 111,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0037_u0004",
+      "container_id": "p0037_c0004",
+      "scale_group": "p0037_display_12.0",
+      "page": 37,
+      "target": "A este signo le gusta correr riesgos. Tus planetas aquí buscarán el peligro como una forma de poner a prueba y demostrar su fortaleza.",
+      "target_runs": [
+        {
+          "text": "A este signo le gusta correr riesgos. Tus planetas aquí buscarán el peligro como una forma de poner a prueba y demostrar su fortaleza.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "SHOWING INITIATIVE",
+      "line_height": 1.05,
+      "bbox": [
+        36.51969909667969,
+        278.3201904296875,
+        205.2716827392578,
+        294.3201904296875
+      ],
+      "spans": [
+        {
+          "source": "SHOWING INITIATIVE",
+          "bbox": [
+            36.51969909667969,
+            278.3201904296875,
+            205.2716827392578,
+            294.3201904296875
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0037_u0005",
+      "container_id": "p0037_c0005",
+      "scale_group": "p0037_display_16.0",
+      "page": 37,
+      "target": "TOMAR LA INICIATIVA",
+      "target_runs": [
+        {
+          "text": "TOMAR LA INICIATIVA",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "If you have the Sun or Moon in Aries, you probably like to take action and be the leader of the pack.",
+      "line_height": 1.2,
+      "bbox": [
+        36.51969909667969,
+        297.49530029296875,
+        187.67274475097656,
+        343.4953308105469
+      ],
+      "spans": [
+        {
+          "source": "If you have the Sun or Moon in ",
+          "bbox": [
+            36.51969909667969,
+            297.49530029296875,
+            186.07168579101562,
+            307.4953308105469
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Aries, you probably like to take ",
+          "bbox": [
+            36.51969909667969,
+            309.49530029296875,
+            187.67274475097656,
+            319.4953308105469
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "action and be the leader of  ",
+          "bbox": [
+            36.51969909667969,
+            321.49530029296875,
+            169.92970275878906,
+            331.4953308105469
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the pack. ",
+          "bbox": [
+            36.51969909667969,
+            333.49530029296875,
+            81.97969818115234,
+            343.4953308105469
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 101,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0037_u0006",
+      "container_id": "p0037_c0006",
+      "scale_group": "p0037_display_10.0",
+      "page": 37,
+      "target": "Si tienes el Sol o la Luna en Aries, probablemente te guste actuar y ser quien lidere al grupo.",
+      "target_runs": [
+        {
+          "text": "Si tienes el Sol o la Luna en Aries, probablemente te guste actuar y ser quien lidere al grupo.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "TONS OF ENERGY Aries marks the start of spring in the Northern Hemisphere. The planets in this sign will show Aries’ spirit and energy.",
+      "line_height": 1.124999761581421,
+      "bbox": [
+        36.527496337890625,
+        40.95100784301758,
+        301.7147216796875,
+        110.95100402832031
+      ],
+      "spans": [
+        {
+          "source": "TONS OF ENERGY ",
+          "bbox": [
+            36.6245002746582,
+            41.81736373901367,
+            183.3679962158203,
+            56.81736373901367
+          ],
+          "font": "SohoPro-Bold",
+          "size": 15.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Aries marks the ",
+          "bbox": [
+            183.96749877929688,
+            40.95100784301758,
+            281.90509033203125,
+            56.95100784301758
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "start of spring in the Northern Hemisphere. ",
+          "bbox": [
+            36.527496337890625,
+            58.95100784301758,
+            301.7147216796875,
+            74.95100402832031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "The planets in this sign will show Aries’ ",
+          "bbox": [
+            36.527496337890625,
+            76.95100402832031,
+            280.57720947265625,
+            92.95100402832031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "spirit and energy.",
+          "bbox": [
+            36.527496337890625,
+            94.95100402832031,
+            141.53546142578125,
+            110.95100402832031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 15,
+          "end": 135,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 15.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0037_u0007",
+      "container_id": "p0037_c0007",
+      "scale_group": "p0037_display_16.0",
+      "page": 37,
+      "target": "MUCHA ENERGÍA Aries marca el comienzo de la primavera en el hemisferio norte. Los planetas en este signo mostrarán el espíritu y la energía de Aries.",
+      "target_runs": [
+        {
+          "text": "MUCHA ENERGÍA ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Aries marca el comienzo de la primavera en el hemisferio norte. Los planetas en este signo mostrarán el espíritu y la energía de Aries.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "GOOD UNDER PRESSURE",
+      "line_height": 1.125,
+      "bbox": [
+        361.98388671875,
+        460.5751037597656,
+        477.968017578125,
+        494.5751037597656
+      ],
+      "spans": [
+        {
+          "source": "GOOD UNDER ",
+          "bbox": [
+            361.98388671875,
+            460.5751037597656,
+            477.968017578125,
+            476.5751037597656
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "PRESSURE",
+          "bbox": [
+            361.98388671875,
+            478.5751037597656,
+            442.0479736328125,
+            494.5751037597656
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 19,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0037_u0008",
+      "container_id": "p0037_c0008",
+      "scale_group": "p0037_display_16.0",
+      "page": 37,
+      "target": "BUEN DESEMPEÑO BAJO PRESIÓN",
+      "target_runs": [
+        {
+          "text": "BUEN DESEMPEÑO BAJO PRESIÓN",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Aries are clearheaded and able to think quickly in an emergency.",
+      "line_height": 1.167004903157552,
+      "bbox": [
+        361.98388671875,
+        498.0306701660156,
+        495.1094665527344,
+        524.0347290039062
+      ],
+      "spans": [
+        {
+          "source": "Aries are clearheaded and able to ",
+          "bbox": [
+            361.98388671875,
+            498.0306701660156,
+            495.1094665527344,
+            510.0306701660156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "think quickly in an emergency.",
+          "bbox": [
+            361.98388671875,
+            512.0347290039062,
+            482.8958435058594,
+            524.0347290039062
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 64,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0037_u0009",
+      "container_id": "p0037_c0009",
+      "scale_group": "p0037_display_12.0",
+      "page": 37,
+      "target": "Aries mantiene la cabeza fría y puede pensar con rapidez en una emergencia.",
+      "target_runs": [
+        {
+          "text": "Aries mantiene la cabeza fría y puede pensar con rapidez en una emergencia.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE WARRIOR",
+      "line_height": 1.05,
+      "bbox": [
+        36.73630142211914,
+        143.93711853027344,
+        196.69630432128906,
+        174.93711853027344
+      ],
+      "spans": [
+        {
+          "source": "THE WARRIOR",
+          "bbox": [
+            36.73630142211914,
+            143.93711853027344,
+            196.69630432128906,
+            174.93711853027344
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 11,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0037_u0010",
+      "container_id": "p0037_c0010",
+      "scale_group": "p0037_display_31.0",
+      "page": 37,
+      "target": "EL GUERRERO",
+      "target_runs": [
+        {
+          "text": "EL GUERRERO",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE RULER OF ARIES IS THE WARRIOR GOD MARS, WHICH IS WHY ARIENS ARE COMPETITIVE AND MOTIVATED TO WIN!",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        36.61750030517578,
+        176.6090545654297,
+        277.09271240234375,
+        238.61509704589844
+      ],
+      "spans": [
+        {
+          "source": "THE RULER OF ARIES IS THE ",
+          "bbox": [
+            36.61750030517578,
+            176.6090545654297,
+            246.5475311279297,
+            190.6090545654297
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "WARRIOR GOD MARS, WHICH IS  ",
+          "bbox": [
+            36.61750030517578,
+            192.61106872558594,
+            274.71551513671875,
+            206.61106872558594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "WHY ARIENS ARE COMPETITIVE ",
+          "bbox": [
+            36.61750793457031,
+            208.6130828857422,
+            277.09271240234375,
+            222.6130828857422
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "AND MOTIVATED TO WIN!",
+          "bbox": [
+            36.61750793457031,
+            224.61509704589844,
+            224.14608764648438,
+            238.61509704589844
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 101,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0037_u0011",
+      "container_id": "p0037_c0011",
+      "scale_group": "p0037_display_14.0",
+      "page": 37,
+      "target": "EL REGENTE DE ARIES ES EL DIOS GUERRERO MARTE, POR ESO LOS ARIANOS SON COMPETITIVOS Y ESTÁN MOTIVADOS PARA GANAR!",
+      "target_runs": [
+        {
+          "text": "EL REGENTE DE ARIES ES EL DIOS GUERRERO MARTE, POR ESO LOS ARIANOS SON COMPETITIVOS Y ESTÁN MOTIVADOS PARA GANAR!",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "GOING SOLO",
+      "line_height": 1.05,
+      "bbox": [
+        46.50960159301758,
+        465.95709228515625,
+        184.64561462402344,
+        496.9571228027344
+      ],
+      "spans": [
+        {
+          "source": "GOING SOLO ",
+          "bbox": [
+            46.50960159301758,
+            465.95709228515625,
+            184.64561462402344,
+            496.9571228027344
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0037_u0012",
+      "container_id": "p0037_c0012",
+      "scale_group": "p0037_display_31.0",
+      "page": 37,
+      "target": "IR POR LIBRE",
+      "target_runs": [
+        {
+          "text": "IR POR LIBRE",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "WITH PLANETS IN ARIES,",
+      "line_height": 1.05,
+      "bbox": [
+        46.411800384521484,
+        498.128662109375,
+        279.170654296875,
+        515.128662109375
+      ],
+      "spans": [
+        {
+          "source": "WITH PLANETS IN ARIES, ",
+          "bbox": [
+            46.411800384521484,
+            498.128662109375,
+            279.170654296875,
+            515.128662109375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 17.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 17.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0037_u0013",
+      "container_id": "p0037_c0013",
+      "scale_group": "p0037_display_17.0",
+      "page": 37,
+      "target": "CON PLANETAS EN ARIES,",
+      "target_runs": [
+        {
+          "text": "CON PLANETAS EN ARIES,",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOU LIKE TO WORK ALONE",
+      "line_height": 1.05,
+      "bbox": [
+        46.411800384521484,
+        516.1317138671875,
+        282.7254333496094,
+        533.1317138671875
+      ],
+      "spans": [
+        {
+          "source": "YOU LIKE TO WORK ALONE",
+          "bbox": [
+            46.411800384521484,
+            516.1317138671875,
+            282.7254333496094,
+            533.1317138671875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 17.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 17.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0037_u0014",
+      "container_id": "p0037_c0014",
+      "scale_group": "p0037_display_17.0",
+      "page": 37,
+      "target": "TE GUSTA TRABAJAR A SOLAS",
+      "target_runs": [
+        {
+          "text": "TE GUSTA TRABAJAR A SOLAS",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "IMPATIENT",
+      "line_height": 1.05,
+      "bbox": [
+        365.6181945800781,
+        345.140625,
+        492.3461608886719,
+        376.140625
+      ],
+      "spans": [
+        {
+          "source": "IMPATIENT",
+          "bbox": [
+            365.6181945800781,
+            345.140625,
+            492.3461608886719,
+            376.140625
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0037_u0015",
+      "container_id": "p0037_c0015",
+      "scale_group": "p0037_display_31.0",
+      "page": 37,
+      "target": "IMPACIENTE",
+      "target_runs": [
+        {
+          "text": "IMPACIENTE",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOU KNOW WHAT YOU WANT— AND YOU WANT IT RIGHT  NOW!",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        365.4993896484375,
+        377.8125305175781,
+        507.7393798828125,
+        439.81854248046875
+      ],
+      "spans": [
+        {
+          "source": "YOU KNOW  ",
+          "bbox": [
+            365.4993896484375,
+            377.8125305175781,
+            452.3133850097656,
+            391.8125305175781
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "WHAT YOU WANT— ",
+          "bbox": [
+            365.4993896484375,
+            393.81451416015625,
+            507.7393798828125,
+            407.81451416015625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "AND YOU WANT  ",
+          "bbox": [
+            365.4993896484375,
+            409.8165283203125,
+            488.82537841796875,
+            423.8165283203125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "IT RIGHT  NOW!",
+          "bbox": [
+            365.4993896484375,
+            425.81854248046875,
+            477.7233581542969,
+            439.81854248046875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 51,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0037_u0016",
+      "container_id": "p0037_c0016",
+      "scale_group": "p0037_display_14.0",
+      "page": 37,
+      "target": "SABES LO QUE QUIERES, Y LO QUIERES YA!",
+      "target_runs": [
+        {
+          "text": "SABES LO QUE QUIERES, Y LO QUIERES YA!",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "NEGATIVE TRAITS",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        370.9508056640625,
+        177.05599975585938,
+        386.9508056640625
+      ],
+      "spans": [
+        {
+          "source": "NEGATIVE TRAITS",
+          "bbox": [
+            36.0,
+            370.9508056640625,
+            177.05599975585938,
+            386.9508056640625
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0037_u0017",
+      "container_id": "p0037_c0017",
+      "scale_group": "p0037_display_16.0",
+      "page": 37,
+      "target": "RASGOS NEGATIVOS",
+      "target_runs": [
+        {
+          "text": "RASGOS NEGATIVOS",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The ram can be prone to “locking horns” or acting like a “battering ram”—Aries knows how to accomplish tasks, but can cause conflict.",
+      "line_height": 1.2,
+      "bbox": [
+        36.0,
+        390.12591552734375,
+        218.50302124023438,
+        436.12591552734375
+      ],
+      "spans": [
+        {
+          "source": "The ram can be prone to “locking ",
+          "bbox": [
+            36.0,
+            390.12591552734375,
+            195.07106018066406,
+            400.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "horns” or acting like a “battering ",
+          "bbox": [
+            36.0,
+            402.12591552734375,
+            193.9010009765625,
+            412.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ram”—Aries knows how to accomplish ",
+          "bbox": [
+            36.0,
+            414.12591552734375,
+            218.50302124023438,
+            424.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "tasks, but can cause conflict. ",
+          "bbox": [
+            36.0,
+            426.12591552734375,
+            175.89202880859375,
+            436.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 133,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0037_u0018",
+      "container_id": "p0037_c0018",
+      "scale_group": "p0037_display_10.0",
+      "page": 37,
+      "target": "El carnero puede ser propenso a “embestir” o a actuar como un “ariete”: Aries sabe cómo cumplir sus tareas, pero puede provocar conflictos.",
+      "target_runs": [
+        {
+          "text": "El carnero puede ser propenso a “embestir” o a actuar como un “ariete”: Aries sabe cómo cumplir sus tareas, pero puede provocar conflictos.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Aries",
+      "line_height": 1.05,
+      "bbox": [
+        465.9114990234375,
+        21.864179611206055,
+        487.5594787597656,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Aries",
+          "bbox": [
+            465.9114990234375,
+            21.864179611206055,
+            487.5594787597656,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 11,
+      "id": "p0037_u0019",
+      "container_id": "p0037_c0019",
+      "scale_group": "p0037_display_12.0",
+      "page": 37,
+      "target": "Aries",
+      "target_runs": [
+        {
+          "text": "Aries",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "HASTY",
+      "line_height": 1.05,
+      "bbox": [
+        237.18870544433594,
+        349.481689453125,
+        291.31671142578125,
+        365.481689453125
+      ],
+      "spans": [
+        {
+          "source": "HASTY",
+          "bbox": [
+            237.18870544433594,
+            349.481689453125,
+            291.31671142578125,
+            365.481689453125
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0037_u0020",
+      "container_id": "p0037_c0020",
+      "scale_group": "p0037_display_16.0",
+      "page": 37,
+      "target": "PRECIPITADO",
+      "target_runs": [
+        {
+          "text": "PRECIPITADO",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Planets here thrive on self-generated energy, but sometimes act without thinking things through.",
+      "line_height": 1.1669998168945312,
+      "bbox": [
+        237.1886749267578,
+        368.93719482421875,
+        347.15667724609375,
+        422.9491882324219
+      ],
+      "spans": [
+        {
+          "source": "Planets here thrive  ",
+          "bbox": [
+            237.18870544433594,
+            368.93719482421875,
+            316.5086975097656,
+            380.93719482421875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "on self-generated energy,  ",
+          "bbox": [
+            237.18869018554688,
+            382.9411926269531,
+            342.0686950683594,
+            394.9411926269531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "but sometimes act without  ",
+          "bbox": [
+            237.18869018554688,
+            396.9451904296875,
+            347.15667724609375,
+            408.9451904296875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "thinking things through. ",
+          "bbox": [
+            237.1886749267578,
+            410.9491882324219,
+            336.7154541015625,
+            422.9491882324219
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 96,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0037_u0021",
+      "container_id": "p0037_c0021",
+      "scale_group": "p0037_display_12.0",
+      "page": 37,
+      "target": "Los planetas aquí prosperan gracias a la energía que generan por sí mismos, pero a veces actúan sin pensar bien las cosas.",
+      "target_runs": [
+        {
+          "text": "Los planetas aquí prosperan gracias a la energía que generan por sí mismos, pero a veces actúan sin pensar bien las cosas.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

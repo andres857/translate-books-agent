@@ -1,0 +1,1699 @@
+{
+  "page": 19,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "dependency_sha256": "e3b42b096c5fb84bb0c474bb97c953684285b6d4d91e234f6d0e5001df4b4b3d",
+  "blocks": [
+    {
+      "source": "Astrology and Me",
+      "line_height": 1.05,
+      "bbox": [
+        416.1317138671875,
+        21.864179611206055,
+        487.842529296875,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Astrology and Me",
+          "bbox": [
+            416.1317138671875,
+            21.864179611206055,
+            487.842529296875,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0019_u0000",
+      "container_id": "p0019_c0000",
+      "scale_group": "p0019_display_12.0",
+      "page": 19,
+      "target": "La astrología y yo",
+      "target_runs": [
+        {
+          "text": "La astrología y yo",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Forecasting lets you glimpse the future. It shows you which path might be the most fruitful to take.",
+      "line_height": 1.1110003436053242,
+      "bbox": [
+        65.1968994140625,
+        114.68571472167969,
+        278.9801940917969,
+        232.11248779296875
+      ],
+      "spans": [
+        {
+          "source": "Forecasting ",
+          "bbox": [
+            65.1968994140625,
+            115.12146759033203,
+            169.7678985595703,
+            142.1214599609375
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 27.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "lets you glimpse ",
+          "bbox": [
+            169.7678985595703,
+            114.68571472167969,
+            278.9801940917969,
+            141.6857147216797
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "the future. It shows you ",
+          "bbox": [
+            65.1968994140625,
+            144.68272399902344,
+            225.06118774414062,
+            171.68272399902344
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "which path ",
+          "bbox": [
+            65.1968994140625,
+            175.115478515625,
+            165.2318878173828,
+            202.115478515625
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 27.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "might be the ",
+          "bbox": [
+            165.2318878173828,
+            174.6797332763672,
+            250.81918334960938,
+            201.6797332763672
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "most fruitful",
+          "bbox": [
+            65.1968994140625,
+            205.11248779296875,
+            177.03091430664062,
+            232.11248779296875
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 27.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": " to take.  ",
+          "bbox": [
+            177.03091430664062,
+            204.67674255371094,
+            235.7532196044922,
+            231.67674255371094
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 12,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 12,
+          "end": 54,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 54,
+          "end": 65,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 65,
+          "end": 78,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 78,
+          "end": 92,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 92,
+          "end": 100,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 27.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 27.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0019_u0001",
+      "container_id": "p0019_c0001",
+      "scale_group": "p0019_display_27.0",
+      "page": 19,
+      "target": "La predicción te permite vislumbrar el futuro. Te muestra qué camino podría ser el más fructífero para seguir.",
+      "target_runs": [
+        {
+          "text": "La predicción ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "te permite vislumbrar el futuro. Te muestra ",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "qué camino ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "podría ser el ",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "más fructífero ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "para seguir.",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "within the context of our lives and shaped by our needs and desires. Life always has phases and cycles and an underlying sense of growth and development. The one constant in the universe is change, and we are all subject to it. Astrology sees this in terms of planetary cycles— the planets circuiting the chart and marking the chapters of our lives.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        36.0,
+        422.2118225097656,
+        189.74588012695312,
+        601.2479248046875
+      ],
+      "spans": [
+        {
+          "source": "within the context of our  ",
+          "bbox": [
+            36.0,
+            422.2118225097656,
+            163.90684509277344,
+            433.2118225097656
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "lives and shaped by our needs ",
+          "bbox": [
+            36.0,
+            436.21484375,
+            185.12586975097656,
+            447.21484375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and desires. Life always has  ",
+          "bbox": [
+            36.0,
+            450.2178649902344,
+            176.16091918945312,
+            461.2178649902344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "phases and cycles and an ",
+          "bbox": [
+            36.0,
+            464.2208557128906,
+            161.87188720703125,
+            475.2208557128906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "underlying sense of growth ",
+          "bbox": [
+            36.0,
+            478.2238464355469,
+            174.50099182128906,
+            489.2238464355469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and development. The one ",
+          "bbox": [
+            36.0,
+            492.22686767578125,
+            167.41590881347656,
+            503.22686767578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "constant in the universe is ",
+          "bbox": [
+            36.0,
+            506.2298889160156,
+            167.51597595214844,
+            517.2299194335938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "change, and we are all subject ",
+          "bbox": [
+            36.0,
+            520.23291015625,
+            185.00379943847656,
+            531.23291015625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to it. Astrology sees this in ",
+          "bbox": [
+            36.0,
+            534.2359008789062,
+            167.77886962890625,
+            545.2359008789062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "terms of planetary cycles— ",
+          "bbox": [
+            36.0,
+            548.2388916015625,
+            169.18690490722656,
+            559.2388916015625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the planets circuiting the chart ",
+          "bbox": [
+            36.0,
+            562.2418823242188,
+            189.74588012695312,
+            573.2418823242188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and marking the chapters of ",
+          "bbox": [
+            36.0,
+            576.244873046875,
+            176.63392639160156,
+            587.244873046875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "our lives. ",
+          "bbox": [
+            36.0,
+            590.2479248046875,
+            81.93599700927734,
+            601.2479248046875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 349,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0019_u0002",
+      "container_id": "p0019_c0002",
+      "scale_group": "p0019_display_11.0",
+      "page": 19,
+      "target": "en el contexto de nuestras vidas y moldeada por nuestras necesidades y deseos. La vida siempre tiene fases y ciclos, y un sentido subyacente de crecimiento y desarrollo. Lo único constante en el universo es el cambio, y todos estamos sujetos a él. La astrología entiende esto en términos de ciclos planetarios: los planetas recorren la carta y marcan los capítulos de nuestras vidas.",
+      "target_runs": [
+        {
+          "text": "en el contexto de nuestras vidas y moldeada por nuestras necesidades y deseos. La vida siempre tiene fases y ciclos, y un sentido subyacente de crecimiento y desarrollo. Lo único constante en el universo es el cambio, y todos estamos sujetos a él. La astrología entiende esto en términos de ciclos planetarios: los planetas recorren la carta y marcan los capítulos de nuestras vidas.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Inner and exterior life",
+      "line_height": 1.05,
+      "bbox": [
+        200.2677001953125,
+        419.35125732421875,
+        342.30438232421875,
+        432.35125732421875
+      ],
+      "spans": [
+        {
+          "source": "Inner and exterior life",
+          "bbox": [
+            200.2677001953125,
+            419.35125732421875,
+            342.30438232421875,
+            432.35125732421875
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 23,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0019_u0003",
+      "container_id": "p0019_c0003",
+      "scale_group": "p0019_display_13.0",
+      "page": 19,
+      "target": "La vida interior y la exterior",
+      "target_runs": [
+        {
+          "text": "La vida interior y la exterior",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The birth chart shows both inner and outer circumstances, and it makes a link between the two. It shows how you can change your outer situation by understanding your inner psychology. Personal understanding and growth are important in astrology. You should not just react to life, but live it fully as your best self. Astrology helps you to do this.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        200.2677001953125,
+        436.3946228027344,
+        353.9034423828125,
+        601.4276733398438
+      ],
+      "spans": [
+        {
+          "source": "The birth chart shows both ",
+          "bbox": [
+            200.2677001953125,
+            436.3946228027344,
+            336.1605529785156,
+            447.3946228027344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "inner and outer circumstances, ",
+          "bbox": [
+            200.2677001953125,
+            450.39764404296875,
+            353.58453369140625,
+            461.39764404296875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and it makes a link between ",
+          "bbox": [
+            200.2677001953125,
+            464.4006652832031,
+            339.0976257324219,
+            475.4006652832031
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the two. It shows how you can ",
+          "bbox": [
+            200.2677001953125,
+            478.4036560058594,
+            352.55059814453125,
+            489.4036560058594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "change your outer situation  ",
+          "bbox": [
+            200.2677001953125,
+            492.4066467285156,
+            341.2205505371094,
+            503.4066467285156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "by understanding your inner ",
+          "bbox": [
+            200.2677001953125,
+            506.4096374511719,
+            343.5746765136719,
+            517.40966796875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "psychology. Personal ",
+          "bbox": [
+            200.2677001953125,
+            520.4127197265625,
+            305.6136474609375,
+            531.4127197265625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "understanding and growth  ",
+          "bbox": [
+            200.2677001953125,
+            534.4157104492188,
+            337.0174865722656,
+            545.4157104492188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "are important in astrology. You ",
+          "bbox": [
+            200.2677001953125,
+            548.418701171875,
+            351.97857666015625,
+            559.418701171875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "should not just react to life, but ",
+          "bbox": [
+            200.2677001953125,
+            562.4216918945312,
+            353.9034423828125,
+            573.4216918945312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "live it fully as your best self. ",
+          "bbox": [
+            200.2677001953125,
+            576.4246826171875,
+            338.69061279296875,
+            587.4246826171875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Astrology helps you to do this.",
+          "bbox": [
+            200.2677001953125,
+            590.4276733398438,
+            348.755615234375,
+            601.4276733398438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 349,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0019_u0004",
+      "container_id": "p0019_c0004",
+      "scale_group": "p0019_display_11.0",
+      "page": 19,
+      "target": "La carta natal muestra tanto las circunstancias internas como las externas, y establece un vínculo entre ambas. Muestra cómo puedes cambiar tu situación exterior al comprender tu psicología interior. La comprensión personal y el crecimiento son importantes en la astrología. No deberías limitarte a reaccionar ante la vida, sino vivirla plenamente y ser tu mejor versión. La astrología te ayuda a hacerlo.",
+      "target_runs": [
+        {
+          "text": "La carta natal muestra tanto las circunstancias internas como las externas, y establece un vínculo entre ambas. Muestra cómo puedes cambiar tu situación exterior al comprender tu psicología interior. La comprensión personal y el crecimiento son importantes en la astrología. No deberías limitarte a reaccionar ante la vida, sino vivirla plenamente y ser tu mejor versión. La astrología te ayuda a hacerlo.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "How to use astrology",
+      "line_height": 1.05,
+      "bbox": [
+        364.06298828125,
+        419.4457702636719,
+        500.9659729003906,
+        432.4457702636719
+      ],
+      "spans": [
+        {
+          "source": "How to use astrology",
+          "bbox": [
+            364.06298828125,
+            419.4457702636719,
+            500.9659729003906,
+            432.4457702636719
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 20,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0019_u0005",
+      "container_id": "p0019_c0005",
+      "scale_group": "p0019_display_13.0",
+      "page": 19,
+      "target": "Cómo usar la astrología",
+      "target_runs": [
+        {
+          "text": "Cómo usar la astrología",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Natal (or birth) astrology is most useful in helping to reveal your character and identify your skills, potentials, and motivations. Forecasting then lets you glimpse into the future—not telling you what will happen, but showing you the path that might be the most fruitful for you to take.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        364.06298828125,
+        436.4891357421875,
+        513.6838989257812,
+        573.5161743164062
+      ],
+      "spans": [
+        {
+          "source": "Natal (or birth) astrology is ",
+          "bbox": [
+            364.06298828125,
+            436.4891357421875,
+            496.99688720703125,
+            447.4891357421875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "most useful in helping to ",
+          "bbox": [
+            364.06298828125,
+            450.4921569824219,
+            487.635986328125,
+            461.4921569824219
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "reveal your character and ",
+          "bbox": [
+            364.06298828125,
+            464.4951477050781,
+            491.68389892578125,
+            475.4951477050781
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "identify your skills, potentials, ",
+          "bbox": [
+            364.06298828125,
+            478.4981384277344,
+            513.6838989257812,
+            489.4981384277344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and motivations. Forecasting ",
+          "bbox": [
+            364.06298828125,
+            492.50115966796875,
+            507.369873046875,
+            503.50115966796875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "then lets you glimpse into the ",
+          "bbox": [
+            364.06298828125,
+            506.5041809082031,
+            511.8689880371094,
+            517.5042114257812
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "future—not telling you what ",
+          "bbox": [
+            364.06298828125,
+            520.5072021484375,
+            504.5539245605469,
+            531.5072021484375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "will happen, but showing you ",
+          "bbox": [
+            364.06298828125,
+            534.5101928710938,
+            511.37396240234375,
+            545.5101928710938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the path that might be the ",
+          "bbox": [
+            364.06298828125,
+            548.51318359375,
+            495.6988830566406,
+            559.51318359375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "most fruitful for you to take.",
+          "bbox": [
+            364.06298828125,
+            562.5161743164062,
+            503.4208679199219,
+            573.5161743164062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 290,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0019_u0006",
+      "container_id": "p0019_c0006",
+      "scale_group": "p0019_display_11.0",
+      "page": 19,
+      "target": "La astrología natal es especialmente útil para revelar tu carácter e identificar tus habilidades, potenciales y motivaciones. La predicción te permite entonces vislumbrar el futuro: no te dice qué sucederá, sino que te muestra el camino que podría ser más fructífero para ti.",
+      "target_runs": [
+        {
+          "text": "La astrología natal es especialmente útil para revelar tu carácter e identificar tus habilidades, potenciales y motivaciones. La predicción te permite entonces vislumbrar el futuro: no te dice qué sucederá, sino que te muestra el camino que podría ser más fructífero para ti.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ],
+  "qa_verdict": "not_run",
+  "pilot_provenance": {
+    "method": "reuse_validated_corrective_smoke",
+    "source_artifact": "/home/andres/Documents/projects/personal/translate_books/books/the-secrets-of-astrology/work/backend_smoke/corrective/p0019-translation.json",
+    "sha256": "83402577e2b49820af58c477752a9ffb6834b7d5a7492c2b3a5562cd798cd5d1",
+    "source_dependency": "e3b42b096c5fb84bb0c474bb97c953684285b6d4d91e234f6d0e5001df4b4b3d",
+    "current_dependency": "203545ea91aece6c51600188478e20533fc3a5fa0e1274a79bfba49ca473667a"
+  }
+}

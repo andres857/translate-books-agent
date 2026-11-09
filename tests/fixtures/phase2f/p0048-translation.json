@@ -1,0 +1,1153 @@
+{
+  "page": 48,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Zodiac Signs",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        133.5836944580078,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Zodiac Signs",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            133.5836944580078,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0048_u0000",
+      "container_id": "p0048_c0000",
+      "scale_group": "p0048_display_12.0",
+      "page": 48,
+      "target": "Los signos del zodíaco",
+      "target_runs": [
+        {
+          "text": "Los signos del zodíaco",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE",
+      "line_height": 1.05,
+      "bbox": [
+        36.076900482177734,
+        86.57816314697266,
+        59.8489990234375,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            36.076900482177734,
+            86.57816314697266,
+            59.8489990234375,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0048_u0001",
+      "container_id": "p0048_c0001",
+      "scale_group": "p0048_display_11.0",
+      "page": 48,
+      "target": "EL",
+      "target_runs": [
+        {
+          "text": "EL",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "SIGN OF THE ZODIAC",
+      "line_height": 1.05,
+      "bbox": [
+        87.70919799804688,
+        86.57816314697266,
+        193.8031005859375,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": " SIGN OF THE ZODIAC",
+          "bbox": [
+            87.70919799804688,
+            86.57816314697266,
+            193.8031005859375,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0048_u0002",
+      "container_id": "p0048_c0002",
+      "scale_group": "p0048_display_11.0",
+      "page": 48,
+      "target": "SIGNO DEL ZODÍACO",
+      "target_runs": [
+        {
+          "text": "SIGNO DEL ZODÍACO",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "CANCER",
+      "line_height": 1.05,
+      "bbox": [
+        36.34939956665039,
+        100.04248046875,
+        253.44943237304688,
+        150.04248046875
+      ],
+      "spans": [
+        {
+          "source": "CANCER",
+          "bbox": [
+            36.34939956665039,
+            100.04248046875,
+            253.44943237304688,
+            150.04248046875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 50.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 50.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0048_u0003",
+      "container_id": "p0048_c0003",
+      "scale_group": "p0048_display_50.0",
+      "page": 48,
+      "target": "CÁNCER",
+      "target_runs": [
+        {
+          "text": "CÁNCER",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "22 JUNE–22 JULY",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        150.2714385986328,
+        196.39797973632812,
+        171.2714385986328
+      ],
+      "spans": [
+        {
+          "source": "22 JUNE–22 JULY",
+          "bbox": [
+            36.0,
+            150.2714385986328,
+            196.39797973632812,
+            171.2714385986328
+          ],
+          "font": "SohoPro-Light",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 21.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 21.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0048_u0004",
+      "container_id": "p0048_c0004",
+      "scale_group": "p0048_display_21.0",
+      "page": 48,
+      "target": "22 de junio–22 de julio",
+      "target_runs": [
+        {
+          "text": "22 de junio–22 de julio",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "translation_method": "deterministic_date"
+    },
+    {
+      "source": "The Sun in Cancer",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        380.756103515625,
+        212.89234924316406,
+        397.756103515625
+      ],
+      "spans": [
+        {
+          "source": "The Sun in Cancer",
+          "bbox": [
+            116.9291000366211,
+            380.756103515625,
+            212.89234924316406,
+            397.756103515625
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0048_u0005",
+      "container_id": "p0048_c0005",
+      "scale_group": "p0048_display_17.0",
+      "page": 48,
+      "target": "El Sol en Cáncer",
+      "target_runs": [
+        {
+          "text": "El Sol en Cáncer",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "If the Sun is in the Cancer section of your chart, Cancer is your “Sun sign.” You are likely a natural caregiver. You like to find your tribe and develop a central role within it. Close bonds with family and friends are important.",
+      "line_height": 1.1429988316127233,
+      "bbox": [
+        116.9291000366211,
+        401.8755798339844,
+        467.1041564941406,
+        447.8795471191406
+      ],
+      "spans": [
+        {
+          "source": "If the Sun is in the Cancer section of your chart, Cancer is your “Sun sign.” ",
+          "bbox": [
+            116.9291000366211,
+            401.8755798339844,
+            467.1041564941406,
+            415.8755798339844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "You are likely a natural caregiver. You like to find your tribe and develop a ",
+          "bbox": [
+            116.9291000366211,
+            417.8775634765625,
+            464.431640625,
+            431.8775634765625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "central role within it. Close bonds with family and friends are important. ",
+          "bbox": [
+            116.9291000366211,
+            433.8795471191406,
+            459.99072265625,
+            447.8795471191406
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 230,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0048_u0006",
+      "container_id": "p0048_c0006",
+      "scale_group": "p0048_display_14.0",
+      "page": 48,
+      "target": "Si el Sol está en la sección de Cáncer de tu carta, Cáncer es tu “signo solar”. Es probable que tengas una inclinación natural a cuidar de los demás. Te gusta encontrar a tu grupo y ocupar un papel central en él. Los vínculos estrechos con familiares y amistades son importantes.",
+      "target_runs": [
+        {
+          "text": "Si el Sol está en la sección de Cáncer de tu carta, Cáncer es tu “signo solar”. Es probable que tengas una inclinación natural a cuidar de los demás. Te gusta encontrar a tu grupo y ocupar un papel central en él. Los vínculos estrechos con familiares y amistades son importantes.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Your planets in Cancer",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        464.8478088378906,
+        237.15310668945312,
+        481.8478088378906
+      ],
+      "spans": [
+        {
+          "source": "Your planets in Cancer",
+          "bbox": [
+            116.9291000366211,
+            464.8478088378906,
+            237.15310668945312,
+            481.8478088378906
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0048_u0007",
+      "container_id": "p0048_c0007",
+      "scale_group": "p0048_display_17.0",
+      "page": 48,
+      "target": "Tus planetas en Cáncer",
+      "target_runs": [
+        {
+          "text": "Tus planetas en Cáncer",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "The planets in the Cancer section of your chart will show a self-protective quality, acting according to moods and feelings. These planets rely on intuition. Emotion is a ruling force.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        116.9291000366211,
+        485.9673767089844,
+        414.1155090332031,
+        531.9713745117188
+      ],
+      "spans": [
+        {
+          "source": "The planets in the Cancer section of your chart will show a ",
+          "bbox": [
+            116.9291000366211,
+            485.9673767089844,
+            397.8055419921875,
+            499.9673767089844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "self-protective quality, acting according to moods and feelings. ",
+          "bbox": [
+            116.9291000366211,
+            501.9693908691406,
+            414.1155090332031,
+            515.9694213867188
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "These planets rely on intuition. Emotion is a ruling force.",
+          "bbox": [
+            116.9291000366211,
+            517.9713745117188,
+            382.8549499511719,
+            531.9713745117188
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 184,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0048_u0008",
+      "container_id": "p0048_c0008",
+      "scale_group": "p0048_display_14.0",
+      "page": 48,
+      "target": "Los planetas en la sección de Cáncer de tu carta muestran una cualidad de autoprotección y actúan según los estados de ánimo y los sentimientos. Estos planetas se guían por la intuición. La emoción es una fuerza rectora.",
+      "target_runs": [
+        {
+          "text": "Los planetas en la sección de Cáncer de tu carta muestran una cualidad de autoprotección y actúan según los estados de ánimo y los sentimientos. Estos planetas se guían por la intuición. La emoción es una fuerza rectora.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Cancer on the cusp of a house",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        549.8257446289062,
+        275.31640625,
+        566.8257446289062
+      ],
+      "spans": [
+        {
+          "source": "Cancer on the cusp of a house",
+          "bbox": [
+            116.9291000366211,
+            549.8257446289062,
+            275.31640625,
+            566.8257446289062
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 29,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0048_u0009",
+      "container_id": "p0048_c0009",
+      "scale_group": "p0048_display_17.0",
+      "page": 48,
+      "target": "Cáncer en la cúspide de una casa",
+      "target_runs": [
+        {
+          "text": "Cáncer en la cúspide de una casa",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "If Cancer is right at the beginning point of a house, this area of your life may form a place of safety away from the world. You look to protect and defend this special place.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        116.9291000366211,
+        570.9453125,
+        459.00103759765625,
+        616.9492797851562
+      ],
+      "spans": [
+        {
+          "source": "If Cancer is right at the beginning point of a house, this area of your life ",
+          "bbox": [
+            116.9291000366211,
+            570.9453125,
+            455.76556396484375,
+            584.9453125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "may form a place of safety away from the world. You look to protect and ",
+          "bbox": [
+            116.9291000366211,
+            586.947265625,
+            459.00103759765625,
+            600.947265625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "defend this special place.  ",
+          "bbox": [
+            116.9291000366211,
+            602.9492797851562,
+            239.41232299804688,
+            616.9492797851562
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 175,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0048_u0010",
+      "container_id": "p0048_c0010",
+      "scale_group": "p0048_display_14.0",
+      "page": 48,
+      "target": "Si Cáncer está justo al comienzo de una casa, esta área de tu vida puede ser un refugio seguro frente al mundo. Buscas proteger y defender este lugar especial.",
+      "target_runs": [
+        {
+          "text": "Si Cáncer está justo al comienzo de una casa, esta área de tu vida puede ser un refugio seguro frente al mundo. Buscas proteger y defender este lugar especial.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,951 @@
+{
+  "page": 35,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "dependency_sha256": "4974a5e8ec7882354f31a8b7f69e64b2fd54fc4f403e709d227af99bbe5b8f53",
+  "blocks": [
+{
+      "source": "Aries",
+      "line_height": 1.05,
+      "bbox": [
+        465.9114074707031,
+        21.864179611206055,
+        487.55938720703125,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Aries",
+          "bbox": [
+            465.9114074707031,
+            21.864179611206055,
+            487.55938720703125,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0035_u0000",
+      "container_id": "p0035_c0000",
+      "scale_group": "p0035_display_12.0",
+      "page": 35,
+      "target": "Aries",
+      "target_runs": [
+        {
+          "text": "Aries",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+{
+  "source": "This group of stars represents the ram’s body",
+  "line_height": 1.1109992133246527,
+  "bbox": [
+    311.92840576171875,
+    507.3064270019531,
+    382.857421875,
+    536.3043823242188
+  ],
+  "spans": [
+    {
+      "source": "This group of",
+      "bbox": [
+        319.0024108886719,
+        507.3064270019531,
+        375.7771301269531,
+        516.306396484375
+      ],
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "flags": 6,
+      "rotate": 0,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    },
+    {
+      "source": "stars represents",
+      "bbox": [
+        311.92840576171875,
+        517.305419921875,
+        382.857421875,
+        526.305419921875
+      ],
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "flags": 6,
+      "rotate": 0,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    },
+    {
+      "source": "the ram’s body",
+      "bbox": [
+        315.6454162597656,
+        527.3043823242188,
+        379.12957763671875,
+        536.3043823242188
+      ],
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "flags": 6,
+      "rotate": 0,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    }
+  ],
+  "style_runs": [
+    {
+      "start": 0,
+      "end": 45,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    }
+  ],
+  "style": {
+    "font": "SohoPro-Italic",
+    "size": 9.0,
+    "color": 1907995,
+    "weight": 400,
+    "bold": false,
+    "italic": true,
+    "serif": true,
+    "width": 100
+  },
+  "font": "SohoPro-Italic",
+  "size": 9.0,
+  "color": 1907995,
+  "rotate": 0,
+  "kind": "paragraph",
+  "context": "figure_label",
+  "vector": true,
+  "alignment": "center",
+  "source_block": 2,
+  "id": "p0035_u0001_join_u0002",
+  "container_id": "p0035_c0001_join_u0002",
+  "merged_from": [
+    "u0001",
+    "u0002"
+  ],
+  "scale_group": "p0035_body_9.0",
+  "page": 35,
+  "target": "Este grupo de estrellas representa el cuerpo del carnero",
+  "target_runs": [
+    {
+      "text": "Este grupo de estrellas representa el cuerpo del carnero",
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    }
+  ]
+},
+{
+  "source": "Gamma Arietis is a double star with almost identical white components",
+  "line_height": 1.1110026041666667,
+  "bbox": [
+    361.5544128417969,
+    563.619384765625,
+    466.0030517578125,
+    602.6163940429688
+  ],
+  "spans": [
+    {
+      "source": "Gamma Arietis is a ",
+      "bbox": [
+        373.1554260253906,
+        563.619384765625,
+        454.3848876953125,
+        572.619384765625
+      ],
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "flags": 6,
+      "rotate": 0,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    },
+    {
+      "source": "double star with almost ",
+      "bbox": [
+        361.5544128417969,
+        573.618408203125,
+        466.0030517578125,
+        582.618408203125
+      ],
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "flags": 6,
+      "rotate": 0,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    },
+    {
+      "source": "identical white ",
+      "bbox": [
+        380.25640869140625,
+        583.6173706054688,
+        447.295654296875,
+        592.6173706054688
+      ],
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "flags": 6,
+      "rotate": 0,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    },
+    {
+      "source": "components",
+      "bbox": [
+        386.0074157714844,
+        593.6163940429688,
+        439.83282470703125,
+        602.6163940429688
+      ],
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "flags": 6,
+      "rotate": 0,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    }
+  ],
+  "style_runs": [
+    {
+      "start": 0,
+      "end": 69,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    }
+  ],
+  "style": {
+    "font": "SohoPro-Italic",
+    "size": 9.0,
+    "color": 1907995,
+    "weight": 400,
+    "bold": false,
+    "italic": true,
+    "serif": true,
+    "width": 100
+  },
+  "font": "SohoPro-Italic",
+  "size": 9.0,
+  "color": 1907995,
+  "rotate": 0,
+  "kind": "paragraph",
+  "context": "figure_label",
+  "vector": true,
+  "alignment": "center",
+  "source_block": 4,
+  "id": "p0035_u0003_join_u0004_u0005",
+  "container_id": "p0035_c0003_join_u0004_join_u0005",
+  "merged_from": [
+    "u0003",
+    "u0004",
+    "u0005"
+  ],
+  "scale_group": "p0035_body_9.0",
+  "page": 35,
+  "target": "Gamma Arietis es una estrella doble cuyos componentes blancos son casi idénticos",
+  "target_runs": [
+    {
+      "text": "Gamma Arietis es una estrella doble cuyos componentes blancos son casi idénticos",
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    }
+  ]
+},
+{
+  "source": "The three brightest star of Aries—Alpha, Beta, and Gamma—form a crooked line",
+  "line_height": 1.1109992133246527,
+  "bbox": [
+    293.89239501953125,
+    260.0674133300781,
+    414.48699951171875,
+    289.0653991699219
+  ],
+  "spans": [
+    {
+      "source": "The three brightest star of ",
+      "bbox": [
+        296.9254150390625,
+        260.0674133300781,
+        413.1720886230469,
+        269.0674133300781
+      ],
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "flags": 6,
+      "rotate": 0,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    },
+    {
+      "source": "Aries—Alpha, Beta, and ",
+      "bbox": [
+        304.4764099121094,
+        270.06640625,
+        405.61566162109375,
+        279.06640625
+      ],
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "flags": 6,
+      "rotate": 0,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    },
+    {
+      "source": "Gamma—form a crooked line",
+      "bbox": [
+        293.89239501953125,
+        280.0653991699219,
+        414.48699951171875,
+        289.0653991699219
+      ],
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "flags": 6,
+      "rotate": 0,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    }
+  ],
+  "style_runs": [
+    {
+      "start": 0,
+      "end": 76,
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    }
+  ],
+  "style": {
+    "font": "SohoPro-Italic",
+    "size": 9.0,
+    "color": 1907995,
+    "weight": 400,
+    "bold": false,
+    "italic": true,
+    "serif": true,
+    "width": 100
+  },
+  "font": "SohoPro-Italic",
+  "size": 9.0,
+  "color": 1907995,
+  "rotate": 0,
+  "kind": "paragraph",
+  "context": "running_text",
+  "vector": false,
+  "alignment": "center",
+  "source_block": 7,
+  "id": "p0035_u0006_join_u0007",
+  "container_id": "p0035_c0006_join_u0007",
+  "merged_from": [
+    "u0006",
+    "u0007"
+  ],
+  "scale_group": "p0035_body_9.0",
+  "page": 35,
+  "target": "Las tres estrellas más brillantes de Aries —Alfa, Beta y Gamma— forman una línea torcida",
+  "target_runs": [
+    {
+      "text": "Las tres estrellas más brillantes de Aries —Alfa, Beta y Gamma— forman una línea torcida",
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      }
+    }
+  ]
+},
+{
+      "source": "Aries in the sky",
+      "line_height": 1.05,
+      "bbox": [
+        291.968505859375,
+        69.07853698730469,
+        437.64727783203125,
+        88.07853698730469
+      ],
+      "spans": [
+        {
+          "source": "Aries in the sky",
+          "bbox": [
+            291.968505859375,
+            69.07853698730469,
+            437.64727783203125,
+            88.07853698730469
+          ],
+          "font": "SerifaStd-Bold",
+          "size": 19.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Bold",
+        "size": 19.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Bold",
+      "size": 19.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0035_u0008",
+      "container_id": "p0035_c0008",
+      "scale_group": "p0035_display_19.0",
+      "page": 35,
+      "target": "Aries en el cielo",
+      "target_runs": [
+        {
+          "text": "Aries en el cielo",
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+{
+      "source": "The constellation of Aries is not always easy to pick out when viewing the sky. Its most recognisable feature is a crooked line of three stars: Alpha, Beta, and Gamma. In Greek mythology, Aries represents the ram whose golden fleece hung on a tree near the Black Sea. Jason and the Argonauts went on an epic voyage to bring this fleece back to Greece.",
+      "line_height": 1.0709991455078125,
+      "bbox": [
+        291.968505859375,
+        90.92241668701172,
+        520.5828857421875,
+        239.868408203125
+      ],
+      "spans": [
+        {
+          "source": "The constellation of Aries is not ",
+          "bbox": [
+            291.968505859375,
+            90.92241668701172,
+            483.3302307128906,
+            104.92241668701172
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "always easy to pick out when viewing ",
+          "bbox": [
+            291.968505859375,
+            105.91643524169922,
+            520.5828857421875,
+            119.91643524169922
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the sky. Its most recognisable feature ",
+          "bbox": [
+            291.968505859375,
+            120.91045379638672,
+            516.1280517578125,
+            134.91046142578125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "is a crooked line of three stars:  ",
+          "bbox": [
+            291.968505859375,
+            135.90447998046875,
+            479.3150329589844,
+            149.90447998046875
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Alpha, Beta, and Gamma. In Greek ",
+          "bbox": [
+            291.968505859375,
+            150.89846801757812,
+            502.8013610839844,
+            164.89846801757812
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "mythology, Aries represents the ram ",
+          "bbox": [
+            291.968505859375,
+            165.8924560546875,
+            510.01556396484375,
+            179.8924560546875
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "whose golden fleece hung on a tree ",
+          "bbox": [
+            291.968505859375,
+            180.88644409179688,
+            503.80804443359375,
+            194.88644409179688
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "near the Black Sea. Jason and the ",
+          "bbox": [
+            291.968505859375,
+            195.88043212890625,
+            494.3496398925781,
+            209.88043212890625
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Argonauts went on an epic voyage  ",
+          "bbox": [
+            291.968505859375,
+            210.87442016601562,
+            503.48602294921875,
+            224.87442016601562
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to bring this fleece back to Greece.",
+          "bbox": [
+            291.968505859375,
+            225.868408203125,
+            499.2651062011719,
+            239.868408203125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 351,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Light",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Light",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0035_u0009",
+      "container_id": "p0035_c0009",
+      "scale_group": "p0035_display_14.0",
+      "page": 35,
+      "target": "La constelación de Aries no siempre es fácil de distinguir al observar el cielo. Su rasgo más reconocible es una línea irregular de tres estrellas: Alfa, Beta y Gamma. En la mitología griega, Aries representa al carnero cuyo vellocino de oro colgaba de un árbol cerca del mar Negro. Jasón y los argonautas emprendieron una travesía épica para llevar ese vellocino de vuelta a Grecia.",
+      "target_runs": [
+        {
+          "text": "La constelación de Aries no siempre es fácil de distinguir al observar el cielo. Su rasgo más reconocible es una línea irregular de tres estrellas: Alfa, Beta y Gamma. En la mitología griega, Aries representa al carnero cuyo vellocino de oro colgaba de un árbol cerca del mar Negro. Jasón y los argonautas emprendieron una travesía épica para llevar ese vellocino de vuelta a Grecia.",
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+],
+  "qa_verdict": "not_run"
+}

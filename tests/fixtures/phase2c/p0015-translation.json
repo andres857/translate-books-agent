@@ -1,0 +1,1536 @@
+{
+  "page": 15,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "In the Beginning",
+      "line_height": 1.05,
+      "bbox": [
+        419.8033142089844,
+        21.864179611206055,
+        487.8421325683594,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "In the Beginning",
+          "bbox": [
+            419.8033142089844,
+            21.864179611206055,
+            487.8421325683594,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0015_u0000",
+      "container_id": "p0015_c0000",
+      "scale_group": "p0015_display_12.0",
+      "page": 15,
+      "target": "En el principio",
+      "target_runs": [
+        {
+          "text": "En el principio",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "It seems a natural part of human experience to seek meaning",
+      "line_height": 1.1110003436053242,
+      "bbox": [
+        98.793701171875,
+        156.94239807128906,
+        316.32733154296875,
+        214.37515258789062
+      ],
+      "spans": [
+        {
+          "source": "It seems a natural part of human ",
+          "bbox": [
+            98.793701171875,
+            156.94239807128906,
+            316.32733154296875,
+            183.94239807128906
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "experience to ",
+          "bbox": [
+            98.793701171875,
+            186.9394073486328,
+            190.5937042236328,
+            213.9394073486328
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "seek meaning ",
+          "bbox": [
+            190.5937042236328,
+            187.37515258789062,
+            314.1159973144531,
+            214.37515258789062
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 27.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 47,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 47,
+          "end": 59,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCompressed",
+        "size": 27.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-LightCompressed",
+      "size": 27.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0015_u0001",
+      "container_id": "p0015_c0001",
+      "scale_group": "p0015_display_27.0",
+      "page": 15,
+      "target": "Parece natural, como parte de la experiencia humana, buscar significado",
+      "target_runs": [
+        {
+          "text": "Parece natural, como parte de la experiencia humana, ",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "buscar significado",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "in the sky",
+      "line_height": 1.05,
+      "bbox": [
+        98.793701171875,
+        217.37216186523438,
+        184.24871826171875,
+        244.37216186523438
+      ],
+      "spans": [
+        {
+          "source": "in the sky",
+          "bbox": [
+            98.793701171875,
+            217.37216186523438,
+            184.24871826171875,
+            244.37216186523438
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 27.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 27.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 27.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0015_u0002",
+      "container_id": "p0015_c0002",
+      "scale_group": "p0015_display_27.0",
+      "page": 15,
+      "target": "en el cielo",
+      "target_runs": [
+        {
+          "text": "en el cielo",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "symbolism. In ancient Rome, everyone—from emperors to common people—looked to astrology for answers. A high point",
+      "line_height": 1.0771554800180287,
+      "bbox": [
+        36.0,
+        422.2118225097656,
+        177.31590270996094,
+        501.58575439453125
+      ],
+      "spans": [
+        {
+          "source": "symbolism. In ancient Rome, ",
+          "bbox": [
+            36.0,
+            422.2118225097656,
+            177.31590270996094,
+            433.2118225097656
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "everyone—from emperors to ",
+          "bbox": [
+            36.0,
+            436.21484375,
+            176.72189331054688,
+            447.21484375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "common people—looked  ",
+          "bbox": [
+            36.0,
+            450.2178649902344,
+            157.07591247558594,
+            461.2178649902344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to astrology for answers.",
+          "bbox": [
+            36.0,
+            464.2208557128906,
+            158.03289794921875,
+            475.2208557128906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "A high point",
+          "bbox": [
+            36.0,
+            488.58575439453125,
+            115.51970672607422,
+            501.58575439453125
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 101,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 101,
+          "end": 113,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0015_u0003",
+      "container_id": "p0015_c0003",
+      "scale_group": "p0015_display_13.0",
+      "page": 15,
+      "target": "el simbolismo. En la antigua Roma, todos —desde los emperadores hasta la gente común— recurrían a la astrología en busca de respuestas. Un momento de esplendor",
+      "target_runs": [
+        {
+          "text": "el simbolismo. En la antigua Roma, todos —desde los emperadores hasta la gente común— recurrían a la astrología en busca de respuestas.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": " Un momento de esplendor",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Medieval and Renaissance periods in Europe were a high point in astrology’s history. It was often classed as one of the liberal arts at universities, and it formed the basis of some medical practices.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        36.0,
+        505.6291198730469,
+        189.68099975585938,
+        600.6471557617188
+      ],
+      "spans": [
+        {
+          "source": "The Medieval and Renaissance  ",
+          "bbox": [
+            36.0,
+            505.6291198730469,
+            189.68099975585938,
+            516.629150390625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "periods in Europe were a high ",
+          "bbox": [
+            36.0,
+            519.6322021484375,
+            183.72779846191406,
+            530.6322021484375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "point in astrology’s history.  ",
+          "bbox": [
+            36.0,
+            533.6351928710938,
+            172.00067138671875,
+            544.6351928710938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "It was often classed as one of ",
+          "bbox": [
+            36.0,
+            547.63818359375,
+            181.95787048339844,
+            558.63818359375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the liberal arts at universities, ",
+          "bbox": [
+            36.0,
+            561.6411743164062,
+            184.1358642578125,
+            572.6411743164062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and it formed the basis of ",
+          "bbox": [
+            36.0,
+            575.6441650390625,
+            162.8508758544922,
+            586.6441650390625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "some medical practices.  ",
+          "bbox": [
+            36.0,
+            589.6471557617188,
+            155.1839141845703,
+            600.6471557617188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 204,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0015_u0004",
+      "container_id": "p0015_c0004",
+      "scale_group": "p0015_display_11.0",
+      "page": 15,
+      "target": "La Edad Media y el Renacimiento en Europa fueron épocas de esplendor en la historia de la astrología. A menudo se la consideraba una de las artes liberales en las universidades y sirvió de base para algunas prácticas médicas.",
+      "target_runs": [
+        {
+          "text": "La Edad Media y el Renacimiento en Europa fueron épocas de esplendor en la historia de la astrología. A menudo se la consideraba una de las artes liberales en las universidades y sirvió de base para algunas prácticas médicas.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Most royal courts had an astrologer-astronomer in residence. At the same time, the Renaissance brought a new search for scientific knowledge, and astrology’s popularity declined. Astrology now",
+      "line_height": 1.0771554800180287,
+      "bbox": [
+        200.031494140625,
+        422.2271423339844,
+        339.7969055175781,
+        543.5857543945312
+      ],
+      "spans": [
+        {
+          "source": "Most royal courts had an ",
+          "bbox": [
+            200.03199768066406,
+            422.2271423339844,
+            322.6368408203125,
+            433.2271423339844
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "astrologer-astronomer in ",
+          "bbox": [
+            200.03199768066406,
+            436.2301330566406,
+            324.9139709472656,
+            447.2301330566406
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "residence. At the same time, ",
+          "bbox": [
+            200.03199768066406,
+            450.233154296875,
+            339.7969055175781,
+            461.233154296875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the Renaissance brought a ",
+          "bbox": [
+            200.03199768066406,
+            464.2361755371094,
+            332.3168640136719,
+            475.2361755371094
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "new search for scientific ",
+          "bbox": [
+            200.03199768066406,
+            478.2391662597656,
+            320.9979248046875,
+            489.2391662597656
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "knowledge, and astrology’s ",
+          "bbox": [
+            200.03199768066406,
+            492.2421569824219,
+            335.2868347167969,
+            503.2421569824219
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "popularity declined. ",
+          "bbox": [
+            200.03199768066406,
+            506.2452087402344,
+            299.6139221191406,
+            517.2452392578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Astrology now",
+          "bbox": [
+            200.031494140625,
+            530.5857543945312,
+            295.3345031738281,
+            543.5857543945312
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 179,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 179,
+          "end": 192,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0015_u0005",
+      "container_id": "p0015_c0005",
+      "scale_group": "p0015_display_13.0",
+      "page": 15,
+      "target": "La mayoría de las cortes reales tenía un astrólogo-astrónomo residente. Al mismo tiempo, el Renacimiento trajo una nueva búsqueda de conocimiento científico y la popularidad de la astrología disminuyó. La astrología en la actualidad",
+      "target_runs": [
+        {
+          "text": "La mayoría de las cortes reales tenía un astrólogo-astrónomo residente. Al mismo tiempo, el Renacimiento trajo una nueva búsqueda de conocimiento científico y la popularidad de la astrología disminuyó.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": " La astrología en la actualidad",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "At the end of the 19th century, people began to believe that there was a link between astrology and psychology.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        200.031494140625,
+        547.629150390625,
+        353.8984069824219,
+        600.63818359375
+      ],
+      "spans": [
+        {
+          "source": "At the end of the 19th century, ",
+          "bbox": [
+            200.031494140625,
+            547.629150390625,
+            353.8984069824219,
+            558.629150390625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "people began to believe that ",
+          "bbox": [
+            200.031494140625,
+            561.6321411132812,
+            340.51141357421875,
+            572.6321411132812
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "there was a link between ",
+          "bbox": [
+            200.031494140625,
+            575.6351318359375,
+            326.2884521484375,
+            586.6351318359375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "astrology and psychology. ",
+          "bbox": [
+            200.031494140625,
+            589.63818359375,
+            329.6874084472656,
+            600.63818359375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 111,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0015_u0006",
+      "container_id": "p0015_c0006",
+      "scale_group": "p0015_display_11.0",
+      "page": 15,
+      "target": "A finales del siglo 19, la gente empezó a creer que existía un vínculo entre la astrología y la psicología.",
+      "target_runs": [
+        {
+          "text": "A finales del siglo 19, la gente empezó a creer que existía un vínculo entre la astrología y la psicología.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrologers also saw that our universe happens both outside and within us and that the two realms are linked. Today, people are again turning to astrology. As in ancient times, it shows us how we can live our best lives in rhythm with the heavenly pattern.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        364.0634765625,
+        422.7901306152344,
+        517.7994995117188,
+        545.814208984375
+      ],
+      "spans": [
+        {
+          "source": "Astrologers also saw that our ",
+          "bbox": [
+            364.0634765625,
+            422.7901306152344,
+            510.12030029296875,
+            433.7901306152344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "universe happens both outside ",
+          "bbox": [
+            364.0634765625,
+            436.7931213378906,
+            517.7994995117188,
+            447.7931213378906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and within us and that the ",
+          "bbox": [
+            364.0634765625,
+            450.796142578125,
+            497.140380859375,
+            461.796142578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "two realms are linked. Today, ",
+          "bbox": [
+            364.0634765625,
+            464.7991638183594,
+            507.8543701171875,
+            475.7991638183594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "people are again turning to ",
+          "bbox": [
+            364.0634765625,
+            478.8021545410156,
+            498.9554138183594,
+            489.8021545410156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "astrology. As in ancient times, ",
+          "bbox": [
+            364.0634765625,
+            492.8051452636719,
+            512.2103881835938,
+            503.8051452636719
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "it shows us how we can live ",
+          "bbox": [
+            364.0634765625,
+            506.8081970214844,
+            502.39837646484375,
+            517.8082275390625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "our best lives in rhythm with ",
+          "bbox": [
+            364.0634765625,
+            520.8112182617188,
+            508.6354064941406,
+            531.8112182617188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the heavenly pattern.",
+          "bbox": [
+            364.0634765625,
+            534.814208984375,
+            470.1904602050781,
+            545.814208984375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 256,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0015_u0007",
+      "container_id": "p0015_c0007",
+      "scale_group": "p0015_display_11.0",
+      "page": 15,
+      "target": "Los astrólogos también vieron que nuestro universo existe tanto fuera de nosotros como en nuestro interior, y que ambos ámbitos están vinculados. Hoy, la gente vuelve a recurrir a la astrología. Como en la Antigüedad, nos muestra cómo vivir mejor, en armonía con el patrón celestial.",
+      "target_runs": [
+        {
+          "text": "Los astrólogos también vieron que nuestro universo existe tanto fuera de nosotros como en nuestro interior, y que ambos ámbitos están vinculados. Hoy, la gente vuelve a recurrir a la astrología. Como en la Antigüedad, nos muestra cómo vivir mejor, en armonía con el patrón celestial.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

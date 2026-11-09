@@ -71,6 +71,74 @@ def require_approval(book,glossary,style,do_not_translate=None):
         raise Blocked('G3: approval missing or hashes changed')
     return data
 
+TRIAGE_VERSION=2
+ROUTES={'native':['A'],'mixed':['A','B'],'vector_figure':['A'],'scanned':['C']}
+
+def visible_native_letters(page):
+    """Letters a reader sees as native text: inside the page box, not render
+    mode 3 (invisible OCR layers), not transparent and not in symbol fonts.
+
+    Printer slug lines outside the trim box (e.g. Helvetica job names below
+    the page) are excluded, so a bare illustration counts zero.
+    """
+    count=0
+    for span in page.get_texttrace():
+        if span.get('type')==3 or not span.get('opacity',1) or SYMBOL_FONT.search(span.get('font','')):continue
+        for char in span['chars']:
+            box=fitz.Rect(char[3])
+            if chr(char[0]).isalpha() and page.rect.contains(fitz.Point((box.x0+box.x1)/2,(box.y0+box.y1)/2)):count+=1
+    return count
+
+def classify_page(page,config=None):
+    """Triage one page. A full-page raster is a scan (route C) only when the
+    page has little extractable text *and* no visible native text overlay.
+    Chapter openings with native titles over full-bleed artwork are mixed:
+    route A composes their native text, the raster is preserved.
+    """
+    config=config or {}
+    text=page.get_text(); images=[]
+    for item in page.get_images(full=True):
+        for rect in page.get_image_rects(item[0]):
+            images.append({'xref':item[0],'rect':list(rect),'has_text':None})
+    cover=max([fitz.Rect(x['rect']).get_area()/page.rect.get_area() for x in images] or [0])
+    letters=visible_native_letters(page)
+    overlay=letters>=config.get('native_overlay_min_letters',8)
+    scanned=len(text.strip())<config.get('scanned_char_threshold',80) and cover>=config.get('scanned_image_area_ratio',.8) and not overlay
+    kind='scanned' if scanned else 'mixed' if images else 'vector_figure' if page.get_drawings() else 'native'
+    return {'page':page.number+1,'type':kind,'chars':len(text),'images':images,
+            'symbol_fonts':[f[3] for f in page.get_fonts() if SYMBOL_FONT.search(f[3])],'route':ROUTES[kind][0],
+            'routes':ROUTES[kind],'visible_native_letters':letters,'image_cover':round(cover,4)}
+
+def _triage_rows(source,config):
+    rows=[]
+    with fitz.open(source) as doc:
+        for page in doc:rows.append(classify_page(page,config))
+    return rows
+
+def _merge_triage(old_pages,rows,stamp):
+    """Update only classification keys; every state key of a page survives."""
+    old={r['page']:r for r in old_pages};pages=[];changes=[]
+    for row in rows:
+        previous=old.get(row['page'])
+        fresh={'page':row['page'],'type':row['type'],'chars':row['chars'],'images':row['images'],'symbol_fonts':row['symbol_fonts'],
+               'route':row['route'],'status':'pending','attempts':0,'stages':{r:'pending' for r in row['routes']}}
+        if previous is None:pages.append(fresh);continue
+        merged=json.loads(json.dumps(previous))
+        if (previous.get('type'),previous.get('route'))!=(row['type'],row['route']):
+            stages=dict(previous.get('stages',{}))
+            for route in row['routes']:stages.setdefault(route,'pending')
+            change={'page':row['page'],'from':{'type':previous.get('type'),'route':previous.get('route'),'status':previous.get('status')},
+                    'to':{'type':row['type'],'route':row['route']},'visible_native_letters':row['visible_native_letters'],
+                    'triage_version':TRIAGE_VERSION,**stamp}
+            merged.update(type=row['type'],route=row['route'],stages=stages)
+            merged.setdefault('retriage_history',[]).append(change);changes.append(change)
+        pages.append(merged)
+    return pages,changes
+
+def _manifest_summary(digest,config,pages):
+    ratio=sum(p['type']=='scanned' for p in pages)/max(len(pages),1)
+    return {'scanned_ratio':ratio,'warnings':['More than 30% scanned pages'] if ratio>config.get('scanned_warning_ratio',.3) else []}
+
 def triage(book,config=None):
     book=Path(book); config=config or {}; source=book/'source.pdf'; digest=sha256(source)
     with book_lock(book):
@@ -79,22 +147,39 @@ def triage(book,config=None):
             old=json.loads(manifest.read_text())
             if old['source_sha256']!=digest: raise Blocked('Immutable source changed')
             if old.get('triage_config')==config: return old
-        pages=[]
-        with fitz.open(source) as doc:
-            for page in doc:
-                text=page.get_text(); images=[]
-                for item in page.get_images(full=True):
-                    for rect in page.get_image_rects(item[0]):
-                        images.append({'xref':item[0],'rect':list(rect),'has_text':None})
-                cover=max([fitz.Rect(x['rect']).get_area()/page.rect.get_area() for x in images] or [0])
-                scanned=len(text.strip())<config.get('scanned_char_threshold',80) and cover>=config.get('scanned_image_area_ratio',.8)
-                drawings=page.get_drawings()
-                kind='scanned' if scanned else 'mixed' if images else 'vector_figure' if drawings else 'native'
-                routes={'native':['A'],'mixed':['A','B'],'vector_figure':['A'],'scanned':['C']}[kind]
-                pages.append({'page':page.number+1,'type':kind,'chars':len(text),'images':images,'symbol_fonts':[f[3] for f in page.get_fonts() if SYMBOL_FONT.search(f[3])], 'route':routes[0],'status':'pending','attempts':0,'stages':{r:'pending' for r in routes}})
-        ratio=sum(p['type']=='scanned' for p in pages)/max(len(pages),1)
-        result={'version':1,'source_sha256':digest,'triage_config':config,'pages':pages,'scanned_ratio':ratio,'warnings':['More than 30% scanned pages'] if ratio>config.get('scanned_warning_ratio',.3) else []}
+            # A configuration change reclassifies, never resets page state.
+            from datetime import datetime,timezone
+            pages,_=_merge_triage(old['pages'],_triage_rows(source,config),{'at':datetime.now(timezone.utc).isoformat(),'reason':'triage_config_changed'})
+            result={**old,'triage_config':config,'triage_version':TRIAGE_VERSION,'pages':pages,**_manifest_summary(digest,config,pages)}
+            atomic_json(manifest,result); return result
+        pages=[{k:v for k,v in r.items() if k not in ('routes','visible_native_letters','image_cover')}|{'status':'pending','attempts':0,'stages':{x:'pending' for x in r['routes']}}
+               for r in _triage_rows(source,config)]
+        result={'version':1,'source_sha256':digest,'triage_config':config,'triage_version':TRIAGE_VERSION,'pages':pages,**_manifest_summary(digest,config,pages)}
         atomic_json(manifest,result); return result
+
+def retriage(book,config=None,apply=False):
+    """Reclassify an existing manifest with the current classifier.
+
+    Dry run by default (no write). With ``apply`` only ``type``, ``route`` and
+    ``stages`` of changed pages are updated (new routes added as pending,
+    existing stage states kept) and a ``retriage_history`` entry records the
+    previous values; status, attempts, QA links and all other keys survive.
+    Downstream production checkpoints decide whether a page is recomposed.
+    """
+    from datetime import datetime,timezone
+    book=Path(book); config=config if config is not None else None; source=book/'source.pdf'
+    path=book/'work/manifest.json'
+    if not path.exists():raise Blocked('No manifest to re-triage; run triage first')
+    with book_lock(book):
+        old=json.loads(path.read_text()); digest=sha256(source)
+        if old['source_sha256']!=digest:raise Blocked('Immutable source changed')
+        config=old.get('triage_config',{}) if config is None else config
+        pages,changes=_merge_triage(old['pages'],_triage_rows(source,config),{'at':datetime.now(timezone.utc).isoformat(),'reason':'retriage'})
+        summary=_manifest_summary(digest,config,pages)
+        if apply and changes:
+            atomic_json(path,{**old,'triage_config':config,'triage_version':TRIAGE_VERSION,'pages':pages,**summary})
+    return {'applied':bool(apply and changes),'manifest':str(path),'triage_version':TRIAGE_VERSION,'changes':changes,
+            'scanned_ratio_before':old.get('scanned_ratio'),'scanned_ratio_after':summary['scanned_ratio']}
 
 def extract_units(page,extras=()):
     """Conservative whole-span selection: mixed protected spans remain untouched."""
@@ -115,13 +200,43 @@ def protected_boxes(page,extras=()):
                 if protected(txt,span['font'],extras): result.extend(fitz.Rect(c['bbox']) for c in span['chars'])
     return result
 
-def _save_pdf(doc,path):
+EZ_SAVE_OPTIONS=dict(garbage=3,deflate=True,deflate_images=True,deflate_fonts=True,use_objstms=1)
+
+def deterministic_pdf_bytes(doc,**options):
+    """Same content, same bytes: no random trailer /ID and no save dates.
+
+    MuPDF writes a random /ID unless told not to, and ``no_new_id`` alone keeps
+    whatever ID the document already carried (a random one from an earlier
+    save, or none). Candidate hashes bind visual reviews and approvals, so the
+    trailer gets an ID derived from the bytes written without it, and the Info
+    dates are dropped. Object order is MuPDF's deterministic garbage collection.
+    """
+    info=doc.xref_get_key(-1,'Info')
+    if info[0]=='xref':
+        xref=int(info[1].split()[0])
+        for key in ('CreationDate','ModDate'):
+            if doc.xref_get_key(xref,key)[0]!='null':doc.xref_set_key(xref,key,'null')
+    doc.xref_set_key(-1,'ID','null')
+    plain=doc.tobytes(**options,no_new_id=True)
+    ident=hashlib.sha256(plain).hexdigest()[:32].upper()
+    with fitz.open(stream=plain,filetype='pdf') as out:
+        out.xref_set_key(-1,'ID',f'[<{ident}><{ident}>]')
+        # Already compacted/compressed: write the objects as they are.
+        return out.tobytes(no_new_id=True,use_objstms=options.get('use_objstms',0))
+
+def save_deterministic(doc,path,**options):
     path=Path(path); path.parent.mkdir(parents=True,exist_ok=True)
-    fd,tmp=tempfile.mkstemp(suffix='.pdf',dir=path.parent); os.close(fd)
+    data=deterministic_pdf_bytes(doc,**options)
+    fd,tmp=tempfile.mkstemp(suffix='.pdf',prefix='.'+path.name,dir=path.parent)
     try:
-        doc.ez_save(tmp); os.replace(tmp,path)
+        with os.fdopen(fd,'wb') as stream:
+            stream.write(data);stream.flush();os.fsync(stream.fileno())
+        os.replace(tmp,path)
     finally:
         if os.path.exists(tmp): os.unlink(tmp)
+
+def _save_pdf(doc,path):
+    save_deterministic(doc,path,**EZ_SAVE_OPTIONS)
 
 def reinsert(book,payload,glossary,style,do_not_translate=None,shortener=None,font_path=None,layout=None,shortforms=None):
     """Transactional paragraph fitting, conservative label edits, then one shortening batch.

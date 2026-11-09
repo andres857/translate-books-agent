@@ -2,6 +2,39 @@
 from functools import lru_cache
 import re
 
+SPANISH_FUNCTION_WORDS=frozenset('a al de del el la las los y e o u en con por para un una'.split())
+# Valid Spanish words spelt exactly like an English one. Lingua cannot tell a
+# one-word list item («• Romance», p139) apart, so these never count as
+# residual English on their own. Lexical evidence only, never a translation map.
+SPANISH_HOMOGRAPHS=frozenset('''
+actor animal capital central color control cultural drama error final
+general global honor horror hotel humor ideal idea interior exterior
+local mental moral motor natural normal original personal piano plural popular
+radio real regular romance sensual similar social solar lunar superior inferior
+terror total universal visual vital festival particular familiar'''.split())
+
+# Latin technical names of astrology. A text may cite them unchanged from its
+# source (p23 «IC is “Imum Coeli”» → «… (“Imum Coeli”, …)»); they are not
+# English, but an EN/ES detector gives the unknown words to English. Closed
+# list of whole multi-word names: a single word («medium») never qualifies, and
+# Lingua is not trusted to tell Latin from English («The Ascendant» → Latin).
+LATIN_ASTROLOGICAL_TERMS=('Medium Coeli','Imum Coeli','Pars Fortunae','Caput Draconis',
+                          'Cauda Draconis','Via Combusta','Anima Mundi')
+
+def source_identical_latin_terms(units):
+    """Listed Latin names copied identically (same spelling) from the unit's own source."""
+    found=[]
+    for unit in units:
+        source=unit.get('source','');target=unit.get('target','')
+        for term in LATIN_ASTROLOGICAL_TERMS:
+            pattern=r'(?<!\w)'+re.escape(term)+r'(?!\w)'
+            hits=[m.group() for m in re.finditer(pattern,source,re.I)]
+            for text in dict.fromkeys(hits):
+                if re.search(r'(?<!\w)'+re.escape(text)+r'(?!\w)',target):
+                    found.append({'code':'source_identical_latin_term','unit_id':unit.get('id'),
+                                  'text':text,'source_identical':True})
+    return found
+
 @lru_cache(maxsize=1)
 def _detector():
     from lingua import Language, LanguageDetectorBuilder
@@ -13,7 +46,11 @@ def residual_english(texts,allowed=()):
     residual=[]
     for text in texts:
         text=text.strip()
+        words=re.findall(r'[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+',text.casefold())
+        # Bibliographic abbreviation after protected page numbers are removed.
+        if re.fullmatch(r'pp?\.\s*[\d\s,–—−-]*',text,re.I):continue
         if not text or text.casefold() in permitted or not re.search('[A-Za-z]',text): continue
+        if words and all(word in SPANISH_FUNCTION_WORDS or word in SPANISH_HOMOGRAPHS for word in words):continue
         scores=_detector().compute_language_confidence_values(text)
         if scores and scores[0].language==Language.ENGLISH and scores[0].value>=.70:
             residual.append(text)

@@ -1,0 +1,2873 @@
+{
+  "page": 23,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "Zodiac Signs, Planets, and More",
+      "line_height": 1.05,
+      "bbox": [
+        360.7290954589844,
+        21.864179611206055,
+        487.84271240234375,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Zodiac Signs, Planets, and More",
+          "bbox": [
+            360.7290954589844,
+            21.864179611206055,
+            487.84271240234375,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 31,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0023_u0000",
+      "container_id": "p0023_c0000",
+      "scale_group": "p0023_display_12.0",
+      "page": 23,
+      "target": "Signos del zodíaco, planetas y más",
+      "target_runs": [
+        {
+          "text": "Signos del zodíaco, planetas y más",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Sun represents a person’s individual",
+      "line_height": 1.05,
+      "bbox": [
+        150.277099609375,
+        70.09379577636719,
+        432.7456359863281,
+        97.52954864501953
+      ],
+      "spans": [
+        {
+          "source": "The Sun",
+          "bbox": [
+            150.277099609375,
+            70.52954864501953,
+            219.23507690429688,
+            97.52954864501953
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 27.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": " represents a person’s individual ",
+          "bbox": [
+            219.23507690429688,
+            70.09379577636719,
+            432.7456359863281,
+            97.09379577636719
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 8,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 8,
+          "end": 40,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 27.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 27.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0023_u0001",
+      "container_id": "p0023_c0001",
+      "scale_group": "p0023_display_27.0",
+      "page": 23,
+      "target": "El Sol representa el don creativo individual de una persona",
+      "target_runs": [
+        {
+          "text": "El Sol ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "representa el don creativo individual de una persona",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "creative gift and sense of identity",
+      "line_height": 1.05,
+      "bbox": [
+        150.277099609375,
+        100.09080505371094,
+        430.6991271972656,
+        127.52655792236328
+      ],
+      "spans": [
+        {
+          "source": "creative gift",
+          "bbox": [
+            150.277099609375,
+            100.52655792236328,
+            255.30711364746094,
+            127.52655792236328
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 27.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": " and ",
+          "bbox": [
+            255.30711364746094,
+            100.09080505371094,
+            286.7081298828125,
+            127.09080505371094
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "sense of identity",
+          "bbox": [
+            286.7081298828125,
+            100.52655792236328,
+            430.6991271972656,
+            127.52655792236328
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 27.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 14,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 18,
+          "end": 35,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 27.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 27.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0023_u0002",
+      "container_id": "p0023_c0002",
+      "scale_group": "p0023_display_27.0",
+      "page": 23,
+      "target": "don creativo y sentido de identidad",
+      "target_runs": [
+        {
+          "text": "don creativo ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "y ",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "sentido de identidad",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOUR PLANETS",
+      "line_height": 1.05,
+      "bbox": [
+        72.99729919433594,
+        179.72637939453125,
+        141.0733184814453,
+        191.72637939453125
+      ],
+      "spans": [
+        {
+          "source": "YOUR PLANETS",
+          "bbox": [
+            72.99729919433594,
+            179.72637939453125,
+            141.0733184814453,
+            191.72637939453125
+          ],
+          "font": "SohoPro-Condensed",
+          "size": 12.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 12,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Condensed",
+        "size": 12.0,
+        "color": 7303023,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-Condensed",
+      "size": 12.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0023_u0003",
+      "container_id": "p0023_c0003",
+      "scale_group": "p0023_display_12.0",
+      "page": 23,
+      "target": "TUS PLANETAS",
+      "target_runs": [
+        {
+          "text": "TUS PLANETAS",
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Sun is at the centre of both the solar system and the zodiac. Each planets represents a basic human drive. For instance, Mercury shows our need to communicate and learn, while Mars is our impulse to fight and compete.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        35.997398376464844,
+        195.82723999023438,
+        164.8513946533203,
+        332.8541564941406
+      ],
+      "spans": [
+        {
+          "source": "The Sun is at the ",
+          "bbox": [
+            72.91339874267578,
+            195.82723999023438,
+            157.06231689453125,
+            206.82723999023438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "centre of both the solar ",
+          "bbox": [
+            35.997398376464844,
+            209.83023071289062,
+            152.34329223632812,
+            220.83023071289062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "system and the zodiac.  ",
+          "bbox": [
+            35.997398376464844,
+            223.83322143554688,
+            151.8922882080078,
+            234.83322143554688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Each planets represents ",
+          "bbox": [
+            35.997398376464844,
+            237.83621215820312,
+            155.1042938232422,
+            248.83621215820312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "a basic human drive.  ",
+          "bbox": [
+            35.997398376464844,
+            251.83920288085938,
+            139.92431640625,
+            262.8392028808594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "For instance, Mercury ",
+          "bbox": [
+            35.997398376464844,
+            265.8421936035156,
+            144.63339233398438,
+            276.8421936035156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "shows our need to ",
+          "bbox": [
+            35.997398376464844,
+            279.8451843261719,
+            128.65040588378906,
+            290.8451843261719
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "communicate and learn, ",
+          "bbox": [
+            35.997398376464844,
+            293.8481750488281,
+            155.0712890625,
+            304.8481750488281
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "while Mars is our impulse  ",
+          "bbox": [
+            35.997398376464844,
+            307.8511657714844,
+            164.8513946533203,
+            318.8511657714844
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to fight and compete.",
+          "bbox": [
+            35.997398376464844,
+            321.8541564941406,
+            139.02230834960938,
+            332.8541564941406
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 221,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0023_u0004",
+      "container_id": "p0023_c0004",
+      "scale_group": "p0023_display_11.0",
+      "page": 23,
+      "target": "El Sol está en el centro tanto del sistema solar como del zodíaco. Cada planetas representa un impulso humano básico. Por ejemplo, Mercurio muestra nuestra necesidad de comunicarnos y aprender, mientras que Marte representa nuestro impulso de luchar y competir.",
+      "target_runs": [
+        {
+          "text": "El Sol está en el centro tanto del sistema solar como del zodíaco. Cada planetas representa un impulso humano básico. Por ejemplo, Mercurio muestra nuestra necesidad de comunicarnos y aprender, mientras que Marte representa nuestro impulso de luchar y competir.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Planets  see pp.84—135",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        349.3409423828125,
+        145.06320190429688,
+        357.3409423828125
+      ],
+      "spans": [
+        {
+          "source": "The Planets  see pp.84—135",
+          "bbox": [
+            36.0,
+            349.3409423828125,
+            145.06320190429688,
+            357.3409423828125
+          ],
+          "font": "SohoPro-Medium",
+          "size": 8.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 26,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 8.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 8.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0023_u0005",
+      "container_id": "p0023_c0005",
+      "scale_group": "p0023_body_8.0",
+      "page": 23,
+      "target": "Los planetas, véanse las pp. 84—135",
+      "target_runs": [
+        {
+          "text": "Los planetas, véanse las pp. 84—135",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOUR ZODIAC SIGNS",
+      "line_height": 1.05,
+      "bbox": [
+        408.5563049316406,
+        179.72637939453125,
+        495.4734802246094,
+        191.72637939453125
+      ],
+      "spans": [
+        {
+          "source": "YOUR ZODIAC SIGNS",
+          "bbox": [
+            408.5563049316406,
+            179.72637939453125,
+            495.4734802246094,
+            191.72637939453125
+          ],
+          "font": "SohoPro-Condensed",
+          "size": 12.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Condensed",
+        "size": 12.0,
+        "color": 7303023,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-Condensed",
+      "size": 12.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0023_u0006",
+      "container_id": "p0023_c0006",
+      "scale_group": "p0023_display_12.0",
+      "page": 23,
+      "target": "TUS SIGNOS DEL ZODÍACO",
+      "target_runs": [
+        {
+          "text": "TUS SIGNOS DEL ZODÍACO",
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "In a chart, each planet occupies a sign of the zodiac. A person may",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        377.2875061035156,
+        195.82723999023438,
+        502.1474609375,
+        234.83322143554688
+      ],
+      "spans": [
+        {
+          "source": "In a chart, each  ",
+          "bbox": [
+            408.4725036621094,
+            195.82723999023438,
+            487.5613708496094,
+            206.82723999023438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "planet occupies a sign of  ",
+          "bbox": [
+            377.2875061035156,
+            209.83023071289062,
+            501.13543701171875,
+            220.83023071289062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the zodiac. A person may ",
+          "bbox": [
+            377.2875061035156,
+            223.83322143554688,
+            502.1474609375,
+            234.83322143554688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 67,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0023_u0007",
+      "container_id": "p0023_c0007",
+      "scale_group": "p0023_display_11.0",
+      "page": 23,
+      "target": "En una carta, cada planeta ocupa un signo del zodíaco. Una persona puede",
+      "target_runs": [
+        {
+          "text": "En una carta, cada planeta ocupa un signo del zodíaco. Una persona puede",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "have the Sun in Scorpio, the Moon in Taurus, Mercury in Sagittarius, and so on.... Together, they create a unique birth chart.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        377.2875061035156,
+        237.83621215820312,
+        516.6015014648438,
+        304.8481750488281
+      ],
+      "spans": [
+        {
+          "source": "have the Sun in Scorpio, ",
+          "bbox": [
+            397.1315002441406,
+            237.83621215820312,
+            516.6015014648438,
+            248.83621215820312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the Moon in Taurus, ",
+          "bbox": [
+            397.1315002441406,
+            251.83920288085938,
+            497.054443359375,
+            262.8392028808594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Mercury in Sagittarius, ",
+          "bbox": [
+            397.1315002441406,
+            265.8421936035156,
+            510.9584045410156,
+            276.8421936035156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and so on.... Together, they ",
+          "bbox": [
+            377.2875061035156,
+            279.8451843261719,
+            509.5174865722656,
+            290.8451843261719
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "create a unique birth chart. ",
+          "bbox": [
+            377.2875061035156,
+            293.8481750488281,
+            511.6085205078125,
+            304.8481750488281
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 126,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0023_u0008",
+      "container_id": "p0023_c0008",
+      "scale_group": "p0023_display_11.0",
+      "page": 23,
+      "target": "tener el Sol en Escorpio, la Luna en Tauro, Mercurio en Sagitario, etcétera.... Juntos, crean una carta natal única.",
+      "target_runs": [
+        {
+          "text": "tener el Sol en Escorpio, la Luna en Tauro, Mercurio en Sagitario, etcétera.... Juntos, crean una carta natal única.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Zodiac Signs  see pp.24—83",
+      "line_height": 1.05,
+      "bbox": [
+        377.2914123535156,
+        318.3409423828125,
+        501.01068115234375,
+        326.3409423828125
+      ],
+      "spans": [
+        {
+          "source": "The Zodiac Signs  see pp.24—83",
+          "bbox": [
+            377.2914123535156,
+            318.3409423828125,
+            501.01068115234375,
+            326.3409423828125
+          ],
+          "font": "SohoPro-Medium",
+          "size": 8.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 30,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 8.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 8.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0023_u0009",
+      "container_id": "p0023_c0009",
+      "scale_group": "p0023_body_8.0",
+      "page": 23,
+      "target": "Los signos del zodíaco, véanse las pp. 24—83",
+      "target_runs": [
+        {
+          "text": "Los signos del zodíaco, véanse las pp. 24—83",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Each chart has two axes. The first is the Ascendant–Descendant. It shows the line of the horizon, linking east to west. The Ascendant symbolises birth and new beginnings.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        36.00080108642578,
+        495.5818176269531,
+        183.6086883544922,
+        590.599853515625
+      ],
+      "spans": [
+        {
+          "source": "Each chart has  ",
+          "bbox": [
+            67.88980102539062,
+            495.5818176269531,
+            144.67970275878906,
+            506.5818176269531
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "two axes. The first is the ",
+          "bbox": [
+            36.00080108642578,
+            509.5848083496094,
+            158.75967407226562,
+            520.5848388671875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Ascendant–Descendant. It ",
+          "bbox": [
+            36.00080108642578,
+            523.587890625,
+            166.20779418945312,
+            534.587890625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "shows the line of the horizon, ",
+          "bbox": [
+            36.00080108642578,
+            537.5908813476562,
+            183.6086883544922,
+            548.5908813476562
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "linking east to west. The ",
+          "bbox": [
+            36.00080108642578,
+            551.5938720703125,
+            157.9346923828125,
+            562.5938720703125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Ascendant symbolises birth ",
+          "bbox": [
+            36.00080108642578,
+            565.5968627929688,
+            174.44677734375,
+            576.5968627929688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and new beginnings.  ",
+          "bbox": [
+            36.00080108642578,
+            579.599853515625,
+            142.3586883544922,
+            590.599853515625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 170,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0023_u0010",
+      "container_id": "p0023_c0010",
+      "scale_group": "p0023_display_11.0",
+      "page": 23,
+      "target": "Cada carta tiene dos ejes. El primero es el Ascendente–Descendente. Muestra la línea del horizonte, que conecta el este con el oeste. El Ascendente simboliza el nacimiento y los nuevos comienzos.",
+      "target_runs": [
+        {
+          "text": "Cada carta tiene dos ejes. El primero es el Ascendente–Descendente. Muestra la línea del horizonte, que conecta el este con el oeste. El Ascendente simboliza el nacimiento y los nuevos comienzos.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Descendant lies opposite and shows our “other half.” The second axis is the MC–IC. MC stands for “Medium Coeli” (Latin for “middle of the heavens”). IC is “Imum Coeli” (“bottom of the heavens”).",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        200.97879028320312,
+        495.60382080078125,
+        345.7817077636719,
+        590.621826171875
+      ],
+      "spans": [
+        {
+          "source": "The Descendant lies opposite ",
+          "bbox": [
+            200.97879028320312,
+            495.60382080078125,
+            345.7817077636719,
+            506.60382080078125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and shows our “other half.”",
+          "bbox": [
+            200.97879028320312,
+            509.6068420410156,
+            333.45074462890625,
+            520.6068725585938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "The second axis is the MC–IC. ",
+          "bbox": [
+            200.97879028320312,
+            523.60986328125,
+            344.7257080078125,
+            534.60986328125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "MC stands for “Medium Coeli” ",
+          "bbox": [
+            200.97879028320312,
+            537.6128540039062,
+            345.2977294921875,
+            548.6128540039062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "(Latin for “middle of the ",
+          "bbox": [
+            200.97879028320312,
+            551.6158447265625,
+            319.4146423339844,
+            562.6158447265625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "heavens”). IC is “Imum Coeli” ",
+          "bbox": [
+            200.97879028320312,
+            565.6188354492188,
+            339.5997314453125,
+            576.6188354492188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "(“bottom of the heavens”). ",
+          "bbox": [
+            200.97879028320312,
+            579.621826171875,
+            331.1737976074219,
+            590.621826171875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 198,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0023_u0011",
+      "container_id": "p0023_c0011",
+      "scale_group": "p0023_display_11.0",
+      "page": 23,
+      "target": "El Descendente se encuentra en el lado opuesto y representa nuestra “otra mitad”. El segundo eje es el MC–IC. MC significa “Medio Cielo” (en latín, “centro de los cielos”). IC es “Fondo del Cielo” (“fondo de los cielos”).",
+      "target_runs": [
+        {
+          "text": "El Descendente se encuentra en el lado opuesto y representa nuestra “otra mitad”. El segundo eje es el MC–IC. MC significa “Medio Cielo” (en latín, “centro de los cielos”). IC es “Fondo del Cielo” (“fondo de los cielos”).",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "These points divide the chart south to north. The MC gives information about ambitions, career, and achievements. The IC represents home, family, and your inner world.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        365.956787109375,
+        495.6258239746094,
+        516.2377319335938,
+        576.640869140625
+      ],
+      "spans": [
+        {
+          "source": "These points divide the chart ",
+          "bbox": [
+            365.956787109375,
+            495.6258239746094,
+            510.9577331542969,
+            506.6258239746094
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "south to north. The MC gives ",
+          "bbox": [
+            365.956787109375,
+            509.6288146972656,
+            508.042724609375,
+            520.6288452148438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "information about ambitions, ",
+          "bbox": [
+            365.956787109375,
+            523.6318359375,
+            510.3417053222656,
+            534.6318359375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "career, and achievements. The ",
+          "bbox": [
+            365.956787109375,
+            537.6348876953125,
+            516.2377319335938,
+            548.6348876953125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "IC represents home, family, ",
+          "bbox": [
+            365.956787109375,
+            551.6378784179688,
+            499.51776123046875,
+            562.6378784179688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and your inner world.",
+          "bbox": [
+            365.956787109375,
+            565.640869140625,
+            471.32470703125,
+            576.640869140625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 167,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0023_u0012",
+      "container_id": "p0023_c0012",
+      "scale_group": "p0023_display_11.0",
+      "page": 23,
+      "target": "Estos puntos dividen la carta de sur a norte. El MC aporta información sobre las ambiciones, la carrera profesional y los logros. El IC representa el hogar, la familia y tu mundo interior.",
+      "target_runs": [
+        {
+          "text": "Estos puntos dividen la carta de sur a norte. El MC aporta información sobre las ambiciones, la carrera profesional y los logros. El IC representa el hogar, la familia y tu mundo interior.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOUR ASCENDANT OR RISING SIGN",
+      "line_height": 1.05,
+      "bbox": [
+        229.4066925048828,
+        360.08209228515625,
+        417.1898193359375,
+        372.08209228515625
+      ],
+      "spans": [
+        {
+          "source": "YOUR ",
+          "bbox": [
+            229.4066925048828,
+            360.08209228515625,
+            256.04669189453125,
+            372.08209228515625
+          ],
+          "font": "SohoPro-Condensed",
+          "size": 12.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "ASCENDANT OR RISING SIGN",
+          "bbox": [
+            292.7666931152344,
+            360.08209228515625,
+            417.1898193359375,
+            372.08209228515625
+          ],
+          "font": "SohoPro-Condensed",
+          "size": 12.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 29,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Condensed",
+        "size": 12.0,
+        "color": 7303023,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-Condensed",
+      "size": 12.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0023_u0013",
+      "container_id": "p0023_c0013",
+      "scale_group": "p0023_display_12.0",
+      "page": 23,
+      "target": "TU ASCENDENTE O SIGNO ASCENDENTE",
+      "target_runs": [
+        {
+          "text": "TU ASCENDENTE O SIGNO ASCENDENTE",
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Your Ascendant is the zodiac sign that was rising on the eastern horizon when you were born. It is one of the four “angles” that divide the chart in quarters. The Ascendant is precise; it represents your birth at a very particular moment.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        198.13790893554688,
+        376.1828308105469,
+        498.8968200683594,
+        429.19183349609375
+      ],
+      "spans": [
+        {
+          "source": "Your Ascendant is the zodiac sign that was rising on  ",
+          "bbox": [
+            229.32290649414062,
+            376.1828308105469,
+            487.2488098144531,
+            387.1828308105469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the eastern horizon when you were born. It is one of the four ",
+          "bbox": [
+            198.13790893554688,
+            390.1858215332031,
+            498.8968200683594,
+            401.1858215332031
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "“angles” that divide the chart in quarters. The Ascendant is ",
+          "bbox": [
+            198.13790893554688,
+            404.1888122558594,
+            487.8965759277344,
+            415.1888122558594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "precise; it represents your birth at a very particular moment.",
+          "bbox": [
+            198.13790893554688,
+            418.19183349609375,
+            492.19769287109375,
+            429.19183349609375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 238,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0023_u0014",
+      "container_id": "p0023_c0014",
+      "scale_group": "p0023_display_11.0",
+      "page": 23,
+      "target": "Tu Ascendente es el signo del zodíaco que ascendía por el horizonte oriental cuando naciste. Es uno de los cuatro “ángulos” que dividen la carta en cuartos. El Ascendente es preciso; representa tu nacimiento en un momento muy particular.",
+      "target_runs": [
+        {
+          "text": "Tu Ascendente es el signo del zodíaco que ascendía por el horizonte oriental cuando naciste. Es uno de los cuatro “ángulos” que dividen la carta en cuartos. El Ascendente es preciso; representa tu nacimiento en un momento muy particular.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOUR HOUSES",
+      "line_height": 1.05,
+      "bbox": [
+        229.4066925048828,
+        179.72637939453125,
+        291.8786315917969,
+        191.72637939453125
+      ],
+      "spans": [
+        {
+          "source": "YOUR HOUSES",
+          "bbox": [
+            229.4066925048828,
+            179.72637939453125,
+            291.8786315917969,
+            191.72637939453125
+          ],
+          "font": "SohoPro-Condensed",
+          "size": 12.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 11,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Condensed",
+        "size": 12.0,
+        "color": 7303023,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-Condensed",
+      "size": 12.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0023_u0015",
+      "container_id": "p0023_c0015",
+      "scale_group": "p0023_display_12.0",
+      "page": 23,
+      "target": "TUS CASAS",
+      "target_runs": [
+        {
+          "text": "TUS CASAS",
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "A birth chart is divided into 12 houses, covering every area of life. Each planet resides in a house. A planet expresses itself according to the zodiac sign it occupies and its house.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        198.13780212402344,
+        195.82723999023438,
+        352.9507141113281,
+        276.8421936035156
+      ],
+      "spans": [
+        {
+          "source": "A birth chart is divided ",
+          "bbox": [
+            229.3227996826172,
+            195.82723999023438,
+            342.9076232910156,
+            206.82723999023438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "into 12 houses, covering every ",
+          "bbox": [
+            198.13780212402344,
+            209.83023071289062,
+            348.6398620605469,
+            220.83023071289062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "area of life. Each planet resides  ",
+          "bbox": [
+            198.13780212402344,
+            223.83322143554688,
+            352.9507141113281,
+            234.83322143554688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "in a house. A planet expresses ",
+          "bbox": [
+            198.13780212402344,
+            237.83621215820312,
+            347.8576965332031,
+            248.83621215820312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "itself according to the zodiac  ",
+          "bbox": [
+            198.13780212402344,
+            251.83920288085938,
+            341.6317138671875,
+            262.8392028808594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "sign it occupies and its house. ",
+          "bbox": [
+            198.13780212402344,
+            265.8421936035156,
+            344.293701171875,
+            276.8421936035156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 183,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0023_u0016",
+      "container_id": "p0023_c0016",
+      "scale_group": "p0023_display_11.0",
+      "page": 23,
+      "target": "Una carta natal se divide en 12 casas, que abarcan todos los ámbitos de la vida. Cada planeta ocupa una casa. Un planeta se expresa según el signo del zodíaco que ocupa y la casa en la que se encuentra.",
+      "target_runs": [
+        {
+          "text": "Una carta natal se divide en 12 casas, que abarcan todos los ámbitos de la vida. Cada planeta ocupa una casa. Un planeta se expresa según el signo del zodíaco que ocupa y la casa en la que se encuentra.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Houses  see pp.136—165",
+      "line_height": 1.05,
+      "bbox": [
+        198.14169311523438,
+        293.3409423828125,
+        310.5808410644531,
+        301.3409423828125
+      ],
+      "spans": [
+        {
+          "source": "The Houses  see pp.136—165",
+          "bbox": [
+            198.14169311523438,
+            293.3409423828125,
+            310.5808410644531,
+            301.3409423828125
+          ],
+          "font": "SohoPro-Medium",
+          "size": 8.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 26,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 8.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 8.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 13,
+      "id": "p0023_u0017",
+      "container_id": "p0023_c0017",
+      "scale_group": "p0023_body_8.0",
+      "page": 23,
+      "target": "Las casas, véanse las pp. 136—165",
+      "target_runs": [
+        {
+          "text": "Las casas, véanse las pp. 136—165",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 8.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "YOUR ANGLES",
+      "line_height": 1.05,
+      "bbox": [
+        67.97370147705078,
+        479.39569091796875,
+        131.95770263671875,
+        491.39569091796875
+      ],
+      "spans": [
+        {
+          "source": "YOUR ANGLES ",
+          "bbox": [
+            67.97370147705078,
+            479.39569091796875,
+            131.95770263671875,
+            491.39569091796875
+          ],
+          "font": "SohoPro-Condensed",
+          "size": 12.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 11,
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Condensed",
+        "size": 12.0,
+        "color": 7303023,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-Condensed",
+      "size": 12.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 14,
+      "id": "p0023_u0018",
+      "container_id": "p0023_c0018",
+      "scale_group": "p0023_display_12.0",
+      "page": 23,
+      "target": "TUS ÁNGULOS",
+      "target_runs": [
+        {
+          "text": "TUS ÁNGULOS",
+          "style": {
+            "font": "SohoPro-Condensed",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -21,7 +21,11 @@ from .core import Blocked,PROTECTED,atomic_json,sha256,read_extras,require_appro
 from .llm import run_task,ROOT
 
 MASK_RGB=(192,192,192)
-VERSION='native-only-mupdf-glyph-ink-v4'
+VERSION='native-only-mupdf-glyph-ink-v7'
+# Whole English ordinals, including uppercase suffixes, are always protected.
+PROTECTED=re.compile(r'(?<!\w)\d+(?i:st|nd|rd|th)(?!\w)|[ºª]|'+PROTECTED.pattern)
+# Opt-in book morphology; never weakens masking of numbers or symbol fonts.
+EDITORIAL_ORDINALS=False
 
 @dataclass
 class SafePair:
@@ -122,11 +126,11 @@ def _protected_rects(page,extras,protected_fonts,trusted_font_hashes):
     pattern=re.compile(PROTECTED.pattern+(r'|(?<!\w)(?:'+extra+r')(?!\w)' if extra else ''))
     for block in _raw(page)['blocks']:
         for line in block.get('lines',[]):
-            line_records=[];line_text='';line_positions=[]
+            line_records=[];line_text='';line_positions=[];whole_records=set()
             for span in line['spans']:
                 span_text=''.join(c['c'] for c in span['chars'])
                 symbol_name=bool(re.search(r'zodiac|symbol|dingbat|wingding',span['font'],re.I) or ('astro' in span['font'].casefold() and _font_name(span['font']) not in trusted_names))
-                whole=bool(symbol_name or _font_name(span['font']) in whole_fonts or any(unicodedata.category(c) in ('Co','Cn') or c=='\ufffd' for c in span_text))
+                whole=bool(re.fullmatch(r'(?:st|nd|rd|th)',span_text.strip(),re.I) or symbol_name or _font_name(span['font']) in whole_fonts or any(unicodedata.category(c) in ('Co','Cn') or c=='\ufffd' for c in span_text))
                 local_sensitive=set()
                 for match in pattern.finditer(span_text):local_sensitive.update(range(match.start(),match.end()))
                 # Separate distant text spans, while still detecting a protected
@@ -136,10 +140,18 @@ def _protected_rects(page,extras,protected_fonts,trusted_font_hashes):
                     if gap>span['size']*.2:line_text+=' ';line_positions.append(None)
                 for index,char in enumerate(span['chars']):
                     origin=char['origin'];record={'bbox':fitz.Rect(char['bbox']),'origin':tuple(origin),'char':char['c'],'visible':(ord(char['c']),round(origin[0],2),round(origin[1],2)) in visible,'protected':whole or index in local_sensitive or _glyph_sensitive(char['c'])}
+                    if whole:whole_records.add(id(record))
                     records.append(record);line_records.append(record);line_text+=char['c'];line_positions.append(record)
             for match in pattern.finditer(line_text):
                 for item in line_positions[match.start():match.end()]:
                     if item is not None:item['protected']=True
+            if EDITORIAL_ORDINALS:
+                # Evaluate across adjacent font spans, so the dot and feminine
+                # superscript can have different fonts. No isolated º/ª is exempt.
+                for match in re.finditer(r'(?<!\w)\d+\.(?:er|º|ª)(?!\w)',line_text):
+                    for item in line_positions[match.start():match.end()]:
+                        if item is not None and item['char'] in 'ºª' and id(item) not in whole_records:
+                            item['protected']=False
     masks=[record['bbox'] for record in records if record['protected'] and record['visible'] and not record['char'].isspace()]
     unmatched=sum(rect.is_empty or rect.is_infinite for rect in masks)
     unique={tuple(round(v,4) for v in rect):rect for rect in masks}
@@ -219,7 +231,11 @@ def _safe_native_image(path,page_number,extras,protected_fonts,trusted_font_hash
             geometry_proof=_verify_native_geometry(source,page,dpi)
             stripped_signature=_native_signature(page)
             remaining=[kind for kind,*_ in page.get_bboxlog() if kind not in ('fill-text','stroke-text','ignore-text')]
-            if page.get_image_info() or page.get_drawings() or remaining:raise Blocked('Unclassified paint content remains after diagnostic stripping')
+            filtered=bool(page.get_image_info() or page.get_drawings() or remaining)
+            # Redaction cannot remove every shading operator. In that case use
+            # the native-only MuPDF device: it forwards text/clip/group operators,
+            # never image, path or shading paint. Both paths keep original glyphs.
+            render_mode='filtered_native_device' if filtered else 'stripped_pdf'
             try:ink,unsupported,ink_failed=_glyph_ink_bounds(page)
             except Exception:ink,unsupported,ink_failed={},set(),True
             text_paints=[fitz.Rect(bounds) for kind,bounds,*_ in page.get_bboxlog() if kind in ('fill-text','stroke-text')]
@@ -233,10 +249,20 @@ def _safe_native_image(path,page_number,extras,protected_fonts,trusted_font_hash
                     matched=[bound for bound in text_paints if bound.intersects(record['bbox'])]
                     if not matched:raise Blocked('No verified text ink bound for a protected glyph')
                     verified_masks.extend(matched);fallback_count+=1
+            if ink_count+fallback_count!=sum(r['protected'] and r['visible'] and not r['char'].isspace() for r in records):
+                raise Blocked('Protected glyph coverage incomplete')
             masks=list({tuple(r):r for r in verified_masks}.values())
             if _native_signature(page)!=stripped_signature:raise Blocked('Glyph tracing changed native geometry')
-            pix=page.get_pixmap(dpi=dpi,alpha=True,annots=False)
-            rgba=Image.frombytes('RGBA',(pix.width,pix.height),pix.samples)
+            if filtered:
+                from .raster_obstacles import _layer
+                import numpy as np
+                native=_layer(page,dpi,'native')
+                if not np.array_equal(native[:,:,-1],_layer(source,dpi,'native')[:,:,-1]):
+                    raise Blocked('Filtered diagnostic changed native paint alpha')
+                rgba=Image.fromarray(native,'RGBA')
+            else:
+                pix=page.get_pixmap(dpi=dpi,alpha=True,annots=False)
+                rgba=Image.frombytes('RGBA',(pix.width,pix.height),pix.samples)
             image=Image.new('RGB',rgba.size,'white');image.paste(Image.new('RGB',rgba.size,'black'),mask=rgba.getchannel('A'))
             boxes=[_pixel_rect(rect,page,dpi,padding,image.width,image.height) for rect in masks]
             boxes=[b for b in boxes if b[0]<b[2] and b[1]<b[3]]
@@ -251,7 +277,7 @@ def _safe_native_image(path,page_number,extras,protected_fonts,trusted_font_hash
                 for bound in ink.get((ord(item['char']),round(origin[0],2),round(origin[1],2)),[]):bounds|=bound
                 rect=_pixel_rect(bounds,page,dpi,0,image.width,image.height)
                 if not any(fitz.Rect(rect).intersects(fitz.Rect(box)) for box in boxes):visible+=1
-            report={'source_pdf_sha256':sha256(path),'page_index':page_number,'rotation':page.rotation,'width_px':image.width,'height_px':image.height,'removed_raster_instances':len(images),'removed_vector_paths':len(drawings),'ignored_annotations':ignored_annotations,'native_text_preserved':True,'native_geometry_preserved_before_protection':True,'native_geometry_proof':geometry_proof,'protected_glyph_operations_removed':False,'mask_strategy':'verified_glyph_ink' if not fallback_count else 'verified_glyph_ink_with_paint_fallback','protected_chars_ink_bound':ink_count,'protected_chars_paint_fallback':fallback_count,'remaining_protected_visible_chars':0,'trusted_embedded_text_fonts':trusted_names,'protected_visible_chars':protected_count,'protected_chars_without_paint_bounds':unmatched,'editorial_chars_total':editorial,'editorial_chars_visible':visible,'editorial_chars_removed_by_protective_redaction':0,'editorial_chars_hidden_by_protective_masks':editorial-visible,'editorial_char_coverage':visible/editorial if editorial else 0,'mask_pixel_rects':boxes,'native_signature':signature,'remaining_non_text_paint_operations':remaining}
+            report={'source_pdf_sha256':sha256(path),'page_index':page_number,'rotation':page.rotation,'width_px':image.width,'height_px':image.height,'removed_raster_instances':len(images),'removed_vector_paths':len(drawings),'ignored_annotations':ignored_annotations,'native_text_preserved':True,'native_geometry_preserved_before_protection':True,'native_geometry_proof':geometry_proof,'protected_glyph_operations_removed':False,'mask_strategy':'verified_glyph_ink' if not fallback_count else 'verified_glyph_ink_with_paint_fallback','protected_chars_ink_bound':ink_count,'protected_chars_paint_fallback':fallback_count,'remaining_protected_visible_chars':0,'trusted_embedded_text_fonts':trusted_names,'protected_visible_chars':protected_count,'protected_chars_without_paint_bounds':unmatched,'editorial_chars_total':editorial,'editorial_chars_visible':visible,'editorial_chars_removed_by_protective_redaction':0,'editorial_chars_hidden_by_protective_masks':editorial-visible,'editorial_char_coverage':visible/editorial if editorial else 0,'mask_pixel_rects':boxes,'native_signature':signature,'remaining_non_text_paint_operations':[],'native_render_mode':render_mode,'stripping_unremoved_paints':remaining}
             return image,report
         finally:copy.close()
 
@@ -264,11 +290,11 @@ def build_safe_pair(book,source_pdf,candidate_pdf,source_page,candidate_page,*,p
     before,br=_safe_native_image(source_pdf,source_page,protected_terms,protected_fonts,trusted_hashes,dpi,padding_px)
     after,ar=_safe_native_image(candidate_pdf,candidate_page,protected_terms,protected_fonts,trusted_hashes,dpi,padding_px)
     if before.size!=after.size:raise Blocked('Source/candidate displayed page geometry differs')
-    policy={'version':VERSION,'source':br['source_pdf_sha256'],'candidate':ar['source_pdf_sha256'],'source_page':source_page,'candidate_page':candidate_page,'protected_terms':sorted(protected_terms),'protected_fonts':sorted(protected_fonts),'trusted_text_font_hashes':sorted(trusted_hashes),'dpi':dpi,'padding_px':padding_px,'min_visible_chars':min_visible_chars}
+    policy={'version':VERSION,'ordinal_morphology':EDITORIAL_ORDINALS,'protected_pattern':PROTECTED.pattern,'source':br['source_pdf_sha256'],'candidate':ar['source_pdf_sha256'],'source_page':source_page,'candidate_page':candidate_page,'protected_terms':sorted(protected_terms),'protected_fonts':sorted(protected_fonts),'trusted_text_font_hashes':sorted(trusted_hashes),'dpi':dpi,'padding_px':padding_px,'min_visible_chars':min_visible_chars}
     key=hashlib.sha256(json.dumps(policy,sort_keys=True).encode()).hexdigest()[:20]
     folder=book/'work/qa_safe'/f'p{source_page:04d}'/key;folder.mkdir(parents=True,exist_ok=True)
     paths=(folder/'before.png',folder/'after.png');before.save(paths[0]);after.save(paths[1])
-    report={'version':VERSION,'page':source_page,'scope':'native editorial text only; diagnostic layer removal','ready_for_native_judge':all(r['editorial_chars_visible']>=min_visible_chars and r['protected_chars_without_paint_bounds']==0 for r in (br,ar)),'raster_assessed':False,'vectors_assessed':False,'protected_content_assessed':False,'colors_assessed':False,'before':br,'after':ar,'image_paths':[str(p) for p in paths],'image_sha256':[sha256(p) for p in paths],'limitations':['All raster artwork and vector paths were removed before rendering, including full-page backgrounds.','Protected glyph ink bounds come from actual MuPDF font objects, glyph IDs and full transformation matrices; unsupported glyphs use entire text-paint ink bounds. Coverage reports collateral hidden text.','Colors are normalized to black on white; color fidelity and background contrast are not judged.','Image/vector occlusion, symbol preservation and masked text require local checks and human graphics review.']}
+    report={'version':VERSION,'ordinal_mask_verification':'passed before inference; whole ordinal and isolated suffix spans protected','ordinal_morphology':EDITORIAL_ORDINALS,'protected_pattern':PROTECTED.pattern,'page':source_page,'scope':'native editorial text only; diagnostic layer removal','ready_for_native_judge':all(r['editorial_chars_visible']>=min_visible_chars and r['protected_chars_without_paint_bounds']==0 for r in (br,ar)),'raster_assessed':False,'vectors_assessed':False,'protected_content_assessed':False,'colors_assessed':False,'before':br,'after':ar,'image_paths':[str(p) for p in paths],'image_sha256':[sha256(p) for p in paths],'limitations':['All raster artwork and vector paths were removed before rendering, including full-page backgrounds.','Protected glyph ink bounds come from actual MuPDF font objects, glyph IDs and full transformation matrices; unsupported glyphs use entire text-paint ink bounds. Coverage reports collateral hidden text.','Colors are normalized to black on white; color fidelity and background contrast are not judged.','Image/vector occlusion, symbol preservation and masked text require local checks and human graphics review.']}
     manifest=folder/'manifest.json';atomic_json(manifest,report)
     return SafePair(paths,manifest,report)
 

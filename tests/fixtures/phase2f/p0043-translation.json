@@ -1,0 +1,1186 @@
+{
+  "page": 43,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "Gemini",
+      "line_height": 1.05,
+      "bbox": [
+        459.0234069824219,
+        21.864179611206055,
+        487.5594177246094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Gemini",
+          "bbox": [
+            459.0234069824219,
+            21.864179611206055,
+            487.5594177246094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0043_u0000",
+      "container_id": "p0043_c0000",
+      "scale_group": "p0043_display_12.0",
+      "page": 43,
+      "target": "Géminis",
+      "target_runs": [
+        {
+          "text": "Géminis",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Castor and Pollux make up the heads",
+      "line_height": 1.1109992133246527,
+      "bbox": [
+        398.39288330078125,
+        256.86553955078125,
+        481.1730041503906,
+        275.8645324707031
+      ],
+      "spans": [
+        {
+          "source": "Castor and Pollux ",
+          "bbox": [
+            401.0928955078125,
+            256.86553955078125,
+            478.46588134765625,
+            265.86553955078125
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "make up the heads ",
+          "bbox": [
+            398.39288330078125,
+            266.8645324707031,
+            481.1730041503906,
+            275.8645324707031
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 35,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0043_u0001",
+      "container_id": "p0043_c0001",
+      "scale_group": "p0043_body_9.0",
+      "page": 43,
+      "target": "Cástor y Pólux forman las cabezas",
+      "target_runs": [
+        {
+          "text": "Cástor y Pólux forman las cabezas",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "of the twins",
+      "line_height": 1.05,
+      "bbox": [
+        412.3968811035156,
+        276.863525390625,
+        465.4419860839844,
+        285.863525390625
+      ],
+      "spans": [
+        {
+          "source": "of the twins",
+          "bbox": [
+            412.3968811035156,
+            276.863525390625,
+            465.4419860839844,
+            285.863525390625
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 12,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0043_u0002",
+      "container_id": "p0043_c0002",
+      "scale_group": "p0043_body_9.0",
+      "page": 43,
+      "target": "de los gemelos",
+      "target_runs": [
+        {
+          "text": "de los gemelos",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "This  line of stars",
+      "line_height": 1.05,
+      "bbox": [
+        278.494873046875,
+        548.3485107421875,
+        353.1543884277344,
+        557.3485107421875
+      ],
+      "spans": [
+        {
+          "source": "This  line of stars ",
+          "bbox": [
+            278.494873046875,
+            548.3485107421875,
+            353.1543884277344,
+            557.3485107421875
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 19,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0043_u0003",
+      "container_id": "p0043_c0003",
+      "scale_group": "p0043_body_9.0",
+      "page": 43,
+      "target": "Esta línea de estrellas",
+      "target_runs": [
+        {
+          "text": "Esta línea de estrellas",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "forms the body Zeta is a star that varies in",
+      "line_height": 1.4580010308159723,
+      "bbox": [
+        281.9688720703125,
+        558.3475341796875,
+        483.1062316894531,
+        580.4695434570312
+      ],
+      "spans": [
+        {
+          "source": "forms the body",
+          "bbox": [
+            281.9688720703125,
+            558.3475341796875,
+            347.955078125,
+            567.3475341796875
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Zeta is a star  ",
+          "bbox": [
+            425.0508728027344,
+            561.4705200195312,
+            483.1062316894531,
+            570.4705200195312
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "that varies in ",
+          "bbox": [
+            423.421875,
+            571.4695434570312,
+            483.00994873046875,
+            580.4695434570312
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 44,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0043_u0004",
+      "container_id": "p0043_c0004",
+      "scale_group": "p0043_body_9.0",
+      "page": 43,
+      "target": "forma el cuerpo. Zeta es una estrella cuyo",
+      "target_runs": [
+        {
+          "text": "forma el cuerpo. Zeta es una estrella cuyo",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "brightness",
+      "line_height": 1.05,
+      "bbox": [
+        428.9478759765625,
+        581.468505859375,
+        475.760498046875,
+        590.468505859375
+      ],
+      "spans": [
+        {
+          "source": "brightness",
+          "bbox": [
+            428.9478759765625,
+            581.468505859375,
+            475.760498046875,
+            590.468505859375
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0043_u0005",
+      "container_id": "p0043_c0005",
+      "scale_group": "p0043_body_9.0",
+      "page": 43,
+      "target": "brillo varía",
+      "target_runs": [
+        {
+          "text": "brillo varía",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Pollux is an orange giant 34 light-years away",
+      "line_height": 1.1109992133246527,
+      "bbox": [
+        279.07086181640625,
+        261.8245544433594,
+        341.3373107910156,
+        300.821533203125
+      ],
+      "spans": [
+        {
+          "source": "Pollux is an ",
+          "bbox": [
+            284.7498779296875,
+            261.8245544433594,
+            335.6448974609375,
+            270.8245544433594
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "orange giant ",
+          "bbox": [
+            281.7438659667969,
+            271.82354736328125,
+            338.6598205566406,
+            280.82354736328125
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "34 light-years ",
+          "bbox": [
+            279.07086181640625,
+            281.8225402832031,
+            341.3373107910156,
+            290.8225402832031
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "away",
+          "bbox": [
+            297.1788635253906,
+            291.821533203125,
+            321.5013427734375,
+            300.821533203125
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 45,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0043_u0006",
+      "container_id": "p0043_c0006",
+      "scale_group": "p0043_body_9.0",
+      "page": 43,
+      "target": "Pólux es una gigante naranja a 34 años luz",
+      "target_runs": [
+        {
+          "text": "Pólux es una gigante naranja a 34 años luz",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Gemini in the sky",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        62.98417663574219,
+        453.6016540527344,
+        81.98417663574219
+      ],
+      "spans": [
+        {
+          "source": "Gemini in the sky",
+          "bbox": [
+            289.1339111328125,
+            62.98417663574219,
+            453.6016540527344,
+            81.98417663574219
+          ],
+          "font": "SerifaStd-Bold",
+          "size": 19.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Bold",
+        "size": 19.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Bold",
+      "size": 19.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0043_u0007",
+      "container_id": "p0043_c0007",
+      "scale_group": "p0043_display_19.0",
+      "page": 43,
+      "target": "Géminis en el cielo",
+      "target_runs": [
+        {
+          "text": "Géminis en el cielo",
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Gemini’s two brightest stars, Castor and Pollux, make identifying this constellation easy. They are named after the twins of Greek mythology that Gemini represents. Castor and Pollux mark the heads of the twins, but they are not identical. Pollux, the brighter of the pair, is an orange giant 34 light-years away. Castor is a blue- white star 52 light-years away.",
+      "line_height": 1.0709991455078125,
+      "bbox": [
+        289.1339111328125,
+        84.82793426513672,
+        516.87744140625,
+        233.77392578125
+      ],
+      "spans": [
+        {
+          "source": "Gemini’s two brightest stars, Castor ",
+          "bbox": [
+            289.1339111328125,
+            84.82793426513672,
+            506.9891662597656,
+            98.82793426513672
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and Pollux, make identifying this ",
+          "bbox": [
+            289.1339111328125,
+            99.82195281982422,
+            488.3006286621094,
+            113.82195281982422
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "constellation easy. They are named  ",
+          "bbox": [
+            289.1339111328125,
+            114.81597137451172,
+            504.9606628417969,
+            128.81597900390625
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "after the twins of Greek mythology ",
+          "bbox": [
+            289.1339111328125,
+            129.80999755859375,
+            499.392822265625,
+            143.80999755859375
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "that Gemini represents. Castor and ",
+          "bbox": [
+            289.1339111328125,
+            144.80398559570312,
+            501.0587158203125,
+            158.80398559570312
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Pollux mark the heads of the twins, ",
+          "bbox": [
+            289.1339111328125,
+            159.7979736328125,
+            501.29962158203125,
+            173.7979736328125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "but they are not identical. Pollux, the ",
+          "bbox": [
+            289.1339111328125,
+            174.79196166992188,
+            509.017822265625,
+            188.79196166992188
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "brighter of the pair, is an orange giant ",
+          "bbox": [
+            289.1339111328125,
+            189.78594970703125,
+            516.87744140625,
+            203.78594970703125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "34 light-years away. Castor is a blue-",
+          "bbox": [
+            289.1339111328125,
+            204.77993774414062,
+            505.2937927246094,
+            218.77993774414062
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "white star 52 light-years away. ",
+          "bbox": [
+            289.1339111328125,
+            219.77392578125,
+            472.8866271972656,
+            233.77392578125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 363,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Light",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Light",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0043_u0008",
+      "container_id": "p0043_c0008",
+      "scale_group": "p0043_display_14.0",
+      "page": 43,
+      "target": "Las dos estrellas más brillantes de Géminis, Cástor y Pólux, facilitan la identificación de esta constelación. Llevan el nombre de los gemelos de la mitología griega que representa Géminis. Cástor y Pólux señalan las cabezas de los gemelos, pero no son idénticos. Pólux, la más brillante de las dos, es una gigante naranja a 34 años luz. Cástor es una estrella azul blanca a 52 años luz.",
+      "target_runs": [
+        {
+          "text": "Las dos estrellas más brillantes de Géminis, Cástor y Pólux, facilitan la identificación de esta constelación. Llevan el nombre de los gemelos de la mitología griega que representa Géminis. Cástor y Pólux señalan las cabezas de los gemelos, pero no son idénticos. Pólux, la más brillante de las dos, es una gigante naranja a 34 años luz. Cástor es una estrella azul blanca a 52 años luz.",
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

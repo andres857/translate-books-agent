@@ -1,0 +1,1258 @@
+{
+  "page": 34,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "dependency_sha256": "4974a5e8ec7882354f31a8b7f69e64b2fd54fc4f403e709d227af99bbe5b8f53",
+  "blocks": [
+    {
+      "source": "The Zodiac Signs",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        133.5836944580078,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Zodiac Signs",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            133.5836944580078,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0034_u0000",
+      "container_id": "p0034_c0000",
+      "scale_group": "p0034_display_12.0",
+      "page": 34,
+      "target": "Los signos del zodíaco",
+      "target_runs": [
+        {
+          "text": "Los signos del zodíaco",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE",
+      "line_height": 1.05,
+      "bbox": [
+        38.9114990234375,
+        92.67264556884766,
+        62.683597564697266,
+        103.67264556884766
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            38.9114990234375,
+            92.67264556884766,
+            62.683597564697266,
+            103.67264556884766
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0034_u0001",
+      "container_id": "p0034_c0001",
+      "scale_group": "p0034_display_11.0",
+      "page": 34,
+      "target": "EL",
+      "target_runs": [
+        {
+          "text": "EL",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "SIGN OF THE ZODIAC",
+      "line_height": 1.05,
+      "bbox": [
+        86.68779754638672,
+        92.67264556884766,
+        192.7794952392578,
+        103.67264556884766
+      ],
+      "spans": [
+        {
+          "source": " SIGN OF THE ZODIAC",
+          "bbox": [
+            86.68779754638672,
+            92.67264556884766,
+            192.7794952392578,
+            103.67264556884766
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0034_u0002",
+      "container_id": "p0034_c0002",
+      "scale_group": "p0034_display_11.0",
+      "page": 34,
+      "target": "SIGNO DEL ZODÍACO",
+      "target_runs": [
+        {
+          "text": "SIGNO DEL ZODÍACO",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "ARIES",
+      "line_height": 1.05,
+      "bbox": [
+        39.18410110473633,
+        106.136962890625,
+        203.73410034179688,
+        156.136962890625
+      ],
+      "spans": [
+        {
+          "source": "ARIES",
+          "bbox": [
+            39.18410110473633,
+            106.136962890625,
+            203.73410034179688,
+            156.136962890625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 50.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 50.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0034_u0003",
+      "container_id": "p0034_c0003",
+      "scale_group": "p0034_display_50.0",
+      "page": 34,
+      "target": "ARIES",
+      "target_runs": [
+        {
+          "text": "ARIES",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Aries is strong and full of vitality, like its animal, the ram. People who are Aries tend to be extroverted and like to take charge. They need action and know how to get a job done.",
+      "line_height": 1.1899995349702381,
+      "bbox": [
+        38.83470153808594,
+        196.8571319580078,
+        279.1754455566406,
+        342.8070983886719
+      ],
+      "spans": [
+        {
+          "source": "Aries is strong and full of vitality, ",
+          "bbox": [
+            38.83470153808594,
+            196.8571319580078,
+            279.1754455566406,
+            217.8571319580078
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "like its animal, the ram. People ",
+          "bbox": [
+            38.83470153808594,
+            221.8471221923828,
+            258.574462890625,
+            242.8471221923828
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "who are Aries tend to be ",
+          "bbox": [
+            38.83470153808594,
+            246.8371124267578,
+            216.53457641601562,
+            267.8371276855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "extroverted and like to take ",
+          "bbox": [
+            38.83470153808594,
+            271.82708740234375,
+            238.70843505859375,
+            292.8271179199219
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "charge. They need action and ",
+          "bbox": [
+            38.83470153808594,
+            296.81707763671875,
+            251.35049438476562,
+            317.8171081542969
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "know how to get a job done.",
+          "bbox": [
+            38.83470153808594,
+            321.80706787109375,
+            237.76351928710938,
+            342.8070983886719
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 181,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 21.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 21.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0034_u0005",
+      "container_id": "p0034_c0005",
+      "scale_group": "p0034_display_21.0",
+      "page": 34,
+      "target": "Aries es fuerte y está lleno de vitalidad, como su animal, el carnero. Quienes son Aries suelen ser extrovertidos y les gusta tomar las riendas. Necesitan acción y saben cómo terminar un trabajo.",
+      "target_runs": [
+        {
+          "text": "Aries es fuerte y está lleno de vitalidad, como su animal, el carnero. Quienes son Aries suelen ser extrovertidos y les gusta tomar las riendas. Necesitan acción y saben cómo terminar un trabajo.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Symbol Polarity Positive Mode Cardinal Element Fire Ruling planet Mars Parts of the body Head and adrenal glands",
+      "line_height": 1.043000594429348,
+      "bbox": [
+        54.425201416015625,
+        382.3786926269531,
+        239.9868927001953,
+        549.6236572265625
+      ],
+      "spans": [
+        {
+          "source": "Symbol  ",
+          "bbox": [
+            54.425201416015625,
+            382.3786926269531,
+            119.35420989990234,
+            405.3786926269531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Polarity  ",
+          "bbox": [
+            54.425201416015625,
+            406.3786926269531,
+            124.00020599365234,
+            429.3786926269531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Positive",
+          "bbox": [
+            124.00020599365234,
+            406.67864990234375,
+            183.4552001953125,
+            429.67864990234375
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "Mode  ",
+          "bbox": [
+            54.425201416015625,
+            430.3677062988281,
+            104.79520416259766,
+            453.3677062988281
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Cardinal",
+          "bbox": [
+            104.79520416259766,
+            430.66766357421875,
+            166.20518493652344,
+            453.66766357421875
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "Element  ",
+          "bbox": [
+            54.425201416015625,
+            454.3567199707031,
+            126.3922119140625,
+            477.3567199707031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Fire",
+          "bbox": [
+            126.39219665527344,
+            454.65667724609375,
+            155.211181640625,
+            477.65667724609375
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "Ruling planet  ",
+          "bbox": [
+            54.425201416015625,
+            478.345703125,
+            166.09019470214844,
+            501.345703125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Mars",
+          "bbox": [
+            166.09019470214844,
+            478.6456604003906,
+            201.211181640625,
+            501.6456604003906
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "Parts of the body ",
+          "bbox": [
+            54.425201416015625,
+            502.3346862792969,
+            192.6759033203125,
+            525.334716796875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "  Head ",
+          "bbox": [
+            192.6759033203125,
+            502.6346435546875,
+            239.9868927001953,
+            525.6346435546875
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "and adrenal glands",
+          "bbox": [
+            54.425201416015625,
+            526.6236572265625,
+            194.07888793945312,
+            549.6236572265625
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 16,
+          "end": 25,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 25,
+          "end": 30,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 30,
+          "end": 39,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 39,
+          "end": 47,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 47,
+          "end": 52,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 52,
+          "end": 66,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 66,
+          "end": 71,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 71,
+          "end": 89,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 89,
+          "end": 112,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 23.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 23.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0034_u0006",
+      "container_id": "p0034_c0006",
+      "scale_group": "p0034_display_23.0",
+      "page": 34,
+      "target": "Símbolo Polaridad Positiva Modalidad Cardinal Elemento Fuego Planeta regente Marte Partes del cuerpo Cabeza y glándulas suprarrenales",
+      "target_runs": [
+        {
+          "text": "Símbolo Polaridad ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "Positiva ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "Modalidad ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "Cardinal ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "Elemento ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "Fuego ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "Planeta regente ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "Marte ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "Partes del cuerpo ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "Cabeza y glándulas suprarrenales",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "21 MARCH–20 APRIL",
+      "line_height": 1.05,
+      "bbox": [
+        38.83470153808594,
+        156.36595153808594,
+        239.277587890625,
+        177.36595153808594
+      ],
+      "spans": [
+        {
+          "source": "21 MARCH–20 APRIL",
+          "bbox": [
+            38.83470153808594,
+            156.36595153808594,
+            239.277587890625,
+            177.36595153808594
+          ],
+          "font": "SohoPro-Light",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 21.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 21.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0034_u0004",
+      "container_id": "p0034_c0004",
+      "scale_group": "p0034_display_21.0",
+      "page": 34,
+      "target": "21 de marzo–20 de abril",
+      "translation_method": "deterministic_date"
+    }
+  ],
+  "qa_verdict": "not_run"
+}

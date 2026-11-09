@@ -1,0 +1,2619 @@
+{
+  "page": 30,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Zodiac Signs",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        133.5836944580078,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Zodiac Signs",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            133.5836944580078,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0030_u0000",
+      "container_id": "p0030_c0000",
+      "scale_group": "p0030_display_12.0",
+      "page": 30,
+      "target": "Los signos del zodíaco",
+      "target_runs": [
+        {
+          "text": "Los signos del zodíaco",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Exploring your chart",
+      "line_height": 1.05,
+      "bbox": [
+        35.95280075073242,
+        58.68974304199219,
+        169.57852172851562,
+        71.68974304199219
+      ],
+      "spans": [
+        {
+          "source": "Exploring your chart",
+          "bbox": [
+            35.95280075073242,
+            58.68974304199219,
+            169.57852172851562,
+            71.68974304199219
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 20,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0030_u0001",
+      "container_id": "p0030_c0001",
+      "scale_group": "p0030_display_13.0",
+      "page": 30,
+      "target": "Explora tu carta",
+      "target_runs": [
+        {
+          "text": "Explora tu carta",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Find the balance in your chart by noting the signs occupied by your Sun, Moon, Mercury, Venus, Mars, Jupiter, and Saturn. Also look for the sign where your Ascendant falls.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        35.95280075073242,
+        75.7331314086914,
+        240.9795684814453,
+        142.74508666992188
+      ],
+      "spans": [
+        {
+          "source": "Find the balance in your chart by noting  ",
+          "bbox": [
+            35.95280075073242,
+            75.7331314086914,
+            236.04055786132812,
+            86.7331314086914
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the signs occupied by your Sun, Moon, ",
+          "bbox": [
+            35.95280075073242,
+            89.73612213134766,
+            225.06370544433594,
+            100.73612213134766
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Mercury, Venus, Mars, Jupiter, and Saturn. ",
+          "bbox": [
+            35.95280075073242,
+            103.7391128540039,
+            240.9795684814453,
+            114.7391128540039
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Also look for the sign where your ",
+          "bbox": [
+            35.95280075073242,
+            117.74210357666016,
+            200.95167541503906,
+            128.74209594726562
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Ascendant falls.",
+          "bbox": [
+            35.95280075073242,
+            131.74508666992188,
+            113.96480560302734,
+            142.74508666992188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 172,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0030_u0002",
+      "container_id": "p0030_c0002",
+      "scale_group": "p0030_display_11.0",
+      "page": 30,
+      "target": "Encuentra el equilibrio en tu carta observando los signos que ocupan el Sol, la Luna, Mercurio, Venus, Marte, Júpiter y Saturno. Observa también en qué signo se encuentra tu Ascendente.",
+      "target_runs": [
+        {
+          "text": "Encuentra el equilibrio en tu carta observando los signos que ocupan el Sol, la Luna, Mercurio, Venus, Marte, Júpiter y Saturno. Observa también en qué signo se encuentra tu Ascendente.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "When a polarity, element, or mode is strongly represented, you will express it easily. For an element or mode, this means having at least two planets there. If you don’t have any planets in this area, it might be hard for you to show these qualities.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        35.95280456542969,
+        147.16708374023438,
+        227.26364135742188,
+        242.18502807617188
+      ],
+      "spans": [
+        {
+          "source": "When a polarity, element, or mode is ",
+          "bbox": [
+            44.45580291748047,
+            147.16708374023438,
+            224.17156982421875,
+            158.16708374023438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "strongly represented, you will express  ",
+          "bbox": [
+            35.95280456542969,
+            161.17007446289062,
+            227.26364135742188,
+            172.17007446289062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "it easily. For an element or mode, this ",
+          "bbox": [
+            35.95280456542969,
+            175.17306518554688,
+            219.2556610107422,
+            186.17306518554688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "means having at least two planets  ",
+          "bbox": [
+            35.95280456542969,
+            189.17605590820312,
+            208.07969665527344,
+            200.17605590820312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "there. If you don’t have any planets  ",
+          "bbox": [
+            35.95280456542969,
+            203.17904663085938,
+            213.2375946044922,
+            214.17904663085938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "in this area, it might be hard for you  ",
+          "bbox": [
+            35.95280456542969,
+            217.18203735351562,
+            214.53558349609375,
+            228.18203735351562
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to show these qualities. ",
+          "bbox": [
+            35.95280456542969,
+            231.18502807617188,
+            153.90579223632812,
+            242.18502807617188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 250,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0030_u0003",
+      "container_id": "p0030_c0003",
+      "scale_group": "p0030_display_11.0",
+      "page": 30,
+      "target": "Cuando una polaridad, un elemento o una modalidad están muy representados, los expresarás con facilidad. Para un elemento o una modalidad, esto significa tener al menos dos planetas allí. Si no tienes planetas en esta área, puede que te cueste mostrar estas cualidades.",
+      "target_runs": [
+        {
+          "text": "Cuando una polaridad, un elemento o una modalidad están muy representados, los expresarás con facilidad. Para un elemento o una modalidad, esto significa tener al menos dos planetas allí. Si no tienes planetas en esta área, puede que te cueste mostrar estas cualidades.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "If you have just one planet in a polarity, element, or mode, you will express it through that planet only, often forcefully.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        35.95280456542969,
+        245.18801879882812,
+        212.96371459960938,
+        298.1969909667969
+      ],
+      "spans": [
+        {
+          "source": "If you have just one planet in a  ",
+          "bbox": [
+            44.45580291748047,
+            245.18801879882812,
+            198.49867248535156,
+            256.1880187988281
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "polarity, element, or mode, you will  ",
+          "bbox": [
+            35.95280456542969,
+            259.1910095214844,
+            212.00669860839844,
+            270.1910095214844
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "express it through that planet only,  ",
+          "bbox": [
+            35.95280456542969,
+            273.1940002441406,
+            212.96371459960938,
+            284.1940002441406
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "often forcefully.",
+          "bbox": [
+            35.95280456542969,
+            287.1969909667969,
+            114.24971008300781,
+            298.1969909667969
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 124,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0030_u0004",
+      "container_id": "p0030_c0004",
+      "scale_group": "p0030_display_11.0",
+      "page": 30,
+      "target": "Si tienes un solo planeta en una polaridad, un elemento o una modalidad, lo expresarás únicamente a través de ese planeta, a menudo con fuerza.",
+      "target_runs": [
+        {
+          "text": "Si tienes un solo planeta en una polaridad, un elemento o una modalidad, lo expresarás únicamente a través de ese planeta, a menudo con fuerza.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "High in positive/ low in negative",
+      "line_height": 1.0770005446213942,
+      "bbox": [
+        44.457801818847656,
+        400.161865234375,
+        154.8004913330078,
+        427.1628723144531
+      ],
+      "spans": [
+        {
+          "source": "High in positive/ ",
+          "bbox": [
+            44.457801818847656,
+            400.161865234375,
+            154.8004913330078,
+            413.161865234375
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "low in negative",
+          "bbox": [
+            44.457801818847656,
+            414.1628723144531,
+            143.309814453125,
+            427.1628723144531
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 33,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0030_u0005",
+      "container_id": "p0030_c0005",
+      "scale_group": "p0030_display_13.0",
+      "page": 30,
+      "target": "Alto en positivo / bajo en negativo",
+      "target_runs": [
+        {
+          "text": "Alto en positivo / bajo en negativo",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "You like to be involved in the busy flow of life. Spending quiet time alone is a bigger challenge.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        44.457801818847656,
+        431.2052307128906,
+        156.75677490234375,
+        498.2172546386719
+      ],
+      "spans": [
+        {
+          "source": "You like to be involved  ",
+          "bbox": [
+            44.457801818847656,
+            431.2052307128906,
+            156.75677490234375,
+            442.2052307128906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "in the busy flow of  ",
+          "bbox": [
+            44.457801818847656,
+            445.2082214355469,
+            141.17970275878906,
+            456.2082214355469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "life. Spending quiet  ",
+          "bbox": [
+            44.457801818847656,
+            459.21124267578125,
+            142.58773803710938,
+            470.21124267578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "time alone is a  ",
+          "bbox": [
+            44.457801818847656,
+            473.2142639160156,
+            118.81781005859375,
+            484.2142639160156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "bigger challenge. ",
+          "bbox": [
+            44.457801818847656,
+            487.2172546386719,
+            129.7177276611328,
+            498.2172546386719
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 98,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0030_u0006",
+      "container_id": "p0030_c0006",
+      "scale_group": "p0030_display_11.0",
+      "page": 30,
+      "target": "Te gusta participar en el ajetreado fluir de la vida. Pasar un rato tranquilo a solas te resulta más difícil.",
+      "target_runs": [
+        {
+          "text": "Te gusta participar en el ajetreado fluir de la vida. Pasar un rato tranquilo a solas te resulta más difícil.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "High in negative/ low in positive",
+      "line_height": 1.0769981971153846,
+      "bbox": [
+        44.457801818847656,
+        513.5791625976562,
+        159.28550720214844,
+        540.5801391601562
+      ],
+      "spans": [
+        {
+          "source": "High in negative/ ",
+          "bbox": [
+            44.457801818847656,
+            513.5791625976562,
+            159.28550720214844,
+            526.5791625976562
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "low in positive",
+          "bbox": [
+            44.457801818847656,
+            527.5801391601562,
+            138.82351684570312,
+            540.5801391601562
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 33,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0030_u0007",
+      "container_id": "p0030_c0007",
+      "scale_group": "p0030_display_13.0",
+      "page": 30,
+      "target": "Alto en negativo / bajo en positivo",
+      "target_runs": [
+        {
+          "text": "Alto en negativo / bajo en positivo",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "You may be a little introverted; the inner world is more natural to you than the buzz of the outside world.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        44.457801818847656,
+        544.62255859375,
+        170.78070068359375,
+        611.6345825195312
+      ],
+      "spans": [
+        {
+          "source": "You may be a little ",
+          "bbox": [
+            44.457801818847656,
+            544.62255859375,
+            135.72369384765625,
+            555.62255859375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "introverted; the  ",
+          "bbox": [
+            44.457801818847656,
+            558.6255493164062,
+            125.89080047607422,
+            569.6255493164062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "inner world is more  ",
+          "bbox": [
+            44.457801818847656,
+            572.6285400390625,
+            143.21580505371094,
+            583.6285400390625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "natural to you than the  ",
+          "bbox": [
+            44.457801818847656,
+            586.631591796875,
+            163.38868713378906,
+            597.631591796875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "buzz of the outside world.",
+          "bbox": [
+            44.457801818847656,
+            600.6345825195312,
+            170.78070068359375,
+            611.6345825195312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 107,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0030_u0008",
+      "container_id": "p0030_c0008",
+      "scale_group": "p0030_display_11.0",
+      "page": 30,
+      "target": "Puede que seas algo introvertido; el mundo interior te resulta más natural que el bullicio del mundo exterior.",
+      "target_runs": [
+        {
+          "text": "Puede que seas algo introvertido; el mundo interior te resulta más natural que el bullicio del mundo exterior.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE POLARITIES IN YOUR CHART",
+      "line_height": 1.3079998309795673,
+      "bbox": [
+        44.59479522705078,
+        360.73590087890625,
+        161.85479736328125,
+        390.7398986816406
+      ],
+      "spans": [
+        {
+          "source": "THE POLARITIES  ",
+          "bbox": [
+            44.59479904174805,
+            360.73590087890625,
+            161.85479736328125,
+            373.73590087890625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "IN YOUR CHART",
+          "bbox": [
+            44.59479522705078,
+            377.7398986816406,
+            150.45379638671875,
+            390.7398986816406
+          ],
+          "font": "SohoPro-Bold",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 28,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0030_u0009",
+      "container_id": "p0030_c0009",
+      "scale_group": "p0030_display_13.0",
+      "page": 30,
+      "target": "LAS POLARIDADES EN TU CARTA",
+      "target_runs": [
+        {
+          "text": "LAS POLARIDADES EN TU CARTA",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE ELEMENTS IN YOUR CHART",
+      "line_height": 1.05,
+      "bbox": [
+        274.2008056640625,
+        58.65488052368164,
+        491.9106140136719,
+        71.65487670898438
+      ],
+      "spans": [
+        {
+          "source": "THE ELEMENTS IN YOUR CHART",
+          "bbox": [
+            274.2008056640625,
+            58.65488052368164,
+            491.9106140136719,
+            71.65487670898438
+          ],
+          "font": "SohoPro-Bold",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 26,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0030_u0010",
+      "container_id": "p0030_c0010",
+      "scale_group": "p0030_display_13.0",
+      "page": 30,
+      "target": "LOS ELEMENTOS EN TU CARTA",
+      "target_runs": [
+        {
+          "text": "LOS ELEMENTOS EN TU CARTA",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "HIGH ELEMENT",
+      "line_height": 1.05,
+      "bbox": [
+        274.190185546875,
+        76.49346923828125,
+        375.1942443847656,
+        88.49346923828125
+      ],
+      "spans": [
+        {
+          "source": "HIGH",
+          "bbox": [
+            341.94219970703125,
+            76.49346923828125,
+            375.1942443847656,
+            88.49346923828125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 12.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ELEMENT",
+          "bbox": [
+            274.190185546875,
+            76.49346923828125,
+            334.95819091796875,
+            88.49346923828125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 12.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 12,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 12.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 12.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0030_u0011",
+      "container_id": "p0030_c0011",
+      "scale_group": "p0030_display_12.0",
+      "page": 30,
+      "target": "ELEMENTO PREDOMINANTE",
+      "target_runs": [
+        {
+          "text": "ELEMENTO PREDOMINANTE",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "FIRE",
+      "line_height": 1.05,
+      "bbox": [
+        283.1181945800781,
+        136.1214599609375,
+        312.5782165527344,
+        148.1214599609375
+      ],
+      "spans": [
+        {
+          "source": "FIRE",
+          "bbox": [
+            283.1181945800781,
+            136.1214599609375,
+            312.5782165527344,
+            148.1214599609375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 12.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 12.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 12.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0030_u0012",
+      "container_id": "p0030_c0012",
+      "scale_group": "p0030_display_12.0",
+      "page": 30,
+      "target": "FUEGO",
+      "target_runs": [
+        {
+          "text": "FUEGO",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "EARTH",
+      "line_height": 1.05,
+      "bbox": [
+        277.01019287109375,
+        196.3614501953125,
+        322.250244140625,
+        208.3614501953125
+      ],
+      "spans": [
+        {
+          "source": "EARTH",
+          "bbox": [
+            277.01019287109375,
+            196.3614501953125,
+            322.250244140625,
+            208.3614501953125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 12.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 12.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 12.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0030_u0013",
+      "container_id": "p0030_c0013",
+      "scale_group": "p0030_display_12.0",
+      "page": 30,
+      "target": "TIERRA",
+      "target_runs": [
+        {
+          "text": "TIERRA",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "AIR",
+      "line_height": 1.05,
+      "bbox": [
+        286.0221862792969,
+        254.21343994140625,
+        309.6742248535156,
+        266.21343994140625
+      ],
+      "spans": [
+        {
+          "source": "AIR",
+          "bbox": [
+            286.0221862792969,
+            254.21343994140625,
+            309.6742248535156,
+            266.21343994140625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 12.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 12.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 12.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0030_u0014",
+      "container_id": "p0030_c0014",
+      "scale_group": "p0030_display_12.0",
+      "page": 30,
+      "target": "AIRE",
+      "target_runs": [
+        {
+          "text": "AIRE",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "WATER",
+      "line_height": 1.05,
+      "bbox": [
+        277.2742004394531,
+        315.9414367675781,
+        323.17425537109375,
+        327.9414367675781
+      ],
+      "spans": [
+        {
+          "source": "WATER",
+          "bbox": [
+            277.2742004394531,
+            315.9414367675781,
+            323.17425537109375,
+            327.9414367675781
+          ],
+          "font": "SohoPro-Bold",
+          "size": 12.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 12.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 12.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 13,
+      "id": "p0030_u0015",
+      "container_id": "p0030_c0015",
+      "scale_group": "p0030_display_12.0",
+      "page": 30,
+      "target": "AGUA",
+      "target_runs": [
+        {
+          "text": "AGUA",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "You tend to be self-motivated and focused. You often need to be the centre of attention.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        332.9414978027344,
+        100.23563385009766,
+        499.89837646484375,
+        139.24160766601562
+      ],
+      "spans": [
+        {
+          "source": "You tend to be self-motivated and ",
+          "bbox": [
+            332.9414978027344,
+            100.23563385009766,
+            499.89837646484375,
+            111.23563385009766
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "focused. You often need to be the ",
+          "bbox": [
+            332.9414978027344,
+            114.2386245727539,
+            498.7324523925781,
+            125.2386245727539
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "centre of attention.",
+          "bbox": [
+            332.9414978027344,
+            128.24160766601562,
+            426.55157470703125,
+            139.24160766601562
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 88,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 14,
+      "id": "p0030_u0016",
+      "container_id": "p0030_c0016",
+      "scale_group": "p0030_display_11.0",
+      "page": 30,
+      "target": "Tiendes a motivarte por tu cuenta y a mantener la concentración. A menudo necesitas ser el centro de atención.",
+      "target_runs": [
+        {
+          "text": "Tiendes a motivarte por tu cuenta y a mantener la concentración. A menudo necesitas ser el centro de atención.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Pragmatic and down-to-earth, you are good at managing tasks and getting things done.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        332.9414978027344,
+        157.55661010742188,
+        493.03436279296875,
+        196.56259155273438
+      ],
+      "spans": [
+        {
+          "source": "Pragmatic and down-to-earth,  ",
+          "bbox": [
+            332.9414978027344,
+            157.55661010742188,
+            486.6763610839844,
+            168.55661010742188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "you are good at managing tasks  ",
+          "bbox": [
+            332.9414978027344,
+            171.55960083007812,
+            493.03436279296875,
+            182.55960083007812
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and getting things done. ",
+          "bbox": [
+            332.9414978027344,
+            185.56259155273438,
+            454.93048095703125,
+            196.56259155273438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 84,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 15,
+      "id": "p0030_u0017",
+      "container_id": "p0030_c0017",
+      "scale_group": "p0030_display_11.0",
+      "page": 30,
+      "target": "Pragmático y con los pies en la tierra, se te da bien gestionar tareas y llevar las cosas a cabo.",
+      "target_runs": [
+        {
+          "text": "Pragmático y con los pies en la tierra, se te da bien gestionar tareas y llevar las cosas a cabo.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "You live in your head, focusing on thoughts and ideas. Your task is to turn ideas into reality.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        332.9414978027344,
+        221.3455810546875,
+        501.7133483886719,
+        260.3515625
+      ],
+      "spans": [
+        {
+          "source": "You live in your head, focusing on ",
+          "bbox": [
+            332.9414978027344,
+            221.3455810546875,
+            498.7764892578125,
+            232.3455810546875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "thoughts and ideas. Your task is to ",
+          "bbox": [
+            332.9414978027344,
+            235.34857177734375,
+            501.7133483886719,
+            246.34857177734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "turn ideas into reality.",
+          "bbox": [
+            332.9414978027344,
+            249.3515625,
+            439.7503662109375,
+            260.3515625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 95,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 16,
+      "id": "p0030_u0018",
+      "container_id": "p0030_c0018",
+      "scale_group": "p0030_display_11.0",
+      "page": 30,
+      "target": "Vives en tu mente, concentrado en pensamientos e ideas. Tu tarea es convertir las ideas en realidad.",
+      "target_runs": [
+        {
+          "text": "Vives en tu mente, concentrado en pensamientos e ideas. Tu tarea es convertir las ideas en realidad.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "You think with your heart and may find it hard to be neutral. You understand how others feel.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        332.9414978027344,
+        285.1895446777344,
+        491.9454345703125,
+        324.1955261230469
+      ],
+      "spans": [
+        {
+          "source": "You think with your heart and  ",
+          "bbox": [
+            332.9414978027344,
+            285.1895446777344,
+            485.4774169921875,
+            296.1895446777344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "may find it hard to be neutral.  ",
+          "bbox": [
+            332.9414978027344,
+            299.1925354003906,
+            481.6493835449219,
+            310.1925354003906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "You understand how others feel.",
+          "bbox": [
+            332.9414978027344,
+            313.1955261230469,
+            491.9454345703125,
+            324.1955261230469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 93,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 17,
+      "id": "p0030_u0019",
+      "container_id": "p0030_c0019",
+      "scale_group": "p0030_display_11.0",
+      "page": 30,
+      "target": "Piensas con el corazón y puede que te cueste ser neutral. Entiendes cómo se sienten los demás.",
+      "target_runs": [
+        {
+          "text": "Piensas con el corazón y puede que te cueste ser neutral. Entiendes cómo se sienten los demás.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

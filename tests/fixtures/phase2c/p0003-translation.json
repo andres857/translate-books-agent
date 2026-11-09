@@ -1,0 +1,240 @@
+{
+  "page": 3,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "A complete guide to Sun signs, planets, houses, and more ASTROLOGY",
+      "line_height": 1.05,
+      "bbox": [
+        110.22949981689453,
+        183.53927612304688,
+        442.35650634765625,
+        260.77685546875
+      ],
+      "spans": [
+        {
+          "source": "A complete guide to Sun signs, planets, houses, and more",
+          "bbox": [
+            112.35269927978516,
+            244.07687377929688,
+            442.35650634765625,
+            260.77685546875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.700000762939453,
+          "color": 3947579,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.700000762939453,
+            "color": 3947579,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "ASTROLOGY",
+          "bbox": [
+            110.22949981689453,
+            183.53927612304688,
+            439.58489990234375,
+            247.35546875
+          ],
+          "font": "LilitaOne",
+          "size": 63.816200256347656,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "LilitaOne",
+            "size": 63.816200256347656,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 57,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.700000762939453,
+            "color": 3947579,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 57,
+          "end": 66,
+          "style": {
+            "font": "LilitaOne",
+            "size": 63.816200256347656,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 16.700000762939453,
+        "color": 3947579,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 63.816200256347656,
+      "color": 3947579,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0003_u0000",
+      "container_id": "p0003_c0000",
+      "scale_group": "p0003_display_63.816200256347656",
+      "page": 3,
+      "target": "Una guía completa de signos solares, planetas, casas y más ASTROLOGÍA",
+      "target_runs": [
+        {
+          "text": "Una guía completa de signos solares, planetas, casas y más ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.700000762939453,
+            "color": 3947579,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "ASTROLOGÍA",
+          "style": {
+            "font": "LilitaOne",
+            "size": 63.816200256347656,
+            "color": 7303023,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE SECRETS OF",
+      "line_height": 1.05,
+      "bbox": [
+        144.8553924560547,
+        157.49090576171875,
+        409.89544677734375,
+        189.49090576171875
+      ],
+      "spans": [
+        {
+          "source": "THE SECRETS OF",
+          "bbox": [
+            144.8553924560547,
+            157.49090576171875,
+            409.89544677734375,
+            189.49090576171875
+          ],
+          "font": "RobotoSlab-Regular",
+          "size": 32.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "RobotoSlab-Regular",
+            "size": 32.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "RobotoSlab-Regular",
+            "size": 32.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "RobotoSlab-Regular",
+        "size": 32.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "RobotoSlab-Regular",
+      "size": 32.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0003_u0001",
+      "container_id": "p0003_c0001",
+      "scale_group": "p0003_display_32.0",
+      "page": 3,
+      "target": "LOS SECRETOS DE",
+      "target_runs": [
+        {
+          "text": "LOS SECRETOS DE",
+          "style": {
+            "font": "RobotoSlab-Regular",
+            "size": 32.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

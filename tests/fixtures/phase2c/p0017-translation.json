@@ -1,0 +1,1790 @@
+{
+  "page": 17,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "Astrology Today",
+      "line_height": 1.05,
+      "bbox": [
+        421.0757141113281,
+        21.864179611206055,
+        487.8424987792969,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Astrology Today",
+          "bbox": [
+            421.0757141113281,
+            21.864179611206055,
+            487.8424987792969,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0017_u0000",
+      "container_id": "p0017_c0000",
+      "scale_group": "p0017_display_12.0",
+      "page": 17,
+      "target": "La astrología hoy",
+      "target_runs": [
+        {
+          "text": "La astrología hoy",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Older forms of astrology have been",
+      "line_height": 1.05,
+      "bbox": [
+        86.57939910888672,
+        211.4416046142578,
+        330.0868835449219,
+        238.87734985351562
+      ],
+      "spans": [
+        {
+          "source": "Older ",
+          "bbox": [
+            86.57939910888672,
+            211.4416046142578,
+            125.2164077758789,
+            238.4416046142578
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "forms",
+          "bbox": [
+            125.2164077758789,
+            211.87734985351562,
+            175.8144073486328,
+            238.87734985351562
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 27.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": " of astrology have been ",
+          "bbox": [
+            175.8144073486328,
+            211.4416046142578,
+            330.0868835449219,
+            238.4416046142578
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 6,
+          "end": 12,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 12,
+          "end": 34,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCompressed",
+        "size": 27.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-LightCompressed",
+      "size": 27.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0017_u0001",
+      "container_id": "p0017_c0001",
+      "scale_group": "p0017_display_27.0",
+      "page": 17,
+      "target": "Las formas más antiguas de la astrología se han",
+      "target_runs": [
+        {
+          "text": "Las formas ",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "más antiguas ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "de la astrología se han",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "renewed for today’s audience",
+      "line_height": 1.05,
+      "bbox": [
+        86.57939910888672,
+        241.43861389160156,
+        312.00238037109375,
+        268.8743591308594
+      ],
+      "spans": [
+        {
+          "source": "renewed for ",
+          "bbox": [
+            86.57939910888672,
+            241.43861389160156,
+            169.17237854003906,
+            268.4385986328125
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 27.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "today’s audience",
+          "bbox": [
+            169.17237854003906,
+            241.87435913085938,
+            312.00238037109375,
+            268.8743591308594
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 27.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 12,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 12,
+          "end": 28,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCompressed",
+        "size": 27.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-LightCompressed",
+      "size": 27.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0017_u0002",
+      "container_id": "p0017_c0002",
+      "scale_group": "p0017_display_27.0",
+      "page": 17,
+      "target": "renovado para el público actual",
+      "target_runs": [
+        {
+          "text": "renovado para el ",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "público actual",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "Professional astrologers often think Sun-sign columns are too simplistic. But without them, most people would never have heard of astrology.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        36.000999450683594,
+        422.8259582519531,
+        186.07289123535156,
+        489.8379821777344
+      ],
+      "spans": [
+        {
+          "source": "Professional astrologers ",
+          "bbox": [
+            44.50400161743164,
+            422.8259582519531,
+            164.5469970703125,
+            433.8259582519531
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "often think Sun-sign columns ",
+          "bbox": [
+            36.000999450683594,
+            436.8289489746094,
+            184.00376892089844,
+            447.8289489746094
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "are too simplistic. But without ",
+          "bbox": [
+            36.000999450683594,
+            450.8319396972656,
+            184.69790649414062,
+            461.8319396972656
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "them, most people would ",
+          "bbox": [
+            36.000999450683594,
+            464.8349609375,
+            162.2358856201172,
+            475.8349609375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "never have heard of astrology. ",
+          "bbox": [
+            36.000999450683594,
+            478.8379821777344,
+            186.07289123535156,
+            489.8379821777344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 140,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0017_u0003",
+      "container_id": "p0017_c0003",
+      "scale_group": "p0017_display_11.0",
+      "page": 17,
+      "target": "Los astrólogos profesionales suelen considerar demasiado simplistas las columnas de horóscopos por signo solar. Pero, sin ellas, la mayoría de la gente nunca habría oído hablar de la astrología.",
+      "target_runs": [
+        {
+          "text": "Los astrólogos profesionales suelen considerar demasiado simplistas las columnas de horóscopos por signo solar. Pero, sin ellas, la mayoría de la gente nunca habría oído hablar de la astrología.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Modern changes",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        503.6171875,
+        142.96400451660156,
+        516.6171875
+      ],
+      "spans": [
+        {
+          "source": "Modern changes",
+          "bbox": [
+            36.0,
+            503.6171875,
+            142.96400451660156,
+            516.6171875
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0017_u0004",
+      "container_id": "p0017_c0004",
+      "scale_group": "p0017_display_13.0",
+      "page": 17,
+      "target": "Cambios modernos",
+      "target_runs": [
+        {
+          "text": "Cambios modernos",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The most significant development in modern astrology has been the incorporation of psychology into the field. This is known as psychological astrology.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        36.0,
+        520.66064453125,
+        175.3139190673828,
+        601.6756591796875
+      ],
+      "spans": [
+        {
+          "source": "The most significant ",
+          "bbox": [
+            36.0,
+            520.66064453125,
+            137.84791564941406,
+            531.66064453125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "development in modern ",
+          "bbox": [
+            36.0,
+            534.6636352539062,
+            154.64601135253906,
+            545.6636352539062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "astrology has been the ",
+          "bbox": [
+            36.0,
+            548.6666259765625,
+            150.4759063720703,
+            559.6666259765625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "incorporation of psychology ",
+          "bbox": [
+            36.0,
+            562.669677734375,
+            175.3139190673828,
+            573.669677734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "into the field. This is known  ",
+          "bbox": [
+            36.0,
+            576.6726684570312,
+            174.73086547851562,
+            587.6726684570312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "as psychological astrology. ",
+          "bbox": [
+            36.0,
+            590.6756591796875,
+            167.6579132080078,
+            601.6756591796875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 151,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0017_u0005",
+      "container_id": "p0017_c0005",
+      "scale_group": "p0017_display_11.0",
+      "page": 17,
+      "target": "El avance más significativo de la astrología moderna ha sido la incorporación de la psicología a este campo. Esto se conoce como astrología psicológica.",
+      "target_runs": [
+        {
+          "text": "El avance más significativo de la astrología moderna ha sido la incorporación de la psicología a este campo. Esto se conoce como astrología psicológica.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Psychology provides what astrology naturally lacks— a theory of why people behave the way they do and how our personalities are formed.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        200.03199768066406,
+        420.8576354980469,
+        331.9869079589844,
+        501.8726501464844
+      ],
+      "spans": [
+        {
+          "source": "Psychology provides what ",
+          "bbox": [
+            200.03199768066406,
+            420.8576354980469,
+            331.7228698730469,
+            431.8576354980469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "astrology naturally lacks— ",
+          "bbox": [
+            200.03199768066406,
+            434.8606262207031,
+            329.4348449707031,
+            445.8606262207031
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "a theory of why people  ",
+          "bbox": [
+            200.03199768066406,
+            448.8636474609375,
+            319.0399169921875,
+            459.8636474609375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "behave the way they do  ",
+          "bbox": [
+            200.03199768066406,
+            462.8666687011719,
+            322.97894287109375,
+            473.8666687011719
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and how our personalities  ",
+          "bbox": [
+            200.03199768066406,
+            476.8696594238281,
+            331.9869079589844,
+            487.8696594238281
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "are formed. ",
+          "bbox": [
+            200.03199768066406,
+            490.8726501464844,
+            258.23297119140625,
+            501.8726501464844
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 135,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0017_u0006",
+      "container_id": "p0017_c0006",
+      "scale_group": "p0017_display_11.0",
+      "page": 17,
+      "target": "La psicología aporta lo que naturalmente le falta a la astrología: una teoría de por qué las personas se comportan como lo hacen y de cómo se forma nuestra personalidad.",
+      "target_runs": [
+        {
+          "text": "La psicología aporta lo que naturalmente le falta a la astrología: una teoría de por qué las personas se comportan como lo hacen y de cómo se forma nuestra personalidad.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrology now",
+      "line_height": 1.05,
+      "bbox": [
+        200.031494140625,
+        517.2156982421875,
+        295.3345031738281,
+        530.2156982421875
+      ],
+      "spans": [
+        {
+          "source": "Astrology now",
+          "bbox": [
+            200.031494140625,
+            517.2156982421875,
+            295.3345031738281,
+            530.2156982421875
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0017_u0007",
+      "container_id": "p0017_c0007",
+      "scale_group": "p0017_display_13.0",
+      "page": 17,
+      "target": "La astrología en la actualidad",
+      "target_runs": [
+        {
+          "text": "La astrología en la actualidad",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Today, astrology is enjoying a surge in popularity. Curiosity now stretches beyond Sun signs to include the whole birth chart.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        200.031494140625,
+        534.259033203125,
+        351.59930419921875,
+        601.2710571289062
+      ],
+      "spans": [
+        {
+          "source": "Today, astrology is enjoying  ",
+          "bbox": [
+            200.031494140625,
+            534.259033203125,
+            340.2144470214844,
+            545.259033203125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "a surge in popularity. Curiosity ",
+          "bbox": [
+            200.031494140625,
+            548.2620849609375,
+            351.59930419921875,
+            559.2620849609375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "now stretches beyond Sun ",
+          "bbox": [
+            200.031494140625,
+            562.2650756835938,
+            332.096435546875,
+            573.2650756835938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "signs to include the whole ",
+          "bbox": [
+            200.031494140625,
+            576.26806640625,
+            329.995361328125,
+            587.26806640625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "birth chart. ",
+          "bbox": [
+            200.031494140625,
+            590.2710571289062,
+            257.2754821777344,
+            601.2710571289062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 126,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0017_u0008",
+      "container_id": "p0017_c0008",
+      "scale_group": "p0017_display_11.0",
+      "page": 17,
+      "target": "Hoy, la astrología está experimentando un auge de popularidad. La curiosidad va más allá de los signos solares y ahora abarca toda la carta natal.",
+      "target_runs": [
+        {
+          "text": "Hoy, la astrología está experimentando un auge de popularidad. La curiosidad va más allá de los signos solares y ahora abarca toda la carta natal.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Uncertainty about the future pushes many to seek wisdom from spiritual traditions. Interest in mysticism is not just found in the pull toward astrology, but also in literature, fashion, film, and other areas. Astrology is a practical tool that can be applied to all areas of life. It also speaks to our need for a spiritual connection, a counter to the rationalism of modern science.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        364.0635070800781,
+        422.7630310058594,
+        518.4913940429688,
+        601.799072265625
+      ],
+      "spans": [
+        {
+          "source": "Uncertainty about the future ",
+          "bbox": [
+            372.5664978027344,
+            422.7630310058594,
+            518.4913940429688,
+            433.7630310058594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "pushes many to seek wisdom ",
+          "bbox": [
+            364.0635070800781,
+            436.7660217285156,
+            510.9454345703125,
+            447.7660217285156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "from spiritual traditions. ",
+          "bbox": [
+            364.0635070800781,
+            450.76904296875,
+            484.9293518066406,
+            461.76904296875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Interest in mysticism is not  ",
+          "bbox": [
+            364.0635070800781,
+            464.7720642089844,
+            499.7583923339844,
+            475.7720642089844
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "just found in the pull toward ",
+          "bbox": [
+            364.0635070800781,
+            478.7750549316406,
+            505.33538818359375,
+            489.7750549316406
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "astrology, but also in literature, ",
+          "bbox": [
+            364.0635070800781,
+            492.7780456542969,
+            517.4573364257812,
+            503.7780456542969
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "fashion, film, and other areas. ",
+          "bbox": [
+            364.0635070800781,
+            506.7810974121094,
+            510.9333801269531,
+            517.7811279296875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Astrology is a practical tool ",
+          "bbox": [
+            364.0635070800781,
+            520.7841186523438,
+            498.2073059082031,
+            531.7841186523438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "that can be applied to all areas ",
+          "bbox": [
+            364.0635070800781,
+            534.787109375,
+            513.92529296875,
+            545.787109375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "of life. It also speaks to our ",
+          "bbox": [
+            364.0635070800781,
+            548.7901000976562,
+            495.6994323730469,
+            559.7901000976562
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "need for a spiritual connection, ",
+          "bbox": [
+            364.0635070800781,
+            562.7930908203125,
+            517.864501953125,
+            573.7930908203125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "a counter to the rationalism  ",
+          "bbox": [
+            364.0635070800781,
+            576.7960815429688,
+            503.4104309082031,
+            587.7960815429688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "of modern science.",
+          "bbox": [
+            364.0635070800781,
+            590.799072265625,
+            455.3965759277344,
+            601.799072265625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 383,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0017_u0009",
+      "container_id": "p0017_c0009",
+      "scale_group": "p0017_display_11.0",
+      "page": 17,
+      "target": "La incertidumbre sobre el futuro lleva a muchas personas a buscar sabiduría en las tradiciones espirituales. El interés por el misticismo no se manifiesta solo en la atracción por la astrología, sino también en la literatura, la moda, el cine y otros ámbitos. La astrología es una herramienta práctica que puede aplicarse a todos los ámbitos de la vida. También responde a nuestra necesidad de conexión espiritual, como contrapeso al racionalismo de la ciencia moderna.",
+      "target_runs": [
+        {
+          "text": "La incertidumbre sobre el futuro lleva a muchas personas a buscar sabiduría en las tradiciones espirituales. El interés por el misticismo no se manifiesta solo en la atracción por la astrología, sino también en la literatura, la moda, el cine y otros ámbitos. La astrología es una herramienta práctica que puede aplicarse a todos los ámbitos de la vida. También responde a nuestra necesidad de conexión espiritual, como contrapeso al racionalismo de la ciencia moderna.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "page": 59,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "“WE COME SPINNING OUT OF NOTHINGNESS,",
+      "line_height": 1.1667527418870192,
+      "bbox": [
+        66.49600219726562,
+        66.8502197265625,
+        497.5760803222656,
+        281.8702392578125
+      ],
+      "spans": [
+        {
+          "source": "“WE COME  ",
+          "bbox": [
+            158.01600646972656,
+            66.8502197265625,
+            416.3260192871094,
+            131.8502197265625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "SPINNING ",
+          "bbox": [
+            103.87103271484375,
+            142.68914794921875,
+            350.0845642089844,
+            207.68914794921875
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "OUT  ",
+          "bbox": [
+            350.5460205078125,
+            141.8602294921875,
+            470.926025390625,
+            206.8602294921875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "OF NOTHINGNESS, ",
+          "bbox": [
+            66.49600219726562,
+            216.8702392578125,
+            497.5760803222656,
+            281.8702392578125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 18,
+          "end": 37,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 65.0,
+        "color": 9605778,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 65.0,
+      "color": 9605778,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0059_u0000",
+      "container_id": "p0059_c0000",
+      "scale_group": "p0059_display_65.0",
+      "page": 59,
+      "target": "“VENIMOS GIRANDO DESDE LA NADA,",
+      "target_runs": [
+        {
+          "text": "“VENIMOS ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "GIRANDO ",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "DESDE LA NADA,",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "SCATTERING",
+      "line_height": 1.05,
+      "bbox": [
+        130.9110107421875,
+        291.8802490234375,
+        443.9510192871094,
+        356.8802490234375
+      ],
+      "spans": [
+        {
+          "source": "SCATTERING  ",
+          "bbox": [
+            130.9110107421875,
+            291.8802490234375,
+            443.9510192871094,
+            356.8802490234375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 65.0,
+        "color": 9605778,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 65.0,
+      "color": 9605778,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0059_u0001",
+      "container_id": "p0059_c0001",
+      "scale_group": "p0059_display_65.0",
+      "page": 59,
+      "target": "ESPARCIENDO",
+      "target_runs": [
+        {
+          "text": "ESPARCIENDO",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "STARS LIKE",
+      "line_height": 1.05,
+      "bbox": [
+        139.75100708007812,
+        367.71917724609375,
+        434.59100341796875,
+        432.71917724609375
+      ],
+      "spans": [
+        {
+          "source": "STARS LIKE  ",
+          "bbox": [
+            139.75100708007812,
+            367.71917724609375,
+            434.59100341796875,
+            432.71917724609375
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 65.0,
+        "color": 9605778,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 65.0,
+      "color": 9605778,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0059_u0002",
+      "container_id": "p0059_c0002",
+      "scale_group": "p0059_display_65.0",
+      "page": 59,
+      "target": "ESTRELLAS COMO",
+      "target_runs": [
+        {
+          "text": "ESTRELLAS COMO",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "DUST.\"",
+      "line_height": 1.05,
+      "bbox": [
+        199.55101013183594,
+        441.9002685546875,
+        353.7960205078125,
+        507.72918701171875
+      ],
+      "spans": [
+        {
+          "source": "DUST",
+          "bbox": [
+            199.55101013183594,
+            442.72918701171875,
+            328.6410217285156,
+            507.72918701171875
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": ".\"",
+          "bbox": [
+            329.09600830078125,
+            441.9002685546875,
+            353.7960205078125,
+            506.9002685546875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 4,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 65.0,
+        "color": 9605778,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 65.0,
+      "color": 9605778,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0059_u0003",
+      "container_id": "p0059_c0003",
+      "scale_group": "p0059_display_65.0",
+      "page": 59,
+      "target": "POLVO.\"",
+      "target_runs": [
+        {
+          "text": "POLVO",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": ".\"",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Jalal ad-Din Rumi",
+      "line_height": 1.05,
+      "bbox": [
+        236.72549438476562,
+        538.7290649414062,
+        316.0314636230469,
+        557.7290649414062
+      ],
+      "spans": [
+        {
+          "source": "Jalal ad-Din Rumi",
+          "bbox": [
+            236.72549438476562,
+            538.7290649414062,
+            316.0314636230469,
+            557.7290649414062
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 19.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 19.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 19.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCompressed",
+        "size": 19.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-LightCompressed",
+      "size": 19.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0059_u0004",
+      "container_id": "p0059_c0004",
+      "scale_group": "p0059_display_19.0",
+      "page": 59,
+      "target": "Jalal ad-Din Rumi",
+      "target_runs": [
+        {
+          "text": "Jalal ad-Din Rumi",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 19.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    }
+  ]
+}

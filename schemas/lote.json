@@ -39,6 +39,7 @@
         "enum": [
           "codex_sdk",
           "codex_exec",
+          "claude_cli",
           "openai_api"
         ]
       },

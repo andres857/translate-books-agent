@@ -1,0 +1,1129 @@
+{
+  "page": 36,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Zodiac Signs",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        133.5836944580078,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Zodiac Signs",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            133.5836944580078,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0036_u0000",
+      "container_id": "p0036_c0000",
+      "scale_group": "p0036_display_12.0",
+      "page": 36,
+      "target": "Los signos del zodíaco",
+      "target_runs": [
+        {
+          "text": "Los signos del zodíaco",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE",
+      "line_height": 1.05,
+      "bbox": [
+        36.076900482177734,
+        86.57816314697266,
+        59.8489990234375,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            36.076900482177734,
+            86.57816314697266,
+            59.8489990234375,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0036_u0001",
+      "container_id": "p0036_c0001",
+      "scale_group": "p0036_display_11.0",
+      "page": 36,
+      "target": "EL",
+      "target_runs": [
+        {
+          "text": "EL",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "SIGN OF THE ZODIAC",
+      "line_height": 1.05,
+      "bbox": [
+        83.85319519042969,
+        86.57816314697266,
+        189.9449005126953,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": " SIGN OF THE ZODIAC",
+          "bbox": [
+            83.85319519042969,
+            86.57816314697266,
+            189.9449005126953,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0036_u0002",
+      "container_id": "p0036_c0002",
+      "scale_group": "p0036_display_11.0",
+      "page": 36,
+      "target": "SIGNO DEL ZODÍACO",
+      "target_runs": [
+        {
+          "text": "SIGNO DEL ZODÍACO",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "ARIES",
+      "line_height": 1.05,
+      "bbox": [
+        36.34939956665039,
+        100.04248046875,
+        200.8994140625,
+        150.04248046875
+      ],
+      "spans": [
+        {
+          "source": "ARIES",
+          "bbox": [
+            36.34939956665039,
+            100.04248046875,
+            200.8994140625,
+            150.04248046875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 50.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 50.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0036_u0003",
+      "container_id": "p0036_c0003",
+      "scale_group": "p0036_display_50.0",
+      "page": 36,
+      "target": "ARIES",
+      "target_runs": [
+        {
+          "text": "ARIES",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "21 MARCH–20 APRIL",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        150.2714385986328,
+        236.44288635253906,
+        171.2714385986328
+      ],
+      "spans": [
+        {
+          "source": "21 MARCH–20 APRIL",
+          "bbox": [
+            36.0,
+            150.2714385986328,
+            236.44288635253906,
+            171.2714385986328
+          ],
+          "font": "SohoPro-Light",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 21.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 21.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0036_u0004",
+      "container_id": "p0036_c0004",
+      "scale_group": "p0036_display_21.0",
+      "page": 36,
+      "target": "21 de marzo–20 de abril",
+      "target_runs": [
+        {
+          "text": "21 de marzo–20 de abril",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "translation_method": "deterministic_date"
+    },
+    {
+      "source": "The Sun in Aries",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        385.716796875,
+        204.98736572265625,
+        402.716796875
+      ],
+      "spans": [
+        {
+          "source": "The Sun in Aries",
+          "bbox": [
+            116.9291000366211,
+            385.716796875,
+            204.98736572265625,
+            402.716796875
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0036_u0005",
+      "container_id": "p0036_c0005",
+      "scale_group": "p0036_display_17.0",
+      "page": 36,
+      "target": "El Sol en Aries",
+      "target_runs": [
+        {
+          "text": "El Sol en Aries",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "If the Sun is in the Aries section of your chart, Aries is your “Sun sign.” You like to be a pioneer and lead the way, breaking new ground for others to follow. As a courageous person, you search for ways to prove yourself.",
+      "line_height": 1.1429988316127233,
+      "bbox": [
+        116.9291000366211,
+        406.8362731933594,
+        466.1101379394531,
+        452.8402404785156
+      ],
+      "spans": [
+        {
+          "source": "If the Sun is in the Aries section of your chart, Aries is your “Sun sign.” ",
+          "bbox": [
+            116.9291000366211,
+            406.8362731933594,
+            452.9627685546875,
+            420.8362731933594
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "You like to be a pioneer and lead the way, breaking new ground for others ",
+          "bbox": [
+            116.9291000366211,
+            422.8382568359375,
+            466.1101379394531,
+            436.8382568359375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "to follow. As a courageous person, you search for ways to prove yourself.",
+          "bbox": [
+            116.9291000366211,
+            438.8402404785156,
+            460.62506103515625,
+            452.8402404785156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 223,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0036_u0006",
+      "container_id": "p0036_c0006",
+      "scale_group": "p0036_display_14.0",
+      "page": 36,
+      "target": "Si el Sol está en la sección de Aries de tu carta, Aries es tu “signo solar”. Te gusta ser pionero y abrir camino, allanando el terreno para que otros te sigan. Como persona valiente, buscas maneras de demostrar lo que vales.",
+      "target_runs": [
+        {
+          "text": "Si el Sol está en la sección de Aries de tu carta, Aries es tu “signo solar”. Te gusta ser pionero y abrir camino, allanando el terreno para que otros te sigan. Como persona valiente, buscas maneras de demostrar lo que vales.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Your planets in Aries",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        471.3445129394531,
+        229.2481231689453,
+        488.3445129394531
+      ],
+      "spans": [
+        {
+          "source": "Your planets in Aries",
+          "bbox": [
+            116.9291000366211,
+            471.3445129394531,
+            229.2481231689453,
+            488.3445129394531
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 21,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0036_u0007",
+      "container_id": "p0036_c0007",
+      "scale_group": "p0036_display_17.0",
+      "page": 36,
+      "target": "Tus planetas en Aries",
+      "target_runs": [
+        {
+          "text": "Tus planetas en Aries",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "Planets in the Aries section of your chart will act with daring—you take charge in the aspects of your life these planets represent.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        116.9291000366211,
+        492.4639587402344,
+        434.0094299316406,
+        522.4660034179688
+      ],
+      "spans": [
+        {
+          "source": "Planets in the Aries section of your chart will act with daring—you ",
+          "bbox": [
+            116.9291000366211,
+            492.4639587402344,
+            434.0094299316406,
+            506.4639587402344
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "take charge in the aspects of your life these planets represent.",
+          "bbox": [
+            116.9291000366211,
+            508.4659729003906,
+            411.1769714355469,
+            522.4660034179688
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 132,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0036_u0008",
+      "container_id": "p0036_c0008",
+      "scale_group": "p0036_display_14.0",
+      "page": 36,
+      "target": "Los planetas en la sección de Aries de tu carta actuarán con audacia: tomarás la iniciativa en los aspectos de tu vida que representan esos planetas.",
+      "target_runs": [
+        {
+          "text": "Los planetas en la sección de Aries de tu carta actuarán con audacia: tomarás la iniciativa en los aspectos de tu vida que representan esos planetas.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Aries on the cusp of a house",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        556.0350341796875,
+        267.4113464355469,
+        573.0350341796875
+      ],
+      "spans": [
+        {
+          "source": "Aries on the cusp of a house",
+          "bbox": [
+            116.9291000366211,
+            556.0350341796875,
+            267.4113464355469,
+            573.0350341796875
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 28,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0036_u0009",
+      "container_id": "p0036_c0009",
+      "scale_group": "p0036_display_17.0",
+      "page": 36,
+      "target": "Aries en la cúspide de una casa",
+      "target_runs": [
+        {
+          "text": "Aries en la cúspide de una casa",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "If Aries is right at the beginning point of a house, this is an area of life where you are competitive and self-motivated, willing to take risks and try new things.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        116.9291000366211,
+        577.1546020507812,
+        455.2629089355469,
+        623.1585693359375
+      ],
+      "spans": [
+        {
+          "source": "If Aries is right at the beginning point of a house, this is an area of life ",
+          "bbox": [
+            116.9291000366211,
+            577.1546020507812,
+            448.6534729003906,
+            591.1546020507812
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "where you are competitive and self-motivated, willing to take risks and ",
+          "bbox": [
+            116.9291000366211,
+            593.1565551757812,
+            455.2629089355469,
+            607.1565551757812
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "try new things.",
+          "bbox": [
+            116.9291000366211,
+            609.1585693359375,
+            190.35906982421875,
+            623.1585693359375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 164,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0036_u0010",
+      "container_id": "p0036_c0010",
+      "scale_group": "p0036_display_14.0",
+      "page": 36,
+      "target": "Si Aries está justo al comienzo de una casa, esa área de tu vida será una en la que competirás y te motivarás por cuenta propia, y estarás dispuesto a correr riesgos y probar cosas nuevas.",
+      "target_runs": [
+        {
+          "text": "Si Aries está justo al comienzo de una casa, esa área de tu vida será una en la que competirás y te motivarás por cuenta propia, y estarás dispuesto a correr riesgos y probar cosas nuevas.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

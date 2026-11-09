@@ -1,0 +1,1362 @@
+{
+  "page": 18,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Story of Astrology",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        157.51170349121094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Story of Astrology",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            157.51170349121094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0018_u0000",
+      "container_id": "p0018_c0000",
+      "scale_group": "p0018_display_12.0",
+      "page": 18,
+      "target": "La historia de la astrología",
+      "target_runs": [
+        {
+          "text": "La historia de la astrología",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "ASTROLOGY AND ME",
+      "line_height": 0.9999998410542806,
+      "bbox": [
+        36.3118896484375,
+        106.39017486572266,
+        328.3439025878906,
+        202.39016723632812
+      ],
+      "spans": [
+        {
+          "source": "ASTROLOGY  ",
+          "bbox": [
+            36.3119010925293,
+            106.39017486572266,
+            328.3439025878906,
+            154.39016723632812
+          ],
+          "font": "SohoPro-Light",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "AND",
+          "bbox": [
+            36.3118896484375,
+            154.39016723632812,
+            139.22389221191406,
+            202.39016723632812
+          ],
+          "font": "SohoPro-Light",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " ME ",
+          "bbox": [
+            139.5598907470703,
+            154.25616455078125,
+            235.847900390625,
+            202.25616455078125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 14,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 48.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 48.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0018_u0001",
+      "container_id": "p0018_c0001",
+      "scale_group": "p0018_display_48.0",
+      "page": 18,
+      "target": "LA ASTROLOGÍA Y YO",
+      "target_runs": [
+        {
+          "text": "LA ASTROLOGÍA Y ",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "YO",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "A guide for life",
+      "line_height": 1.05,
+      "bbox": [
+        200.031494140625,
+        419.35125732421875,
+        295.1122131347656,
+        432.35125732421875
+      ],
+      "spans": [
+        {
+          "source": "A guide for life",
+          "bbox": [
+            200.031494140625,
+            419.35125732421875,
+            295.1122131347656,
+            432.35125732421875
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0018_u0002",
+      "container_id": "p0018_c0002",
+      "scale_group": "p0018_display_13.0",
+      "page": 18,
+      "target": "Una guía para la vida",
+      "target_runs": [
+        {
+          "text": "Una guía para la vida",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Most of the time, life may run smoothly. In a crisis, however, it is useful to have a tool that lets you see what is happening at a deeper level. Psychology and astrology speak to this inner meaning. Astrology encourages you to reflect on who you are and why you have certain personality traits. It helps you understand others, too. Astrology can also",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        200.031494140625,
+        436.3946228027344,
+        353.9534606933594,
+        601.4276733398438
+      ],
+      "spans": [
+        {
+          "source": "Most of the time, life may run ",
+          "bbox": [
+            200.031494140625,
+            436.3946228027344,
+            346.6384582519531,
+            447.3946228027344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "smoothly. In a crisis, however, ",
+          "bbox": [
+            200.031494140625,
+            450.39764404296875,
+            347.6944274902344,
+            461.39764404296875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "it is useful to have a tool that ",
+          "bbox": [
+            200.031494140625,
+            464.4006652832031,
+            344.0203552246094,
+            475.4006652832031
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "lets you see what is happening ",
+          "bbox": [
+            200.031494140625,
+            478.4036560058594,
+            353.9534606933594,
+            489.4036560058594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "at a deeper level. Psychology ",
+          "bbox": [
+            200.031494140625,
+            492.4066467285156,
+            343.3164978027344,
+            503.4066467285156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and astrology speak to this ",
+          "bbox": [
+            200.031494140625,
+            506.4096374511719,
+            334.37335205078125,
+            517.40966796875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "inner meaning. Astrology ",
+          "bbox": [
+            200.031494140625,
+            520.4127197265625,
+            326.67449951171875,
+            531.4127197265625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "encourages you to reflect  ",
+          "bbox": [
+            200.031494140625,
+            534.4157104492188,
+            328.7742919921875,
+            545.4157104492188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "on who you are and why  ",
+          "bbox": [
+            200.031494140625,
+            548.418701171875,
+            326.43133544921875,
+            559.418701171875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "you have certain personality  ",
+          "bbox": [
+            200.031494140625,
+            562.4216918945312,
+            345.3624267578125,
+            573.4216918945312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "traits. It helps you understand ",
+          "bbox": [
+            200.031494140625,
+            576.4246826171875,
+            349.32232666015625,
+            587.4246826171875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "others, too. Astrology can also ",
+          "bbox": [
+            200.031494140625,
+            590.4276733398438,
+            350.1143798828125,
+            601.4276733398438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 351,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0018_u0003",
+      "container_id": "p0018_c0003",
+      "scale_group": "p0018_display_11.0",
+      "page": 18,
+      "target": "La mayor parte del tiempo, la vida puede transcurrir sin sobresaltos. Sin embargo, en una crisis resulta útil contar con una herramienta que permita ver lo que ocurre en un nivel más profundo. La psicología y la astrología hablan de ese significado interior. La astrología te anima a reflexionar sobre quién eres y por qué tienes ciertos rasgos de personalidad. También te ayuda a comprender a los demás. La astrología también puede",
+      "target_runs": [
+        {
+          "text": "La mayor parte del tiempo, la vida puede transcurrir sin sobresaltos. Sin embargo, en una crisis resulta útil contar con una herramienta que permita ver lo que ocurre en un nivel más profundo. La psicología y la astrología hablan de ese significado interior. La astrología te anima a reflexionar sobre quién eres y por qué tienes ciertos rasgos de personalidad. También te ayuda a comprender a los demás. La astrología también puede",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrology is an imaginative yet practical art. It applies to all aspects of life and connects our inner self to the outer world. The better we know ourselves, the more harmonious and productive our lives can be.",
+      "line_height": 1.25,
+      "bbox": [
+        36.0,
+        259.4544982910156,
+        476.2248229980469,
+        373.4544982910156
+      ],
+      "spans": [
+        {
+          "source": "Astrology is an imaginative yet practical art. It applies ",
+          "bbox": [
+            36.0,
+            259.4544982910156,
+            476.2248229980469,
+            283.4544982910156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "to all aspects of life and connects our inner self to the ",
+          "bbox": [
+            36.0,
+            289.4544982910156,
+            474.5184020996094,
+            313.4544982910156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "outer world. The better we know ourselves, the more ",
+          "bbox": [
+            36.0,
+            319.4544982910156,
+            470.77685546875,
+            343.4544982910156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "harmonious and productive our lives can be.",
+          "bbox": [
+            36.0,
+            349.4544982910156,
+            392.9951477050781,
+            373.4544982910156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 211,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 24.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 24.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0018_u0004",
+      "container_id": "p0018_c0004",
+      "scale_group": "p0018_display_24.0",
+      "page": 18,
+      "target": "La astrología es un arte imaginativo y, a la vez, práctico. Se aplica a todos los aspectos de la vida y conecta nuestro yo interior con el mundo exterior. Cuanto mejor nos conocemos, más armoniosa y productiva puede ser nuestra vida.",
+      "target_runs": [
+        {
+          "text": "La astrología es un arte imaginativo y, a la vez, práctico. Se aplica a todos los aspectos de la vida y conecta nuestro yo interior con el mundo exterior. Cuanto mejor nos conocemos, más armoniosa y productiva puede ser nuestra vida.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "show you practical ways forward. For example, if Saturn is active in your chart, this is probably not a good time to branch out; instead, it may be better for you to focus your energies. On the other hand, if Uranus is active, you may want to assert yourself.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        364.0393981933594,
+        422.2118225097656,
+        518.3132934570312,
+        545.2359008789062
+      ],
+      "spans": [
+        {
+          "source": "show you practical ways ",
+          "bbox": [
+            364.0393981933594,
+            422.2118225097656,
+            487.1172180175781,
+            433.2118225097656
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "forward. For example, if Saturn ",
+          "bbox": [
+            364.0393981933594,
+            436.21484375,
+            518.3132934570312,
+            447.21484375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "is active in your chart, this is ",
+          "bbox": [
+            364.0393981933594,
+            450.2178649902344,
+            505.9053039550781,
+            461.2178649902344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "probably not a good time to ",
+          "bbox": [
+            364.0393981933594,
+            464.2208557128906,
+            500.09619140625,
+            475.2208557128906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "branch out; instead, it may be ",
+          "bbox": [
+            364.0393981933594,
+            478.2238464355469,
+            509.7662353515625,
+            489.2238464355469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "better for you to focus your ",
+          "bbox": [
+            364.0393981933594,
+            492.22686767578125,
+            501.3623046875,
+            503.22686767578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "energies. On the other hand,  ",
+          "bbox": [
+            364.0393981933594,
+            506.2298889160156,
+            507.3464050292969,
+            517.2299194335938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "if Uranus is active, you may ",
+          "bbox": [
+            364.0393981933594,
+            520.23291015625,
+            500.75726318359375,
+            531.23291015625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "want to assert yourself.",
+          "bbox": [
+            364.0393981933594,
+            534.2359008789062,
+            480.7934265136719,
+            545.2359008789062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 259,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0018_u0005",
+      "container_id": "p0018_c0005",
+      "scale_group": "p0018_display_11.0",
+      "page": 18,
+      "target": "mostrarte caminos prácticos para avanzar. Por ejemplo, si Saturno está activo en tu carta, probablemente no sea un buen momento para expandirte; quizá te convenga más concentrar tus energías. Por otro lado, si Urano está activo, quizá quieras hacer valer tu independencia.",
+      "target_runs": [
+        {
+          "text": "mostrarte caminos prácticos para avanzar. Por ejemplo, si Saturno está activo en tu carta, probablemente no sea un buen momento para expandirte; quizá te convenga más concentrar tus energías. Por otro lado, si Urano está activo, quizá quieras hacer valer tu independencia.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Cycles and change",
+      "line_height": 1.05,
+      "bbox": [
+        364.0393981933594,
+        559.5857543945312,
+        482.4810485839844,
+        572.5857543945312
+      ],
+      "spans": [
+        {
+          "source": "Cycles and change",
+          "bbox": [
+            364.0393981933594,
+            559.5857543945312,
+            482.4810485839844,
+            572.5857543945312
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0018_u0006",
+      "container_id": "p0018_c0006",
+      "scale_group": "p0018_display_13.0",
+      "page": 18,
+      "target": "Ciclos y cambios",
+      "target_runs": [
+        {
+          "text": "Ciclos y cambios",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Nothing we do occurs in a vacuum—our actions are set",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        364.0393981933594,
+        576.629150390625,
+        502.9792785644531,
+        601.6321411132812
+      ],
+      "spans": [
+        {
+          "source": "Nothing we do occurs in a ",
+          "bbox": [
+            364.0393981933594,
+            576.629150390625,
+            492.37530517578125,
+            587.629150390625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "vacuum—our actions are set ",
+          "bbox": [
+            364.0393981933594,
+            590.6321411132812,
+            502.9792785644531,
+            601.6321411132812
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 52,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0018_u0007",
+      "container_id": "p0018_c0007",
+      "scale_group": "p0018_display_11.0",
+      "page": 18,
+      "target": "Nada de lo que hacemos ocurre en el vacío: nuestras acciones están determinadas",
+      "target_runs": [
+        {
+          "text": "Nada de lo que hacemos ocurre en el vacío: nuestras acciones están determinadas",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

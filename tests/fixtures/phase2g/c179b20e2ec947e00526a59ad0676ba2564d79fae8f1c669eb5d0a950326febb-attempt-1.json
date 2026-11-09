@@ -1,0 +1,690 @@
+{
+  "task": "translate_page",
+  "phase": "production",
+  "pages": [
+    21,
+    23,
+    25,
+    26,
+    33
+  ],
+  "error": "Crossed or empty emphasis pair; Text outside paired emphasis or closing marker without opening; Incomplete emphasis pairs",
+  "ids": [
+    "p0021_u0001_quote",
+    "p0023_u0001_quote",
+    "p0026_u0008_quote",
+    "p0033_u0000_quote"
+  ],
+  "wire": {
+    "coordination_instruction": "Translate each complete unit once. Keep equivalent emphasis inside its v marker pair; reorder whole pairs for natural syntax. Do not repeat content across pairs.",
+    "blocks": [
+      {
+        "id": "p0021_u0001_quote",
+        "source": "{v1}To {v2}{v3}appreciate {v4}{v5}and work with {v6}{v7}astrology {v8}{v9}you need to {v10}{v11}suspend a conventional way of thinking{v12}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "astrology",
+            "target": "astrología"
+          }
+        ]
+      },
+      {
+        "id": "p0021_u0000",
+        "source": "{v1}Think Like an Astrologer{v2}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "astrologer",
+            "target": "astrólogo"
+          }
+        ]
+      },
+      {
+        "id": "p0021_u0003",
+        "source": "{v1}Earth-centred{v2}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "Earth-centred",
+            "target": "geocéntrico"
+          }
+        ]
+      },
+      {
+        "id": "p0021_u0004",
+        "source": "{v1}Astrology does not fit into a scientific worldview. It is an Earth-centred view that gives us a poetic vision of life. The birth chart is a magical space where “rational” thinking gives way to a symbolic mindset. To work with astrology, it is necessary to suspend conventional thinking and embrace ancient ideas of the universe.{v2}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "Earth-centred",
+            "target": "geocéntrico"
+          },
+          {
+            "source": "birth chart",
+            "target": "carta natal"
+          },
+          {
+            "source": "astrology",
+            "target": "astrología"
+          }
+        ]
+      },
+      {
+        "id": "p0021_u0005",
+        "source": "{v1}The nature of symbols{v2}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": []
+      },
+      {
+        "id": "p0021_u0006",
+        "source": "{v1}In astrology, we must learn how to interpret symbols. A symbol does not offer a one-size-fits-all description. For example, Venus is our drive to create relationships, but it also describes our sense of beauty, our artistic potential, and how we dress and groom ourselves.{v2}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "astrology",
+            "target": "astrología"
+          },
+          {
+            "source": "Venus",
+            "target": "Venus"
+          }
+        ]
+      },
+      {
+        "id": "p0021_u0007",
+        "source": "{v1}Each time we read a chart, we have to think symbolically{v2}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": []
+      },
+      {
+        "id": "p0021_u0008",
+        "source": "{v1}and use our imaginations to interpret the chart because each symbol is lived at many levels. This makes it impossible for a natal chart to tell us exactly what we should do. If it did make such exact predictions, it would suggest that our lives are fated. Instead, the chart reveals the rich and beautiful pattern of our individual lives.{v2}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "natal chart",
+            "target": "carta natal"
+          }
+        ]
+      },
+      {
+        "id": "p0023_u0001_quote",
+        "source": "{v1}The Sun {v2}{v3}represents a person’s individual {v4}{v5}creative gift {v6}{v7}and {v8}{v9}sense of identity{v10}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "Sun",
+            "target": "Sol"
+          }
+        ]
+      },
+      {
+        "id": "p0025_u0001_title",
+        "source": "{v1}THE {v2}{v3}ZODIAC SIGNS{v4}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "zodiac signs",
+            "target": "signos del zodíaco"
+          }
+        ]
+      },
+      {
+        "id": "p0026_u0008_quote",
+        "source": "{v1}Your {v2}{v3}Sun sign {v4}{v5}symbolises your most {v6}{v7}essential creative gift{v8}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "Sun sign",
+            "target": "signo solar"
+          }
+        ]
+      },
+      {
+        "id": "p0033_u0000_quote",
+        "source": "{v1}\" {v2}{v3}THE WHOLE POINT {v4}{v5}OF ASTROLOGY IS TO LEARN SOMETHING ABOUT {v6}{v7}WHAT YOU ARE{v8}{v9}.\"{v10}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "astrology",
+            "target": "astrología"
+          }
+        ]
+      }
+    ],
+    "_style_pairs": {
+      "p0021_u0001_quote": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v3}",
+          "close": "{v4}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v5}",
+          "close": "{v6}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v7}",
+          "close": "{v8}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v9}",
+          "close": "{v10}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v11}",
+          "close": "{v12}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "p0021_u0000": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "p0021_u0003": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0021_u0004": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0021_u0005": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0021_u0006": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0021_u0007": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0021_u0008": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0023_u0001_quote": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v3}",
+          "close": "{v4}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v5}",
+          "close": "{v6}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v7}",
+          "close": "{v8}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v9}",
+          "close": "{v10}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "p0025_u0001_title": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "open": "{v3}",
+          "close": "{v4}",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0026_u0008_quote": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v3}",
+          "close": "{v4}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v5}",
+          "close": "{v6}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v7}",
+          "close": "{v8}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "p0033_u0000_quote": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "open": "{v3}",
+          "close": "{v4}",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v5}",
+          "close": "{v6}",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "open": "{v7}",
+          "close": "{v8}",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v9}",
+          "close": "{v10}",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    "_style_orders": {},
+    "style": "# Guía de estilo — propuesta para G{n1}\n\nEstado: propuesta NUEVA pendiente de aprobación humana G{n2} para este PDF; ninguna aprobación del libro anterior es aplicable. Libro: *The Secrets of Astrology: A Complete Guide to Sun Signs, Planets, Houses, and More* (DK; edición adaptada y abreviada por Carole Taylor, según créditos de p{n3}). Traducción del inglés al español neutro latinoamericano; tono divulgativo, cercano, claro y fiel a la autora.\n\n## Voz y fidelidad\n\n- Se corrigen en la traducción solo los errores gramaticales objetivos del original (concordancia, ortografía, erratas). No se cambian el contenido, los datos ni el estilo de la autora. Cada corrección se registra en el informe de la página con el texto original.\n\n- Usar «tú» cuando la autora se dirija al lector; evitar alternarlo con «usted» o «vos».\n- Conservar posibilidades y matices: no convertir una tendencia, hipótesis o sugerencia en una certeza. No añadir interpretación astrológica ni corregir afirmaciones de la autora.\n- Conservar jerarquía de títulos, preguntas, pies, remisiones y énfasis. Traducir títulos y texto editorial únicamente por la ruta autorizada después de las gates correspondientes.\n- Escribir un español natural; evitar calcos cuando alteren el sentido. No omitir contenido para forzar el ajuste.\n\n## Terminología\n\nEl CSV es una propuesta de conceptos, no una autorización de sustitución automática. Los términos de referencia mencionados en esta guía que no figuren en el CSV no se convierten en entradas obligatorias; su inclusión posterior requiere revisión. Aplicar entradas a texto ordinario en el sentido astrológico indicado. Ante homónimos o significado incierto, enviar a revisión; nunca aplicar una equivalencia solo por coincidencia de letras.\n\nDar prioridad a la locución completa frente a sus componentes: por ejemplo, «Sun sign» corresponde a «signo solar». Un nombre de astro que aparezca por separado conserva su equivalencia propia. El motor aplica la locución coincidente más larga sin solapamientos; el piloto debe verificar su resultado editorial.\n\n- Proponer «carta natal» para «birth chart» y «natal chart»; «chart» aislado solo se traduce como «carta» cuando represente una carta astrológica. Otros usos requieren contexto.\n- Proponer «regente» en contexto astrológico y «regencia» para «rulership». La palabra genérica «ruler» no está fijada en el CSV; detriment no se detectó y no se incorpora por herencia.\n- Proponer «quincuncio», «semicuadratura» y «sesquicuadratura» para los términos observados. Confirmar preferencias y las nuevas locuciones en dudas.md y el CSV; no trasladar entradas ausentes del libro anterior.\n- «Square», «opposition», «fall», «house», «fixed» y «transit» aislados requieren desambiguación. Las alternativas astrológicas están documentadas en dudas.md; no son reemplazos globales.\n- Las equivalencias deben concordar con el género y número de la frase. Las variantes o flexiones no cubiertas que el validador rechace necesitan revisión o actualización aprobada del glosario, nunca deformar la gramática para superar QA.\n\n## Mayúsculas y presentación\n\n- Usar comillas inglesas “ ” en todo el libro; para citas dentro de citas, comillas simples ‘ ’.\n\nPlanetas, luminarias, signos y Quirón llevan mayúscula inicial cuando funcionan como nombres propios. Se proponen Ascendente, Descendente, Medio Cielo y Fondo del Cielo para puntos de la carta. Aspectos, casas, elementos, modalidades y nodos llevan minúscula en texto corrido; los títulos siguen mayúscula inicial normal. Escribir «zodíaco» con tilde de forma consistente.\n\nConservar nombres de personas, marcas, créditos y referencias bibliográficas. No traducir títulos de obras citadas por una equivalencia inventada; una edición española verificada requiere decisión editorial. La traducción del título del propio libro se propondrá mediante scripts después de G{n4} y se revisará en las gates correspondientes; no se propone ni aprueba aquí.\n\nUsar tildes y signos de apertura españoles en el texto nuevo, con la fuente configurada. Las abreviaturas nuevas no sirven como recurso de ajuste.\n\n## Contenido protegido y maquetación\n\nConservar literalmente toda numeración, notación, valores, glifos y abreviaturas protegidas del original; no convertir la numeración de casas, separadores o unidades. La guía no autoriza normalizar ninguno de ellos. Los spans de fuentes simbólicas permanecen intactos aunque sus caracteres parezcan letras comunes. La lista protegida complementa los detectores locales; no los reemplaza.\n\nSeparar cifras, grados, glifos y siglas protegidas mediante marcadores {nN} antes de construir peticiones; restaurar exactamente los valores localmente. La prosa con números sigue siendo traducible. Conservar completos los spans de fuentes simbólicas y las siglas aisladas; convertir fechas inglesas mediante script determinista, sin LLM. OCR local para imágenes cuando corresponda; excluir los valores protegidos de las copias destinadas al juez visual.\n\nComponer por párrafo el texto corrido; separar título y cuerpo cuando cambien tamaño o peso, conservar color y énfasis inline, y unir líneas del mismo párrafo aunque existan huecos. Redactar por span las etiquetas o texto que interseque dibujos visibles. Preservar imágenes, vectores y fondos raster. Una frase idéntica de origen debe recibir traducción consistente.\n\nReutilizar la fuente original extraída solo si has_glyph confirma cobertura de todo el texto del grupo; no mezclar estilos entre etiquetas hermanas. Si falta cobertura, usar reemplazo equivalente en serif/sans, ancho, peso y cursiva. Nunca reutilizar fuentes simbólicas para texto nuevo. Comprobar especialmente Í mayúscula.\n\nAplicar escala uniforme por lista, columna o grupo de etiquetas hermanas, mínimo {n5}; por debajo de {n6} se exige advertencia y revisión. Primero ampliar a espacio libre; después usar short_target solo si existe suplemento aprobado por hash para este libro; LLM como último recurso. Para cadenas de menos de quince caracteres, usar presupuesto geométrico y glosario, no el ratio {n7}. No sacrificar contenido ni tapar dibujos. Ascendente/Descendente deben intentarse ambos completos antes de recurrir a ambos cortos; {n8}/{n9} se conservan como tokens originales.\n\nNo existe excepción de inglés decorativo aprobada para este libro. Las excepciones o formas cortas de otro libro no se transfieren.\n\n## Vigencia\n\nEsta propuesta requiere aprobación humana del CSV, esta guía y la lista protegida, vinculada al PDF del libro. Cualquier modificación de un archivo cubierto por la aprobación invalida su hash. La aprobación del glosario no sustituye la aprobación posterior del piloto ni la revisión final.\n"
+  },
+  "response": {
+    "blocks": [
+      {
+        "id": "p0021_u0001_quote",
+        "translation": "{v1}{v2}Apreciar{v3} y trabajar con {v4}{v5}la astrología{v6} requiere {v7}{v8}dejar en suspenso una forma convencional de pensar{v9}{v10}{v11}{v12}",
+        "glossary_terms_used": [
+          "astrología"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0021_u0000",
+        "translation": "{v1}Piensa como un astrólogo{v2}",
+        "glossary_terms_used": [
+          "astrólogo"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0021_u0003",
+        "translation": "{v1}Geocéntrico{v2}",
+        "glossary_terms_used": [
+          "geocéntrico"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0021_u0004",
+        "translation": "{v1}La astrología no encaja en una visión científica del mundo. Es una perspectiva geocéntrica que nos ofrece una visión poética de la vida. La carta natal es un espacio mágico donde el pensamiento “racional” da paso a una mentalidad simbólica. Para trabajar con la astrología, es necesario dejar en suspenso el pensamiento convencional y abrazar ideas antiguas sobre el universo.{v2}",
+        "glossary_terms_used": [
+          "geocéntrico",
+          "carta natal",
+          "astrología"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0021_u0005",
+        "translation": "{v1}La naturaleza de los símbolos{v2}",
+        "glossary_terms_used": [],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0021_u0006",
+        "translation": "{v1}En astrología, debemos aprender a interpretar los símbolos. Un símbolo no ofrece una descripción única que sirva para todos. Por ejemplo, Venus representa nuestro impulso de crear vínculos, pero también describe nuestro sentido de la belleza, nuestro potencial artístico y nuestra manera de vestirnos y arreglarnos.{v2}",
+        "glossary_terms_used": [
+          "astrología",
+          "Venus"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0021_u0007",
+        "translation": "{v1}Cada vez que interpretamos una carta, tenemos que pensar simbólicamente{v2}",
+        "glossary_terms_used": [],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0021_u0008",
+        "translation": "{v1}y usar la imaginación para interpretar la carta, porque cada símbolo se vive en muchos niveles. Por eso, es imposible que una carta natal nos diga exactamente qué debemos hacer. Si lo hiciera, daría a entender que nuestro destino está escrito. En cambio, la carta revela el patrón rico y hermoso de nuestras vidas individuales.{v2}",
+        "glossary_terms_used": [
+          "carta natal"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0023_u0001_quote",
+        "translation": "{v1}El Sol{v2} {v3}representa el don creativo individual{v4} de una persona {v5}{v6}y{v7} {v8}su sentido de identidad{v9}{v10}",
+        "glossary_terms_used": [
+          "Sol"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0025_u0001_title",
+        "translation": "{v1}LOS {v2}{v3}SIGNOS DEL ZODÍACO{v4}",
+        "glossary_terms_used": [
+          "signos del zodíaco"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0026_u0008_quote",
+        "translation": "{v1}Tu {v2}{v3}signo solar{v4} simboliza tu {v5}{v6}don creativo más esencial{v7}{v8}",
+        "glossary_terms_used": [
+          "signo solar"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0033_u0000_quote",
+        "translation": "{v1}\" {v2}{v3}EL OBJETIVO PRINCIPAL{v4} {v5}DE LA ASTROLOGÍA ES APRENDER ALGO SOBRE{v6} {v7}QUIÉN ERES{v8}{v9}.{v10}\"",
+        "glossary_terms_used": [
+          "astrología"
+        ],
+        "grammatical_corrections": []
+      }
+    ]
+  }
+}

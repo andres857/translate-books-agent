@@ -1,0 +1,1165 @@
+{
+  "page": 51,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "Leo",
+      "line_height": 1.05,
+      "bbox": [
+        472.78741455078125,
+        21.864179611206055,
+        487.5594177246094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Leo",
+          "bbox": [
+            472.78741455078125,
+            21.864179611206055,
+            487.5594177246094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0051_u0000",
+      "container_id": "p0051_c0000",
+      "scale_group": "p0051_display_12.0",
+      "page": 51,
+      "target": "Leo",
+      "target_runs": [
+        {
+          "text": "Leo",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Algieba is a small star system made up of two giant orange stars",
+      "line_height": 1.1109992133246527,
+      "bbox": [
+        284.41278076171875,
+        291.0871276855469,
+        386.9444274902344,
+        320.0851135253906
+      ],
+      "spans": [
+        {
+          "source": "Algieba is a small star ",
+          "bbox": [
+            288.3457946777344,
+            291.0871276855469,
+            383.02032470703125,
+            300.0871276855469
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "system made up of two ",
+          "bbox": [
+            284.41278076171875,
+            301.08612060546875,
+            386.9444274902344,
+            310.08612060546875
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "giant orange stars",
+          "bbox": [
+            295.3387756347656,
+            311.0851135253906,
+            374.29937744140625,
+            320.0851135253906
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 64,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 2,
+      "id": "p0051_u0001_join_u0002",
+      "container_id": "p0051_c0001_join_u0002",
+      "merged_from": [
+        "u0001",
+        "u0002"
+      ],
+      "scale_group": "p0051_body_9.0",
+      "page": 51,
+      "target": "Algieba es un pequeño sistema estelar formado por dos estrellas naranjas gigantes",
+      "target_runs": [
+        {
+          "text": "Algieba es un pequeño sistema estelar formado por dos estrellas naranjas gigantes",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "This group of stars represents Leo’s body",
+      "line_height": 1.1110026041666667,
+      "bbox": [
+        287.6707763671875,
+        567.0000610351562,
+        358.59979248046875,
+        595.9981079101562
+      ],
+      "spans": [
+        {
+          "source": "This group of",
+          "bbox": [
+            294.7447814941406,
+            567.0000610351562,
+            351.5195007324219,
+            576.0000610351562
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "stars represents",
+          "bbox": [
+            287.6707763671875,
+            576.9990844726562,
+            358.59979248046875,
+            585.9990844726562
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Leo’s body",
+          "bbox": [
+            300.4507751464844,
+            586.9981079101562,
+            345.8063049316406,
+            595.9981079101562
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 41,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 4,
+      "id": "p0051_u0003_join_u0004",
+      "container_id": "p0051_c0003_join_u0004",
+      "merged_from": [
+        "u0003",
+        "u0004"
+      ],
+      "scale_group": "p0051_body_9.0",
+      "page": 51,
+      "target": "Este grupo de estrellas representa el cuerpo de Leo",
+      "target_runs": [
+        {
+          "text": "Este grupo de estrellas representa el cuerpo de Leo",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Regulus, Leo’s brightest star, is a blue-white giant, 80 light-years away. It represents the heart of the lion",
+      "line_height": 1.1110026041666667,
+      "bbox": [
+        422.3287658691406,
+        531.7741088867188,
+        512.6806030273438,
+        590.7691040039062
+      ],
+      "spans": [
+        {
+          "source": "Regulus, Leo’s ",
+          "bbox": [
+            435.9007568359375,
+            531.7741088867188,
+            499.0871276855469,
+            540.7741088867188
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "brightest star, is a ",
+          "bbox": [
+            428.04376220703125,
+            541.7730712890625,
+            506.9521484375,
+            550.7730712890625
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "blue-white giant,  ",
+          "bbox": [
+            429.16876220703125,
+            551.7720947265625,
+            507.5542297363281,
+            560.7720947265625
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "80 light-years away. ",
+          "bbox": [
+            422.3287658691406,
+            561.7710571289062,
+            512.6806030273438,
+            570.7710571289062
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "It represents the ",
+          "bbox": [
+            430.5817565917969,
+            571.7700805664062,
+            504.4330749511719,
+            580.7700805664062
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "heart of the lion",
+          "bbox": [
+            431.8237609863281,
+            581.7691040039062,
+            501.4747314453125,
+            590.7691040039062
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 110,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 6,
+      "id": "p0051_u0005_join_u0006_u0007",
+      "container_id": "p0051_c0005_join_u0006_join_u0007",
+      "merged_from": [
+        "u0005",
+        "u0006",
+        "u0007"
+      ],
+      "scale_group": "p0051_body_9.0",
+      "page": 51,
+      "target": "Regulus, la estrella más brillante de Leo, es una gigante azul blanquecina, a 80 años luz. Representa el corazón del león",
+      "target_runs": [
+        {
+          "text": "Regulus, la estrella más brillante de Leo, es una gigante azul blanquecina, a 80 años luz. Representa el corazón del león",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The string of six stars that mark the neck and chest of Leo is called the Sickle",
+      "line_height": 1.1109992133246527,
+      "bbox": [
+        421.9957580566406,
+        250.7581024169922,
+        514.8226318359375,
+        289.7550964355469
+      ],
+      "spans": [
+        {
+          "source": "The string of six",
+          "bbox": [
+            433.4617614746094,
+            250.7581024169922,
+            503.36114501953125,
+            259.75811767578125
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "stars that mark the",
+          "bbox": [
+            426.7657470703125,
+            260.7571105957031,
+            510.0553283691406,
+            269.7571105957031
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "neck and chest of Leo",
+          "bbox": [
+            421.9957580566406,
+            270.756103515625,
+            514.8226318359375,
+            279.756103515625
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "is called the Sickle",
+          "bbox": [
+            429.20477294921875,
+            280.7550964355469,
+            507.6055603027344,
+            289.7550964355469
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 80,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 9,
+      "id": "p0051_u0008_join_u0009",
+      "container_id": "p0051_c0008_join_u0009",
+      "merged_from": [
+        "u0008",
+        "u0009"
+      ],
+      "scale_group": "p0051_body_9.0",
+      "page": 51,
+      "target": "La hilera de seis estrellas que marca el cuello y el pecho de Leo se llama la Hoz",
+      "target_runs": [
+        {
+          "text": "La hilera de seis estrellas que marca el cuello y el pecho de Leo se llama la Hoz",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Leo in the sky",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        62.98417663574219,
+        418.3510437011719,
+        81.98417663574219
+      ],
+      "spans": [
+        {
+          "source": "Leo in the sky",
+          "bbox": [
+            289.1339111328125,
+            62.98417663574219,
+            418.3510437011719,
+            81.98417663574219
+          ],
+          "font": "SerifaStd-Bold",
+          "size": 19.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Bold",
+        "size": 19.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Bold",
+      "size": 19.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0051_u0010",
+      "container_id": "p0051_c0010",
+      "scale_group": "p0051_display_19.0",
+      "page": 51,
+      "target": "Leo en el cielo",
+      "target_runs": [
+        {
+          "text": "Leo en el cielo",
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The stars of Leo form the shape of a lion, representing the lion slain by Heracles of Greek mythology. A central group of stars represents the body, with branches for the lion’s legs. Six stars form the lion’s head and chest in a shape that looks like a backward question mark. This asterism (a pattern formed by stars in a constellation) is called the Sickle.",
+      "line_height": 1.0709991455078125,
+      "bbox": [
+        289.1339111328125,
+        84.82793426513672,
+        511.2046813964844,
+        233.77392578125
+      ],
+      "spans": [
+        {
+          "source": "The stars of Leo form the shape  ",
+          "bbox": [
+            289.1339111328125,
+            84.82793426513672,
+            483.12762451171875,
+            98.82793426513672
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "of a lion, representing the lion slain  ",
+          "bbox": [
+            289.1339111328125,
+            99.82195281982422,
+            502.6365661621094,
+            113.82195281982422
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "by Heracles of Greek mythology.  ",
+          "bbox": [
+            289.1339111328125,
+            114.81597137451172,
+            486.0634460449219,
+            128.81597900390625
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "A central group of stars represents  ",
+          "bbox": [
+            289.1339111328125,
+            129.80999755859375,
+            499.5019836425781,
+            143.80999755859375
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the body, with branches for the lion’s ",
+          "bbox": [
+            289.1339111328125,
+            144.80398559570312,
+            509.76263427734375,
+            158.80398559570312
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "legs. Six stars form the lion’s head  ",
+          "bbox": [
+            289.1339111328125,
+            159.7979736328125,
+            496.9820556640625,
+            173.7979736328125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and chest in a shape that looks like  ",
+          "bbox": [
+            289.1339111328125,
+            174.79196166992188,
+            504.2703552246094,
+            188.79196166992188
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "a backward question mark. This ",
+          "bbox": [
+            289.1339111328125,
+            189.78594970703125,
+            484.2854309082031,
+            203.78594970703125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "asterism (a pattern formed by stars  ",
+          "bbox": [
+            289.1339111328125,
+            204.77993774414062,
+            503.7859802246094,
+            218.77993774414062
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "in a constellation) is called the Sickle.",
+          "bbox": [
+            289.1339111328125,
+            219.77392578125,
+            511.2046813964844,
+            233.77392578125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 360,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Light",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Light",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0051_u0011",
+      "container_id": "p0051_c0011",
+      "scale_group": "p0051_display_14.0",
+      "page": 51,
+      "target": "Las estrellas de Leo forman la figura de un león y representan al león abatido por Heracles en la mitología griega. Un grupo central de estrellas representa el cuerpo, con ramificaciones que forman las patas del león. Seis estrellas forman la cabeza y el pecho del león, con una figura parecida a un signo de interrogación invertido. Este asterismo (un patrón formado por estrellas de una constelación) se llama la Hoz.",
+      "target_runs": [
+        {
+          "text": "Las estrellas de Leo forman la figura de un león y representan al león abatido por Heracles en la mitología griega. Un grupo central de estrellas representa el cuerpo, con ramificaciones que forman las patas del león. Seis estrellas forman la cabeza y el pecho del león, con una figura parecida a un signo de interrogación invertido. Este asterismo (un patrón formado por estrellas de una constelación) se llama la Hoz.",
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

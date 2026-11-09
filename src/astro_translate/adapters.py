@@ -15,7 +15,7 @@ from .llm import run_task, ROOT, QuotaPaused, _check_pause
 
 def doctor():
     versions={}
-    for package in ['pymupdf','babeldoc','paddleocr','paddlepaddle','pillow','openai','openai-codex','openai-codex-cli-bin','pytest','jsonschema','pymupdf4llm','lingua-language-detector']:
+    for package in ['pymupdf','babeldoc','paddleocr','paddlepaddle','pillow','openai','pytest','jsonschema','pymupdf4llm','lingua-language-detector']:
         try:versions[package]=importlib.metadata.version(package)
         except importlib.metadata.PackageNotFoundError:versions[package]=None
     path=Path(importlib.metadata.distribution('babeldoc').locate_file('babeldoc/main.py'))
@@ -71,7 +71,7 @@ def native_translate(book,glossary,style,do_not_translate=None,pages=None,*,conf
     Phase 1c is scoped to the three explicitly authorized sample pages. Shared
     call usage is reported once in batches, never duplicated as page usage.
     """
-    if phase in ('fidelity','pilot'):return fidelity_translate(book,glossary,style,do_not_translate,pages,config_path=config_path or ROOT/'config/pipeline.toml',reinsert_pages=reinsert_pages,phase=phase)
+    if phase in ('fidelity','pilot','production'):return fidelity_translate(book,glossary,style,do_not_translate,pages,config_path=config_path or ROOT/'config/pipeline.toml',reinsert_pages=reinsert_pages,phase=phase)
     book=Path(book).resolve();config_path=Path(config_path or ROOT/'config/pipeline.toml').resolve();config=tomllib.loads(config_path.read_text())
     require_approval(book,glossary,style,do_not_translate);_check_pause(book)
     if phase not in ('smoke','reinsertion','pilot','production'):raise Blocked('Unknown execution phase')
@@ -172,16 +172,34 @@ def fidelity_translate(book,glossary,style,do_not_translate,pages,*,config_path,
     for term in str(pages).split(','):
         bounds=term.strip().split('-');selected.extend(range(int(bounds[0]),int(bounds[-1])+1))
     selected=sorted(set(selected))
-    if phase not in ('fidelity','pilot'):raise Blocked('Unsupported fidelity compositor phase')
+    if phase not in ('fidelity','pilot','production'):raise Blocked('Unsupported fidelity compositor phase')
     if not selected or (phase=='fidelity' and not set(selected)<={7,15,121}):raise Blocked('Phase 1d is authorized only for pages 7, 15 and 121')
     if phase=='pilot' and len(selected)>20:raise Blocked('Pilot is limited to twenty explicit pages')
     output=book/'work'/phase;output.mkdir(parents=True,exist_ok=True);extras=read_extras(do_not_translate)
-    local_units=[];model_units=[];page_stats={}
+    local_units=[];model_units=[];page_stats={};quote_jobs=[]
     with fitz.open(book/'source.pdf') as doc:
         for number in selected:
             extracted=extract_fidelity_units(doc[number-1],extras);stats={'page':number,'units':len(extracted),'dates_local':0,'numeric_prose_units':0};page_stats[number]=stats
+            from .editorial_rules import protected_editorial_units
+            editorial_ids={x['unit_id'] for x in protected_editorial_units(doc[number-1],extracted)}
+            from .composition_corrections import quote_job
+            jobs=quote_job(doc[number-1],extracted,sha256(book/'source.pdf'))
+            quote_jobs.extend(jobs)
+            quote_ids={identifier for job in jobs for identifier in job['unit']['composed_ids']}
             for unit in extracted:
+                preserve_editorial=unit['id'] in editorial_ids
+                complete_quote=unit['id'] in quote_ids
                 unit={**unit,'id':f'p{number:04d}_'+unit['id'],'page':number}
+                if complete_quote:
+                    local_units.append({**unit,'target':unit['source'],
+                        'target_runs':[{'text':unit['source'][r['start']:r['end']],'style':r['style']} for r in unit['style_runs']],
+                        'translation_method':'requires_joined_quote_correction'})
+                    continue
+                if preserve_editorial:
+                    local_units.append({**unit,'target':unit['source'],
+                        'target_runs':[{'text':unit['source'][r['start']:r['end']],'style':r['style']} for r in unit['style_runs']],
+                        'translation_method':'preserved_published_work'})
+                    continue
                 try:target=translate_date(unit['source'])
                 except ValueError as exc:raise Blocked('Invalid date label on page '+str(number)+': '+str(exc)) from None
                 if target is not None:
@@ -194,31 +212,101 @@ def fidelity_translate(book,glossary,style,do_not_translate,pages,*,config_path,
     task=config['tasks']['translate_page']
     def configured_path(value):
         p=Path(value);return p if p.is_absolute() else ROOT/p
-    context_data={'memory_version':MEMORY_VERSION,'mask_version':MASK_VERSION,'backend':config['provider']['backend'],'task':task,'glossary':sha256(glossary),'style':sha256(style),'protected':sha256(do_not_translate),'prompt':sha256(configured_path(task['prompt'])),'schema':sha256(configured_path(task['schema']))}
-    context=hashlib.sha256(json.dumps(context_data,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
+    from .translation_context import translation_context
+    context=translation_context(config,glossary,style,do_not_translate)
     memory=SentenceMemory(book/'work',context);answers={};pending=[];hits=0
     entries_by_id={entry['id']:entry for entry in plan['entries'].values()}
+    from .consistency import _decode
+    from .page_context import (dependent_ids,page_groups,term_context,stacked_glossary_pairs,
+                               joined_glossary_ok,annotate,facing,is_body)
+    from .text_quality import term_consistency_issues
+    with open(glossary) as stream:glossary_rows=list(csv.DictReader(stream))
+    replace=set();sent=[]
     try:
         for request in plan['requests']:
             try:saved=memory.get(entries_by_id[request['id']])
             except ValueError as exc:raise Blocked(str(exc)) from None
-            if saved is None:pending.append(request)
-            else:answers[request['id']]=saved;hits+=1
-        result=LLMResult({'blocks':[]},task['model'],task['effort'],0,0,config['provider']['backend'],not pending,0,cached_input_tokens=0)
-        if pending:
-            dependencies={request['id']:entries_by_id[request['id']]['pages'] for request in pending}
-            result=run_task('translate_page',{'_book':str(book),'_config':str(config_path),'_phase':phase,'_pages':selected,'_page_dependencies':dependencies,'blocks':pending})
-            answers.update({row['id']:row['translation'] for row in result.data['blocks']})
-            editorial_records=[{'id':row['id'],'pages':entries_by_id[row['id']]['pages'],'source':entries_by_id[row['id']]['source'],'corrections':row.get('grammatical_corrections',[])} for row in result.data['blocks'] if row.get('grammatical_corrections')]
+            if saved is not None:answers[request['id']]=saved
+        def plain(rid):return _decode(entries_by_id[rid],answers[rid])[0]
+        def reject(rid):
+            # A saved clause that fails a cross-unit check is retranslated and replaced.
+            if rid in answers:answers.pop(rid);replace.add(rid)
+        # Stacked lines whose approved glossary phrase crosses the line break
+        # (p176 THE WHEEL OF / RULERSHIP) are sent and validated jointly.
+        joined={}
+        for upper,lower,row in stacked_glossary_pairs(model_units,plan,glossary_rows):
+            if upper==lower:continue
+            term={'source':row['source'],'target':row['target']}
+            joined.setdefault(upper,[]).append({'partner':lower,'side':'after','line_source':entries_by_id[lower]['source'],**term})
+            joined.setdefault(lower,[]).append({'partner':upper,'side':'before','line_source':entries_by_id[upper]['source'],**term})
+            if not (upper in answers and lower in answers and joined_glossary_ok(plain(upper),plain(lower),term)):
+                reject(upper);reject(lower)
+        # Captions/labels follow the body of their page (term context); a joint
+        # pair stays in one phase.
+        dependents=dependent_ids(plan)
+        dependents-={rid for rid,items in joined.items() if any(j['partner'] not in dependents for j in items)}
+        saved_units=[]
+        for number in sorted({facing(n) for n in selected}-set(selected)):
+            saved=output/f'p{number:04d}-translation.json'
+            data=json.loads(saved.read_text()) if saved.exists() else {}
+            if data.get('memory_context')==context and data.get('source_sha256')==sha256(book/'source.pdf'):
+                saved_units.extend(u for u in data.get('blocks',[]) if is_body(u))
+        result=LLMResult({'blocks':[]},task['model'],task['effort'],0,0,config['provider']['backend'],True,0,cached_input_tokens=0)
+        records=[]
+        payload={'_book':str(book),'_config':str(config_path),'_phase':phase,'_pages':selected}
+        limit=min(6000,int(config.get('batching',{}).get('max_chars_per_call',6000)))
+        def call(rows):
+            # Whole pages per call: a page's clauses are never split across calls.
+            for group in page_groups(rows,limit):
+                dependencies={row['id']:entries_by_id[row['id']]['pages'] for row in group}
+                part=run_task('translate_page',{**payload,'_page_dependencies':dependencies,'blocks':group})
+                partial={row['id']:row['translation'] for row in part.data['blocks']}
+                for row in group:
+                    if row['id'] not in partial:raise Blocked('Missing production translation id')
+                    # Commit validated clauses after each bounded request. A later
+                    # quota pause cannot discard already completed translations.
+                    if phase=='production' and part.backend==config['provider']['backend']:
+                        memory.put(entries_by_id[row['id']],partial[row['id']],replace=row['id'] in replace)
+                answers.update(partial);records.extend(part.data['blocks']);sent.extend(group)
+                for metric in ('input_tokens','cached_input_tokens','output_tokens'):
+                    a,b=getattr(result,metric),getattr(part,metric)
+                    setattr(result,metric,None if a is None or b is None else a+b)
+                result.latency_s+=part.latency_s;result.backend=part.backend;result.model=part.model;result.effort=part.effort;result.cached=False
+        requests=[r for r in plan['requests'] if r['id'] not in answers]
+        call([annotate(r,joined=joined.get(r['id'],())) for r in requests if r['id'] not in dependents])
+        plains={rid:plain(rid) for rid in answers}
+        later=[]
+        for request in plan['requests']:
+            rid=request['id']
+            if rid not in dependents:continue
+            ctx=term_context(plan,rid,plains,saved_units)
+            if rid in answers:
+                probe=[{'id':rid,'source':entries_by_id[rid]['source'],'target':plains[rid]}]
+                if not ctx or not term_consistency_issues(probe,[{'id':f'context{i}',**x} for i,x in enumerate(ctx)]):continue
+                reject(rid)
+            later.append(annotate(request,context=ctx,joined=joined.get(rid,())))
+        call(later)
+        hits=sum(1 for request in plan['requests'] if request['id'] not in {row['id'] for row in sent})
+        result.data={'blocks':records}
+        if records:
+            editorial_records=[{'id':row['id'],'pages':entries_by_id[row['id']]['pages'],'source':entries_by_id[row['id']]['source'],'corrections':row.get('grammatical_corrections',[])} for row in records if row.get('grammatical_corrections')]
             atomic_json(output/'model-editorial-corrections.json',editorial_records)
+        pending=sent
         resolved=resolve_plan(plan,answers)
         if resolved['issues']:raise Blocked('Repeated-source consistency failed before reinsertion')
         if result.backend==config['provider']['backend']:
-            for entry in plan['entries'].values():memory.put(entry,answers[entry['id']])
+            for entry in plan['entries'].values():memory.put(entry,answers[entry['id']],replace=entry['id'] in replace)
     finally:memory.close()
     if hits:_log(book,{'task':'translate_page','phase':phase,'page':None,'pages':selected,'backend':config['provider']['backend'],'model':task['model'],'effort':task['effort'],'cached':True,'sentence_cache_hits':hits,'input_tokens':0,'cached_input_tokens':0,'output_tokens':0,'latency_s':0,'cost_usd':0,'status':'sentence_cache_hit'})
     atomic_json(output/'sentence_plan.json',plan)
     atomic_json(output/'consistency.json',{'memory_context':context,'occurrences':resolved['occurrences'],'issues':resolved['issues'],'exact_memory_hits':hits,'unique_source_clauses':len(plan['requests'])})
+    from .composition_corrections import translate_quote_jobs
+    quote_results=translate_quote_jobs(quote_jobs,book,glossary,style,do_not_translate,config_path,phase,run_task)
+    for part in quote_results:
+        for metric in ('input_tokens','cached_input_tokens','output_tokens'):
+            a,b=getattr(result,metric),getattr(part,metric)
+            setattr(result,metric,None if a is None or b is None else a+b)
+        result.latency_s+=part.latency_s;result.cached=False;result.backend=part.backend
     translated=resolved['units']+local_units;batch={'batch_id':phase+'_aggregate','pages':selected,'backend':result.backend,'model':result.model,'effort':result.effort,'input_tokens':result.input_tokens,'cached_input_tokens':result.cached_input_tokens,'output_tokens':result.output_tokens,'llm_latency_s':result.latency_s,'cached':result.cached,'requested_unique_clauses':len(pending),'exact_memory_hits':hits,'deterministic_dates':len(local_units)}
     reports=[]
     for number in selected:

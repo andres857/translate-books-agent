@@ -1,0 +1,1153 @@
+{
+  "page": 40,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Zodiac Signs",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        133.5836944580078,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Zodiac Signs",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            133.5836944580078,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0040_u0000",
+      "container_id": "p0040_c0000",
+      "scale_group": "p0040_display_12.0",
+      "page": 40,
+      "target": "Los signos del zodíaco",
+      "target_runs": [
+        {
+          "text": "Los signos del zodíaco",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE",
+      "line_height": 1.05,
+      "bbox": [
+        36.076900482177734,
+        86.57816314697266,
+        59.8489990234375,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            36.076900482177734,
+            86.57816314697266,
+            59.8489990234375,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0040_u0001",
+      "container_id": "p0040_c0001",
+      "scale_group": "p0040_display_11.0",
+      "page": 40,
+      "target": "EL",
+      "target_runs": [
+        {
+          "text": "EL",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "SIGN OF THE ZODIAC",
+      "line_height": 1.05,
+      "bbox": [
+        87.25340270996094,
+        86.57816314697266,
+        193.34730529785156,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": " SIGN OF THE ZODIAC",
+          "bbox": [
+            87.25340270996094,
+            86.57816314697266,
+            193.34730529785156,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0040_u0002",
+      "container_id": "p0040_c0002",
+      "scale_group": "p0040_display_11.0",
+      "page": 40,
+      "target": "SIGNO DEL ZODÍACO",
+      "target_runs": [
+        {
+          "text": "SIGNO DEL ZODÍACO",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "TAURUS",
+      "line_height": 1.05,
+      "bbox": [
+        36.34939956665039,
+        100.04248046875,
+        257.19940185546875,
+        150.04248046875
+      ],
+      "spans": [
+        {
+          "source": "TAURUS",
+          "bbox": [
+            36.34939956665039,
+            100.04248046875,
+            257.19940185546875,
+            150.04248046875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 50.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 50.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0040_u0003",
+      "container_id": "p0040_c0003",
+      "scale_group": "p0040_display_50.0",
+      "page": 40,
+      "target": "TAURO",
+      "target_runs": [
+        {
+          "text": "TAURO",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "21 APRIL–21 MAY",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        150.2714385986328,
+        203.2019805908203,
+        171.2714385986328
+      ],
+      "spans": [
+        {
+          "source": "21 APRIL–21 MAY",
+          "bbox": [
+            36.0,
+            150.2714385986328,
+            203.2019805908203,
+            171.2714385986328
+          ],
+          "font": "SohoPro-Light",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 21.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 21.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0040_u0004",
+      "container_id": "p0040_c0004",
+      "scale_group": "p0040_display_21.0",
+      "page": 40,
+      "target": "21 de abril–21 de mayo",
+      "target_runs": [
+        {
+          "text": "21 de abril–21 de mayo",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "translation_method": "deterministic_date"
+    },
+    {
+      "source": "The Sun in Taurus",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        384.7344970703125,
+        213.6233673095703,
+        401.7344970703125
+      ],
+      "spans": [
+        {
+          "source": "The Sun in Taurus",
+          "bbox": [
+            116.9291000366211,
+            384.7344970703125,
+            213.6233673095703,
+            401.7344970703125
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0040_u0005",
+      "container_id": "p0040_c0005",
+      "scale_group": "p0040_display_17.0",
+      "page": 40,
+      "target": "El Sol en Tauro",
+      "target_runs": [
+        {
+          "text": "El Sol en Tauro",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "If the Sun is in the Taurus section of your chart, Taurus is your “Sun sign.” Your goal is to create something you value, which will allow you to develop resilience. Like a garden, your work needs to be tended with care.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        116.9291000366211,
+        405.85406494140625,
+        474.0494384765625,
+        451.8580627441406
+      ],
+      "spans": [
+        {
+          "source": "If the Sun is in the Taurus section of your chart, Taurus is your “Sun sign.” ",
+          "bbox": [
+            116.9291000366211,
+            405.85406494140625,
+            468.47900390625,
+            419.85406494140625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Your goal is to create something you value, which will allow you to develop ",
+          "bbox": [
+            116.9291000366211,
+            421.8560485839844,
+            474.0494384765625,
+            435.8560485839844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "resilience. Like a garden, your work needs to be tended with care. ",
+          "bbox": [
+            116.9291000366211,
+            437.8580627441406,
+            427.8369445800781,
+            451.8580627441406
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 220,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0040_u0006",
+      "container_id": "p0040_c0006",
+      "scale_group": "p0040_display_14.0",
+      "page": 40,
+      "target": "Si el Sol está en la sección de Tauro de tu carta, Tauro es tu “signo solar”. Tu objetivo es crear algo que valores, lo que te permitirá desarrollar resiliencia. Como un jardín, tu trabajo necesita cuidados.",
+      "target_runs": [
+        {
+          "text": "Si el Sol está en la sección de Tauro de tu carta, Tauro es tu “signo solar”. Tu objetivo es crear algo que valores, lo que te permitirá desarrollar resiliencia. Como un jardín, tu trabajo necesita cuidados.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Your planets in Taurus",
+      "line_height": 1.05,
+      "bbox": [
+        116.9291000366211,
+        467.4089050292969,
+        237.88243103027344,
+        484.4089050292969
+      ],
+      "spans": [
+        {
+          "source": "Your planets in Taurus",
+          "bbox": [
+            116.9291000366211,
+            467.4089050292969,
+            237.88243103027344,
+            484.4089050292969
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0040_u0007",
+      "container_id": "p0040_c0007",
+      "scale_group": "p0040_display_17.0",
+      "page": 40,
+      "target": "Tus planetas en Tauro",
+      "target_runs": [
+        {
+          "text": "Tus planetas en Tauro",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "The planets in the Taurus section of your chart are grounded, but they also express the need for creative or artistic pursuits. This part of you requires time to consider and learn from experience. Beauty and art speak to you.",
+      "line_height": 1.143003191266741,
+      "bbox": [
+        116.9291000366211,
+        488.5284729003906,
+        473.8829650878906,
+        534.532470703125
+      ],
+      "spans": [
+        {
+          "source": "The planets in the Taurus section of your chart are grounded, but they also ",
+          "bbox": [
+            116.9291000366211,
+            488.5284729003906,
+            473.8829650878906,
+            502.5284729003906
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "express the need for creative or artistic pursuits. This part of you requires ",
+          "bbox": [
+            116.9291000366211,
+            504.5304260253906,
+            467.70623779296875,
+            518.5304565429688
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "time to consider and learn from experience. Beauty and art speak to you.  ",
+          "bbox": [
+            116.9291000366211,
+            520.532470703125,
+            465.8735656738281,
+            534.532470703125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 226,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0040_u0008",
+      "container_id": "p0040_c0008",
+      "scale_group": "p0040_display_14.0",
+      "page": 40,
+      "target": "Los planetas en la sección de Tauro de tu carta tienen los pies en la tierra, pero también expresan la necesidad de dedicarse a actividades creativas o artísticas. Esta parte de ti necesita tiempo para reflexionar y aprender de la experiencia. La belleza y el arte te hablan.",
+      "target_runs": [
+        {
+          "text": "Los planetas en la sección de Tauro de tu carta tienen los pies en la tierra, pero también expresan la necesidad de dedicarse a actividades creativas o artísticas. Esta parte de ti necesita tiempo para reflexionar y aprender de la experiencia. La belleza y el arte te hablan.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Taurus on the cusp of a house",
+      "line_height": 1.05,
+      "bbox": [
+        115.51190185546875,
+        553.6355590820312,
+        274.6302185058594,
+        570.6355590820312
+      ],
+      "spans": [
+        {
+          "source": "Taurus on the cusp of a house",
+          "bbox": [
+            115.51190185546875,
+            553.6355590820312,
+            274.6302185058594,
+            570.6355590820312
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 17.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 29,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 17.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 17.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0040_u0009",
+      "container_id": "p0040_c0009",
+      "scale_group": "p0040_display_17.0",
+      "page": 40,
+      "target": "Tauro en la cúspide de una casa",
+      "target_runs": [
+        {
+          "text": "Tauro en la cúspide de una casa",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 17.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "If Taurus is right at the beginning point of a house, in this area of life, you are practical, committed, and persistent. You show you have the qualities of patience and endurance.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        115.51190185546875,
+        574.7550659179688,
+        464.8189392089844,
+        620.7590942382812
+      ],
+      "spans": [
+        {
+          "source": "If Taurus is right at the beginning point of a house, in this area of life, you ",
+          "bbox": [
+            115.51190185546875,
+            574.7550659179688,
+            464.8189392089844,
+            588.7550659179688
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "are practical, committed, and persistent. You show you have the qualities  ",
+          "bbox": [
+            115.51190185546875,
+            590.757080078125,
+            464.47027587890625,
+            604.757080078125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "of patience and endurance. ",
+          "bbox": [
+            115.51190185546875,
+            606.7590942382812,
+            245.2484893798828,
+            620.7590942382812
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 180,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0040_u0010",
+      "container_id": "p0040_c0010",
+      "scale_group": "p0040_display_14.0",
+      "page": 40,
+      "target": "Si Tauro está justo al comienzo de una casa, en esa área de la vida eres práctica, comprometida y perseverante. Demuestras tener paciencia y resistencia.",
+      "target_runs": [
+        {
+          "text": "Si Tauro está justo al comienzo de una casa, en esa área de la vida eres práctica, comprometida y perseverante. Demuestras tener paciencia y resistencia.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

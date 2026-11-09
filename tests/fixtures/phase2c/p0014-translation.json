@@ -1,0 +1,1271 @@
+{
+  "page": 14,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Story of Astrology",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        157.51170349121094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Story of Astrology",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            157.51170349121094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0014_u0000",
+      "container_id": "p0014_c0000",
+      "scale_group": "p0014_display_12.0",
+      "page": 14,
+      "target": "La historia de la astrología",
+      "target_runs": [
+        {
+          "text": "La historia de la astrología",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "IN THE BEGINNING",
+      "line_height": 1.05,
+      "bbox": [
+        36.31239700317383,
+        157.45059204101562,
+        509.9715270996094,
+        205.45059204101562
+      ],
+      "spans": [
+        {
+          "source": "IN THE BEGINNING",
+          "bbox": [
+            36.31239700317383,
+            157.45059204101562,
+            509.9715270996094,
+            205.45059204101562
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 48.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 48.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0014_u0001",
+      "container_id": "p0014_c0001",
+      "scale_group": "p0014_display_48.0",
+      "page": 14,
+      "target": "EN EL PRINCIPIO",
+      "target_runs": [
+        {
+          "text": "EN EL PRINCIPIO",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Starting in Babylonia",
+      "line_height": 1.05,
+      "bbox": [
+        200.031494140625,
+        419.35125732421875,
+        337.51812744140625,
+        432.35125732421875
+      ],
+      "spans": [
+        {
+          "source": "Starting in Babylonia",
+          "bbox": [
+            200.031494140625,
+            419.35125732421875,
+            337.51812744140625,
+            432.35125732421875
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 21,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0014_u0002",
+      "container_id": "p0014_c0002",
+      "scale_group": "p0014_display_13.0",
+      "page": 14,
+      "target": "Los comienzos en Babilonia",
+      "target_runs": [
+        {
+          "text": "Los comienzos en Babilonia",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Humans have always looked to the skies to answer questions about religion, farming, and the passage of time. Lunar cycles, for instance, were recorded as long as 25,000 years ago. Babylonian astronomers were the first to document the cycle of the planets. From them, we get the 12 signs of the zodiac, which track the Sun’s movement",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        200.031494140625,
+        436.3946228027344,
+        354.723388671875,
+        601.4276733398438
+      ],
+      "spans": [
+        {
+          "source": "Humans have always looked to ",
+          "bbox": [
+            200.031494140625,
+            436.3946228027344,
+            354.1953125,
+            447.3946228027344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the skies to answer questions ",
+          "bbox": [
+            200.031494140625,
+            450.39764404296875,
+            347.9803466796875,
+            461.39764404296875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "about religion, farming, and ",
+          "bbox": [
+            200.031494140625,
+            464.4006652832031,
+            337.48638916015625,
+            475.4006652832031
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the passage of time. Lunar ",
+          "bbox": [
+            200.031494140625,
+            478.4036560058594,
+            332.5584411621094,
+            489.4036560058594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "cycles, for instance, were ",
+          "bbox": [
+            200.031494140625,
+            492.4066467285156,
+            325.26531982421875,
+            503.4066467285156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "recorded as long as 25,000 ",
+          "bbox": [
+            200.031494140625,
+            506.4096374511719,
+            332.7013854980469,
+            517.40966796875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "years ago. Babylonian ",
+          "bbox": [
+            200.031494140625,
+            520.4127197265625,
+            309.9643859863281,
+            531.4127197265625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "astronomers were the first to ",
+          "bbox": [
+            200.031494140625,
+            534.4157104492188,
+            345.5713806152344,
+            545.4157104492188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "document the cycle of the ",
+          "bbox": [
+            200.031494140625,
+            548.418701171875,
+            329.9734191894531,
+            559.418701171875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "planets. From them, we get the ",
+          "bbox": [
+            200.031494140625,
+            562.4216918945312,
+            354.723388671875,
+            573.4216918945312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "12 signs of the zodiac, which ",
+          "bbox": [
+            200.031494140625,
+            576.4246826171875,
+            342.4462890625,
+            587.4246826171875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "track the Sun’s movement ",
+          "bbox": [
+            200.031494140625,
+            590.4276733398438,
+            329.44659423828125,
+            601.4276733398438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 332,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0014_u0003",
+      "container_id": "p0014_c0003",
+      "scale_group": "p0014_display_11.0",
+      "page": 14,
+      "target": "Los seres humanos siempre han mirado al cielo para encontrar respuestas sobre la religión, la agricultura y el paso del tiempo. Los ciclos lunares, por ejemplo, se registran desde hace 25,000 años. Los astrónomos babilonios fueron los primeros en documentar el ciclo de los planetas. De ellos provienen los 12 signos del zodíaco, que siguen el movimiento del Sol",
+      "target_runs": [
+        {
+          "text": "Los seres humanos siempre han mirado al cielo para encontrar respuestas sobre la religión, la agricultura y el paso del tiempo. Los ciclos lunares, por ejemplo, se registran desde hace 25,000 años. Los astrónomos babilonios fueron los primeros en documentar el ciclo de los planetas. De ellos provienen los 12 signos del zodíaco, que siguen el movimiento del Sol",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrology has existed since ancient times. It began in Mesopotamia (the modern-day Middle East) and spread to Europe, then worldwide. It has had highs and lows of popularity. Today, as in the past, people use it to help them live their best lives.",
+      "line_height": 1.25,
+      "bbox": [
+        35.97639846801758,
+        243.84478759765625,
+        457.31085205078125,
+        387.84478759765625
+      ],
+      "spans": [
+        {
+          "source": "Astrology has existed since ancient times. It began ",
+          "bbox": [
+            35.97639846801758,
+            243.84478759765625,
+            450.62200927734375,
+            267.84478759765625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "in Mesopotamia (the modern-day Middle East) and ",
+          "bbox": [
+            35.97639846801758,
+            273.84478759765625,
+            449.6787414550781,
+            297.84478759765625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "spread to Europe, then worldwide. It has had highs ",
+          "bbox": [
+            35.97639846801758,
+            303.84478759765625,
+            452.0356750488281,
+            327.84478759765625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and lows of popularity. Today, as in the past, people ",
+          "bbox": [
+            35.97639846801758,
+            333.84478759765625,
+            457.31085205078125,
+            357.84478759765625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "use it to help them live their best lives.  ",
+          "bbox": [
+            35.97639846801758,
+            363.84478759765625,
+            355.9635925292969,
+            387.84478759765625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 247,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 24.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 24.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0014_u0004",
+      "container_id": "p0014_c0004",
+      "scale_group": "p0014_display_24.0",
+      "page": 14,
+      "target": "La astrología existe desde la Antigüedad. Surgió en Mesopotamia (el actual Oriente Medio) y se extendió a Europa y luego al mundo entero. Ha tenido épocas de mayor y menor popularidad. Hoy, como en el pasado, la gente la usa para vivir de la mejor manera posible.",
+      "target_runs": [
+        {
+          "text": "La astrología existe desde la Antigüedad. Surgió en Mesopotamia (el actual Oriente Medio) y se extendió a Europa y luego al mundo entero. Ha tenido épocas de mayor y menor popularidad. Hoy, como en el pasado, la gente la usa para vivir de la mejor manera posible.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "through the constellations. By charting how and when the planets move, ancient astronomers could make predictions about the future. To Greece and Rome",
+      "line_height": 1.0771554800180287,
+      "bbox": [
+        364.06298828125,
+        422.8496398925781,
+        514.0249633789062,
+        516.2235717773438
+      ],
+      "spans": [
+        {
+          "source": "through the constellations. By ",
+          "bbox": [
+            364.06298828125,
+            422.8496398925781,
+            514.0249633789062,
+            433.8496398925781
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "charting how and when the ",
+          "bbox": [
+            364.06298828125,
+            436.8526306152344,
+            503.4100036621094,
+            447.8526306152344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "planets move, ancient ",
+          "bbox": [
+            364.06298828125,
+            450.85565185546875,
+            473.115966796875,
+            461.85565185546875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "astronomers could make ",
+          "bbox": [
+            364.06298828125,
+            464.8586730957031,
+            485.9210205078125,
+            475.8586730957031
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "predictions about the future. ",
+          "bbox": [
+            364.06298828125,
+            478.8616638183594,
+            507.2378845214844,
+            489.8616638183594
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "To Greece and Rome",
+          "bbox": [
+            364.06298828125,
+            503.22357177734375,
+            493.4896240234375,
+            516.2235717773438
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 132,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 132,
+          "end": 150,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0014_u0005",
+      "container_id": "p0014_c0005",
+      "scale_group": "p0014_display_13.0",
+      "page": 14,
+      "target": "a través de las constelaciones. Al trazar cómo y cuándo se mueven los planetas, los antiguos astrónomos podían hacer predicciones sobre el futuro. Hacia Grecia y Roma",
+      "target_runs": [
+        {
+          "text": "a través de las constelaciones. Al trazar cómo y cuándo se mueven los planetas, los antiguos astrónomos podían hacer predicciones sobre el futuro.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": " Hacia Grecia y Roma",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrology next spread to Greece and Egypt, where the horoscope was born. It combined the zodiac, Greek ideas of the four elements and heavenly bodies, and Egyptian",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        364.06298828125,
+        518.8496704101562,
+        516.5427856445312,
+        599.8646850585938
+      ],
+      "spans": [
+        {
+          "source": "Astrology next spread to ",
+          "bbox": [
+            364.06298828125,
+            518.8496704101562,
+            487.51483154296875,
+            529.8496704101562
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Greece and Egypt, where  ",
+          "bbox": [
+            364.06298828125,
+            532.8526611328125,
+            491.1119079589844,
+            543.8526611328125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the horoscope was born. It ",
+          "bbox": [
+            364.06298828125,
+            546.8556518554688,
+            495.4679870605469,
+            557.8556518554688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "combined the zodiac, Greek ",
+          "bbox": [
+            364.06298828125,
+            560.858642578125,
+            499.3729553222656,
+            571.858642578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ideas of the four elements and ",
+          "bbox": [
+            364.06298828125,
+            574.8616943359375,
+            515.0259399414062,
+            585.8616943359375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "heavenly bodies, and Egyptian ",
+          "bbox": [
+            364.06298828125,
+            588.8646850585938,
+            516.5427856445312,
+            599.8646850585938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 163,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0014_u0006",
+      "container_id": "p0014_c0006",
+      "scale_group": "p0014_display_11.0",
+      "page": 14,
+      "target": "La astrología se extendió luego a Grecia y Egipto, donde nació el horóscopo. Combinaba el zodíaco, las ideas griegas de los cuatro elementos y los cuerpos celestes, y las",
+      "target_runs": [
+        {
+          "text": "La astrología se extendió luego a Grecia y Egipto, donde nació el horóscopo. Combinaba el zodíaco, las ideas griegas de los cuatro elementos y los cuerpos celestes, y las",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

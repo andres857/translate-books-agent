@@ -1,0 +1,2242 @@
+{
+  "page": 6,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "THE PLANETS",
+      "line_height": 1.05,
+      "bbox": [
+        36.097900390625,
+        165.7034454345703,
+        139.64190673828125,
+        179.74252319335938
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            36.097900390625,
+            165.74252319335938,
+            66.35330200195312,
+            179.74252319335938
+          ],
+          "font": "SohoPro-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "PLANETS ",
+          "bbox": [
+            66.44989776611328,
+            165.7034454345703,
+            139.64190673828125,
+            179.7034454345703
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 4,
+          "end": 11,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0006_u0000",
+      "container_id": "p0006_c0000",
+      "scale_group": "p0006_display_14.0",
+      "page": 6,
+      "target": "LOS PLANETAS",
+      "target_runs": [
+        {
+          "text": "LOS ",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "PLANETAS",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Role of the Planets",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        191.9292449951172,
+        155.1901397705078,
+        205.4292449951172
+      ],
+      "spans": [
+        {
+          "source": "The Role of the Planets",
+          "bbox": [
+            36.0,
+            191.9292449951172,
+            155.1901397705078,
+            205.4292449951172
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 23,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0001",
+      "container_id": "p0006_c0001",
+      "scale_group": "p0006_table_b2_13.5_500_75",
+      "page": 6,
+      "target": "El papel de los planetas",
+      "target_runs": [
+        {
+          "text": "El papel de los planetas",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Sun",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        211.92274475097656,
+        80.23950958251953,
+        225.42274475097656
+      ],
+      "spans": [
+        {
+          "source": "The Sun ",
+          "bbox": [
+            36.0,
+            211.92274475097656,
+            80.23950958251953,
+            225.42274475097656
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 7,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0002",
+      "container_id": "p0006_c0002",
+      "scale_group": "p0006_table_b2_13.5_500_75",
+      "page": 6,
+      "target": "El Sol",
+      "target_runs": [
+        {
+          "text": "El Sol",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Identity and life purpose",
+      "line_height": 1.05,
+      "bbox": [
+        97.00650024414062,
+        211.75521850585938,
+        211.68898010253906,
+        225.25521850585938
+      ],
+      "spans": [
+        {
+          "source": "Identity and life purpose ",
+          "bbox": [
+            97.00650024414062,
+            211.75521850585938,
+            211.68898010253906,
+            225.25521850585938
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 25,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0003",
+      "container_id": "p0006_c0003",
+      "scale_group": "p0006_table_b2_13.5_300_75",
+      "page": 6,
+      "target": "Identidad y propósito vital",
+      "target_runs": [
+        {
+          "text": "Identidad y propósito vital",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Moon",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        231.91624450683594,
+        88.8794937133789,
+        245.41624450683594
+      ],
+      "spans": [
+        {
+          "source": "The Moon ",
+          "bbox": [
+            36.0,
+            231.91624450683594,
+            88.8794937133789,
+            245.41624450683594
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 8,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0004",
+      "container_id": "p0006_c0004",
+      "scale_group": "p0006_table_b2_13.5_500_75",
+      "page": 6,
+      "target": "La Luna",
+      "target_runs": [
+        {
+          "text": "La Luna",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Instinct and protection",
+      "line_height": 1.05,
+      "bbox": [
+        88.8794937133789,
+        231.74871826171875,
+        203.3041229248047,
+        245.24871826171875
+      ],
+      "spans": [
+        {
+          "source": " Instinct and protection ",
+          "bbox": [
+            88.8794937133789,
+            231.74871826171875,
+            203.3041229248047,
+            245.24871826171875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 23,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0005",
+      "container_id": "p0006_c0005",
+      "scale_group": "p0006_table_b2_13.5_300_75",
+      "page": 6,
+      "target": "Instinto y protección",
+      "target_runs": [
+        {
+          "text": "Instinto y protección",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Mercury",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        251.9097442626953,
+        79.47000122070312,
+        265.4097595214844
+      ],
+      "spans": [
+        {
+          "source": "Mercury",
+          "bbox": [
+            36.0,
+            251.9097442626953,
+            79.47000122070312,
+            265.4097595214844
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 7,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0006",
+      "container_id": "p0006_c0006",
+      "scale_group": "p0006_table_b2_13.5_500_75",
+      "page": 6,
+      "target": "Mercurio",
+      "target_runs": [
+        {
+          "text": "Mercurio",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Communication and learning",
+      "line_height": 1.05,
+      "bbox": [
+        97.00650024414062,
+        251.74221801757812,
+        230.85894775390625,
+        265.2422180175781
+      ],
+      "spans": [
+        {
+          "source": "Communication and learning ",
+          "bbox": [
+            97.00650024414062,
+            251.74221801757812,
+            230.85894775390625,
+            265.2422180175781
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 26,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0007",
+      "container_id": "p0006_c0007",
+      "scale_group": "p0006_table_b2_13.5_300_75",
+      "page": 6,
+      "target": "Comunicación y aprendizaje",
+      "target_runs": [
+        {
+          "text": "Comunicación y aprendizaje",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Venus",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        271.90325927734375,
+        70.43714141845703,
+        285.40325927734375
+      ],
+      "spans": [
+        {
+          "source": "Venus ",
+          "bbox": [
+            36.0,
+            271.90325927734375,
+            70.43714141845703,
+            285.40325927734375
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0008",
+      "container_id": "p0006_c0008",
+      "scale_group": "p0006_table_b2_13.5_500_75",
+      "page": 6,
+      "target": "Venus",
+      "target_runs": [
+        {
+          "text": "Venus",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Love and pleasure",
+      "line_height": 1.05,
+      "bbox": [
+        97.00650787353516,
+        271.7357177734375,
+        181.86611938476562,
+        285.2357177734375
+      ],
+      "spans": [
+        {
+          "source": "Love and pleasure ",
+          "bbox": [
+            97.00650787353516,
+            271.7357177734375,
+            181.86611938476562,
+            285.2357177734375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0009",
+      "container_id": "p0006_c0009",
+      "scale_group": "p0006_table_b2_13.5_300_75",
+      "page": 6,
+      "target": "Amor y placer",
+      "target_runs": [
+        {
+          "text": "Amor y placer",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Mars",
+      "line_height": 1.05,
+      "bbox": [
+        36.00001525878906,
+        291.8967590332031,
+        63.526519775390625,
+        305.3967590332031
+      ],
+      "spans": [
+        {
+          "source": "Mars ",
+          "bbox": [
+            36.00001525878906,
+            291.8967590332031,
+            63.526519775390625,
+            305.3967590332031
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0010",
+      "container_id": "p0006_c0010",
+      "scale_group": "p0006_table_b2_13.5_500_75",
+      "page": 6,
+      "target": "Marte",
+      "target_runs": [
+        {
+          "text": "Marte",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Assertion and action",
+      "line_height": 1.05,
+      "bbox": [
+        97.00651550292969,
+        291.7292175292969,
+        194.43600463867188,
+        305.2292175292969
+      ],
+      "spans": [
+        {
+          "source": "Assertion and action ",
+          "bbox": [
+            97.00651550292969,
+            291.7292175292969,
+            194.43600463867188,
+            305.2292175292969
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 20,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0006_u0011",
+      "container_id": "p0006_c0011",
+      "scale_group": "p0006_table_b2_13.5_300_75",
+      "page": 6,
+      "target": "Afirmación y acción",
+      "target_runs": [
+        {
+          "text": "Afirmación y acción",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Jupiter",
+      "line_height": 1.05,
+      "bbox": [
+        282.051025390625,
+        192.07774353027344,
+        318.97357177734375,
+        205.57774353027344
+      ],
+      "spans": [
+        {
+          "source": "Jupiter ",
+          "bbox": [
+            282.051025390625,
+            192.07774353027344,
+            318.97357177734375,
+            205.57774353027344
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 7,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0012",
+      "container_id": "p0006_c0012",
+      "scale_group": "p0006_table_b3_13.5_500_75",
+      "page": 6,
+      "target": "Júpiter",
+      "target_runs": [
+        {
+          "text": "Júpiter",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Growth and opportunity",
+      "line_height": 1.05,
+      "bbox": [
+        343.0575256347656,
+        191.91021728515625,
+        457.3067321777344,
+        205.41021728515625
+      ],
+      "spans": [
+        {
+          "source": "Growth and opportunity ",
+          "bbox": [
+            343.0575256347656,
+            191.91021728515625,
+            457.3067321777344,
+            205.41021728515625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0013",
+      "container_id": "p0006_c0013",
+      "scale_group": "p0006_table_b3_13.5_300_75",
+      "page": 6,
+      "target": "Crecimiento y oportunidades",
+      "target_runs": [
+        {
+          "text": "Crecimiento y oportunidades",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Saturn",
+      "line_height": 1.05,
+      "bbox": [
+        282.051025390625,
+        212.0712432861328,
+        317.38055419921875,
+        225.5712432861328
+      ],
+      "spans": [
+        {
+          "source": "Saturn",
+          "bbox": [
+            282.051025390625,
+            212.0712432861328,
+            317.38055419921875,
+            225.5712432861328
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0014",
+      "container_id": "p0006_c0014",
+      "scale_group": "p0006_table_b3_13.5_500_75",
+      "page": 6,
+      "target": "Saturno",
+      "target_runs": [
+        {
+          "text": "Saturno",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Authority and maturity",
+      "line_height": 1.05,
+      "bbox": [
+        343.0575256347656,
+        211.90371704101562,
+        453.05560302734375,
+        225.40371704101562
+      ],
+      "spans": [
+        {
+          "source": "Authority and maturity ",
+          "bbox": [
+            343.0575256347656,
+            211.90371704101562,
+            453.05560302734375,
+            225.40371704101562
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0015",
+      "container_id": "p0006_c0015",
+      "scale_group": "p0006_table_b3_13.5_300_75",
+      "page": 6,
+      "target": "Autoridad y madurez",
+      "target_runs": [
+        {
+          "text": "Autoridad y madurez",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Uranus",
+      "line_height": 1.05,
+      "bbox": [
+        282.051025390625,
+        232.0647430419922,
+        319.405517578125,
+        245.5647430419922
+      ],
+      "spans": [
+        {
+          "source": "Uranus",
+          "bbox": [
+            282.051025390625,
+            232.0647430419922,
+            319.405517578125,
+            245.5647430419922
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0016",
+      "container_id": "p0006_c0016",
+      "scale_group": "p0006_table_b3_13.5_500_75",
+      "page": 6,
+      "target": "Urano",
+      "target_runs": [
+        {
+          "text": "Urano",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Change and liberation",
+      "line_height": 1.05,
+      "bbox": [
+        343.0575256347656,
+        231.897216796875,
+        445.4414978027344,
+        245.397216796875
+      ],
+      "spans": [
+        {
+          "source": "Change and liberation ",
+          "bbox": [
+            343.0575256347656,
+            231.897216796875,
+            445.4414978027344,
+            245.397216796875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 21,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0017",
+      "container_id": "p0006_c0017",
+      "scale_group": "p0006_table_b3_13.5_300_75",
+      "page": 6,
+      "target": "Cambio y liberación",
+      "target_runs": [
+        {
+          "text": "Cambio y liberación",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Neptune",
+      "line_height": 1.05,
+      "bbox": [
+        282.051025390625,
+        252.05824279785156,
+        326.87109375,
+        265.5582580566406
+      ],
+      "spans": [
+        {
+          "source": "Neptune",
+          "bbox": [
+            282.051025390625,
+            252.05824279785156,
+            326.87109375,
+            265.5582580566406
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 7,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0018",
+      "container_id": "p0006_c0018",
+      "scale_group": "p0006_table_b3_13.5_500_75",
+      "page": 6,
+      "target": "Neptuno",
+      "target_runs": [
+        {
+          "text": "Neptuno",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Imagination and transcendence 124",
+      "line_height": 1.05,
+      "bbox": [
+        343.0575256347656,
+        251.89071655273438,
+        508.82403564453125,
+        265.3907165527344
+      ],
+      "spans": [
+        {
+          "source": "Imagination and transcendence 124",
+          "bbox": [
+            343.0575256347656,
+            251.89071655273438,
+            508.82403564453125,
+            265.3907165527344
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 33,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0019",
+      "container_id": "p0006_c0019",
+      "scale_group": "p0006_table_b3_13.5_300_75",
+      "page": 6,
+      "target": "Imaginación y trascendencia 124",
+      "target_runs": [
+        {
+          "text": "Imaginación y trascendencia 124",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Pluto",
+      "line_height": 1.05,
+      "bbox": [
+        282.051025390625,
+        272.0517578125,
+        309.40203857421875,
+        285.5517578125
+      ],
+      "spans": [
+        {
+          "source": "Pluto",
+          "bbox": [
+            282.051025390625,
+            272.0517578125,
+            309.40203857421875,
+            285.5517578125
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0020",
+      "container_id": "p0006_c0020",
+      "scale_group": "p0006_table_b3_13.5_500_75",
+      "page": 6,
+      "target": "Plutón",
+      "target_runs": [
+        {
+          "text": "Plutón",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Power and transformation",
+      "line_height": 1.05,
+      "bbox": [
+        343.05755615234375,
+        271.88421630859375,
+        466.28558349609375,
+        285.38421630859375
+      ],
+      "spans": [
+        {
+          "source": "Power and transformation ",
+          "bbox": [
+            343.05755615234375,
+            271.88421630859375,
+            466.28558349609375,
+            285.38421630859375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 24,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0021",
+      "container_id": "p0006_c0021",
+      "scale_group": "p0006_table_b3_13.5_300_75",
+      "page": 6,
+      "target": "Poder y transformación",
+      "target_runs": [
+        {
+          "text": "Poder y transformación",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Chiron",
+      "line_height": 1.05,
+      "bbox": [
+        282.051025390625,
+        292.0452575683594,
+        316.1385803222656,
+        305.5452575683594
+      ],
+      "spans": [
+        {
+          "source": "Chiron",
+          "bbox": [
+            282.051025390625,
+            292.0452575683594,
+            316.1385803222656,
+            305.5452575683594
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0022",
+      "container_id": "p0006_c0022",
+      "scale_group": "p0006_table_b3_13.5_500_75",
+      "page": 6,
+      "target": "Quirón",
+      "target_runs": [
+        {
+          "text": "Quirón",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Healing and compassion",
+      "line_height": 1.05,
+      "bbox": [
+        343.0575256347656,
+        291.8777160644531,
+        456.1591796875,
+        305.3777160644531
+      ],
+      "spans": [
+        {
+          "source": "Healing and compassion ",
+          "bbox": [
+            343.0575256347656,
+            291.8777160644531,
+            456.1591796875,
+            305.3777160644531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 13.5,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 13.5,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 13.5,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0006_u0023",
+      "container_id": "p0006_c0023",
+      "scale_group": "p0006_table_b3_13.5_300_75",
+      "page": 6,
+      "target": "Sanación y compasión",
+      "target_runs": [
+        {
+          "text": "Sanación y compasión",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 13.5,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

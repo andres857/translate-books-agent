@@ -1,0 +1,2716 @@
+{
+  "page": 53,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "GLAMOUR & SPARKLE",
+      "line_height": 1.125,
+      "bbox": [
+        367.1885070800781,
+        193.66929626464844,
+        455.46051025390625,
+        227.66929626464844
+      ],
+      "spans": [
+        {
+          "source": "GLAMOUR ",
+          "bbox": [
+            367.1885070800781,
+            193.66929626464844,
+            455.46051025390625,
+            209.66929626464844
+          ],
+          "font": "FrutigerLTPro-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "& SPARKLE",
+          "bbox": [
+            367.1885070800781,
+            211.66929626464844,
+            453.81256103515625,
+            227.66929626464844
+          ],
+          "font": "FrutigerLTPro-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTPro-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTPro-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0053_u0000",
+      "container_id": "p0053_c0000",
+      "scale_group": "p0053_display_16.0",
+      "page": 53,
+      "target": "GLAMUR Y BRILLO",
+      "target_runs": [
+        {
+          "text": "GLAMUR Y BRILLO",
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Leos hate to get their hands dirty and prefer to give tasks to other people.",
+      "line_height": 1.2,
+      "bbox": [
+        367.1885070800781,
+        230.8443145751953,
+        504.5125732421875,
+        264.8443298339844
+      ],
+      "spans": [
+        {
+          "source": "Leos hate to get their hands ",
+          "bbox": [
+            367.1885070800781,
+            230.8443145751953,
+            504.5125732421875,
+            240.8443145751953
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "dirty and prefer to give ",
+          "bbox": [
+            367.1885070800781,
+            242.8443145751953,
+            480.9704895019531,
+            252.8443145751953
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "tasks to other people.",
+          "bbox": [
+            367.1885070800781,
+            254.8443145751953,
+            471.11053466796875,
+            264.8443298339844
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 76,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0053_u0001",
+      "container_id": "p0053_c0001",
+      "scale_group": "p0053_display_10.0",
+      "page": 53,
+      "target": "A los Leo no les gusta ensuciarse las manos y prefieren delegar las tareas en otras personas.",
+      "target_runs": [
+        {
+          "text": "A los Leo no les gusta ensuciarse las manos y prefieren delegar las tareas en otras personas.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "ME, MYSELF, AND I WITH THE SUN RULING THIS SIGN, LEOS ARE INDEPENDENT AND FOCUS ON ACHIEVING GOALS. THEY CAN HAVE A VERY STRONG SENSE OF SELF.",
+      "line_height": 1.058999454273897,
+      "bbox": [
+        56.56380081176758,
+        553.2471313476562,
+        475.8620300292969,
+        624.302978515625
+      ],
+      "spans": [
+        {
+          "source": "ME, MYSELF, AND I  ",
+          "bbox": [
+            56.56380081176758,
+            553.2471313476562,
+            244.6126708984375,
+            570.2471313476562
+          ],
+          "font": "SohoPro-Heavy",
+          "size": 17.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "WITH THE SUN RULING ",
+          "bbox": [
+            244.73165893554688,
+            553.2939453125,
+            455.49261474609375,
+            570.2939453125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "THIS SIGN, LEOS ARE INDEPENDENT AND ",
+          "bbox": [
+            56.56380081176758,
+            571.2969970703125,
+            428.2636413574219,
+            588.2969970703125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "FOCUS ON ACHIEVING GOALS. THEY CAN HAVE ",
+          "bbox": [
+            56.56380081176758,
+            589.2999877929688,
+            475.8620300292969,
+            606.2999877929688
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "A VERY STRONG SENSE OF SELF.",
+          "bbox": [
+            56.56380081176758,
+            607.302978515625,
+            340.8837585449219,
+            624.302978515625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 18,
+          "end": 142,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Heavy",
+        "size": 17.0,
+        "color": 5723990,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Heavy",
+      "size": 17.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0053_u0002",
+      "container_id": "p0053_c0002",
+      "scale_group": "p0053_display_17.0",
+      "page": 53,
+      "target": "YO, YO Y YO COMO EL SOL RIGE ESTE SIGNO, LOS LEO SON INDEPENDIENTES Y SE CENTRAN EN ALCANZAR SUS METAS. PUEDEN TENER UN SENTIDO MUY FUERTE DE SÍ MISMOS.",
+      "target_runs": [
+        {
+          "text": "YO, YO Y YO ",
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "COMO EL SOL RIGE ESTE SIGNO, LOS LEO SON INDEPENDIENTES Y SE CENTRAN EN ALCANZAR SUS METAS. PUEDEN TENER UN SENTIDO MUY FUERTE DE SÍ MISMOS.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "BOLD & COURAGEOUS",
+      "line_height": 0.8389991021925404,
+      "bbox": [
+        365.6181945800781,
+        41.55918884277344,
+        517.3291015625,
+        98.56816101074219
+      ],
+      "spans": [
+        {
+          "source": "BOLD & ",
+          "bbox": [
+            365.6181945800781,
+            41.55918884277344,
+            451.95318603515625,
+            72.55918884277344
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "COURAGEOUS",
+          "bbox": [
+            365.6181945800781,
+            67.56816101074219,
+            517.3291015625,
+            98.56816101074219
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0053_u0003",
+      "container_id": "p0053_c0003",
+      "scale_group": "p0053_display_31.0",
+      "page": 53,
+      "target": "AUDACES Y VALIENTES",
+      "target_runs": [
+        {
+          "text": "AUDACES Y VALIENTES",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "Leos tend to be daring, independent, and confident. Planets here will be brave and full of spirit.",
+      "line_height": 1.1670023600260417,
+      "bbox": [
+        365.4014892578125,
+        99.87327575683594,
+        511.0094909667969,
+        139.88133239746094
+      ],
+      "spans": [
+        {
+          "source": "Leos tend to be daring, independent, ",
+          "bbox": [
+            365.4014892578125,
+            99.87327575683594,
+            511.0094909667969,
+            111.87327575683594
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and confident. Planets here will be  ",
+          "bbox": [
+            365.4014892578125,
+            113.87730407714844,
+            504.7334899902344,
+            125.87730407714844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "brave and full of spirit.",
+          "bbox": [
+            365.4014892578125,
+            127.88133239746094,
+            453.80426025390625,
+            139.88133239746094
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 98,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0053_u0004",
+      "container_id": "p0053_c0004",
+      "scale_group": "p0053_display_12.0",
+      "page": 53,
+      "target": "Los Leo suelen ser atrevidos, independientes y seguros de sí mismos. Los planetas en este signo serán valientes y llenos de energía.",
+      "target_runs": [
+        {
+          "text": "Los Leo suelen ser atrevidos, independientes y seguros de sí mismos. Los planetas en este signo serán valientes y llenos de energía.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "WARM & GENEROUS",
+      "line_height": 1.05,
+      "bbox": [
+        36.51969909667969,
+        274.06829833984375,
+        201.335693359375,
+        290.06829833984375
+      ],
+      "spans": [
+        {
+          "source": "WARM & GENEROUS",
+          "bbox": [
+            36.51969909667969,
+            274.06829833984375,
+            201.335693359375,
+            290.06829833984375
+          ],
+          "font": "FrutigerLTPro-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTPro-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTPro-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0053_u0005",
+      "container_id": "p0053_c0005",
+      "scale_group": "p0053_display_16.0",
+      "page": 53,
+      "target": "CÁLIDOS Y GENEROSOS",
+      "target_runs": [
+        {
+          "text": "CÁLIDOS Y GENEROSOS",
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Those with planets in Leo are generous with their time and energy and find it easy to motivate others.",
+      "line_height": 1.2,
+      "bbox": [
+        36.519691467285156,
+        293.2432861328125,
+        181.1227264404297,
+        339.2433166503906
+      ],
+      "spans": [
+        {
+          "source": "Those with planets in Leo are ",
+          "bbox": [
+            36.51969909667969,
+            293.2432861328125,
+            181.1227264404297,
+            303.2433166503906
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "generous with their time and ",
+          "bbox": [
+            36.51969909667969,
+            305.2432861328125,
+            179.66973876953125,
+            315.2433166503906
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "energy and find it easy to  ",
+          "bbox": [
+            36.51969909667969,
+            317.2432861328125,
+            165.2196807861328,
+            327.2433166503906
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "motivate others.",
+          "bbox": [
+            36.519691467285156,
+            329.2432861328125,
+            115.21170806884766,
+            339.2433166503906
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 102,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0053_u0006",
+      "container_id": "p0053_c0006",
+      "scale_group": "p0053_display_10.0",
+      "page": 53,
+      "target": "Quienes tienen planetas en Leo son generosos con su tiempo y energía, y les resulta fácil motivar a los demás.",
+      "target_runs": [
+        {
+          "text": "Quienes tienen planetas en Leo son generosos con su tiempo y energía, y les resulta fácil motivar a los demás.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "SENSE OF FUN Leo is a playful sign; planets here are easygoing and fun. Grown-up Leos connect easily to the world of children.",
+      "line_height": 1.124999761581421,
+      "bbox": [
+        36.522705078125,
+        40.95100784301758,
+        335.7403564453125,
+        92.95100402832031
+      ],
+      "spans": [
+        {
+          "source": "SENSE OF FUN",
+          "bbox": [
+            36.6245002746582,
+            41.81736373901367,
+            156.46099853515625,
+            56.81736373901367
+          ],
+          "font": "SohoPro-Bold",
+          "size": 15.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Leo is a playful sign; planets ",
+          "bbox": [
+            162.25070190429688,
+            40.95100784301758,
+            335.7403564453125,
+            56.95100784301758
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "here are easygoing and fun. Grown-up Leos ",
+          "bbox": [
+            36.522705078125,
+            58.95100784301758,
+            300.0155334472656,
+            74.95100402832031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "connect easily to the world of children. ",
+          "bbox": [
+            36.522705078125,
+            76.95100402832031,
+            274.3963928222656,
+            92.95100402832031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 13,
+          "end": 126,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 15.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0053_u0007",
+      "container_id": "p0053_c0007",
+      "scale_group": "p0053_display_16.0",
+      "page": 53,
+      "target": "SENTIDO DEL HUMOR Leo es un signo juguetón; los planetas aquí son despreocupados y divertidos. Los Leo adultos conectan con facilidad con el mundo de los niños.",
+      "target_runs": [
+        {
+          "text": "SENTIDO DEL HUMOR ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Leo es un signo juguetón; los planetas aquí son despreocupados y divertidos. Los Leo adultos conectan con facilidad con el mundo de los niños.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "LOOKING TO THE FUTURE",
+      "line_height": 1.125,
+      "bbox": [
+        387.210693359375,
+        466.79217529296875,
+        500.0586853027344,
+        500.79217529296875
+      ],
+      "spans": [
+        {
+          "source": "LOOKING TO  ",
+          "bbox": [
+            387.210693359375,
+            466.79217529296875,
+            500.0586853027344,
+            482.79217529296875
+          ],
+          "font": "FrutigerLTPro-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "THE FUTURE",
+          "bbox": [
+            387.210693359375,
+            484.79217529296875,
+            485.434814453125,
+            500.79217529296875
+          ],
+          "font": "FrutigerLTPro-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 21,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTPro-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTPro-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0053_u0008",
+      "container_id": "p0053_c0008",
+      "scale_group": "p0053_display_16.0",
+      "page": 53,
+      "target": "MIRAN HACIA EL FUTURO",
+      "target_runs": [
+        {
+          "text": "MIRAN HACIA EL FUTURO",
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Leos are positive and forward-looking— optimistic, confident, and full of hope.",
+      "line_height": 1.167004903157552,
+      "bbox": [
+        347.1716003417969,
+        504.2463684082031,
+        503.83160400390625,
+        530.2504272460938
+      ],
+      "spans": [
+        {
+          "source": "Leos are positive and forward-looking— ",
+          "bbox": [
+            347.1716003417969,
+            504.2463684082031,
+            503.83160400390625,
+            516.2463989257812
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "optimistic, confident, and full of hope.",
+          "bbox": [
+            347.1716003417969,
+            518.2504272460938,
+            495.15087890625,
+            530.2504272460938
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 79,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0053_u0009",
+      "container_id": "p0053_c0009",
+      "scale_group": "p0053_display_12.0",
+      "page": 53,
+      "target": "Los Leo son positivos y miran hacia el futuro: son optimistas, seguros de sí mismos y están llenos de esperanza.",
+      "target_runs": [
+        {
+          "text": "Los Leo son positivos y miran hacia el futuro: son optimistas, seguros de sí mismos y están llenos de esperanza.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE PERFORMER",
+      "line_height": 1.05,
+      "bbox": [
+        36.73630142211914,
+        140.39381408691406,
+        224.9931182861328,
+        171.39381408691406
+      ],
+      "spans": [
+        {
+          "source": "THE PERFORMER",
+          "bbox": [
+            36.73630142211914,
+            140.39381408691406,
+            224.9931182861328,
+            171.39381408691406
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0053_u0010",
+      "container_id": "p0053_c0010",
+      "scale_group": "p0053_display_31.0",
+      "page": 53,
+      "target": "EL ARTISTA",
+      "target_runs": [
+        {
+          "text": "EL ARTISTA",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "LEO LOVES THE LIMELIGHT AND PUTS ON A SHOW—HERE, LEO THRIVES ON ATTENTION, ADMIRATION, AND RESPECT.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        36.61749267578125,
+        173.0657501220703,
+        262.3955078125,
+        235.07179260253906
+      ],
+      "spans": [
+        {
+          "source": "LEO LOVES THE LIMELIGHT  ",
+          "bbox": [
+            36.61750030517578,
+            173.0657501220703,
+            241.01748657226562,
+            187.0657501220703
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "AND PUTS ON A SHOW—HERE,  ",
+          "bbox": [
+            36.61749267578125,
+            189.06776428222656,
+            262.3955078125,
+            203.06776428222656
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "LEO THRIVES ON ATTENTION, ",
+          "bbox": [
+            36.61750793457031,
+            205.0697784423828,
+            258.7232971191406,
+            219.0697784423828
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ADMIRATION, AND RESPECT.",
+          "bbox": [
+            36.61750793457031,
+            221.07179260253906,
+            250.4899139404297,
+            235.07179260253906
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 99,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0053_u0011",
+      "container_id": "p0053_c0011",
+      "scale_group": "p0053_display_14.0",
+      "page": 53,
+      "target": "A LEO LE ENCANTA SER EL CENTRO DE ATENCIÓN Y DAR ESPECTÁCULO; AQUÍ, LEO PROSPERA CON LA ATENCIÓN, LA ADMIRACIÓN Y EL RESPETO.",
+      "target_runs": [
+        {
+          "text": "A LEO LE ENCANTA SER EL CENTRO DE ATENCIÓN Y DAR ESPECTÁCULO; AQUÍ, LEO PROSPERA CON LA ATENCIÓN, LA ADMIRACIÓN Y EL RESPETO.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "NEED TO BE SEEN",
+      "line_height": 1.05,
+      "bbox": [
+        45.74489974975586,
+        470.065185546875,
+        241.50680541992188,
+        501.0652160644531
+      ],
+      "spans": [
+        {
+          "source": "NEED TO BE SEEN ",
+          "bbox": [
+            45.74489974975586,
+            470.065185546875,
+            241.50680541992188,
+            501.0652160644531
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0053_u0012",
+      "container_id": "p0053_c0012",
+      "scale_group": "p0053_display_31.0",
+      "page": 53,
+      "target": "NECESIDAD DE SER VISTOS",
+      "target_runs": [
+        {
+          "text": "NECESIDAD DE SER VISTOS",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "LEOS TEND TO BE LARGER THAN LIFE AND NEED TO FEEL SPECIAL.",
+      "line_height": 1.1429966517857142,
+      "bbox": [
+        45.6260986328125,
+        502.737060546875,
+        290.92852783203125,
+        532.739013671875
+      ],
+      "spans": [
+        {
+          "source": "LEOS TEND TO BE LARGER THAN ",
+          "bbox": [
+            45.6260986328125,
+            502.737060546875,
+            287.19610595703125,
+            516.737060546875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "LIFE AND NEED TO FEEL SPECIAL.",
+          "bbox": [
+            45.6260986328125,
+            518.739013671875,
+            290.92852783203125,
+            532.739013671875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 58,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0053_u0013",
+      "container_id": "p0053_c0013",
+      "scale_group": "p0053_display_14.0",
+      "page": 53,
+      "target": "LOS LEO SUELEN SER EXTRAVAGANTES Y NECESITAN SENTIRSE ESPECIALES.",
+      "target_runs": [
+        {
+          "text": "LOS LEO SUELEN SER EXTRAVAGANTES Y NECESITAN SENTIRSE ESPECIALES.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "HONOUR",
+      "line_height": 1.05,
+      "bbox": [
+        385.8919982910156,
+        339.435302734375,
+        481.9919738769531,
+        370.4353332519531
+      ],
+      "spans": [
+        {
+          "source": "HONOUR",
+          "bbox": [
+            385.8919982910156,
+            339.435302734375,
+            481.9919738769531,
+            370.4353332519531
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0053_u0014",
+      "container_id": "p0053_c0014",
+      "scale_group": "p0053_display_31.0",
+      "page": 53,
+      "target": "HONOR",
+      "target_runs": [
+        {
+          "text": "HONOR",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "IN A POSITION OF TRUST, LEOS ARE HONOURABLE AND HONEST.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        385.773193359375,
+        372.10723876953125,
+        531.0484008789062,
+        434.1132507324219
+      ],
+      "spans": [
+        {
+          "source": "IN A POSITION OF ",
+          "bbox": [
+            385.773193359375,
+            372.10723876953125,
+            517.6223754882812,
+            386.10723876953125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "TRUST, LEOS ARE ",
+          "bbox": [
+            385.773193359375,
+            388.1092529296875,
+            517.7483520507812,
+            402.1092529296875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "HONOURABLE AND ",
+          "bbox": [
+            385.773193359375,
+            404.11126708984375,
+            531.0484008789062,
+            418.11126708984375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "HONEST.",
+          "bbox": [
+            385.773193359375,
+            420.1132507324219,
+            450.8172302246094,
+            434.1132507324219
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 55,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0053_u0015",
+      "container_id": "p0053_c0015",
+      "scale_group": "p0053_display_14.0",
+      "page": 53,
+      "target": "EN UNA POSICIÓN DE CONFIANZA, LOS LEO SON HONORABLES Y HONESTOS.",
+      "target_runs": [
+        {
+          "text": "EN UNA POSICIÓN DE CONFIANZA, LOS LEO SON HONORABLES Y HONESTOS.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "NEGATIVE TRAITS",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        370.9508056640625,
+        177.05599975585938,
+        386.9508056640625
+      ],
+      "spans": [
+        {
+          "source": "NEGATIVE TRAITS",
+          "bbox": [
+            36.0,
+            370.9508056640625,
+            177.05599975585938,
+            386.9508056640625
+          ],
+          "font": "FrutigerLTPro-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTPro-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTPro-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0053_u0016",
+      "container_id": "p0053_c0016",
+      "scale_group": "p0053_display_16.0",
+      "page": 53,
+      "target": "RASGOS NEGATIVOS",
+      "target_runs": [
+        {
+          "text": "RASGOS NEGATIVOS",
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Leo may show arrogance and self-centeredness, or easily suffer hurt pride. It’s important to remember that other people need attention, too.",
+      "line_height": 1.2,
+      "bbox": [
+        36.0,
+        390.12591552734375,
+        222.5299835205078,
+        436.12591552734375
+      ],
+      "spans": [
+        {
+          "source": "Leo may show arrogance and ",
+          "bbox": [
+            36.0,
+            390.12591552734375,
+            178.3800048828125,
+            400.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "self-centeredness, or easily suffer ",
+          "bbox": [
+            36.0,
+            402.12591552734375,
+            202.8031005859375,
+            412.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "hurt pride. It’s important to remember  ",
+          "bbox": [
+            36.0,
+            414.12591552734375,
+            222.5299835205078,
+            424.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "that other people need attention, too.",
+          "bbox": [
+            36.0,
+            426.12591552734375,
+            217.12197875976562,
+            436.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 140,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0053_u0017",
+      "container_id": "p0053_c0017",
+      "scale_group": "p0053_display_10.0",
+      "page": 53,
+      "target": "Leo puede mostrarse arrogante y egocéntrico, o sentirse herido en su orgullo con facilidad. Es importante recordar que las demás personas también necesitan atención.",
+      "target_runs": [
+        {
+          "text": "Leo puede mostrarse arrogante y egocéntrico, o sentirse herido en su orgullo con facilidad. Es importante recordar que las demás personas también necesitan atención.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Leo",
+      "line_height": 1.05,
+      "bbox": [
+        472.78741455078125,
+        21.864179611206055,
+        487.5594177246094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Leo",
+          "bbox": [
+            472.78741455078125,
+            21.864179611206055,
+            487.5594177246094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 11,
+      "id": "p0053_u0018",
+      "container_id": "p0053_c0018",
+      "scale_group": "p0053_display_12.0",
+      "page": 53,
+      "target": "Leo",
+      "target_runs": [
+        {
+          "text": "Leo",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "CREATIVITY",
+      "line_height": 1.05,
+      "bbox": [
+        237.18870544433594,
+        367.8575134277344,
+        329.7007751464844,
+        383.8575134277344
+      ],
+      "spans": [
+        {
+          "source": "CREATIVITY",
+          "bbox": [
+            237.18870544433594,
+            367.8575134277344,
+            329.7007751464844,
+            383.8575134277344
+          ],
+          "font": "FrutigerLTPro-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTPro-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTPro-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0053_u0019",
+      "container_id": "p0053_c0019",
+      "scale_group": "p0053_display_16.0",
+      "page": 53,
+      "target": "CREATIVIDAD",
+      "target_runs": [
+        {
+          "text": "CREATIVIDAD",
+          "style": {
+            "font": "FrutigerLTPro-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Those with planets in Leo may need lots of creative projects and hobbies to make them stand out.",
+      "line_height": 1.1669998168945312,
+      "bbox": [
+        237.18869018554688,
+        387.3130798339844,
+        343.064697265625,
+        441.3250732421875
+      ],
+      "spans": [
+        {
+          "source": "Those with planets in Leo  ",
+          "bbox": [
+            237.18870544433594,
+            387.3130798339844,
+            343.064697265625,
+            399.3130798339844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "may need lots of creative  ",
+          "bbox": [
+            237.18869018554688,
+            401.31707763671875,
+            339.4287109375,
+            413.31707763671875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "projects and hobbies to  ",
+          "bbox": [
+            237.18870544433594,
+            415.3210754394531,
+            332.0126953125,
+            427.3210754394531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "make them stand out.",
+          "bbox": [
+            237.18869018554688,
+            429.3250732421875,
+            323.14349365234375,
+            441.3250732421875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 96,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0053_u0020",
+      "container_id": "p0053_c0020",
+      "scale_group": "p0053_display_12.0",
+      "page": 53,
+      "target": "Quienes tienen planetas en Leo quizá necesiten muchos proyectos creativos y pasatiempos para destacar.",
+      "target_runs": [
+        {
+          "text": "Quienes tienen planetas en Leo quizá necesiten muchos proyectos creativos y pasatiempos para destacar.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

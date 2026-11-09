@@ -1,0 +1,4041 @@
+{
+  "page": 4,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "CONTENTS",
+      "line_height": 1.05,
+      "bbox": [
+        283.68011474609375,
+        99.94905090332031,
+        513.6361083984375,
+        139.9490509033203
+      ],
+      "spans": [
+        {
+          "source": "CONTENTS",
+          "bbox": [
+            283.68011474609375,
+            99.94905090332031,
+            513.6361083984375,
+            139.9490509033203
+          ],
+          "font": "SohoPro-Bold",
+          "size": 40.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 40.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 8,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 40.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 40.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 40.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0004_u0000",
+      "container_id": "p0004_c0000",
+      "scale_group": "p0004_display_40.0",
+      "page": 4,
+      "target": "ÍNDICE",
+      "target_runs": [
+        {
+          "text": "ÍNDICE",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 40.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE STORY OF ASTROLOGY  10",
+      "line_height": 1.05,
+      "bbox": [
+        283.4984130859375,
+        163.6754608154297,
+        510.1723937988281,
+        177.71453857421875
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            283.4984130859375,
+            163.71453857421875,
+            313.7538146972656,
+            177.71453857421875
+          ],
+          "font": "SohoPro-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "STORY ",
+          "bbox": [
+            313.85040283203125,
+            163.6754608154297,
+            365.6363830566406,
+            177.6754608154297
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "OF",
+          "bbox": [
+            365.7344055175781,
+            163.71453857421875,
+            382.7164306640625,
+            177.71453857421875
+          ],
+          "font": "SohoPro-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " ASTROLOGY  10",
+          "bbox": [
+            382.81439208984375,
+            163.6754608154297,
+            510.1723937988281,
+            177.6754608154297
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 4,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 10,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 13,
+          "end": 26,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0004_u0001",
+      "container_id": "p0004_c0001",
+      "scale_group": "p0004_display_14.0",
+      "page": 4,
+      "target": "LA HISTORIA DE LA ASTROLOGÍA  10",
+      "target_runs": [
+        {
+          "text": "LA ",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "HISTORIA ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "DE LA ",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "ASTROLOGÍA  10",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "What Is Astrology?",
+      "line_height": 1.05,
+      "bbox": [
+        283.4005126953125,
+        189.90122985839844,
+        382.81317138671875,
+        203.40122985839844
+      ],
+      "spans": [
+        {
+          "source": "What Is Astrology? ",
+          "bbox": [
+            283.4005126953125,
+            189.90122985839844,
+            382.81317138671875,
+            203.40122985839844
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0004_u0002",
+      "container_id": "p0004_c0002",
+      "scale_group": "p0004_table_b3_13.5_500_75",
+      "page": 4,
+      "target": "¿Qué es la astrología?",
+      "target_runs": [
+        {
+          "text": "¿Qué es la astrología?",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "editorial_punctuation": "opening_inverted_question_mark"
+    },
+    {
+      "source": "In the Beginning",
+      "line_height": 1.05,
+      "bbox": [
+        283.4005126953125,
+        209.8947296142578,
+        371.97406005859375,
+        223.3947296142578
+      ],
+      "spans": [
+        {
+          "source": "In the Beginning ",
+          "bbox": [
+            283.4005126953125,
+            209.8947296142578,
+            371.97406005859375,
+            223.3947296142578
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0004_u0003",
+      "container_id": "p0004_c0003",
+      "scale_group": "p0004_table_b3_13.5_500_75",
+      "page": 4,
+      "target": "En el principio",
+      "target_runs": [
+        {
+          "text": "En el principio",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrology Today",
+      "line_height": 1.05,
+      "bbox": [
+        283.4005126953125,
+        229.8882293701172,
+        372.676025390625,
+        243.3882293701172
+      ],
+      "spans": [
+        {
+          "source": "Astrology Today  ",
+          "bbox": [
+            283.4005126953125,
+            229.8882293701172,
+            372.676025390625,
+            243.3882293701172
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0004_u0004",
+      "container_id": "p0004_c0004",
+      "scale_group": "p0004_table_b3_13.5_500_75",
+      "page": 4,
+      "target": "La astrología hoy",
+      "target_runs": [
+        {
+          "text": "La astrología hoy",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrology and Me",
+      "line_height": 1.05,
+      "bbox": [
+        283.4005126953125,
+        249.88172912597656,
+        378.3717041015625,
+        263.3817443847656
+      ],
+      "spans": [
+        {
+          "source": "Astrology and Me  ",
+          "bbox": [
+            283.4005126953125,
+            249.88172912597656,
+            378.3717041015625,
+            263.3817443847656
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0004_u0005",
+      "container_id": "p0004_c0005",
+      "scale_group": "p0004_table_b3_13.5_500_75",
+      "page": 4,
+      "target": "La astrología y yo",
+      "target_runs": [
+        {
+          "text": "La astrología y yo",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Think Like an Astrologer",
+      "line_height": 1.05,
+      "bbox": [
+        283.4005126953125,
+        269.875244140625,
+        412.8656005859375,
+        283.375244140625
+      ],
+      "spans": [
+        {
+          "source": "Think Like an Astrologer ",
+          "bbox": [
+            283.4005126953125,
+            269.875244140625,
+            412.8656005859375,
+            283.375244140625
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 24,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0004_u0006",
+      "container_id": "p0004_c0006",
+      "scale_group": "p0004_table_b3_13.5_500_75",
+      "page": 4,
+      "target": "Piensa como un astrólogo",
+      "target_runs": [
+        {
+          "text": "Piensa como un astrólogo",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Zodiac Signs, Planets, and More",
+      "line_height": 1.05,
+      "bbox": [
+        283.4005126953125,
+        289.8687438964844,
+        449.8272399902344,
+        303.3687438964844
+      ],
+      "spans": [
+        {
+          "source": "Zodiac Signs, Planets, and More  ",
+          "bbox": [
+            283.4005126953125,
+            289.8687438964844,
+            449.8272399902344,
+            303.3687438964844
+          ],
+          "font": "SohoPro-MediumCondensed",
+          "size": 13.5,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 31,
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-MediumCondensed",
+        "size": 13.5,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-MediumCondensed",
+      "size": 13.5,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "table_label",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0004_u0007",
+      "container_id": "p0004_c0007",
+      "scale_group": "p0004_table_b3_13.5_500_75",
+      "page": 4,
+      "target": "Signos del zodíaco, planetas y más",
+      "target_runs": [
+        {
+          "text": "Signos del zodíaco, planetas y más",
+          "style": {
+            "font": "SohoPro-MediumCondensed",
+            "size": 13.5,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "US Editor Margaret Parrish Project Editor Radhika Haswani",
+      "line_height": 1.375,
+      "bbox": [
+        76.94630432128906,
+        92.8093032836914,
+        206.4334716796875,
+        111.93994903564453
+      ],
+      "spans": [
+        {
+          "source": "US Editor",
+          "bbox": [
+            86.45030212402344,
+            92.93994903564453,
+            121.12228393554688,
+            100.93994903564453
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " Margaret Parrish ",
+          "bbox": [
+            122.73028564453125,
+            92.8093032836914,
+            196.92864990234375,
+            100.8093032836914
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Project Editor  ",
+          "bbox": [
+            76.94630432128906,
+            103.93994903564453,
+            130.9062957763672,
+            111.93994903564453
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Radhika Haswani ",
+          "bbox": [
+            130.9062957763672,
+            103.8093032836914,
+            206.4334716796875,
+            111.8093032836914
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 10,
+          "end": 27,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 27,
+          "end": 42,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 42,
+          "end": 57,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Regular",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Regular",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0004_u0008",
+      "container_id": "p0004_c0008",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Editora de Estados Unidos Margaret Parrish Editora de proyecto Radhika Haswani",
+      "target_runs": [
+        {
+          "text": "Editora de Estados Unidos ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Margaret Parrish ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Editora de proyecto ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Radhika Haswani",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Consultant Kim Farley Art Editors Alison Shackleton,",
+      "line_height": 1.375,
+      "bbox": [
+        79.85029602050781,
+        114.8093032836914,
+        205.1446990966797,
+        133.93995666503906
+      ],
+      "spans": [
+        {
+          "source": "Consultant",
+          "bbox": [
+            96.08230590820312,
+            114.93994903564453,
+            137.1463165283203,
+            122.93994903564453
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " Kim Farley",
+          "bbox": [
+            138.75430297851562,
+            114.8093032836914,
+            185.68150329589844,
+            122.8093032836914
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Art Editors  ",
+          "bbox": [
+            79.85029602050781,
+            125.93994903564453,
+            123.50627136230469,
+            133.93995666503906
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Alison Shackleton,  ",
+          "bbox": [
+            123.50627136230469,
+            125.8093032836914,
+            205.1446990966797,
+            133.80931091308594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 11,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 11,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 22,
+          "end": 34,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 34,
+          "end": 52,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Regular",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Regular",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0004_u0009",
+      "container_id": "p0004_c0009",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Asesora Kim Farley Editoras de arte Alison Shackleton,",
+      "target_runs": [
+        {
+          "text": "Asesora ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Kim Farley ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Editoras de arte ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Alison Shackleton,",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Brandie Tully-Scott Jacket Designer Steven Marsden",
+      "line_height": 1.3913307189941406,
+      "bbox": [
+        76.79429626464844,
+        136.80931091308594,
+        206.593505859375,
+        155.93995666503906
+      ],
+      "spans": [
+        {
+          "source": "Brandie Tully-Scott",
+          "bbox": [
+            100.14629364013672,
+            136.80931091308594,
+            181.61752319335938,
+            144.80931091308594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Jacket Designer  ",
+          "bbox": [
+            76.79429626464844,
+            147.93995666503906,
+            137.3455047607422,
+            155.93995666503906
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Steven Marsden ",
+          "bbox": [
+            137.3455047607422,
+            147.80931091308594,
+            206.593505859375,
+            155.80931091308594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 20,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 20,
+          "end": 36,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 36,
+          "end": 50,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0004_u0010",
+      "container_id": "p0004_c0010",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Brandie Tully-Scott Diseñador de cubierta Steven Marsden",
+      "target_runs": [
+        {
+          "text": "Brandie Tully-Scott ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Diseñador de cubierta ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Steven Marsden",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Jacket Coordinator Issy Walsh",
+      "line_height": 1.05,
+      "bbox": [
+        83.18629455566406,
+        158.80931091308594,
+        200.20950317382812,
+        166.93995666503906
+      ],
+      "spans": [
+        {
+          "source": "Jacket Coordinator  ",
+          "bbox": [
+            83.18629455566406,
+            158.93995666503906,
+            154.05029296875,
+            166.93995666503906
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Issy Walsh ",
+          "bbox": [
+            154.05029296875,
+            158.80931091308594,
+            200.20950317382812,
+            166.80931091308594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 19,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 19,
+          "end": 29,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Regular",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Regular",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0004_u0011",
+      "container_id": "p0004_c0011",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Coordinadora de cubierta Issy Walsh",
+      "target_runs": [
+        {
+          "text": "Coordinadora de cubierta ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Issy Walsh",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "DTP Designer Sachin Gupta Pre-production Producer Heather Blagden",
+      "line_height": 1.375,
+      "bbox": [
+        58.12229919433594,
+        169.80931091308594,
+        223.65667724609375,
+        188.93995666503906
+      ],
+      "spans": [
+        {
+          "source": "DTP Designer  ",
+          "bbox": [
+            86.41829681396484,
+            169.93995666503906,
+            140.12950134277344,
+            177.93995666503906
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Sachin Gupta",
+          "bbox": [
+            140.12950134277344,
+            169.80931091308594,
+            195.36953735351562,
+            177.80931091308594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Pre-production Producer  ",
+          "bbox": [
+            58.12229919433594,
+            180.93995666503906,
+            153.0662841796875,
+            188.93995666503906
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Heather Blagden",
+          "bbox": [
+            153.0662841796875,
+            180.80931091308594,
+            223.65667724609375,
+            188.80931091308594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 13,
+          "end": 26,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 26,
+          "end": 50,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 50,
+          "end": 65,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Regular",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Regular",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0004_u0012",
+      "container_id": "p0004_c0012",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Diseñador de DTP Sachin Gupta Productora de preimpresión Heather Blagden",
+      "target_runs": [
+        {
+          "text": "Diseñador de DTP ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Sachin Gupta ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Productora de preimpresión ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Heather Blagden",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Senior Producer Igrain Roberts Publishing Manager Francesca Young",
+      "line_height": 1.375,
+      "bbox": [
+        66.91429901123047,
+        191.80931091308594,
+        216.47511291503906,
+        210.93995666503906
+      ],
+      "spans": [
+        {
+          "source": "Senior Producer  ",
+          "bbox": [
+            79.61029815673828,
+            191.93995666503906,
+            142.07427978515625,
+            199.93995666503906
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Igrain Roberts ",
+          "bbox": [
+            142.07427978515625,
+            191.80931091308594,
+            203.7854766845703,
+            199.80931091308594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Publishing Manager  ",
+          "bbox": [
+            66.91429901123047,
+            202.93995666503906,
+            144.63430786132812,
+            210.93995666503906
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Francesca Young ",
+          "bbox": [
+            144.63430786132812,
+            202.80931091308594,
+            216.47511291503906,
+            210.80931091308594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 16,
+          "end": 31,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 31,
+          "end": 50,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 50,
+          "end": 65,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Regular",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Regular",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0004_u0013",
+      "container_id": "p0004_c0013",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Productora sénior Igrain Roberts Gerenta editorial Francesca Young",
+      "target_runs": [
+        {
+          "text": "Productora sénior ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Igrain Roberts ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Gerenta editorial ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Francesca Young",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Publishing Director Sarah Larter",
+      "line_height": 1.05,
+      "bbox": [
+        77.21029663085938,
+        213.80931091308594,
+        204.56150817871094,
+        221.93995666503906
+      ],
+      "spans": [
+        {
+          "source": "Publishing Director  ",
+          "bbox": [
+            77.21029663085938,
+            213.93995666503906,
+            152.09031677246094,
+            221.93995666503906
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Sarah Larter",
+          "bbox": [
+            152.09031677246094,
+            213.80931091308594,
+            204.56150817871094,
+            221.80931091308594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 20,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 20,
+          "end": 32,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Regular",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Regular",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0004_u0014",
+      "container_id": "p0004_c0014",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Directora editorial Sarah Larter",
+      "target_runs": [
+        {
+          "text": "Directora editorial ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Sarah Larter",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Illustrated by Keith Hagan",
+      "line_height": 1.05,
+      "bbox": [
+        89.23430633544922,
+        235.80931091308594,
+        192.53750610351562,
+        243.93995666503906
+      ],
+      "spans": [
+        {
+          "source": "Illustrated by ",
+          "bbox": [
+            89.23430633544922,
+            235.93995666503906,
+            140.36231994628906,
+            243.93995666503906
+          ],
+          "font": "SohoPro-Regular",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Keith Hagan",
+          "bbox": [
+            140.36231994628906,
+            235.80931091308594,
+            192.53750610351562,
+            243.80931091308594
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 15,
+          "end": 26,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Regular",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Regular",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0004_u0015",
+      "container_id": "p0004_c0015",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Ilustrado por Keith Hagan",
+      "target_runs": [
+        {
+          "text": "Ilustrado por ",
+          "style": {
+            "font": "SohoPro-Regular",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Keith Hagan",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "This adapted and abridged version’s content",
+      "line_height": 1.05,
+      "bbox": [
+        48.514305114746094,
+        252.89732360839844,
+        234.87991333007812,
+        260.8973083496094
+      ],
+      "spans": [
+        {
+          "source": "This adapted and abridged version’s content ",
+          "bbox": [
+            48.514305114746094,
+            252.89732360839844,
+            234.87991333007812,
+            260.8973083496094
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 43,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0004_u0016",
+      "container_id": "p0004_c0016",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Contenido de esta versión adaptada y abreviada",
+      "target_runs": [
+        {
+          "text": "Contenido de esta versión adaptada y abreviada",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "previously published in Astrology",
+      "line_height": 1.05,
+      "bbox": [
+        70.1383056640625,
+        262.8973083496094,
+        211.63348388671875,
+        270.8973083496094
+      ],
+      "spans": [
+        {
+          "source": "previously published in ",
+          "bbox": [
+            70.1383056640625,
+            262.8973083496094,
+            170.18548583984375,
+            270.8973083496094
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Astrology",
+          "bbox": [
+            170.18548583984375,
+            262.8973083496094,
+            211.63348388671875,
+            270.8973083496094
+          ],
+          "font": "SohoPro-BoldItalic",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 22,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldItalic",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 24,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 24,
+          "end": 33,
+          "style": {
+            "font": "SohoPro-BoldItalic",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 13,
+      "id": "p0004_u0017",
+      "container_id": "p0004_c0017",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "publicado anteriormente en Astrología",
+      "target_runs": [
+        {
+          "text": "publicado anteriormente en ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Astrología",
+          "style": {
+            "font": "SohoPro-BoldItalic",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "by Carole Taylor.",
+      "line_height": 1.05,
+      "bbox": [
+        106.34630584716797,
+        272.8973083496094,
+        178.64950561523438,
+        280.8973083496094
+      ],
+      "spans": [
+        {
+          "source": "by Carole Taylor.  ",
+          "bbox": [
+            106.34630584716797,
+            272.8973083496094,
+            178.64950561523438,
+            280.8973083496094
+          ],
+          "font": "SohoPro-Bold",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 14,
+      "id": "p0004_u0018",
+      "container_id": "p0004_c0018",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "por Carole Taylor.",
+      "target_runs": [
+        {
+          "text": "por Carole Taylor.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "This American Edition, 2020.",
+      "line_height": 1.05,
+      "bbox": [
+        89.45030212402344,
+        290.5036315917969,
+        193.92953491210938,
+        298.5036315917969
+      ],
+      "spans": [
+        {
+          "source": "This American Edition, 2020. ",
+          "bbox": [
+            89.45030212402344,
+            290.5036315917969,
+            193.92953491210938,
+            298.5036315917969
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 28,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 15,
+      "id": "p0004_u0019",
+      "container_id": "p0004_c0019",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Esta edición estadounidense, 2020.",
+      "target_runs": [
+        {
+          "text": "Esta edición estadounidense, 2020.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "First American Edition, 2018 Published in the United States by DK Publishing 1450 Broadway, Suite 801, New York, NY 10018 Copyright © 2018, 2020 Dorling Kindersley Limited DK, a Division of Penguin Random House LLC",
+      "line_height": 1.3120002746582031,
+      "bbox": [
+        49.866302490234375,
+        300.9996337890625,
+        233.52874755859375,
+        361.4796447753906
+      ],
+      "spans": [
+        {
+          "source": "First American Edition, 2018 ",
+          "bbox": [
+            90.1383056640625,
+            300.9996337890625,
+            193.2415313720703,
+            308.9996337890625
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Published in the United States by DK Publishing ",
+          "bbox": [
+            56.11430740356445,
+            311.4956359863281,
+            227.26394653320312,
+            319.4956359863281
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "1450 Broadway, Suite 801, New York, NY 10018 ",
+          "bbox": [
+            58.194305419921875,
+            321.99163818359375,
+            225.19430541992188,
+            329.99163818359375
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Copyright © 2018, 2020 Dorling Kindersley Limited ",
+          "bbox": [
+            49.866302490234375,
+            342.983642578125,
+            233.52874755859375,
+            350.983642578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "DK, a Division of Penguin Random House LLC ",
+          "bbox": [
+            60.74630355834961,
+            353.4796447753906,
+            222.6415252685547,
+            361.4796447753906
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 214,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "center",
+      "source_block": 16,
+      "id": "p0004_u0020_join_u0021_u0022",
+      "container_id": "p0004_c0020_join_u0021_join_u0022",
+      "merged_from": [
+        "u0020",
+        "u0021",
+        "u0022"
+      ],
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Primera edición estadounidense, 2018 Publicado en Estados Unidos por DK Publishing 1450 Broadway, Suite 801, Nueva York, NY 10018 Copyright © 2018, 2020 Dorling Kindersley Limited DK, una división de Penguin Random House LLC",
+      "target_runs": [
+        {
+          "text": "Primera edición estadounidense, 2018 Publicado en Estados Unidos por DK Publishing 1450 Broadway, Suite 801, Nueva York, NY 10018 Copyright © 2018, 2020 Dorling Kindersley Limited DK, una división de Penguin Random House LLC",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "provenance": {
+        "backend": "codex_sdk",
+        "model": "gpt-6-luna",
+        "input_tokens": 19584,
+        "output_tokens": 681,
+        "response_sha256": "2cbdf02cef2efbaa481e6bc1dcfbfb850e4ed8eacaecb54489f398c8f9d0476c",
+        "entry_point": "astro_translate.llm.run_task"
+      }
+    },
+    {
+      "source": "All rights reserved. Without limiting the rights under the copyright reserved above, no part of this publication may be reproduced, stored in or introduced into a retrieval system, or transmitted, in any form, or by any means (electronic, mechanical, photocopying, recording, or otherwise), without the prior written permission of the copyright owner.",
+      "line_height": 1.25,
+      "bbox": [
+        37.2743034362793,
+        391.5596618652344,
+        246.1222686767578,
+        459.5596618652344
+      ],
+      "spans": [
+        {
+          "source": "All rights reserved. ",
+          "bbox": [
+            107.31430053710938,
+            391.5596618652344,
+            176.0662841796875,
+            399.5596618652344
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Without limiting the rights under the copyright reserved ",
+          "bbox": [
+            42.71430206298828,
+            401.5596618652344,
+            240.67266845703125,
+            409.5596618652344
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "above, no part of this publication may be reproduced, stored ",
+          "bbox": [
+            37.2743034362793,
+            411.5596618652344,
+            246.1222686767578,
+            419.5596618652344
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "in or introduced into a retrieval system, or transmitted,  ",
+          "bbox": [
+            46.08230209350586,
+            421.5596618652344,
+            238.75430297851562,
+            429.5596618652344
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "in any form, or by any means (electronic, mechanical, ",
+          "bbox": [
+            48.5863037109375,
+            431.5596618652344,
+            234.80630493164062,
+            439.5596618652344
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "photocopying, recording, or otherwise), without the  ",
+          "bbox": [
+            50.61030197143555,
+            441.5596618652344,
+            234.22630310058594,
+            449.5596618652344
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "prior written permission of the copyright owner. ",
+          "bbox": [
+            56.72230529785156,
+            451.5596618652344,
+            226.6663055419922,
+            459.5596618652344
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 351,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "center",
+      "source_block": 20,
+      "id": "p0004_u0023_join_u0024_u0025_u0026_u0027",
+      "container_id": "p0004_c0023_join_u0024_join_u0025_join_u0026_join_u0027",
+      "merged_from": [
+        "u0023",
+        "u0024",
+        "u0025",
+        "u0026",
+        "u0027"
+      ],
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Todos los derechos reservados. Sin limitar los derechos reservados anteriormente en virtud de los derechos de autor, ninguna parte de esta publicación puede reproducirse, almacenarse o incorporarse a un sistema de recuperación, ni transmitirse de ninguna forma ni por ningún medio (electrónico, mecánico, fotocopiado, grabación o de otro tipo) sin la autorización previa por escrito del titular de los derechos de autor.",
+      "target_runs": [
+        {
+          "text": "Todos los derechos reservados. Sin limitar los derechos reservados anteriormente en virtud de los derechos de autor, ninguna parte de esta publicación puede reproducirse, almacenarse o incorporarse a un sistema de recuperación, ni transmitirse de ninguna forma ni por ningún medio (electrónico, mecánico, fotocopiado, grabación o de otro tipo) sin la autorización previa por escrito del titular de los derechos de autor.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Published in Great Britain by Dorling Kindersley Limited",
+      "line_height": 1.05,
+      "bbox": [
+        42.27429962158203,
+        471.5596618652344,
+        239.52154541015625,
+        479.5596618652344
+      ],
+      "spans": [
+        {
+          "source": "Published in Great Britain by Dorling Kindersley Limited",
+          "bbox": [
+            42.27429962158203,
+            471.5596618652344,
+            239.52154541015625,
+            479.5596618652344
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 56,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 25,
+      "id": "p0004_u0028",
+      "container_id": "p0004_c0028",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Publicado en Gran Bretaña por Dorling Kindersley Limited",
+      "target_runs": [
+        {
+          "text": "Publicado en Gran Bretaña por Dorling Kindersley Limited",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "A catalog record for this book is available from the Library of Congress. ISBN 978-0-7440-2366-4",
+      "line_height": 1.3120040893554688,
+      "bbox": [
+        59.39430236816406,
+        489.1436462402344,
+        225.62472534179688,
+        518.1356811523438
+      ],
+      "spans": [
+        {
+          "source": "A catalog record for this book is available from  ",
+          "bbox": [
+            59.39430236816406,
+            489.1436462402344,
+            225.62472534179688,
+            497.1436462402344
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the Library of Congress. ",
+          "bbox": [
+            98.4343032836914,
+            499.6396789550781,
+            184.97750854492188,
+            507.6396789550781
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ISBN 978-0-7440-2366-4",
+          "bbox": [
+            94.00230407714844,
+            510.1356506347656,
+            187.81031799316406,
+            518.1356811523438
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 96,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "center",
+      "source_block": 26,
+      "id": "p0004_u0029_join_u0030",
+      "container_id": "p0004_c0029_join_u0030",
+      "merged_from": [
+        "u0029",
+        "u0030"
+      ],
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "La Biblioteca del Congreso dispone de un registro catalográfico de este libro. ISBN 978-0-7440-2366-4",
+      "target_runs": [
+        {
+          "text": "La Biblioteca del Congreso dispone de un registro catalográfico de este libro. ISBN 978-0-7440-2366-4",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "DK books are available at special discounts when purchased in bulk for sales promotions, premiums, fund-raising, or educational use. For details, contact: DK Publishing Special Markets, 1450 Broadway, Suite 801, New York, NY 10018 SpecialSales@dk.com",
+      "line_height": 1.3120040893554688,
+      "bbox": [
+        37.38630294799805,
+        527.7196655273438,
+        246.0406951904297,
+        577.7036743164062
+      ],
+      "spans": [
+        {
+          "source": "DK books are available at special discounts when purchased ",
+          "bbox": [
+            37.38630294799805,
+            527.7196655273438,
+            246.0406951904297,
+            535.7196655273438
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "in bulk for sales promotions, premiums, fund-raising, or ",
+          "bbox": [
+            44.95430374145508,
+            538.2156982421875,
+            238.4639129638672,
+            546.2156982421875
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "educational use. For details, contact: DK Publishing Special ",
+          "bbox": [
+            40.098304748535156,
+            548.7117309570312,
+            243.31912231445312,
+            556.7117309570312
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Markets, 1450 Broadway, Suite 801, New York, NY 10018 ",
+          "bbox": [
+            42.402305603027344,
+            559.2077026367188,
+            241.02630615234375,
+            567.2077026367188
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "SpecialSales@dk.com",
+          "bbox": [
+            103.85031127929688,
+            569.7036743164062,
+            177.97833251953125,
+            577.7036743164062
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 250,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "center",
+      "source_block": 28,
+      "id": "p0004_u0031_join_u0032_u0033_u0034",
+      "container_id": "p0004_c0031_join_u0032_join_u0033_join_u0034",
+      "merged_from": [
+        "u0031",
+        "u0032",
+        "u0033",
+        "u0034"
+      ],
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Los libros de DK pueden adquirirse con descuentos especiales al comprarlos en grandes cantidades para promociones de ventas, obsequios, recaudaciones de fondos o uso educativo. Para más información, comuníquese con: DK Publishing Special Markets, 1450 Broadway, Suite 801, Nueva York, NY 10018 SpecialSales@dk.com",
+      "target_runs": [
+        {
+          "text": "Los libros de DK pueden adquirirse con descuentos especiales al comprarlos en grandes cantidades para promociones de ventas, obsequios, recaudaciones de fondos o uso educativo. Para más información, comuníquese con: DK Publishing Special Markets, 1450 Broadway, Suite 801, Nueva York, NY 10018 SpecialSales@dk.com",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Printed and bound in China",
+      "line_height": 1.05,
+      "bbox": [
+        92.62631225585938,
+        587.7916870117188,
+        189.2095184326172,
+        595.7916870117188
+      ],
+      "spans": [
+        {
+          "source": "Printed and bound in China",
+          "bbox": [
+            92.62631225585938,
+            587.7916870117188,
+            189.2095184326172,
+            595.7916870117188
+          ],
+          "font": "SohoPro-Light",
+          "size": 8.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 26,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 8.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 8.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 32,
+      "id": "p0004_u0035",
+      "container_id": "p0004_c0035",
+      "scale_group": "p0004_body_8.0",
+      "page": 4,
+      "target": "Impreso y encuadernado en China",
+      "target_runs": [
+        {
+          "text": "Impreso y encuadernado en China",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 8.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "For the curious",
+      "line_height": 1.05,
+      "bbox": [
+        111.73210144042969,
+        605.3526611328125,
+        170.0310516357422,
+        613.8526611328125
+      ],
+      "spans": [
+        {
+          "source": "For the curious",
+          "bbox": [
+            111.73210144042969,
+            605.3526611328125,
+            170.0310516357422,
+            613.8526611328125
+          ],
+          "font": "AvenirNextLTPro-Medium",
+          "size": 8.5,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "AvenirNextLTPro-Medium",
+            "size": 8.5,
+            "color": 1907995,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "AvenirNextLTPro-Medium",
+            "size": 8.5,
+            "color": 1907995,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "AvenirNextLTPro-Medium",
+        "size": 8.5,
+        "color": 1907995,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "AvenirNextLTPro-Medium",
+      "size": 8.5,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 33,
+      "id": "p0004_u0036",
+      "container_id": "p0004_c0036",
+      "scale_group": "p0004_body_8.5",
+      "page": 4,
+      "target": "Para las personas curiosas",
+      "target_runs": [
+        {
+          "text": "Para las personas curiosas",
+          "style": {
+            "font": "AvenirNextLTPro-Medium",
+            "size": 8.5,
+            "color": 1907995,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "www.dk.com",
+      "line_height": 1.05,
+      "bbox": [
+        114.83460235595703,
+        617.3370971679688,
+        166.93028259277344,
+        625.8370971679688
+      ],
+      "spans": [
+        {
+          "source": "www.dk.com",
+          "bbox": [
+            114.83460235595703,
+            617.3370971679688,
+            166.93028259277344,
+            625.8370971679688
+          ],
+          "font": "AvenirNextLTPro-Bold",
+          "size": 8.5,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "AvenirNextLTPro-Bold",
+            "size": 8.5,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "AvenirNextLTPro-Bold",
+            "size": 8.5,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "AvenirNextLTPro-Bold",
+        "size": 8.5,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "AvenirNextLTPro-Bold",
+      "size": 8.5,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 34,
+      "id": "p0004_u0037",
+      "container_id": "p0004_c0037",
+      "scale_group": "p0004_body_8.5",
+      "page": 4,
+      "target": "www.dk.com",
+      "target_runs": [
+        {
+          "text": "www.dk.com",
+          "style": {
+            "font": "AvenirNextLTPro-Bold",
+            "size": 8.5,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2860 @@
+{
+  "page": 57,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "EFFICIENT & PRACTICAL",
+      "line_height": 1.125,
+      "bbox": [
+        369.9212951660156,
+        186.0532989501953,
+        469.681396484375,
+        220.0532989501953
+      ],
+      "spans": [
+        {
+          "source": "EFFICIENT & ",
+          "bbox": [
+            369.9212951660156,
+            186.0532989501953,
+            469.681396484375,
+            202.0532989501953
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "PRACTICAL ",
+          "bbox": [
+            369.9212951660156,
+            204.0532989501953,
+            462.1612854003906,
+            220.0532989501953
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 21,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0057_u0000",
+      "container_id": "p0057_c0000",
+      "scale_group": "p0057_display_16.0",
+      "page": 57,
+      "target": "EFICIENTES Y PRÁCTICOS",
+      "target_runs": [
+        {
+          "text": "EFICIENTES Y PRÁCTICOS",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Virgos are usually good at organising tasks. They also focus on serving others in practical ways.",
+      "line_height": 1.2,
+      "bbox": [
+        369.9212951660156,
+        220.3937225341797,
+        501.8892517089844,
+        266.39373779296875
+      ],
+      "spans": [
+        {
+          "source": "Virgos are usually good at ",
+          "bbox": [
+            369.9212951660156,
+            220.3937225341797,
+            495.9193420410156,
+            230.3937225341797
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "organising tasks. They also ",
+          "bbox": [
+            369.9212951660156,
+            232.3937225341797,
+            501.8892517089844,
+            242.3937225341797
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "focus on serving others in ",
+          "bbox": [
+            369.9212951660156,
+            244.3937225341797,
+            497.8143615722656,
+            254.3937225341797
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "practical ways.   ",
+          "bbox": [
+            369.9212951660156,
+            256.39373779296875,
+            448.8122863769531,
+            266.39373779296875
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 97,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0057_u0001",
+      "container_id": "p0057_c0001",
+      "scale_group": "p0057_display_10.0",
+      "page": 57,
+      "target": "Los Virgo suelen ser buenos organizando tareas. También se centran en ayudar a los demás de maneras prácticas.",
+      "target_runs": [
+        {
+          "text": "Los Virgo suelen ser buenos organizando tareas. También se centran en ayudar a los demás de maneras prácticas.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "HEALTH AND WELL-BEING FOR VIRGOS, MIND AND BODY ARE LINKED. EXERCISE AND HEALTHY EATING HELP KEEP THE MIND AND BODY IN TOP SHAPE.",
+      "line_height": 1.058999454273897,
+      "bbox": [
+        56.56380081176758,
+        553.2471313476562,
+        462.65643310546875,
+        624.302978515625
+      ],
+      "spans": [
+        {
+          "source": "HEALTH AND WELL-BEING  ",
+          "bbox": [
+            56.56380081176758,
+            553.2471313476562,
+            315.3531188964844,
+            570.2471313476562
+          ],
+          "font": "SohoPro-Heavy",
+          "size": 17.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "FOR VIRGOS, ",
+          "bbox": [
+            315.4721374511719,
+            553.2939453125,
+            433.7734680175781,
+            570.2939453125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "MIND AND BODY ARE LINKED. EXERCISE AND ",
+          "bbox": [
+            56.56380081176758,
+            571.2969970703125,
+            462.65643310546875,
+            588.2969970703125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "HEALTHY EATING HELP KEEP THE MIND AND ",
+          "bbox": [
+            56.56380081176758,
+            589.2999877929688,
+            462.0733947753906,
+            606.2999877929688
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "BODY IN TOP SHAPE.",
+          "bbox": [
+            56.56380081176758,
+            607.302978515625,
+            242.24972534179688,
+            624.302978515625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 22,
+          "end": 129,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Heavy",
+        "size": 17.0,
+        "color": 5723990,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Heavy",
+      "size": 17.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0057_u0002",
+      "container_id": "p0057_c0002",
+      "scale_group": "p0057_display_17.0",
+      "page": 57,
+      "target": "SALUD Y BIENESTAR PARA LOS VIRGO, LA MENTE Y EL CUERPO ESTÁN CONECTADOS. EL EJERCICIO Y UNA ALIMENTACIÓN SALUDABLE AYUDAN A MANTENER LA MENTE Y EL CUERPO EN ÓPTIMAS CONDICIONES.",
+      "target_runs": [
+        {
+          "text": "SALUD Y BIENESTAR ",
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "PARA LOS VIRGO, LA MENTE Y EL CUERPO ESTÁN CONECTADOS. EL EJERCICIO Y UNA ALIMENTACIÓN SALUDABLE AYUDAN A MANTENER LA MENTE Y EL CUERPO EN ÓPTIMAS CONDICIONES.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "SKILLFUL",
+      "line_height": 1.05,
+      "bbox": [
+        354.5776062011719,
+        38.76292419433594,
+        461.93060302734375,
+        69.76292419433594
+      ],
+      "spans": [
+        {
+          "source": "SKILLFUL",
+          "bbox": [
+            354.5776062011719,
+            38.76292419433594,
+            461.93060302734375,
+            69.76292419433594
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 8,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0057_u0003",
+      "container_id": "p0057_c0003",
+      "scale_group": "p0057_display_31.0",
+      "page": 57,
+      "target": "HÁBILES",
+      "target_runs": [
+        {
+          "text": "HÁBILES",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "The symbol of Virgo is the Virgin. In the ancient world, she watched over the harvest and used her skills to produce food. She is often shown holding a sheaf of wheat.",
+      "line_height": 1.2,
+      "bbox": [
+        354.3609924316406,
+        70.79658508300781,
+        520.8518676757812,
+        128.7965850830078
+      ],
+      "spans": [
+        {
+          "source": "The symbol of Virgo is the Virgin. ",
+          "bbox": [
+            354.3609924316406,
+            70.79658508300781,
+            517.4129028320312,
+            80.79658508300781
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "In the ancient world, she watched ",
+          "bbox": [
+            354.3609924316406,
+            82.79658508300781,
+            519.4130249023438,
+            92.79658508300781
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "over the harvest and used her ",
+          "bbox": [
+            354.3609924316406,
+            94.79658508300781,
+            501.60400390625,
+            104.79658508300781
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "skills to produce food. She is often ",
+          "bbox": [
+            354.3609924316406,
+            106.79658508300781,
+            520.8518676757812,
+            116.79658508300781
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "shown holding a sheaf of wheat. ",
+          "bbox": [
+            354.3609924316406,
+            118.79658508300781,
+            513.2129516601562,
+            128.7965850830078
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 167,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0057_u0004",
+      "container_id": "p0057_c0004",
+      "scale_group": "p0057_display_10.0",
+      "page": 57,
+      "target": "El símbolo de Virgo es la Virgen. En el mundo antiguo, ella velaba por la cosecha y usaba sus habilidades para producir alimentos. A menudo se la representa sosteniendo una gavilla de trigo.",
+      "target_runs": [
+        {
+          "text": "El símbolo de Virgo es la Virgen. En el mundo antiguo, ella velaba por la cosecha y usaba sus habilidades para producir alimentos. A menudo se la representa sosteniendo una gavilla de trigo.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "HUMBLE & CAPABLE",
+      "line_height": 1.05,
+      "bbox": [
+        36.51969909667969,
+        274.06829833984375,
+        203.15969848632812,
+        290.06829833984375
+      ],
+      "spans": [
+        {
+          "source": "HUMBLE & CAPABLE ",
+          "bbox": [
+            36.51969909667969,
+            274.06829833984375,
+            203.15969848632812,
+            290.06829833984375
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0057_u0005",
+      "container_id": "p0057_c0005",
+      "scale_group": "p0057_display_16.0",
+      "page": 57,
+      "target": "HUMILDES Y CAPACES",
+      "target_runs": [
+        {
+          "text": "HUMILDES Y CAPACES",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "A sense of self-worth comes from being useful and productive. However, Virgos run the risk of underestimating their talents.",
+      "line_height": 1.2,
+      "bbox": [
+        36.51969909667969,
+        293.2432861328125,
+        201.31272888183594,
+        339.2433166503906
+      ],
+      "spans": [
+        {
+          "source": "A sense of self-worth comes  ",
+          "bbox": [
+            36.51969909667969,
+            293.2432861328125,
+            179.1096954345703,
+            303.2433166503906
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "from being useful and productive. ",
+          "bbox": [
+            36.51969909667969,
+            305.2432861328125,
+            201.31272888183594,
+            315.2433166503906
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "However, Virgos run the risk of  ",
+          "bbox": [
+            36.51969909667969,
+            317.2432861328125,
+            191.9517364501953,
+            327.2433166503906
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "underestimating their talents. ",
+          "bbox": [
+            36.51969909667969,
+            329.2432861328125,
+            183.57275390625,
+            339.2433166503906
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 124,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0057_u0006",
+      "container_id": "p0057_c0006",
+      "scale_group": "p0057_display_10.0",
+      "page": 57,
+      "target": "La autoestima nace de ser útil y productivo. Sin embargo, los Virgo corren el riesgo de subestimar sus talentos.",
+      "target_runs": [
+        {
+          "text": "La autoestima nace de ser útil y productivo. Sin embargo, los Virgo corren el riesgo de subestimar sus talentos.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "HELPING HAND This humble sign brings us down to earth after the glitz of Leo. While Leo loves a party, it’s Virgo who will organise it.",
+      "line_height": 1.124999761581421,
+      "bbox": [
+        36.51179504394531,
+        40.95100784301758,
+        268.80303955078125,
+        110.95100402832031
+      ],
+      "spans": [
+        {
+          "source": "HELPING HAND",
+          "bbox": [
+            36.6245002746582,
+            41.81736373901367,
+            166.68800354003906,
+            56.81736373901367
+          ],
+          "font": "SohoPro-Bold",
+          "size": 15.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "This humble ",
+          "bbox": [
+            172.47979736328125,
+            40.95100784301758,
+            248.38380432128906,
+            56.95100784301758
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "sign brings us down to earth after the ",
+          "bbox": [
+            36.51179504394531,
+            58.95100784301758,
+            268.80303955078125,
+            74.95100402832031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "glitz of Leo. While Leo loves a party, ",
+          "bbox": [
+            36.51179504394531,
+            76.95100402832031,
+            256.64300537109375,
+            92.95100402832031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "it’s Virgo who will organise it.",
+          "bbox": [
+            36.51179504394531,
+            94.95100402832031,
+            216.2110137939453,
+            110.95100402832031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 13,
+          "end": 135,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 15.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0057_u0007",
+      "container_id": "p0057_c0007",
+      "scale_group": "p0057_display_16.0",
+      "page": 57,
+      "target": "UNA MANO AMIGA Este signo humilde nos devuelve a la realidad después del brillo de Leo. Mientras que a Leo le encanta la fiesta, Virgo es quien la organiza.",
+      "target_runs": [
+        {
+          "text": "UNA MANO AMIGA ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Este signo humilde nos devuelve a la realidad después del brillo de Leo. Mientras que a Leo le encanta la fiesta, Virgo es quien la organiza.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "SORTING INFO",
+      "line_height": 1.05,
+      "bbox": [
+        304.27178955078125,
+        455.3521728515625,
+        419.4879150390625,
+        471.3521728515625
+      ],
+      "spans": [
+        {
+          "source": "SORTING INFO",
+          "bbox": [
+            304.27178955078125,
+            455.3521728515625,
+            419.4879150390625,
+            471.3521728515625
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 12,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0057_u0008",
+      "container_id": "p0057_c0008",
+      "scale_group": "p0057_display_16.0",
+      "page": 57,
+      "target": "ORGANIZAR INFORMACIÓN",
+      "target_runs": [
+        {
+          "text": "ORGANIZAR INFORMACIÓN",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Virgos have a flair for managing information and putting it to good use. They are valued project leaders.",
+      "line_height": 1.1669998168945312,
+      "bbox": [
+        304.28619384765625,
+        474.80908203125,
+        432.80255126953125,
+        528.8211059570312
+      ],
+      "spans": [
+        {
+          "source": "Virgos have a flair for managing ",
+          "bbox": [
+            304.28619384765625,
+            474.80908203125,
+            432.80255126953125,
+            486.80908203125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "information and putting it to ",
+          "bbox": [
+            304.28619384765625,
+            488.8130798339844,
+            418.8705749511719,
+            500.8130798339844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "good use. They are valued ",
+          "bbox": [
+            304.28619384765625,
+            502.8170471191406,
+            409.4674377441406,
+            514.8170776367188
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "project leaders.  ",
+          "bbox": [
+            304.28619384765625,
+            516.8211059570312,
+            368.0169982910156,
+            528.8211059570312
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 105,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0057_u0009",
+      "container_id": "p0057_c0009",
+      "scale_group": "p0057_display_12.0",
+      "page": 57,
+      "target": "Los Virgo tienen talento para gestionar información y darle un buen uso. Son líderes de proyectos muy valorados.",
+      "target_runs": [
+        {
+          "text": "Los Virgo tienen talento para gestionar información y darle un buen uso. Son líderes de proyectos muy valorados.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "PERFECTIONISM",
+      "line_height": 1.05,
+      "bbox": [
+        35.971500396728516,
+        152.39381408691406,
+        218.4654083251953,
+        183.39381408691406
+      ],
+      "spans": [
+        {
+          "source": "PERFECTIONISM",
+          "bbox": [
+            35.971500396728516,
+            152.39381408691406,
+            218.4654083251953,
+            183.39381408691406
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0057_u0010",
+      "container_id": "p0057_c0010",
+      "scale_group": "p0057_display_31.0",
+      "page": 57,
+      "target": "PERFECCIONISMO",
+      "target_runs": [
+        {
+          "text": "PERFECCIONISMO",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "DOING A JOB WELL MATTERS TO VIRGOS.THEY EXPECT NOTHING LESS THAN PERFECTION FROM THEMSELVES.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        35.852699279785156,
+        185.0657501220703,
+        274.91387939453125,
+        247.07179260253906
+      ],
+      "spans": [
+        {
+          "source": "DOING A JOB WELL MATTERS TO ",
+          "bbox": [
+            35.852699279785156,
+            185.0657501220703,
+            272.154541015625,
+            199.0657501220703
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "VIRGOS.THEY EXPECT NOTHING ",
+          "bbox": [
+            35.852699279785156,
+            201.06776428222656,
+            274.91387939453125,
+            215.06776428222656
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "LESS THAN PERFECTION FROM ",
+          "bbox": [
+            35.852699279785156,
+            217.0697784423828,
+            266.07574462890625,
+            231.0697784423828
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "THEMSELVES.",
+          "bbox": [
+            35.852699279785156,
+            233.07179260253906,
+            140.1960906982422,
+            247.07179260253906
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 92,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0057_u0011",
+      "container_id": "p0057_c0011",
+      "scale_group": "p0057_display_14.0",
+      "page": 57,
+      "target": "HACER BIEN UN TRABAJO ES IMPORTANTE PARA LOS VIRGO. NO ESPERAN MENOS QUE LA PERFECCIÓN DE SÍ MISMOS.",
+      "target_runs": [
+        {
+          "text": "HACER BIEN UN TRABAJO ES IMPORTANTE PARA LOS VIRGO. NO ESPERAN MENOS QUE LA PERFECCIÓN DE SÍ MISMOS.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "HEAD SPACE",
+      "line_height": 1.05,
+      "bbox": [
+        45.74489974975586,
+        470.065185546875,
+        188.74171447753906,
+        501.0652160644531
+      ],
+      "spans": [
+        {
+          "source": "HEAD SPACE ",
+          "bbox": [
+            45.74489974975586,
+            470.065185546875,
+            188.74171447753906,
+            501.0652160644531
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 10,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0057_u0012",
+      "container_id": "p0057_c0012",
+      "scale_group": "p0057_display_31.0",
+      "page": 57,
+      "target": "ESPACIO MENTAL",
+      "target_runs": [
+        {
+          "text": "ESPACIO MENTAL",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "WITHOUT TIME TO RELAX, VIRGOS CAN BECOME STRESSED.",
+      "line_height": 1.1429966517857142,
+      "bbox": [
+        45.6260986328125,
+        502.737060546875,
+        288.22650146484375,
+        532.739013671875
+      ],
+      "spans": [
+        {
+          "source": "WITHOUT TIME TO RELAX, ",
+          "bbox": [
+            45.6260986328125,
+            502.737060546875,
+            244.47930908203125,
+            516.737060546875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "VIRGOS CAN BECOME STRESSED. ",
+          "bbox": [
+            45.6260986328125,
+            518.739013671875,
+            288.22650146484375,
+            532.739013671875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 50,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0057_u0013",
+      "container_id": "p0057_c0013",
+      "scale_group": "p0057_display_14.0",
+      "page": 57,
+      "target": "SI NO TIENEN TIEMPO PARA RELAJARSE, LOS VIRGO PUEDEN ESTRESARSE.",
+      "target_runs": [
+        {
+          "text": "SI NO TIENEN TIEMPO PARA RELAJARSE, LOS VIRGO PUEDEN ESTRESARSE.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "JUST SO",
+      "line_height": 1.05,
+      "bbox": [
+        370.1379089355469,
+        339.6602783203125,
+        459.75897216796875,
+        370.6603088378906
+      ],
+      "spans": [
+        {
+          "source": "JUST SO",
+          "bbox": [
+            370.1379089355469,
+            339.6602783203125,
+            459.75897216796875,
+            370.6603088378906
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 7,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0057_u0014",
+      "container_id": "p0057_c0014",
+      "scale_group": "p0057_display_31.0",
+      "page": 57,
+      "target": "TODO EN SU SITIO",
+      "target_runs": [
+        {
+          "text": "TODO EN SU SITIO",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "WHEN TAKING ON AN ASSIGNMENT, VIRGOS GET THE DETAILS RIGHT.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        370.01910400390625,
+        372.3321533203125,
+        526.5950927734375,
+        434.3381652832031
+      ],
+      "spans": [
+        {
+          "source": "WHEN TAKING  ",
+          "bbox": [
+            370.01910400390625,
+            372.3321533203125,
+            483.81109619140625,
+            386.3321533203125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ON AN ASSIGNMENT,  ",
+          "bbox": [
+            370.01910400390625,
+            388.33416748046875,
+            526.5950927734375,
+            402.33416748046875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "VIRGOS GET THE ",
+          "bbox": [
+            370.01910400390625,
+            404.336181640625,
+            495.6662902832031,
+            418.336181640625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "DETAILS RIGHT. ",
+          "bbox": [
+            370.01910400390625,
+            420.3381652832031,
+            490.1209716796875,
+            434.3381652832031
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 59,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0057_u0015",
+      "container_id": "p0057_c0015",
+      "scale_group": "p0057_display_14.0",
+      "page": 57,
+      "target": "AL ASUMIR UNA TAREA, LOS VIRGO CUIDAN LOS DETALLES.",
+      "target_runs": [
+        {
+          "text": "AL ASUMIR UNA TAREA, LOS VIRGO CUIDAN LOS DETALLES.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "NEGATIVE TRAITS",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        370.9508056640625,
+        177.05599975585938,
+        386.9508056640625
+      ],
+      "spans": [
+        {
+          "source": "NEGATIVE TRAITS",
+          "bbox": [
+            36.0,
+            370.9508056640625,
+            177.05599975585938,
+            386.9508056640625
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0057_u0016",
+      "container_id": "p0057_c0016",
+      "scale_group": "p0057_display_16.0",
+      "page": 57,
+      "target": "RASGOS NEGATIVOS",
+      "target_runs": [
+        {
+          "text": "RASGOS NEGATIVOS",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Virgos can get lost in the details and don’t always see the big picture. Sweating the small stuff can turn into an unhealthy need for control.",
+      "line_height": 1.2,
+      "bbox": [
+        36.0,
+        390.12591552734375,
+        213.6610870361328,
+        436.12591552734375
+      ],
+      "spans": [
+        {
+          "source": "Virgos can get lost in the details  ",
+          "bbox": [
+            36.0,
+            390.12591552734375,
+            195.72999572753906,
+            400.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and don’t always see the big picture. ",
+          "bbox": [
+            36.0,
+            402.12591552734375,
+            213.6610870361328,
+            412.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Sweating the small stuff can turn  ",
+          "bbox": [
+            36.0,
+            414.12591552734375,
+            203.4399871826172,
+            424.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "into an unhealthy need for control.",
+          "bbox": [
+            36.0,
+            426.12591552734375,
+            203.58204650878906,
+            436.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 142,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0057_u0017",
+      "container_id": "p0057_c0017",
+      "scale_group": "p0057_display_10.0",
+      "page": 57,
+      "target": "Los Virgo pueden perderse en los detalles y no siempre ven el panorama general. Preocuparse demasiado por los detalles puede convertirse en una necesidad poco saludable de control.",
+      "target_runs": [
+        {
+          "text": "Los Virgo pueden perderse en los detalles y no siempre ven el panorama general. Preocuparse demasiado por los detalles puede convertirse en una necesidad poco saludable de control.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Virgo",
+      "line_height": 1.05,
+      "bbox": [
+        465.5393981933594,
+        21.864179611206055,
+        487.5594177246094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Virgo",
+          "bbox": [
+            465.5393981933594,
+            21.864179611206055,
+            487.5594177246094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 11,
+      "id": "p0057_u0018",
+      "container_id": "p0057_c0018",
+      "scale_group": "p0057_display_12.0",
+      "page": 57,
+      "target": "Virgo",
+      "target_runs": [
+        {
+          "text": "Virgo",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "A SENSE OF ORDER",
+      "line_height": 1.125,
+      "bbox": [
+        237.18870544433594,
+        292.6026916503906,
+        335.42877197265625,
+        326.6026916503906
+      ],
+      "spans": [
+        {
+          "source": "A SENSE OF ",
+          "bbox": [
+            237.18870544433594,
+            292.6026916503906,
+            335.42877197265625,
+            308.6026916503906
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ORDER",
+          "bbox": [
+            237.18870544433594,
+            310.6026916503906,
+            292.19671630859375,
+            326.6026916503906
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0057_u0019",
+      "container_id": "p0057_c0019",
+      "scale_group": "p0057_display_16.0",
+      "page": 57,
+      "target": "UN SENTIDO DEL ORDEN",
+      "target_runs": [
+        {
+          "text": "UN SENTIDO DEL ORDEN",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Virgo’s role is to establish and work according to a system. Those who have planets in this sign will dislike chaos.",
+      "line_height": 1.1669998168945312,
+      "bbox": [
+        237.18869018554688,
+        330.05828857421875,
+        338.63201904296875,
+        398.07427978515625
+      ],
+      "spans": [
+        {
+          "source": "Virgo’s role is to establish ",
+          "bbox": [
+            237.18870544433594,
+            330.05828857421875,
+            338.63201904296875,
+            342.05828857421875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and work according to  ",
+          "bbox": [
+            237.18870544433594,
+            344.0622863769531,
+            328.1846923828125,
+            356.0622863769531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "a system. Those who  ",
+          "bbox": [
+            237.18869018554688,
+            358.0662841796875,
+            324.14068603515625,
+            370.0662841796875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "have planets in this sign ",
+          "bbox": [
+            237.18869018554688,
+            372.0702819824219,
+            334.93951416015625,
+            384.0702819824219
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "will dislike chaos.",
+          "bbox": [
+            237.18869018554688,
+            386.07427978515625,
+            305.93548583984375,
+            398.07427978515625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 116,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0057_u0020",
+      "container_id": "p0057_c0020",
+      "scale_group": "p0057_display_12.0",
+      "page": 57,
+      "target": "La función de Virgo es establecer un sistema y trabajar de acuerdo con él. A quienes tienen planetas en este signo les desagrada el caos.",
+      "target_runs": [
+        {
+          "text": "La función de Virgo es establecer un sistema y trabajar de acuerdo con él. A quienes tienen planetas en este signo les desagrada el caos.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

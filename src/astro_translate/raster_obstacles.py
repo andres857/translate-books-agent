@@ -1,7 +1,8 @@
 """Local, fail-closed raster artwork guard for native text composition.
 
 Only foreground/background separation is inferred; no image is sent to a model.
-Existing source ink overlap is diagnostic, never an automatic exemption. A textured
+Existing source ink overlap is diagnostic, never an automatic exemption, except the
+documented pale cases (``native_underlay`` and ``pale_footprint``). A textured
 or multicolour background without a dominant flat colour requires manual review.
 """
 from __future__ import annotations
@@ -22,6 +23,7 @@ class RegionObstacles:
     background_fraction: float
     covered_pixels: int
     ambiguous: str | None = None
+    native_underlay_pixels: int = 0
 
 
 def _layer(page: fitz.Page, dpi: int, kind: str) -> np.ndarray:
@@ -121,7 +123,8 @@ def _raster_state(page: fitz.Page, dpi: int) -> tuple[np.ndarray, list[tuple[fit
 def build_region_obstacles(
     source_page: fitz.Page, region: fitz.Rect | list[float], *, dpi: int = 110,
     colour_tolerance: int = 20, margin_pixels: int = 2,
-    minimum_background_fraction: float = 0.55,
+    minimum_background_fraction: float = 0.55, native_underlay: bool = False,
+    pale_footprint: list | None = None,
 ) -> RegionObstacles:
     """Separate artwork from a region's dominant flat raster background.
 
@@ -158,12 +161,39 @@ def build_region_obstacles(
     background = np.median(pixels[near], axis=0).astype(np.int16)
     distances = np.max(np.abs(crop[:, :, :3].astype(np.int16) - background), axis=2)
     foreground = covered & (distances > colour_tolerance)
+    underlay_pixels=0
+    if native_underlay and np.min(background)>180:
+        # A pale two-tone watermark already under native prose is background,
+        # not a foreground illustration. Require source ink on BOTH tones and
+        # low RGB contrast throughout; dark/colourful artwork remains blocked.
+        pale=covered & (distances>colour_tolerance) & (distances<=48) & (np.min(crop[:,:,:3],axis=2)>175)
+        original=native_ink_alpha(source_page,dpi)[y0:y1,x0:x1]>80
+        if np.count_nonzero(original & pale)>=50 and np.count_nonzero(original & covered & ~foreground)>=50:
+            underlay_pixels=int(pale.sum())
+            foreground &= ~pale
+    if pale_footprint and np.min(background)>180:
+        # A running head or label printed over a pale watermark (light stars
+        # with white specks): inside the original text's own footprint, light
+        # artwork that the original ink already covers is not an obstacle for
+        # the new text. Outside the footprint, and for any dark pixel, the
+        # guard is unchanged.
+        zone=np.zeros(covered.shape,dtype=bool)
+        for rect in pale_footprint:
+            r=fitz.Rect(rect)
+            a,b=max(0,int(np.floor(r.x0*scale))-x0),max(0,int(np.floor(r.y0*scale))-y0)
+            c,d=min(x1,int(np.ceil(r.x1*scale)))-x0,min(y1,int(np.ceil(r.y1*scale)))-y0
+            if c>a and d>b:zone[b:d,a:c]=True
+        light=covered & (np.min(crop[:,:,:3],axis=2)>175) & zone
+        original=native_ink_alpha(source_page,dpi)[y0:y1,x0:x1]>80
+        if np.count_nonzero(original & light & (distances>colour_tolerance)):
+            underlay_pixels+=int(np.count_nonzero(foreground & light))
+            foreground &= ~light
     fraction = float(np.count_nonzero(covered & ~foreground) / count)
     if margin_pixels:
         foreground = np.asarray(Image.fromarray(foreground.astype(np.uint8) * 255).filter(
             ImageFilter.MaxFilter(2 * margin_pixels + 1))) > 0
     ambiguous = "no_dominant_flat_raster_background" if fraction < minimum_background_fraction else None
-    return RegionObstacles(box, foreground, tuple(int(v) for v in background), fraction, count, ambiguous)
+    return RegionObstacles(box, foreground, tuple(int(v) for v in background), fraction, count, ambiguous, underlay_pixels)
 
 
 def check_overlay(
@@ -196,4 +226,5 @@ def check_overlay(
         "raster_background_rgb": obstacles.background_rgb,
         "raster_background_fraction": obstacles.background_fraction,
         "raster_guard_dpi": dpi,
+        "verified_pale_native_underlay_pixels": obstacles.native_underlay_pixels,
     }

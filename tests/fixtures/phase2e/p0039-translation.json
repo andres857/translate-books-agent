@@ -1,0 +1,1190 @@
+{
+  "page": 39,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "Taurus",
+      "line_height": 1.05,
+      "bbox": [
+        459.2632141113281,
+        21.864179611206055,
+        487.5592346191406,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Taurus",
+          "bbox": [
+            459.2632141113281,
+            21.864179611206055,
+            487.5592346191406,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0039_u0000",
+      "container_id": "p0039_c0000",
+      "scale_group": "p0039_display_12.0",
+      "page": 39,
+      "target": "Tauro",
+      "target_runs": [
+        {
+          "text": "Tauro",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Taurus in the sky",
+      "line_height": 1.05,
+      "bbox": [
+        289.1339111328125,
+        62.98417663574219,
+        449.31536865234375,
+        81.98417663574219
+      ],
+      "spans": [
+        {
+          "source": "Taurus in the sky",
+          "bbox": [
+            289.1339111328125,
+            62.98417663574219,
+            449.31536865234375,
+            81.98417663574219
+          ],
+          "font": "SerifaStd-Bold",
+          "size": 19.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Bold",
+        "size": 19.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Bold",
+      "size": 19.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0039_u0001",
+      "container_id": "p0039_c0001",
+      "scale_group": "p0039_display_19.0",
+      "page": 39,
+      "target": "Tauro en el cielo",
+      "target_runs": [
+        {
+          "text": "Tauro en el cielo",
+          "style": {
+            "font": "SerifaStd-Bold",
+            "size": 19.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Known since ancient times, the constellation Taurus is represented by just the front half of the bull. It includes two open star clusters (groups)—the Hyades and Pleiades. A bright red star, Aldebaran, marks one eye. Taurus is most easily seen during November and December. It is almost impossible to see in May and June because it is too close to the Sun.",
+      "line_height": 1.0709991455078125,
+      "bbox": [
+        289.1339111328125,
+        84.82793426513672,
+        519.8692016601562,
+        233.77392578125
+      ],
+      "spans": [
+        {
+          "source": "Known since ancient times, the ",
+          "bbox": [
+            289.1339111328125,
+            84.82793426513672,
+            479.99993896484375,
+            98.82793426513672
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "constellation Taurus is represented  ",
+          "bbox": [
+            289.1339111328125,
+            99.82195281982422,
+            503.53680419921875,
+            113.82195281982422
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "by just the front half of the bull. It ",
+          "bbox": [
+            289.1339111328125,
+            114.81597137451172,
+            489.0314025878906,
+            128.81597900390625
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "includes two open star clusters ",
+          "bbox": [
+            289.1339111328125,
+            129.80999755859375,
+            476.54339599609375,
+            143.80999755859375
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "(groups)—the Hyades and Pleiades. A ",
+          "bbox": [
+            289.1339111328125,
+            144.80398559570312,
+            515.9297485351562,
+            158.80398559570312
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "bright red star, Aldebaran, marks one ",
+          "bbox": [
+            289.1339111328125,
+            159.7979736328125,
+            513.3956298828125,
+            173.7979736328125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "eye. Taurus is most easily seen during ",
+          "bbox": [
+            289.1339111328125,
+            174.79196166992188,
+            519.8692016601562,
+            188.79196166992188
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "November and December. It is almost ",
+          "bbox": [
+            289.1339111328125,
+            189.78594970703125,
+            516.082275390625,
+            203.78594970703125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "impossible to see in May and June ",
+          "bbox": [
+            289.1339111328125,
+            204.77993774414062,
+            498.4072570800781,
+            218.77993774414062
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "because it is too close to the Sun.",
+          "bbox": [
+            289.1339111328125,
+            219.77392578125,
+            487.7309265136719,
+            233.77392578125
+          ],
+          "font": "SerifaStd-Light",
+          "size": 14.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 356,
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SerifaStd-Light",
+        "size": 14.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SerifaStd-Light",
+      "size": 14.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0039_u0002",
+      "container_id": "p0039_c0002",
+      "scale_group": "p0039_display_14.0",
+      "page": 39,
+      "target": "Conocida desde la Antigüedad, la constelación de Tauro está representada solo por la mitad delantera del toro. Incluye dos cúmulos estelares abiertos (grupos): las Híades y las Pléyades. Una brillante estrella roja, Aldebarán, marca uno de sus ojos. Tauro se ve con mayor facilidad durante noviembre y diciembre. Es casi imposible verla en mayo y junio porque está demasiado cerca del Sol.",
+      "target_runs": [
+        {
+          "text": "Conocida desde la Antigüedad, la constelación de Tauro está representada solo por la mitad delantera del toro. Incluye dos cúmulos estelares abiertos (grupos): las Híades y las Pléyades. Una brillante estrella roja, Aldebarán, marca uno de sus ojos. Tauro se ve con mayor facilidad durante noviembre y diciembre. Es casi imposible verla en mayo y junio porque está demasiado cerca del Sol.",
+          "style": {
+            "font": "SerifaStd-Light",
+            "size": 14.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The Pleiades, or Seven Sisters, is a sparkling star group at the base of the bull’s neck",
+      "line_height": 1.1109992133246527,
+      "bbox": [
+        440.4681091308594,
+        257.6124267578125,
+        519.7094116210938,
+        306.6083984375
+      ],
+      "spans": [
+        {
+          "source": "The Pleiades, or ",
+          "bbox": [
+            444.77911376953125,
+            257.6124267578125,
+            514.6173095703125,
+            266.6124267578125
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Seven Sisters, is a ",
+          "bbox": [
+            440.4681091308594,
+            267.6114196777344,
+            518.9265747070312,
+            276.6114196777344
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "sparkling star ",
+          "bbox": [
+            448.8651123046875,
+            277.61041259765625,
+            510.5277099609375,
+            286.61041259765625
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "group at the base  ",
+          "bbox": [
+            441.4131164550781,
+            287.6094055175781,
+            519.7094116210938,
+            296.6094055175781
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "of the bull’s neck",
+          "bbox": [
+            442.56512451171875,
+            297.6083984375,
+            515.110595703125,
+            306.6083984375
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 88,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 3,
+      "id": "p0039_u0003_join_u0004_u0005",
+      "container_id": "p0039_c0003_join_u0004_join_u0005",
+      "merged_from": [
+        "u0003",
+        "u0004",
+        "u0005"
+      ],
+      "scale_group": "p0039_body_9.0",
+      "page": 39,
+      "target": "Las Pléyades, o las Siete Hermanas, son un grupo estelar centelleante en la base del cuello del toro",
+      "target_runs": [
+        {
+          "text": "Las Pléyades, o las Siete Hermanas, son un grupo estelar centelleante en la base del cuello del toro",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Elnath is a giant blue star at the tip of one of the bull’s horns",
+      "line_height": 1.1110009087456598,
+      "bbox": [
+        310.9311218261719,
+        254.3093719482422,
+        401.96246337890625,
+        283.307373046875
+      ],
+      "spans": [
+        {
+          "source": "Elnath is a giant blue ",
+          "bbox": [
+            310.9311218261719,
+            254.3093719482422,
+            401.96246337890625,
+            263.30938720703125
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "star at the tip of one ",
+          "bbox": [
+            311.9391174316406,
+            264.3083801269531,
+            400.95806884765625,
+            273.3083801269531
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "of the bull’s horns",
+          "bbox": [
+            317.06011962890625,
+            274.307373046875,
+            394.11456298828125,
+            283.307373046875
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 65,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 6,
+      "id": "p0039_u0006_join_u0007_u0008",
+      "container_id": "p0039_c0006_join_u0007_join_u0008",
+      "merged_from": [
+        "u0006",
+        "u0007",
+        "u0008"
+      ],
+      "scale_group": "p0039_body_9.0",
+      "page": 39,
+      "target": "Elnath es una estrella azul gigante en la punta de uno de los cuernos del toro",
+      "target_runs": [
+        {
+          "text": "Elnath es una estrella azul gigante en la punta de uno de los cuernos del toro",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Nu Tauri is a small white star 120 light- years from Earth",
+      "line_height": 1.1110026041666667,
+      "bbox": [
+        352.1680908203125,
+        548.4088134765625,
+        425.8510437011719,
+        587.4058227539062
+      ],
+      "spans": [
+        {
+          "source": "Nu Tauri is a",
+          "bbox": [
+            362.90509033203125,
+            548.4088134765625,
+            415.1014099121094,
+            557.4088134765625
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "small white",
+          "bbox": [
+            363.6430969238281,
+            558.4077758789062,
+            414.36260986328125,
+            567.4077758789062
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "star 120 light-",
+          "bbox": [
+            358.9180908203125,
+            568.4067993164062,
+            419.10284423828125,
+            577.4067993164062
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "years from Earth",
+          "bbox": [
+            352.1680908203125,
+            578.4058227539062,
+            425.8510437011719,
+            587.4058227539062
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 58,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 9,
+      "id": "p0039_u0009_join_u0010",
+      "container_id": "p0039_c0009_join_u0010",
+      "merged_from": [
+        "u0009",
+        "u0010"
+      ],
+      "scale_group": "p0039_body_9.0",
+      "page": 39,
+      "target": "Nu Tauri es una pequeña estrella blanca 120 años luz de la Tierra",
+      "target_runs": [
+        {
+          "text": "Nu Tauri es una pequeña estrella blanca 120 años luz de la Tierra",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Aldebaran, a giant red- orange star, is the brightest star in Taurus",
+      "line_height": 1.1110026041666667,
+      "bbox": [
+        276.155517578125,
+        441.6844177246094,
+        340.1832580566406,
+        490.6803894042969
+      ],
+      "spans": [
+        {
+          "source": "Aldebaran,  ",
+          "bbox": [
+            282.4375,
+            441.6844177246094,
+            333.90850830078125,
+            450.6844177246094
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "a giant red- ",
+          "bbox": [
+            281.79852294921875,
+            451.6834411621094,
+            332.82666015625,
+            460.6834411621094
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "orange star, is  ",
+          "bbox": [
+            276.155517578125,
+            461.6824035644531,
+            340.1832580566406,
+            470.6824035644531
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the brightest  ",
+          "bbox": [
+            277.9105224609375,
+            471.6814270019531,
+            338.43280029296875,
+            480.6814270019531
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "star in Taurus",
+          "bbox": [
+            276.6955261230469,
+            481.6803894042969,
+            336.2152099609375,
+            490.6803894042969
+          ],
+          "font": "SohoPro-Italic",
+          "size": 9.0,
+          "color": 1907995,
+          "flags": 6,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 68,
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Italic",
+        "size": 9.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": true,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Italic",
+      "size": 9.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "center",
+      "source_block": 11,
+      "id": "p0039_u0011_join_u0012",
+      "container_id": "p0039_c0011_join_u0012",
+      "merged_from": [
+        "u0011",
+        "u0012"
+      ],
+      "scale_group": "p0039_body_9.0",
+      "page": 39,
+      "target": "Aldebarán, una estrella gigante de color rojo anaranjado, es la más brillante de Tauro",
+      "target_runs": [
+        {
+          "text": "Aldebarán, una estrella gigante de color rojo anaranjado, es la más brillante de Tauro",
+          "style": {
+            "font": "SohoPro-Italic",
+            "size": 9.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": true,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

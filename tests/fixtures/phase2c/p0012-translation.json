@@ -1,0 +1,1313 @@
+{
+  "page": 12,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Story of Astrology",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        157.51170349121094,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Story of Astrology",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            157.51170349121094,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 22,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0012_u0000",
+      "container_id": "p0012_c0000",
+      "scale_group": "p0012_display_12.0",
+      "page": 12,
+      "target": "La historia de la astrología",
+      "target_runs": [
+        {
+          "text": "La historia de la astrología",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "WHAT IS ASTROLOGY?",
+      "line_height": 1.0000001589457195,
+      "bbox": [
+        36.46009826660156,
+        125.80437469482422,
+        372.1145324707031,
+        221.80438232421875
+      ],
+      "spans": [
+        {
+          "source": "WHAT IS  ",
+          "bbox": [
+            36.46009826660156,
+            125.80437469482422,
+            275.8841247558594,
+            173.80438232421875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ASTROLOGY?",
+          "bbox": [
+            36.460113525390625,
+            173.80438232421875,
+            372.1145324707031,
+            221.80438232421875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 48.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 48.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0012_u0001",
+      "container_id": "p0012_c0001",
+      "scale_group": "p0012_display_48.0",
+      "page": 12,
+      "target": "¿QUÉ ES LA ASTROLOGÍA?",
+      "target_runs": [
+        {
+          "text": "¿QUÉ ES LA ASTROLOGÍA?",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "editorial_punctuation": "opening_inverted_question_mark"
+    },
+    {
+      "source": "How astrology began",
+      "line_height": 1.05,
+      "bbox": [
+        199.464599609375,
+        419.58746337890625,
+        337.1735534667969,
+        432.58746337890625
+      ],
+      "spans": [
+        {
+          "source": "How astrology began",
+          "bbox": [
+            199.464599609375,
+            419.58746337890625,
+            337.1735534667969,
+            432.58746337890625
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 19,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0012_u0002",
+      "container_id": "p0012_c0002",
+      "scale_group": "p0012_display_13.0",
+      "page": 12,
+      "target": "Cómo comenzó la astrología",
+      "target_runs": [
+        {
+          "text": "Cómo comenzó la astrología",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The kind of astrology practiced today began in the ancient world of Babylon and Greece. The Babylonians created the concept of the zodiac (the 12 animal constellations) and the practice of finding meaning in the movements of the planets. The Greeks took up these ideas after the conquests of Alexander the Great in the 4th century BCE. Shaped by their",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        199.464599609375,
+        436.6308288574219,
+        354.3191833496094,
+        601.6638793945312
+      ],
+      "spans": [
+        {
+          "source": "The kind of astrology practiced  ",
+          "bbox": [
+            199.464599609375,
+            436.6308288574219,
+            354.3191833496094,
+            447.6308288574219
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "today began in the ancient ",
+          "bbox": [
+            199.464599609375,
+            450.6338195800781,
+            332.3545837402344,
+            461.6338195800781
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "world of Babylon and Greece. ",
+          "bbox": [
+            199.464599609375,
+            464.6368408203125,
+            343.8274841308594,
+            475.6368408203125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "The Babylonians created the ",
+          "bbox": [
+            199.464599609375,
+            478.6398620605469,
+            341.594482421875,
+            489.6398620605469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "concept of the zodiac (the 12 ",
+          "bbox": [
+            199.464599609375,
+            492.6428527832031,
+            341.49554443359375,
+            503.6428527832031
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "animal constellations) and the ",
+          "bbox": [
+            199.464599609375,
+            506.6458435058594,
+            348.9644775390625,
+            517.6458740234375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "practice of finding meaning in ",
+          "bbox": [
+            199.464599609375,
+            520.64892578125,
+            347.6446228027344,
+            531.64892578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the movements of the planets. ",
+          "bbox": [
+            199.464599609375,
+            534.6519165039062,
+            351.0655822753906,
+            545.6519165039062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "The Greeks took up these  ",
+          "bbox": [
+            199.464599609375,
+            548.6549072265625,
+            327.88848876953125,
+            559.6549072265625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ideas after the conquests of ",
+          "bbox": [
+            199.464599609375,
+            562.6578979492188,
+            337.62353515625,
+            573.6578979492188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Alexander the Great in the 4th ",
+          "bbox": [
+            199.464599609375,
+            576.660888671875,
+            351.6375732421875,
+            587.660888671875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "century BCE. Shaped by their ",
+          "bbox": [
+            199.464599609375,
+            590.6638793945312,
+            344.3774719238281,
+            601.6638793945312
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 351,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0012_u0003",
+      "container_id": "p0012_c0003",
+      "scale_group": "p0012_display_11.0",
+      "page": 12,
+      "target": "La astrología que se practica hoy comenzó en el antiguo mundo de Babilonia y Grecia. Los babilonios crearon el concepto del zodíaco (las 12 constelaciones animales) y la práctica de encontrar significado en los movimientos de los planetas. Los griegos adoptaron estas ideas tras las conquistas de Alejandro Magno en el siglo 4 a. e. c. Moldeada por sus",
+      "target_runs": [
+        {
+          "text": "La astrología que se practica hoy comenzó en el antiguo mundo de Babilonia y Grecia. Los babilonios crearon el concepto del zodíaco (las 12 constelaciones animales) y la práctica de encontrar significado en los movimientos de los planetas. Los griegos adoptaron estas ideas tras las conquistas de Alejandro Magno en el siglo 4 a. e. c. Moldeada por sus",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Astrology is all about studying the movements and patterns of the planets, stars, and other elements in space and showing how they affect who we are and how we behave.",
+      "line_height": 1.25,
+      "bbox": [
+        36.124698638916016,
+        253.7659912109375,
+        426.3839416503906,
+        367.7659912109375
+      ],
+      "spans": [
+        {
+          "source": "Astrology is all about studying the movements ",
+          "bbox": [
+            36.124698638916016,
+            253.7659912109375,
+            419.327880859375,
+            277.7659912109375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and patterns of the planets, stars, and other ",
+          "bbox": [
+            36.124698638916016,
+            283.7659912109375,
+            396.743896484375,
+            307.7659912109375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "elements in space and showing how they affect ",
+          "bbox": [
+            36.124698638916016,
+            313.7659912109375,
+            426.3839416503906,
+            337.7659912109375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "who we are and how we behave.",
+          "bbox": [
+            36.124698638916016,
+            343.7659912109375,
+            302.3278503417969,
+            367.7659912109375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 167,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 24.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 24.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0012_u0004",
+      "container_id": "p0012_c0004",
+      "scale_group": "p0012_display_24.0",
+      "page": 12,
+      "target": "La astrología consiste en estudiar los movimientos y patrones de los planetas, las estrellas y otros elementos del espacio, y mostrar cómo influyen en quiénes somos y cómo nos comportamos.",
+      "target_runs": [
+        {
+          "text": "La astrología consiste en estudiar los movimientos y patrones de los planetas, las estrellas y otros elementos del espacio, y mostrar cómo influyen en quiénes somos y cómo nos comportamos.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "own beliefs about the stars and heavens, they created the “horoscope” we know today.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        364.06298828125,
+        421.0307312011719,
+        514.3878784179688,
+        460.0367431640625
+      ],
+      "spans": [
+        {
+          "source": "own beliefs about the stars ",
+          "bbox": [
+            364.06298828125,
+            421.0307312011719,
+            499.8898620605469,
+            432.0307312011719
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and heavens, they created the ",
+          "bbox": [
+            364.06298828125,
+            435.0337219238281,
+            514.3878784179688,
+            446.0337219238281
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "“horoscope” we know today.",
+          "bbox": [
+            364.06298828125,
+            449.0367431640625,
+            501.57293701171875,
+            460.0367431640625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 84,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0012_u0005",
+      "container_id": "p0012_c0005",
+      "scale_group": "p0012_display_11.0",
+      "page": 12,
+      "target": "propias creencias sobre las estrellas y los cielos, crearon el “horóscopo” que conocemos hoy.",
+      "target_runs": [
+        {
+          "text": "propias creencias sobre las estrellas y los cielos, crearon el “horóscopo” que conocemos hoy.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "What is a horoscope?",
+      "line_height": 1.05,
+      "bbox": [
+        364.06298828125,
+        475.4046630859375,
+        499.0016784667969,
+        488.4046630859375
+      ],
+      "spans": [
+        {
+          "source": "What is a horoscope?",
+          "bbox": [
+            364.06298828125,
+            475.4046630859375,
+            499.0016784667969,
+            488.4046630859375
+          ],
+          "font": "SohoPro-Medium",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 20,
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Medium",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 500,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Medium",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0012_u0006",
+      "container_id": "p0012_c0006",
+      "scale_group": "p0012_display_13.0",
+      "page": 12,
+      "target": "¿Qué es un horóscopo?",
+      "target_runs": [
+        {
+          "text": "¿Qué es un horóscopo?",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "editorial_punctuation": "opening_inverted_question_mark"
+    },
+    {
+      "source": "A horoscope is a wheel-shaped picture of the heavens at a particular time and place, with the person looking at it in the centre. The 12 zodiac signs are at the edge of the horoscope wheel, and the Sun, Moon, and the planets are arranged",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        364.06298828125,
+        492.4480285644531,
+        518.4580078125,
+        601.4690551757812
+      ],
+      "spans": [
+        {
+          "source": "A horoscope is a wheel-shaped ",
+          "bbox": [
+            364.06298828125,
+            492.4480285644531,
+            518.4580078125,
+            503.4480285644531
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "picture of the heavens at a ",
+          "bbox": [
+            364.06298828125,
+            506.4510192871094,
+            496.6449279785156,
+            517.4510498046875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "particular time and place, with ",
+          "bbox": [
+            364.06298828125,
+            520.4541015625,
+            515.8607788085938,
+            531.4541015625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the person looking at it in the ",
+          "bbox": [
+            364.06298828125,
+            534.4570922851562,
+            509.7679748535156,
+            545.4570922851562
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "centre. The 12 zodiac signs are ",
+          "bbox": [
+            364.06298828125,
+            548.4600830078125,
+            514.0689697265625,
+            559.4600830078125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "at the edge of the horoscope ",
+          "bbox": [
+            364.06298828125,
+            562.4630737304688,
+            505.99603271484375,
+            573.4630737304688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "wheel, and the Sun, Moon,  ",
+          "bbox": [
+            364.06298828125,
+            576.466064453125,
+            498.27294921875,
+            587.466064453125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and the planets are arranged ",
+          "bbox": [
+            364.06298828125,
+            590.4690551757812,
+            507.852783203125,
+            601.4690551757812
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 237,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0012_u0007",
+      "container_id": "p0012_c0007",
+      "scale_group": "p0012_display_11.0",
+      "page": 12,
+      "target": "Un horóscopo es una imagen del cielo en forma de rueda en un momento y lugar determinados, con la persona que lo consulta en el centro. Los 12 signos del zodíaco se encuentran en el borde de la rueda del horóscopo, y el Sol, la Luna y los planetas están dispuestos",
+      "target_runs": [
+        {
+          "text": "Un horóscopo es una imagen del cielo en forma de rueda en un momento y lugar determinados, con la persona que lo consulta en el centro. Los 12 signos del zodíaco se encuentran en el borde de la rueda del horóscopo, y el Sol, la Luna y los planetas están dispuestos",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

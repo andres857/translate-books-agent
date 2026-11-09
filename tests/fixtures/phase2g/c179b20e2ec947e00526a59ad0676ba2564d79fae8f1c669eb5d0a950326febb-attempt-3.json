@@ -1,0 +1,538 @@
+{
+  "task": "translate_page",
+  "phase": "production",
+  "pages": [
+    21,
+    23,
+    25,
+    26,
+    33
+  ],
+  "error": "Crossed or empty emphasis pair; approved glossary form missing for id p0021_u0001_quote: astrology => astrología; approved glossary form missing for id p0023_u0001_quote: Sun => Sol; approved glossary form missing for id p0026_u0008_quote: Sun sign => signo solar",
+  "ids": [
+    "p0021_u0001_quote",
+    "p0023_u0001_quote",
+    "p0025_u0001_title",
+    "p0026_u0008_quote"
+  ],
+  "wire": {
+    "coordination_instruction": "Translate each complete unit once. Keep equivalent emphasis inside its v marker pair; reorder whole pairs for natural syntax. Do not repeat content across pairs.",
+    "blocks": [
+      {
+        "id": "p0021_u0001_quote",
+        "source": "{v1}To {v2}{v3}appreciate {v4}{v5}and work with {v6}{v7}astrology {v8}{v9}you need to {v10}{v11}suspend a conventional way of thinking{v12}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "astrology",
+            "target": "astrología"
+          }
+        ]
+      },
+      {
+        "id": "p0023_u0001_quote",
+        "source": "{v1}The Sun {v2}{v3}represents a person’s individual {v4}{v5}creative gift {v6}{v7}and {v8}{v9}sense of identity{v10}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "Sun",
+            "target": "Sol"
+          }
+        ]
+      },
+      {
+        "id": "p0025_u0001_title",
+        "source": "{v1}THE {v2}{v3}ZODIAC SIGNS{v4}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "zodiac signs",
+            "target": "signos del zodíaco"
+          }
+        ]
+      },
+      {
+        "id": "p0026_u0008_quote",
+        "source": "{v1}Your {v2}{v3}Sun sign {v4}{v5}symbolises your most {v6}{v7}essential creative gift{v8}",
+        "style_pair_instructions": "Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.",
+        "glossary": [
+          {
+            "source": "Sun sign",
+            "target": "signo solar"
+          }
+        ]
+      }
+    ],
+    "_style_pairs": {
+      "p0021_u0001_quote": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v3}",
+          "close": "{v4}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v5}",
+          "close": "{v6}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v7}",
+          "close": "{v8}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v9}",
+          "close": "{v10}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v11}",
+          "close": "{v12}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "p0021_u0000": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "p0021_u0003": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0021_u0004": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0021_u0005": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Medium",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 500,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0021_u0006": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0021_u0007": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0021_u0008": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0023_u0001_quote": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v3}",
+          "close": "{v4}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v5}",
+          "close": "{v6}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v7}",
+          "close": "{v8}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v9}",
+          "close": "{v10}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "p0025_u0001_title": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "open": "{v3}",
+          "close": "{v4}",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "p0026_u0008_quote": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v3}",
+          "close": "{v4}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v5}",
+          "close": "{v6}",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v7}",
+          "close": "{v8}",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 27.0,
+            "color": 8882055,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "p0033_u0000_quote": [
+        {
+          "open": "{v1}",
+          "close": "{v2}",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "open": "{v3}",
+          "close": "{v4}",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v5}",
+          "close": "{v6}",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "open": "{v7}",
+          "close": "{v8}",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "open": "{v9}",
+          "close": "{v10}",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    "_style_orders": {},
+    "style": "# Guía de estilo — propuesta para G{n1}\n\nEstado: propuesta NUEVA pendiente de aprobación humana G{n2} para este PDF; ninguna aprobación del libro anterior es aplicable. Libro: *The Secrets of Astrology: A Complete Guide to Sun Signs, Planets, Houses, and More* (DK; edición adaptada y abreviada por Carole Taylor, según créditos de p{n3}). Traducción del inglés al español neutro latinoamericano; tono divulgativo, cercano, claro y fiel a la autora.\n\n## Voz y fidelidad\n\n- Se corrigen en la traducción solo los errores gramaticales objetivos del original (concordancia, ortografía, erratas). No se cambian el contenido, los datos ni el estilo de la autora. Cada corrección se registra en el informe de la página con el texto original.\n\n- Usar «tú» cuando la autora se dirija al lector; evitar alternarlo con «usted» o «vos».\n- Conservar posibilidades y matices: no convertir una tendencia, hipótesis o sugerencia en una certeza. No añadir interpretación astrológica ni corregir afirmaciones de la autora.\n- Conservar jerarquía de títulos, preguntas, pies, remisiones y énfasis. Traducir títulos y texto editorial únicamente por la ruta autorizada después de las gates correspondientes.\n- Escribir un español natural; evitar calcos cuando alteren el sentido. No omitir contenido para forzar el ajuste.\n\n## Terminología\n\nEl CSV es una propuesta de conceptos, no una autorización de sustitución automática. Los términos de referencia mencionados en esta guía que no figuren en el CSV no se convierten en entradas obligatorias; su inclusión posterior requiere revisión. Aplicar entradas a texto ordinario en el sentido astrológico indicado. Ante homónimos o significado incierto, enviar a revisión; nunca aplicar una equivalencia solo por coincidencia de letras.\n\nDar prioridad a la locución completa frente a sus componentes: por ejemplo, «Sun sign» corresponde a «signo solar». Un nombre de astro que aparezca por separado conserva su equivalencia propia. El motor aplica la locución coincidente más larga sin solapamientos; el piloto debe verificar su resultado editorial.\n\n- Proponer «carta natal» para «birth chart» y «natal chart»; «chart» aislado solo se traduce como «carta» cuando represente una carta astrológica. Otros usos requieren contexto.\n- Proponer «regente» en contexto astrológico y «regencia» para «rulership». La palabra genérica «ruler» no está fijada en el CSV; detriment no se detectó y no se incorpora por herencia.\n- Proponer «quincuncio», «semicuadratura» y «sesquicuadratura» para los términos observados. Confirmar preferencias y las nuevas locuciones en dudas.md y el CSV; no trasladar entradas ausentes del libro anterior.\n- «Square», «opposition», «fall», «house», «fixed» y «transit» aislados requieren desambiguación. Las alternativas astrológicas están documentadas en dudas.md; no son reemplazos globales.\n- Las equivalencias deben concordar con el género y número de la frase. Las variantes o flexiones no cubiertas que el validador rechace necesitan revisión o actualización aprobada del glosario, nunca deformar la gramática para superar QA.\n\n## Mayúsculas y presentación\n\n- Usar comillas inglesas “ ” en todo el libro; para citas dentro de citas, comillas simples ‘ ’.\n\nPlanetas, luminarias, signos y Quirón llevan mayúscula inicial cuando funcionan como nombres propios. Se proponen Ascendente, Descendente, Medio Cielo y Fondo del Cielo para puntos de la carta. Aspectos, casas, elementos, modalidades y nodos llevan minúscula en texto corrido; los títulos siguen mayúscula inicial normal. Escribir «zodíaco» con tilde de forma consistente.\n\nConservar nombres de personas, marcas, créditos y referencias bibliográficas. No traducir títulos de obras citadas por una equivalencia inventada; una edición española verificada requiere decisión editorial. La traducción del título del propio libro se propondrá mediante scripts después de G{n4} y se revisará en las gates correspondientes; no se propone ni aprueba aquí.\n\nUsar tildes y signos de apertura españoles en el texto nuevo, con la fuente configurada. Las abreviaturas nuevas no sirven como recurso de ajuste.\n\n## Contenido protegido y maquetación\n\nConservar literalmente toda numeración, notación, valores, glifos y abreviaturas protegidas del original; no convertir la numeración de casas, separadores o unidades. La guía no autoriza normalizar ninguno de ellos. Los spans de fuentes simbólicas permanecen intactos aunque sus caracteres parezcan letras comunes. La lista protegida complementa los detectores locales; no los reemplaza.\n\nSeparar cifras, grados, glifos y siglas protegidas mediante marcadores {nN} antes de construir peticiones; restaurar exactamente los valores localmente. La prosa con números sigue siendo traducible. Conservar completos los spans de fuentes simbólicas y las siglas aisladas; convertir fechas inglesas mediante script determinista, sin LLM. OCR local para imágenes cuando corresponda; excluir los valores protegidos de las copias destinadas al juez visual.\n\nComponer por párrafo el texto corrido; separar título y cuerpo cuando cambien tamaño o peso, conservar color y énfasis inline, y unir líneas del mismo párrafo aunque existan huecos. Redactar por span las etiquetas o texto que interseque dibujos visibles. Preservar imágenes, vectores y fondos raster. Una frase idéntica de origen debe recibir traducción consistente.\n\nReutilizar la fuente original extraída solo si has_glyph confirma cobertura de todo el texto del grupo; no mezclar estilos entre etiquetas hermanas. Si falta cobertura, usar reemplazo equivalente en serif/sans, ancho, peso y cursiva. Nunca reutilizar fuentes simbólicas para texto nuevo. Comprobar especialmente Í mayúscula.\n\nAplicar escala uniforme por lista, columna o grupo de etiquetas hermanas, mínimo {n5}; por debajo de {n6} se exige advertencia y revisión. Primero ampliar a espacio libre; después usar short_target solo si existe suplemento aprobado por hash para este libro; LLM como último recurso. Para cadenas de menos de quince caracteres, usar presupuesto geométrico y glosario, no el ratio {n7}. No sacrificar contenido ni tapar dibujos. Ascendente/Descendente deben intentarse ambos completos antes de recurrir a ambos cortos; {n8}/{n9} se conservan como tokens originales.\n\nNo existe excepción de inglés decorativo aprobada para este libro. Las excepciones o formas cortas de otro libro no se transfieren.\n\n## Vigencia\n\nEsta propuesta requiere aprobación humana del CSV, esta guía y la lista protegida, vinculada al PDF del libro. Cualquier modificación de un archivo cubierto por la aprobación invalida su hash. La aprobación del glosario no sustituye la aprobación posterior del piloto ni la revisión final.\n",
+    "validation_error": "Crossed or empty emphasis pair; approved glossary form missing for id p0021_u0001_quote: astrology => astrología; approved glossary form missing for id p0023_u0001_quote: Sun => Sol; approved glossary form missing for id p0025_u0001_title: zodiac signs => signos del zodíaco; approved glossary form missing for id p0026_u0008_quote: Sun sign => signo solar"
+  },
+  "response": {
+    "blocks": [
+      {
+        "id": "p0021_u0001_quote",
+        "translation": "{v1}{v11}suspender una forma convencional de pensar{v12}{v2}{v3}para{v4}{v5}apreciar{v6}{v7} y trabajar con la{v8}{v9}astrología{v10}",
+        "glossary_terms_used": [
+          "astrología"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0023_u0001_quote",
+        "translation": "{v1}{v3}El{v2}{v5}Sol{v4}{v7} representa el{v6}{v9}don creativo{v8} individual de una persona{v10} y su sentido de identidad",
+        "glossary_terms_used": [
+          "Sol"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0025_u0001_title",
+        "translation": "{v1}{v3}LOS SIGNOS DEL ZODÍACO{v2}{v4}",
+        "glossary_terms_used": [
+          "signos del zodíaco"
+        ],
+        "grammatical_corrections": []
+      },
+      {
+        "id": "p0026_u0008_quote",
+        "translation": "{v1}{v3}Tu{v2}{v5}signo solar{v4}{v7}simboliza tu{v6}{v8} don creativo más esencial",
+        "glossary_terms_used": [
+          "signo solar"
+        ],
+        "grammatical_corrections": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "page": 9,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "\" … THE CHART IS A KIND OF TREASURE",
+      "line_height": 1.1540001502403847,
+      "bbox": [
+        49.18353271484375,
+        86.63360595703125,
+        514.5770263671875,
+        227.4725341796875
+      ],
+      "spans": [
+        {
+          "source": "\"",
+          "bbox": [
+            66.07029724121094,
+            86.63360595703125,
+            84.79029846191406,
+            151.63360595703125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "…",
+          "bbox": [
+            84.79000091552734,
+            99.16636657714844,
+            115.29000091552734,
+            149.16636657714844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 50.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 50.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "THE CHART",
+          "bbox": [
+            115.74349975585938,
+            87.4625244140625,
+            385.4220275878906,
+            152.4625244140625
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": " IS A ",
+          "bbox": [
+            385.8835144042969,
+            86.63360595703125,
+            497.4884948730469,
+            151.63360595703125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "KIND OF ",
+          "bbox": [
+            49.18353271484375,
+            161.64361572265625,
+            248.92852783203125,
+            226.64361572265625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "TREASURE ",
+          "bbox": [
+            249.38352966308594,
+            162.4725341796875,
+            514.5770263671875,
+            227.4725341796875
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 2,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 50.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 4,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 14,
+          "end": 27,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 27,
+          "end": 35,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 65.0,
+        "color": 9605778,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 65.0,
+      "color": 9605778,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0009_u0000",
+      "container_id": "p0009_c0000",
+      "scale_group": "p0009_display_65.0",
+      "page": 9,
+      "target": "“ … LA CARTA ES UNA ESPECIE DE TESORO",
+      "target_runs": [
+        {
+          "text": "“ ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "… ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 50.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "LA CARTA ",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "ES UNA ESPECIE DE ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "TESORO",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "MAP AND THE REAL",
+      "line_height": 1.05,
+      "bbox": [
+        36.768531799316406,
+        236.63360595703125,
+        527.2637939453125,
+        302.4825439453125
+      ],
+      "spans": [
+        {
+          "source": "MAP",
+          "bbox": [
+            36.768531799316406,
+            237.4825439453125,
+            143.56353759765625,
+            302.4825439453125
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": " AND THE REAL ",
+          "bbox": [
+            152.74029541015625,
+            236.63360595703125,
+            527.2637939453125,
+            301.63360595703125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 4,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 65.0,
+        "color": 9605778,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 65.0,
+      "color": 9605778,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0009_u0001",
+      "container_id": "p0009_c0001",
+      "scale_group": "p0009_display_65.0",
+      "page": 9,
+      "target": "MAPA Y LA BÚSQUEDA",
+      "target_runs": [
+        {
+          "text": "MAPA ",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "Y LA BÚSQUEDA",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "SEARCH IS AN INTERNAL ONE.\"",
+      "line_height": 1.1667527418870192,
+      "bbox": [
+        89.10530090332031,
+        311.64361572265625,
+        464.02532958984375,
+        452.4825439453125
+      ],
+      "spans": [
+        {
+          "source": "SEARCH IS AN ",
+          "bbox": [
+            112.57029724121094,
+            311.64361572265625,
+            451.4154357910156,
+            376.64361572265625
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "INTERNAL ONE",
+          "bbox": [
+            89.10530090332031,
+            387.4825439453125,
+            438.86383056640625,
+            452.4825439453125
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": ".\"",
+          "bbox": [
+            439.3253173828125,
+            386.65362548828125,
+            464.02532958984375,
+            451.65362548828125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 65.0,
+          "color": 9605778,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 13,
+          "end": 25,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 25,
+          "end": 27,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 65.0,
+        "color": 9605778,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 65.0,
+      "color": 9605778,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0009_u0002",
+      "container_id": "p0009_c0002",
+      "scale_group": "p0009_display_65.0",
+      "page": 9,
+      "target": "LA BÚSQUEDA ES UNA INTERNA.»",
+      "target_runs": [
+        {
+          "text": "LA BÚSQUEDA ES UNA ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "INTERNA",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": ".»",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 65.0,
+            "color": 9605778,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Kim Farley, Journey Through Astrology: Charting the Astrological Voyage of Discovery",
+      "line_height": 1.3159982781661184,
+      "bbox": [
+        171.2052001953125,
+        477.0085144042969,
+        381.5693054199219,
+        521.0125122070312
+      ],
+      "spans": [
+        {
+          "source": " Kim Farley, Journey Through Astrology:  ",
+          "bbox": [
+            184.90420532226562,
+            477.0085144042969,
+            372.8673095703125,
+            496.0085144042969
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 19.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 19.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "Charting the Astrological Voyage of Discovery",
+          "bbox": [
+            171.2052001953125,
+            502.0124816894531,
+            381.5693054199219,
+            521.0125122070312
+          ],
+          "font": "SohoPro-LightCompressed",
+          "size": 19.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 19.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 84,
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 19.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCompressed",
+        "size": 19.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-LightCompressed",
+      "size": 19.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0009_u0003",
+      "container_id": "p0009_c0003",
+      "scale_group": "p0009_display_19.0",
+      "page": 9,
+      "target": "Kim Farley, *Un viaje por la astrología: trazando la travesía astrológica del descubrimiento*",
+      "target_runs": [
+        {
+          "text": "Kim Farley, *Un viaje por la astrología: trazando la travesía astrológica del descubrimiento*",
+          "style": {
+            "font": "SohoPro-LightCompressed",
+            "size": 19.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    }
+  ]
+}

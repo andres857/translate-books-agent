@@ -62,14 +62,24 @@ llamaparse_enabled = false
 # No copiar tarifas históricas como si fueran verificadas.
 # Sin tarifa confirmada, registrar costo desconocido y uso real.
 
-# La capa B consume cuota ChatGPT; no aplica descuento Batch API.
+# La capa B consume la suscripción Claude (login OAuth del CLI oficial Claude Code);
+# no aplica descuento Batch API ni facturación por API: llm.py elimina
+# ANTHROPIC_API_KEY/ANTHROPIC_AUTH_TOKEN del entorno de cada llamada.
+# sandbox_dir conserva el nombre histórico (work/.codex_llm_sandbox): es el
+# directorio aislado por libro donde se crea un cwd temporal por llamada.
 [provider]
-backend = "codex_sdk"
+backend = "claude_cli"
+claude_bin = "claude"
 codex_profile = "translator"
 sandbox_dir = "work/.codex_llm_sandbox"
 fallback = "none"
 max_parallel = 2
 timeout_seconds = 180
+# Escalada opcional para unidades de énfasis que fallan tres validaciones.
+# Vacío = sin escalada. Si el modelo de escalada no está disponible, la unidad
+# va a review_queue y el lote continúa.
+escalation_model = "opus"
+escalation_effort = "high"
 
 [quota]
 backoff_seconds = [30, 120, 600]
@@ -80,48 +90,50 @@ max_chars_per_call = 6000
 unit = "pages"
 
 [tasks.translate_page]
-model = "gpt-6-luna"
+model = "sonnet"
 effort = "low"
 prompt = "prompts/translate_page.md"
 schema = "schemas/translate_page.json"
 
 [tasks.translate_labels]
-model = "gpt-6-luna"
+model = "sonnet"
 effort = "low"
 prompt = "prompts/translate_labels.md"
 schema = "schemas/translate_labels.json"
 
 [tasks.shorten]
-model = "gpt-6-luna"
+model = "sonnet"
 effort = "low"
 prompt = "prompts/shorten.md"
 schema = "schemas/shorten.json"
 
 [tasks.classify_labels]
-model = "gpt-6-luna"
+model = "sonnet"
 effort = "low"
 prompt = "prompts/classify_labels.md"
 schema = "schemas/classify_labels.json"
 
 [tasks.glossary_candidates]
-model = "gpt-6-astra"
-effort = "high"
+model = "sonnet"
+effort = "medium"
 prompt = "prompts/glossary_candidates.md"
 schema = "schemas/glossary_candidates.json"
 
 [tasks.qa_judge]
-model = "gpt-6-luna"
-effort = "low"
+model = "sonnet"
+effort = "medium"
 prompt = "prompts/qa_judge.md"
 schema = "schemas/qa_judge.json"
 
 [tasks.review]
-model = "gpt-6-astra"
-effort = "high"
+model = "sonnet"
+effort = "medium"
 prompt = "prompts/review.md"
 schema = "schemas/review.json"
 
-# Mapeo por disponibilidad: gpt-5.5 -> gpt-6-astra; gpt-5.4-mini -> gpt-6-luna.
-# minimal no aparece en el catálogo de luna: se usa low y se documenta.
+# Capa B claude_cli: alias de modelo del CLI (sonnet/opus); el modelo efectivo
+# (p. ej. claude-sonnet-5-5) se registra en costs.jsonl desde modelUsage.
+# Esfuerzos válidos del CLI: low, medium, high, xhigh, max.
+# Historial: con codex_sdk se usaban gpt-6-luna/low y gpt-6-astra/high.
 # [models] conserva los identificadores del diseño anterior como referencia;
 # las llamadas nuevas se resuelven exclusivamente mediante [tasks].

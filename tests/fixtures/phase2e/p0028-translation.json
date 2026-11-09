@@ -1,0 +1,2604 @@
+{
+  "page": 28,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "dependency_sha256": "4974a5e8ec7882354f31a8b7f69e64b2fd54fc4f403e709d227af99bbe5b8f53",
+  "blocks": [
+    {
+      "source": "The Zodiac Signs",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        133.5836944580078,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Zodiac Signs",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            133.5836944580078,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0028_u0000",
+      "container_id": "p0028_c0000",
+      "scale_group": "p0028_display_12.0",
+      "page": 28,
+      "target": "Los signos del zodíaco",
+      "target_runs": [
+        {
+          "text": "Los signos del zodíaco",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "POLARITY, ELEMENTS,",
+      "line_height": 1.0000001589457195,
+      "bbox": [
+        36.33549880981445,
+        80.06481170654297,
+        329.42352294921875,
+        176.0648193359375
+      ],
+      "spans": [
+        {
+          "source": "POLARITY, ",
+          "bbox": [
+            36.33549880981445,
+            80.06481170654297,
+            313.5355224609375,
+            128.0648193359375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ELEMENTS, ",
+          "bbox": [
+            36.33549880981445,
+            128.0648193359375,
+            329.42352294921875,
+            176.0648193359375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 19,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 48.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 48.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0028_u0001",
+      "container_id": "p0028_c0001",
+      "scale_group": "p0028_display_48.0",
+      "page": 28,
+      "target": "POLARIDAD, ELEMENTOS,",
+      "target_runs": [
+        {
+          "text": "POLARIDAD, ELEMENTOS,",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "AND MODES",
+      "line_height": 1.05,
+      "bbox": [
+        36.33551025390625,
+        176.0648193359375,
+        324.6715087890625,
+        224.19882202148438
+      ],
+      "spans": [
+        {
+          "source": "AND",
+          "bbox": [
+            36.33551025390625,
+            176.19882202148438,
+            139.2475128173828,
+            224.19882202148438
+          ],
+          "font": "SohoPro-Light",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " MODES",
+          "bbox": [
+            139.58351135253906,
+            176.0648193359375,
+            324.6715087890625,
+            224.0648193359375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 48.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 4,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 48.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 48.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0028_u0002",
+      "container_id": "p0028_c0002",
+      "scale_group": "p0028_display_48.0",
+      "page": 28,
+      "target": "Y MODALIDADES",
+      "target_runs": [
+        {
+          "text": "Y ",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "MODALIDADES",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 48.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The two polarities",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        383.318603515625,
+        160.4334259033203,
+        396.318603515625
+      ],
+      "spans": [
+        {
+          "source": "The two polarities",
+          "bbox": [
+            36.0,
+            383.318603515625,
+            160.4334259033203,
+            396.318603515625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 13.0,
+          "color": 5723990,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 13.0,
+        "color": 5723990,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 13.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0028_u0003",
+      "container_id": "p0028_c0003",
+      "scale_group": "p0028_display_13.0",
+      "page": 28,
+      "target": "Las dos polaridades",
+      "target_runs": [
+        {
+          "text": "Las dos polaridades",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The positive signs have an extroverted and upbeat quality. They need activity and people time. — The negative signs are more introverted and low-key. They focus on the interior world and personal experience.",
+      "line_height": 0.8945260114759187,
+      "bbox": [
+        36.0,
+        400.40283203125,
+        274.4419250488281,
+        485.6914367675781
+      ],
+      "spans": [
+        {
+          "source": "The positive signs",
+          "bbox": [
+            62.0,
+            400.40283203125,
+            165.01719665527344,
+            411.40283203125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 21,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " have an extroverted    ",
+          "bbox": [
+            164.95118713378906,
+            400.43353271484375,
+            274.2416687011719,
+            411.43353271484375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 5,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " and upbeat quality. They need activity and ",
+          "bbox": [
+            57.28099822998047,
+            414.4365539550781,
+            273.2528076171875,
+            425.4365539550781
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "people time. ",
+          "bbox": [
+            61.9999885559082,
+            428.4395446777344,
+            124.01799011230469,
+            439.4395446777344
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "—",
+          "bbox": [
+            36.0,
+            436.7000732421875,
+            56.43531036376953,
+            468.0425720214844
+          ],
+          "font": "SohoPro-Bold",
+          "size": 31.342500686645508,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 31.342500686645508,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "The negative signs",
+          "bbox": [
+            62.0,
+            446.6547546386719,
+            169.81101989746094,
+            457.6547546386719
+          ],
+          "font": "SohoPro-Bold",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 21,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " are more  ",
+          "bbox": [
+            169.81101989746094,
+            446.6854553222656,
+            219.54090881347656,
+            457.6854553222656
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 5,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " introverted and low-key. They focus on  ",
+          "bbox": [
+            56.433998107910156,
+            460.6884460449219,
+            258.139892578125,
+            471.6884460449219
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "the interior world and personal experience. ",
+          "bbox": [
+            62.0,
+            474.6914367675781,
+            274.4419250488281,
+            485.6914367675781
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 19,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 19,
+          "end": 95,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 95,
+          "end": 97,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 31.342500686645508,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 97,
+          "end": 116,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 116,
+          "end": 207,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 31.342500686645508,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0028_u0004",
+      "container_id": "p0028_c0004",
+      "scale_group": "p0028_display_31.342500686645508",
+      "page": 28,
+      "target": "Los signos positivos tienen una cualidad extrovertida y optimista. Necesitan actividad y pasar tiempo con otras personas. — Los signos negativos son más introvertidos y reservados. Se centran en el mundo interior y la experiencia personal.",
+      "target_runs": [
+        {
+          "text": "Los signos positivos ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "tienen una cualidad extrovertida y optimista. Necesitan actividad y pasar tiempo con otras personas.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": " — ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 31.342500686645508,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Los signos negativos ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "son más introvertidos y reservados. Se centran en el mundo interior y la experiencia personal.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The four elements",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        491.23980712890625,
+        160.34500122070312,
+        504.23980712890625
+      ],
+      "spans": [
+        {
+          "source": "The four elements",
+          "bbox": [
+            36.0,
+            491.23980712890625,
+            160.34500122070312,
+            504.23980712890625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 13.0,
+          "color": 5723990,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 13.0,
+        "color": 5723990,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 13.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0028_u0005",
+      "container_id": "p0028_c0005",
+      "scale_group": "p0028_display_13.0",
+      "page": 28,
+      "target": "Los cuatro elementos",
+      "target_runs": [
+        {
+          "text": "Los cuatro elementos",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Fire is bold and dramatic, giving off heat and energy. Planets in fire are courageous, with a sense of purpose.",
+      "line_height": 1.2757984508167615,
+      "bbox": [
+        55.0369987487793,
+        508.3240051269531,
+        273.417724609375,
+        547.3607788085938
+      ],
+      "spans": [
+        {
+          "source": "Fire",
+          "bbox": [
+            62.0,
+            508.3240051269531,
+            84.69300079345703,
+            519.323974609375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " is bold and dramatic, giving off heat  ",
+          "bbox": [
+            84.69300079345703,
+            508.3547058105469,
+            264.0908203125,
+            519.354736328125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " and energy. Planets in fire are courageous,  ",
+          "bbox": [
+            55.0369987487793,
+            522.3577880859375,
+            273.417724609375,
+            533.3577880859375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "with a sense of purpose. ",
+          "bbox": [
+            62.0,
+            536.3607788085938,
+            184.0658721923828,
+            547.3607788085938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 5,
+          "end": 111,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0028_u0006",
+      "container_id": "p0028_c0006",
+      "scale_group": "p0028_display_11.0",
+      "page": 28,
+      "target": "El fuego es audaz y dramático, y desprende calor y energía. Los planetas en fuego son valientes y tienen un sentido de propósito.",
+      "target_runs": [
+        {
+          "text": "El fuego ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "es audaz y dramático, y desprende calor y energía. Los planetas en fuego son valientes y tienen un sentido de propósito.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Earth is solid and real. Planets here are grounded, practical, and unsentimental.",
+      "line_height": 1.2757956764914773,
+      "bbox": [
+        61.32699966430664,
+        554.5759887695312,
+        259.3588562011719,
+        579.6097412109375
+      ],
+      "spans": [
+        {
+          "source": "Earth",
+          "bbox": [
+            61.32699966430664,
+            554.5759887695312,
+            93.74400329589844,
+            565.5759887695312
+          ],
+          "font": "SohoPro-Bold",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " is solid and real. Planets here are ",
+          "bbox": [
+            93.74400329589844,
+            554.6067504882812,
+            256.3547668457031,
+            565.6067504882812
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "grounded, practical, and unsentimental.  ",
+          "bbox": [
+            61.32699966430664,
+            568.6097412109375,
+            259.3588562011719,
+            579.6097412109375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 6,
+          "end": 81,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0028_u0007",
+      "container_id": "p0028_c0007",
+      "scale_group": "p0028_display_11.0",
+      "page": 28,
+      "target": "La tierra es sólida y tangible. Los planetas aquí tienen los pies en la tierra, son prácticos y poco sentimentales.",
+      "target_runs": [
+        {
+          "text": "La tierra ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "es sólida y tangible. Los planetas aquí tienen los pies en la tierra, son prácticos y poco sentimentales.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Air is home to ideas and thoughts. Planets in air express themselves verbally. They are rational and curious about life.",
+      "line_height": 1.2757956764914773,
+      "bbox": [
+        61.474998474121094,
+        586.8280029296875,
+        271.5727233886719,
+        625.86474609375
+      ],
+      "spans": [
+        {
+          "source": "Air",
+          "bbox": [
+            61.474998474121094,
+            586.8280029296875,
+            79.40499877929688,
+            597.8280029296875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " is home to ideas and thoughts. Planets ",
+          "bbox": [
+            79.40499877929688,
+            586.8587646484375,
+            271.5727233886719,
+            597.8587646484375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "in air express themselves verbally. They  ",
+          "bbox": [
+            61.474998474121094,
+            600.8617553710938,
+            261.849853515625,
+            611.8617553710938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "are rational and curious about life.  ",
+          "bbox": [
+            62.00300216674805,
+            614.86474609375,
+            232.31483459472656,
+            625.86474609375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 4,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 4,
+          "end": 120,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 13,
+      "id": "p0028_u0008",
+      "container_id": "p0028_c0008",
+      "scale_group": "p0028_display_11.0",
+      "page": 28,
+      "target": "El aire es el ámbito de las ideas y los pensamientos. Los planetas en aire se expresan verbalmente. Son racionales y sienten curiosidad por la vida.",
+      "target_runs": [
+        {
+          "text": "El aire ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "es el ámbito de las ideas y los pensamientos. Los planetas en aire se expresan verbalmente. Son racionales y sienten curiosidad por la vida.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Water in nature can be cleansing,",
+      "line_height": 1.05,
+      "bbox": [
+        309.0555114746094,
+        386.42352294921875,
+        478.1354675292969,
+        397.4542236328125
+      ],
+      "spans": [
+        {
+          "source": "Water",
+          "bbox": [
+            309.0555114746094,
+            386.42352294921875,
+            343.4964904785156,
+            397.42352294921875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 21,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " in nature can be cleansing, ",
+          "bbox": [
+            343.49652099609375,
+            386.4542236328125,
+            478.1354675292969,
+            397.4542236328125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 5,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 6,
+          "end": 33,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 14,
+      "id": "p0028_u0009",
+      "container_id": "p0028_c0009",
+      "scale_group": "p0028_display_11.0",
+      "page": 28,
+      "target": "El agua en la naturaleza puede limpiar,",
+      "target_runs": [
+        {
+          "text": "El agua ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "en la naturaleza puede limpiar,",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "raging, or vast, like the ocean. Planets in water act with strong feelings and intuition.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        310.0603942871094,
+        400.4542541503906,
+        471.7813415527344,
+        439.4602355957031
+      ],
+      "spans": [
+        {
+          "source": "raging, or vast, like the ocean.   ",
+          "bbox": [
+            310.0603942871094,
+            400.4542541503906,
+            466.435302734375,
+            411.4542541503906
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Planets in water act with strong  ",
+          "bbox": [
+            310.22540283203125,
+            414.4572448730469,
+            471.7813415527344,
+            425.4572448730469
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "feelings and intuition. ",
+          "bbox": [
+            310.22540283203125,
+            428.4602355957031,
+            419.25750732421875,
+            439.4602355957031
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 89,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 16,
+      "id": "p0028_u0010",
+      "container_id": "p0028_c0010",
+      "scale_group": "p0028_display_11.0",
+      "page": 28,
+      "target": "embravecerse o extenderse vastamente, como el océano. Los planetas en agua actúan movidos por emociones intensas y la intuición.",
+      "target_runs": [
+        {
+          "text": "embravecerse o extenderse vastamente, como el océano. Los planetas en agua actúan movidos por emociones intensas y la intuición.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The three modes",
+      "line_height": 1.05,
+      "bbox": [
+        284.2204895019531,
+        449.0085144042969,
+        398.54119873046875,
+        462.0085144042969
+      ],
+      "spans": [
+        {
+          "source": "The three modes",
+          "bbox": [
+            284.2204895019531,
+            449.0085144042969,
+            398.54119873046875,
+            462.0085144042969
+          ],
+          "font": "SohoPro-Bold",
+          "size": 13.0,
+          "color": 5723990,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 13.0,
+        "color": 5723990,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 13.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 17,
+      "id": "p0028_u0011",
+      "container_id": "p0028_c0011",
+      "scale_group": "p0028_display_13.0",
+      "page": 28,
+      "target": "Las tres modalidades",
+      "target_runs": [
+        {
+          "text": "Las tres modalidades",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The cardinal signs begin the four seasons of the year. Planets in these signs take initiative. Cardinal makes the first move and needs action.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        304.3244934082031,
+        466.09283447265625,
+        507.7684326171875,
+        519.132568359375
+      ],
+      "spans": [
+        {
+          "source": "The cardinal signs",
+          "bbox": [
+            310.2204895019531,
+            466.09283447265625,
+            414.7193603515625,
+            477.09283447265625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " begin the four  ",
+          "bbox": [
+            414.7193603515625,
+            466.12353515625,
+            491.2123107910156,
+            477.12353515625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " seasons of the year. Planets in these   ",
+          "bbox": [
+            304.3244934082031,
+            480.1265563964844,
+            502.4335632324219,
+            491.1265563964844
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "signs take initiative. Cardinal makes the  ",
+          "bbox": [
+            310.2204895019531,
+            494.1295471191406,
+            507.7684326171875,
+            505.1295471191406
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "first move and needs action.",
+          "bbox": [
+            310.2204895019531,
+            508.1325378417969,
+            447.4334411621094,
+            519.132568359375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 19,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 19,
+          "end": 142,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 18,
+      "id": "p0028_u0012",
+      "container_id": "p0028_c0012",
+      "scale_group": "p0028_display_11.0",
+      "page": 28,
+      "target": "Los signos cardinales dan inicio a las cuatro estaciones del año. Los planetas en estos signos toman la iniciativa. La modalidad cardinal da el primer paso y necesita acción.",
+      "target_runs": [
+        {
+          "text": "Los signos cardinales ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "dan inicio a las cuatro estaciones del año. Los planetas en estos signos toman la iniciativa. La modalidad cardinal da el primer paso y necesita acción.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The fixed signs reflect the middle of each season, when the weather is settled. Planets in fixed signs are steadfast, stable, and persistent.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        304.3244934082031,
+        526.3447265625,
+        520.7274780273438,
+        579.3844604492188
+      ],
+      "spans": [
+        {
+          "source": "The fixed signs",
+          "bbox": [
+            310.2204895019531,
+            526.3447265625,
+            396.8564453125,
+            537.3447265625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " reflect the middle of  ",
+          "bbox": [
+            396.8564453125,
+            526.37548828125,
+            502.081298828125,
+            537.37548828125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " each season, when the weather is settled.  ",
+          "bbox": [
+            304.3244934082031,
+            540.3784790039062,
+            520.341552734375,
+            551.3784790039062
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Planets in fixed signs are steadfast, stable,  ",
+          "bbox": [
+            310.2204895019531,
+            554.3814697265625,
+            520.7274780273438,
+            565.3814697265625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and persistent. ",
+          "bbox": [
+            310.2204895019531,
+            568.3844604492188,
+            385.1965026855469,
+            579.3844604492188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 16,
+          "end": 141,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 19,
+      "id": "p0028_u0013",
+      "container_id": "p0028_c0013",
+      "scale_group": "p0028_display_11.0",
+      "page": 28,
+      "target": "Los signos fijos reflejan la mitad de cada estación, cuando el tiempo se ha estabilizado. Los planetas en signos fijos son firmes, estables y persistentes.",
+      "target_runs": [
+        {
+          "text": "Los signos fijos ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "reflejan la mitad de cada estación, cuando el tiempo se ha estabilizado. Los planetas en signos fijos son firmes, estables y persistentes.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The mutable signs mark the end of the seasons and are known for change and adaptability.",
+      "line_height": 1.2758012251420454,
+      "bbox": [
+        304.3244934082031,
+        586.5966796875,
+        502.4333190917969,
+        625.6334838867188
+      ],
+      "spans": [
+        {
+          "source": "The mutable signs",
+          "bbox": [
+            310.2204895019531,
+            586.5966796875,
+            415.138427734375,
+            597.5966796875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " mark the end of  ",
+          "bbox": [
+            415.138427734375,
+            586.62744140625,
+            502.4333190917969,
+            597.62744140625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": " the seasons and are known for change ",
+          "bbox": [
+            304.3244934082031,
+            600.6304931640625,
+            501.684326171875,
+            611.6304931640625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and adaptability. ",
+          "bbox": [
+            310.2204895019531,
+            614.6334838867188,
+            393.4783020019531,
+            625.6334838867188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 18,
+          "end": 88,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 20,
+      "id": "p0028_u0014",
+      "container_id": "p0028_c0014",
+      "scale_group": "p0028_display_11.0",
+      "page": 28,
+      "target": "Los signos mutables marcan el final de las estaciones y se caracterizan por el cambio y la adaptabilidad.",
+      "target_runs": [
+        {
+          "text": "Los signos mutables ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "marcan el final de las estaciones y se caracterizan por el cambio y la adaptabilidad.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "The 12 signs are grouped into two polarities, four elements, and three modes. Their balance in your chart provides powerful information about who you are.",
+      "line_height": 1.25,
+      "bbox": [
+        36.0,
+        279.1966857910156,
+        474.3792724609375,
+        363.1966857910156
+      ],
+      "spans": [
+        {
+          "source": "The 12 signs are grouped into two polarities, four ",
+          "bbox": [
+            36.0,
+            279.1966857910156,
+            449.6184387207031,
+            303.1966857910156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "elements, and three modes. Their balance in your chart ",
+          "bbox": [
+            36.0,
+            309.1966857910156,
+            474.3792724609375,
+            333.1966857910156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "provides powerful information about who you are.",
+          "bbox": [
+            36.0,
+            339.1966857910156,
+            434.2199401855469,
+            363.1966857910156
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 24.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 154,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 24.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 24.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 21,
+      "id": "p0028_u0015",
+      "container_id": "p0028_c0015",
+      "scale_group": "p0028_display_24.0",
+      "page": 28,
+      "target": "Los 12 signos se agrupan en dos polaridades, cuatro elementos y tres modalidades. Su equilibrio en tu carta proporciona información valiosa sobre quién eres.",
+      "target_runs": [
+        {
+          "text": "Los 12 signos se agrupan en dos polaridades, cuatro elementos y tres modalidades. Su equilibrio en tu carta proporciona información valiosa sobre quién eres.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 24.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ],
+  "qa_verdict": "not_run"
+}

@@ -13,7 +13,6 @@ dependencies = [
     "jsonschema",
     "pymupdf4llm",
     "lingua-language-detector>=2.2.0",
-    "openai-codex>=0.163.0",
     "fonttools>=4.68.0",
     "pypdf>=6.21.4",
 ]

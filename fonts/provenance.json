@@ -24,6 +24,20 @@
     "bytes": 4377
   },
   {
+    "file": "RobotoSlab[wght].ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/apache/robotoslab/RobotoSlab%5Bwght%5D.ttf",
+    "sha256": "786ae192477447d33c6672c3055fba7cbfe45184c9a79e77a14f15716ca05b16",
+    "bytes": 251880,
+    "license": "Apache-2.0"
+  },
+  {
+    "file": "RobotoSlab-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/apache/robotoslab/LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358,
+    "license": "Apache-2.0"
+  },
+  {
     "file": "RobotoSerif[GRAD,opsz,wdth,wght].ttf",
     "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotoserif/RobotoSerif%5BGRAD,opsz,wdth,wght%5D.ttf",
     "sha256": "351ced75f3851806aa6d846b669361521eb1925cfc530396df9c1a1b77061ddb",
@@ -64,5 +78,41 @@
     "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
     "bytes": 4396,
     "license": "SIL Open Font License 1.1"
+  },
+  {
+    "file": "Bitter-Italic[wght].ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/Bitter-Italic%5Bwght%5D.ttf",
+    "sha256": "5e6e0af503171c9d7b4be7a22c16f474d7a638cf83a80051d825bcc58d664bc3",
+    "bytes": 317652,
+    "license": "SIL Open Font License 1.1",
+    "retrieved": "2026-11-08",
+    "note": "Reserved Font Name: derived instances are renamed AstroSlab-/AstroDisplay-<hash> (OFL §3)."
+  },
+  {
+    "file": "Bitter-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/OFL.txt",
+    "sha256": "152a1e283e23b42c4940da4c72f2f5bebaa17969cb77c76d7af05903846006f1",
+    "bytes": 4424,
+    "license": "SIL Open Font License 1.1",
+    "retrieved": "2026-11-08",
+    "note": "License text for the font above."
+  },
+  {
+    "file": "LilitaOne-Regular.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lilitaone/LilitaOne-Regular.ttf",
+    "sha256": "f5b641c45c69d772ee4eda687bc9fda411d5cad6b0b45371491da4580cbc8d59",
+    "bytes": 28092,
+    "license": "SIL Open Font License 1.1",
+    "retrieved": "2026-11-08",
+    "note": "Reserved Font Name: derived instances are renamed AstroSlab-/AstroDisplay-<hash> (OFL §3)."
+  },
+  {
+    "file": "LilitaOne-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lilitaone/OFL.txt",
+    "sha256": "255d5debbb80eb2ea762644311f266a279e8778f00156655a516e2b7781a63e1",
+    "bytes": 4392,
+    "license": "SIL Open Font License 1.1",
+    "retrieved": "2026-11-08",
+    "note": "License text for the font above."
   }
 ]

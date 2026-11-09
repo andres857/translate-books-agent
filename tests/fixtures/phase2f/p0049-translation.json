@@ -1,0 +1,2804 @@
+{
+  "page": 49,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "SEA CREATURES",
+      "line_height": 1.125,
+      "bbox": [
+        371.49969482421875,
+        186.0532989501953,
+        463.35577392578125,
+        220.0532989501953
+      ],
+      "spans": [
+        {
+          "source": "SEA  ",
+          "bbox": [
+            371.49969482421875,
+            186.0532989501953,
+            412.2996826171875,
+            202.0532989501953
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "CREATURES",
+          "bbox": [
+            371.49969482421875,
+            204.0532989501953,
+            463.35577392578125,
+            220.0532989501953
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 13,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0049_u0000",
+      "container_id": "p0049_c0000",
+      "scale_group": "p0049_display_16.0",
+      "page": 49,
+      "target": "CRIATURAS MARINAS",
+      "target_runs": [
+        {
+          "text": "CRIATURAS MARINAS",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Like the tides, Cancer is ruled by the Moon, which means that energy and emotions go up and down.",
+      "line_height": 1.2,
+      "bbox": [
+        371.49969482421875,
+        223.2283172607422,
+        499.5206298828125,
+        269.22833251953125
+      ],
+      "spans": [
+        {
+          "source": "Like the tides, Cancer is ",
+          "bbox": [
+            371.49969482421875,
+            223.2283172607422,
+            487.231689453125,
+            233.2283172607422
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ruled by the Moon, which ",
+          "bbox": [
+            371.49969482421875,
+            235.2283172607422,
+            496.2705993652344,
+            245.2283172607422
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "means that energy and ",
+          "bbox": [
+            371.49969482421875,
+            247.2283172607422,
+            485.3007507324219,
+            257.22833251953125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "emotions go up and down. ",
+          "bbox": [
+            371.49969482421875,
+            259.22833251953125,
+            499.5206298828125,
+            269.22833251953125
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 97,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0049_u0001",
+      "container_id": "p0049_c0001",
+      "scale_group": "p0049_display_10.0",
+      "page": 49,
+      "target": "Como las mareas, Cáncer está regido por la Luna, lo que significa que la energía y las emociones suben y bajan.",
+      "target_runs": [
+        {
+          "text": "Como las mareas, Cáncer está regido por la Luna, lo que significa que la energía y las emociones suben y bajan.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "WITHDRAWAL UNDER PRESSURE",
+      "line_height": 1.05,
+      "bbox": [
+        56.56380081176758,
+        553.2471313476562,
+        386.5269775390625,
+        570.2471313476562
+      ],
+      "spans": [
+        {
+          "source": "WITHDRAWAL UNDER PRESSURE  ",
+          "bbox": [
+            56.56380081176758,
+            553.2471313476562,
+            386.5269775390625,
+            570.2471313476562
+          ],
+          "font": "SohoPro-Heavy",
+          "size": 17.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 25,
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Heavy",
+        "size": 17.0,
+        "color": 5723990,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Heavy",
+      "size": 17.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0049_u0002",
+      "container_id": "p0049_c0002",
+      "scale_group": "p0049_display_17.0",
+      "page": 49,
+      "target": "REPLIEGUE BAJO PRESIÓN",
+      "target_runs": [
+        {
+          "text": "REPLIEGUE BAJO PRESIÓN",
+          "style": {
+            "font": "SohoPro-Heavy",
+            "size": 17.0,
+            "color": 5723990,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "CANCERIANS ACT ON INSTINCT, WITHDRAWING INTO THEIR SHELLS IF THEY SENSE DANGER.",
+      "line_height": 1.058999454273897,
+      "bbox": [
+        56.56380081176758,
+        571.2969970703125,
+        381.9217529296875,
+        624.302978515625
+      ],
+      "spans": [
+        {
+          "source": "CANCERIANS ACT ON INSTINCT, ",
+          "bbox": [
+            56.56380081176758,
+            571.2969970703125,
+            344.8072814941406,
+            588.2969970703125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "WITHDRAWING INTO THEIR SHELLS ",
+          "bbox": [
+            56.56380081176758,
+            589.2999877929688,
+            381.9217529296875,
+            606.2999877929688
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "IF THEY SENSE DANGER. ",
+          "bbox": [
+            56.56380081176758,
+            607.302978515625,
+            278.0686950683594,
+            624.302978515625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 17.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 79,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 17.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 17.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0049_u0003",
+      "container_id": "p0049_c0003",
+      "scale_group": "p0049_display_17.0",
+      "page": 49,
+      "target": "LAS PERSONAS CÁNCER ACTÚAN POR INSTINTO Y SE REFUGIAN EN SU CAPARAZÓN SI PERCIBEN PELIGRO.",
+      "target_runs": [
+        {
+          "text": "LAS PERSONAS CÁNCER ACTÚAN POR INSTINTO Y SE REFUGIAN EN SU CAPARAZÓN SI PERCIBEN PELIGRO.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 17.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "CARING",
+      "line_height": 1.05,
+      "bbox": [
+        364.2008056640625,
+        41.55918884277344,
+        450.9388122558594,
+        72.55918884277344
+      ],
+      "spans": [
+        {
+          "source": "CARING",
+          "bbox": [
+            364.2008056640625,
+            41.55918884277344,
+            450.9388122558594,
+            72.55918884277344
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0049_u0004",
+      "container_id": "p0049_c0004",
+      "scale_group": "p0049_display_31.0",
+      "page": 49,
+      "target": "ATENTOS A LOS DEMÁS",
+      "target_runs": [
+        {
+          "text": "ATENTOS A LOS DEMÁS",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "Cancerians are known to be sensitive and capable of understanding how others feel. As adults, many go on to work in healing and caring professions.",
+      "line_height": 1.1670023600260417,
+      "bbox": [
+        363.9841003417969,
+        73.87327575683594,
+        518.0257568359375,
+        127.88536071777344
+      ],
+      "spans": [
+        {
+          "source": "Cancerians are known to be sensitive  ",
+          "bbox": [
+            363.9841003417969,
+            73.87327575683594,
+            514.152099609375,
+            85.87327575683594
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and capable of understanding how ",
+          "bbox": [
+            363.9841003417969,
+            87.87730407714844,
+            502.9393005371094,
+            99.87730407714844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "others feel. As adults, many go on to ",
+          "bbox": [
+            363.9841003417969,
+            101.88133239746094,
+            509.05096435546875,
+            113.88133239746094
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "work in healing and caring professions.",
+          "bbox": [
+            363.9841003417969,
+            115.88536071777344,
+            518.0257568359375,
+            127.88536071777344
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 147,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0049_u0005",
+      "container_id": "p0049_c0005",
+      "scale_group": "p0049_display_12.0",
+      "page": 49,
+      "target": "Se sabe que las personas Cáncer son sensibles y capaces de comprender cómo se sienten los demás. De adultos, muchos acaban trabajando en profesiones de sanación y cuidado.",
+      "target_runs": [
+        {
+          "text": "Se sabe que las personas Cáncer son sensibles y capaces de comprender cómo se sienten los demás. De adultos, muchos acaban trabajando en profesiones de sanación y cuidado.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "EASILY HURT",
+      "line_height": 1.05,
+      "bbox": [
+        133.2283935546875,
+        260.1409912109375,
+        236.25238037109375,
+        276.1409912109375
+      ],
+      "spans": [
+        {
+          "source": "EASILY HURT",
+          "bbox": [
+            133.2283935546875,
+            260.1409912109375,
+            236.25238037109375,
+            276.1409912109375
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 11,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0049_u0006",
+      "container_id": "p0049_c0006",
+      "scale_group": "p0049_display_16.0",
+      "page": 49,
+      "target": "FÁCILMENTE HERIDOS",
+      "target_runs": [
+        {
+          "text": "FÁCILMENTE HERIDOS",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Cancerians are sensitive and can lash out when their feelings are hurt or they become stressed and anxious.",
+      "line_height": 1.2,
+      "bbox": [
+        133.2283935546875,
+        279.31597900390625,
+        253.9183807373047,
+        337.3160095214844
+      ],
+      "spans": [
+        {
+          "source": "Cancerians are sensitive ",
+          "bbox": [
+            133.2283935546875,
+            279.31597900390625,
+            252.02044677734375,
+            289.3160095214844
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and can lash out when ",
+          "bbox": [
+            133.2283935546875,
+            291.31597900390625,
+            244.2703857421875,
+            301.3160095214844
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "their feelings are hurt  ",
+          "bbox": [
+            133.2283935546875,
+            303.31597900390625,
+            244.5583953857422,
+            313.3160095214844
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "or they become stressed  ",
+          "bbox": [
+            133.2283935546875,
+            315.31597900390625,
+            253.9183807373047,
+            325.3160095214844
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and anxious. ",
+          "bbox": [
+            133.2283935546875,
+            327.31597900390625,
+            196.4783935546875,
+            337.3160095214844
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 107,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0049_u0007",
+      "container_id": "p0049_c0007",
+      "scale_group": "p0049_display_10.0",
+      "page": 49,
+      "target": "Las personas Cáncer son sensibles y pueden arremeter cuando hieren sus sentimientos o se sienten estresadas y ansiosas.",
+      "target_runs": [
+        {
+          "text": "Las personas Cáncer son sensibles y pueden arremeter cuando hieren sus sentimientos o se sienten estresadas y ansiosas.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "CLOSE TIES Cancerians put a lot of emotion into people, places, and possessions. Separating from them can be difficult.",
+      "line_height": 1.124999761581421,
+      "bbox": [
+        129.17730712890625,
+        41.91170120239258,
+        333.3725891113281,
+        111.91169738769531
+      ],
+      "spans": [
+        {
+          "source": "CLOSE TIES",
+          "bbox": [
+            129.277099609375,
+            42.77805709838867,
+            223.64212036132812,
+            57.77805709838867
+          ],
+          "font": "SohoPro-Bold",
+          "size": 15.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "Cancerians put a ",
+          "bbox": [
+            229.4333038330078,
+            41.91170120239258,
+            331.5469055175781,
+            57.91170120239258
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "lot of emotion into people, places, ",
+          "bbox": [
+            129.17730712890625,
+            59.91170120239258,
+            333.3725891113281,
+            75.91169738769531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and possessions. Separating from ",
+          "bbox": [
+            129.17730712890625,
+            77.91169738769531,
+            332.2845764160156,
+            93.91169738769531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "them can be difficult.",
+          "bbox": [
+            129.17730712890625,
+            95.91169738769531,
+            257.78375244140625,
+            111.91169738769531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 11,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "start": 11,
+          "end": 119,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 15.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0049_u0008",
+      "container_id": "p0049_c0008",
+      "scale_group": "p0049_display_16.0",
+      "page": 49,
+      "target": "VÍNCULOS ESTRECHOS Las personas Cáncer ponen mucha emoción en las personas, los lugares y las posesiones. Puede resultar difícil separarse de ellos.",
+      "target_runs": [
+        {
+          "text": "VÍNCULOS ESTRECHOS ",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 15.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "text": "Las personas Cáncer ponen mucha emoción en las personas, los lugares y las posesiones. Puede resultar difícil separarse de ellos.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "KEEP AT IT!",
+      "line_height": 1.05,
+      "bbox": [
+        347.17730712890625,
+        466.7928771972656,
+        438.5710144042969,
+        482.7928771972656
+      ],
+      "spans": [
+        {
+          "source": "KEEP AT IT!",
+          "bbox": [
+            347.17730712890625,
+            466.7928771972656,
+            438.5710144042969,
+            482.7928771972656
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 11,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0049_u0009",
+      "container_id": "p0049_c0009",
+      "scale_group": "p0049_display_16.0",
+      "page": 49,
+      "target": "NO TE RINDAS!",
+      "target_runs": [
+        {
+          "text": "NO TE RINDAS!",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "When really set on an important goal, a Cancerian won’t give up. They are determined, but not pushy.",
+      "line_height": 1.1670023600260417,
+      "bbox": [
+        347.1716003417969,
+        486.2463684082031,
+        499.2236022949219,
+        526.25439453125
+      ],
+      "spans": [
+        {
+          "source": "When really set on an important goal,  ",
+          "bbox": [
+            347.1716003417969,
+            486.2463684082031,
+            499.2236022949219,
+            498.2463684082031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "a Cancerian won’t give up. They are ",
+          "bbox": [
+            347.1716003417969,
+            500.2503967285156,
+            489.3439636230469,
+            512.2504272460938
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "determined, but not pushy. ",
+          "bbox": [
+            347.1716003417969,
+            514.25439453125,
+            455.0996398925781,
+            526.25439453125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 100,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0049_u0010",
+      "container_id": "p0049_c0010",
+      "scale_group": "p0049_display_12.0",
+      "page": 49,
+      "target": "Cuando se proponen de verdad una meta importante, las personas Cáncer no se rinden. Son personas decididas, pero no insistentes.",
+      "target_runs": [
+        {
+          "text": "Cuando se proponen de verdad una meta importante, las personas Cáncer no se rinden. Son personas decididas, pero no insistentes.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "FAMILIAR FACES",
+      "line_height": 1.05,
+      "bbox": [
+        36.0276985168457,
+        140.39381408691406,
+        221.52549743652344,
+        171.39381408691406
+      ],
+      "spans": [
+        {
+          "source": "FAMILIAR FACES",
+          "bbox": [
+            36.0276985168457,
+            140.39381408691406,
+            221.52549743652344,
+            171.39381408691406
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 14,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0049_u0011",
+      "container_id": "p0049_c0011",
+      "scale_group": "p0049_display_31.0",
+      "page": 49,
+      "target": "ROSTROS FAMILIARES",
+      "target_runs": [
+        {
+          "text": "ROSTROS FAMILIARES",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "PEOPLE WITH THIS SIGN LIKE TO FEEL THAT THEY’RE IN KNOWN TERRITORY—WITH FAMILY, FRIENDS, HOME, AND SCHOOL.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        35.90890121459961,
+        173.0657501220703,
+        279.47808837890625,
+        235.07179260253906
+      ],
+      "spans": [
+        {
+          "source": "PEOPLE WITH THIS SIGN LIKE TO ",
+          "bbox": [
+            35.90890121459961,
+            173.0657501220703,
+            279.47808837890625,
+            187.0657501220703
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "FEEL THAT THEY’RE IN KNOWN ",
+          "bbox": [
+            35.90890121459961,
+            189.06776428222656,
+            268.4993591308594,
+            203.06776428222656
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "TERRITORY—WITH FAMILY,  ",
+          "bbox": [
+            35.90890121459961,
+            205.0697784423828,
+            240.47689819335938,
+            219.0697784423828
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "FRIENDS, HOME, AND SCHOOL.",
+          "bbox": [
+            35.908905029296875,
+            221.07179260253906,
+            261.90673828125,
+            235.07179260253906
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 106,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0049_u0012",
+      "container_id": "p0049_c0012",
+      "scale_group": "p0049_display_14.0",
+      "page": 49,
+      "target": "A LAS PERSONAS DE ESTE SIGNO LES GUSTA SENTIR QUE ESTÁN EN TERRENO CONOCIDO: CON LA FAMILIA, LOS AMIGOS, EN CASA Y EN LA ESCUELA.",
+      "target_runs": [
+        {
+          "text": "A LAS PERSONAS DE ESTE SIGNO LES GUSTA SENTIR QUE ESTÁN EN TERRENO CONOCIDO: CON LA FAMILIA, LOS AMIGOS, EN CASA Y EN LA ESCUELA.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "NEED FOR SECURITY",
+      "line_height": 1.05,
+      "bbox": [
+        45.74489974975586,
+        470.065185546875,
+        279.0447082519531,
+        501.0652160644531
+      ],
+      "spans": [
+        {
+          "source": "NEED FOR SECURITY ",
+          "bbox": [
+            45.74489974975586,
+            470.065185546875,
+            279.0447082519531,
+            501.0652160644531
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 17,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0049_u0013",
+      "container_id": "p0049_c0013",
+      "scale_group": "p0049_display_31.0",
+      "page": 49,
+      "target": "NECESIDAD DE SEGURIDAD",
+      "target_runs": [
+        {
+          "text": "NECESIDAD DE SEGURIDAD",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "PLANETS IN THIS SIGN NEED TO FEEL SAFE AND DON’T LIKE RISK.",
+      "line_height": 1.1429966517857142,
+      "bbox": [
+        45.6260986328125,
+        502.737060546875,
+        289.7958984375,
+        532.739013671875
+      ],
+      "spans": [
+        {
+          "source": "PLANETS IN THIS SIGN NEED TO ",
+          "bbox": [
+            45.6260986328125,
+            502.737060546875,
+            283.413330078125,
+            516.737060546875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "FEEL SAFE AND DON’T LIKE RISK.",
+          "bbox": [
+            45.6260986328125,
+            518.739013671875,
+            289.7958984375,
+            532.739013671875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 59,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0049_u0014",
+      "container_id": "p0049_c0014",
+      "scale_group": "p0049_display_14.0",
+      "page": 49,
+      "target": "LOS PLANETAS EN ESTE SIGNO NECESITAN SENTIRSE A SALVO Y NO LES GUSTA ARRIESGARSE.",
+      "target_runs": [
+        {
+          "text": "LOS PLANETAS EN ESTE SIGNO NECESITAN SENTIRSE A SALVO Y NO LES GUSTA ARRIESGARSE.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "FEELINGS",
+      "line_height": 1.05,
+      "bbox": [
+        383.7659912109375,
+        339.435302734375,
+        490.343994140625,
+        370.4353332519531
+      ],
+      "spans": [
+        {
+          "source": "FEELINGS",
+          "bbox": [
+            383.7659912109375,
+            339.435302734375,
+            490.343994140625,
+            370.4353332519531
+          ],
+          "font": "SohoPro-HeavyCompressed",
+          "size": 31.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 8,
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-HeavyCompressed",
+        "size": 31.0,
+        "color": 1907995,
+        "weight": 400,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-HeavyCompressed",
+      "size": 31.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0049_u0015",
+      "container_id": "p0049_c0015",
+      "scale_group": "p0049_display_31.0",
+      "page": 49,
+      "target": "EMOCIONES",
+      "target_runs": [
+        {
+          "text": "EMOCIONES",
+          "style": {
+            "font": "SohoPro-HeavyCompressed",
+            "size": 31.0,
+            "color": 1907995,
+            "weight": 400,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE CANCERIAN STYLE IS ALL ABOUT PERSONAL EMOTIONS.",
+      "line_height": 1.1430010114397322,
+      "bbox": [
+        383.6471862792969,
+        372.10723876953125,
+        523.97900390625,
+        434.1132507324219
+      ],
+      "spans": [
+        {
+          "source": "THE CANCERIAN  ",
+          "bbox": [
+            383.6471862792969,
+            372.10723876953125,
+            512.6712036132812,
+            386.10723876953125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "STYLE IS ALL  ",
+          "bbox": [
+            383.647216796875,
+            388.1092529296875,
+            485.4272155761719,
+            402.1092529296875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "ABOUT PERSONAL ",
+          "bbox": [
+            383.647216796875,
+            404.11126708984375,
+            523.97900390625,
+            418.11126708984375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "EMOTIONS.",
+          "bbox": [
+            383.647216796875,
+            420.1132507324219,
+            466.47125244140625,
+            434.1132507324219
+          ],
+          "font": "SohoPro-Bold",
+          "size": 14.0,
+          "color": 11776690,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 51,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 14.0,
+        "color": 11776690,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 14.0,
+      "color": 11776690,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0049_u0016",
+      "container_id": "p0049_c0016",
+      "scale_group": "p0049_display_14.0",
+      "page": 49,
+      "target": "EL ESTILO CANCERIANO GIRA EN TORNO A LAS EMOCIONES PERSONALES.",
+      "target_runs": [
+        {
+          "text": "EL ESTILO CANCERIANO GIRA EN TORNO A LAS EMOCIONES PERSONALES.",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 14.0,
+            "color": 11776690,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "NEGATIVE TRAITS",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        370.9508056640625,
+        177.05599975585938,
+        386.9508056640625
+      ],
+      "spans": [
+        {
+          "source": "NEGATIVE TRAITS",
+          "bbox": [
+            36.0,
+            370.9508056640625,
+            177.05599975585938,
+            386.9508056640625
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0049_u0017",
+      "container_id": "p0049_c0017",
+      "scale_group": "p0049_display_16.0",
+      "page": 49,
+      "target": "RASGOS NEGATIVOS",
+      "target_runs": [
+        {
+          "text": "RASGOS NEGATIVOS",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Emotions often win out over common sense. Cancerians can be quick to take sides, and they don’t always react well in unfamiliar situations.",
+      "line_height": 1.2,
+      "bbox": [
+        36.0,
+        390.12591552734375,
+        221.65103149414062,
+        436.12591552734375
+      ],
+      "spans": [
+        {
+          "source": "Emotions often win out over common ",
+          "bbox": [
+            36.0,
+            390.12591552734375,
+            219.09500122070312,
+            400.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "sense. Cancerians can be quick to take ",
+          "bbox": [
+            36.0,
+            402.12591552734375,
+            221.65103149414062,
+            412.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "sides, and they don’t always react  ",
+          "bbox": [
+            36.0,
+            414.12591552734375,
+            204.12998962402344,
+            424.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "well in unfamiliar situations.",
+          "bbox": [
+            36.0,
+            426.12591552734375,
+            174.15403747558594,
+            436.12591552734375
+          ],
+          "font": "SohoPro-Light",
+          "size": 10.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 139,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 10.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 10.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0049_u0018",
+      "container_id": "p0049_c0018",
+      "scale_group": "p0049_display_10.0",
+      "page": 49,
+      "target": "Las emociones suelen imponerse al sentido común. A las personas de Cáncer puede resultarles fácil tomar partido, y no siempre reaccionan bien ante situaciones desconocidas.",
+      "target_runs": [
+        {
+          "text": "Las emociones suelen imponerse al sentido común. A las personas de Cáncer puede resultarles fácil tomar partido, y no siempre reaccionan bien ante situaciones desconocidas.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 10.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Cancer",
+      "line_height": 1.05,
+      "bbox": [
+        460.79638671875,
+        22.927167892456055,
+        488.5043640136719,
+        34.92716979980469
+      ],
+      "spans": [
+        {
+          "source": "Cancer",
+          "bbox": [
+            460.79638671875,
+            22.927167892456055,
+            488.5043640136719,
+            34.92716979980469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 11,
+      "id": "p0049_u0019",
+      "container_id": "p0049_c0019",
+      "scale_group": "p0049_display_12.0",
+      "page": 49,
+      "target": "Cáncer",
+      "target_runs": [
+        {
+          "text": "Cáncer",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "POWERFUL INTUITION",
+      "line_height": 1.125,
+      "bbox": [
+        237.18870544433594,
+        367.8575134277344,
+        329.68475341796875,
+        401.8575134277344
+      ],
+      "spans": [
+        {
+          "source": "POWERFUL ",
+          "bbox": [
+            237.18870544433594,
+            367.8575134277344,
+            329.68475341796875,
+            383.8575134277344
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "INTUITION",
+          "bbox": [
+            237.18870544433594,
+            385.8575134277344,
+            320.54876708984375,
+            401.8575134277344
+          ],
+          "font": "FrutigerLTStd-Bold",
+          "size": 16.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "FrutigerLTStd-Bold",
+        "size": 16.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "FrutigerLTStd-Bold",
+      "size": 16.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0049_u0020",
+      "container_id": "p0049_c0020",
+      "scale_group": "p0049_display_16.0",
+      "page": 49,
+      "target": "INTUICIÓN PODEROSA",
+      "target_runs": [
+        {
+          "text": "INTUICIÓN PODEROSA",
+          "style": {
+            "font": "FrutigerLTStd-Bold",
+            "size": 16.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "People born under this sign easily pick up on emotional atmosphere and feelings.",
+      "line_height": 1.1669998168945312,
+      "bbox": [
+        237.18870544433594,
+        405.3130798339844,
+        347.73150634765625,
+        445.3210754394531
+      ],
+      "spans": [
+        {
+          "source": "People born under this sign ",
+          "bbox": [
+            237.18870544433594,
+            405.3130798339844,
+            347.73150634765625,
+            417.3130798339844
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "easily pick up on emotional ",
+          "bbox": [
+            237.18870544433594,
+            419.31707763671875,
+            346.1212158203125,
+            431.31707763671875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "atmosphere and feelings.",
+          "bbox": [
+            237.18870544433594,
+            433.3210754394531,
+            336.2823181152344,
+            445.3210754394531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 6579043,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 80,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 6579043,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 6579043,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0049_u0021",
+      "container_id": "p0049_c0021",
+      "scale_group": "p0049_display_12.0",
+      "page": 49,
+      "target": "Las personas nacidas bajo este signo perciben con facilidad el ambiente emocional y los sentimientos.",
+      "target_runs": [
+        {
+          "text": "Las personas nacidas bajo este signo perciben con facilidad el ambiente emocional y los sentimientos.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 6579043,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    }
+  ]
+}

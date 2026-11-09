@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import pymupdf
 from astro_translate.core import atomic_json
+from astro_translate.llm import SUBSCRIPTION_BACKENDS
 
 
 def row_pages(row):
@@ -14,6 +15,9 @@ def row_pages(row):
 def estimate(book,pages=None,phase=None):
     book=Path(book);log=book/'work/costs.jsonl'
     rows=[json.loads(line) for line in log.read_text().splitlines() if line.strip()] if log.exists() else []
+    for row in rows:
+        if row.get('backend') in SUBSCRIPTION_BACKENDS and row.get('cost_usd')==0 and row.get('status') not in ('cache_hit','block_cache_hit','sentence_cache_hit'):
+            row['cost_usd']=None;row['cost_status']='unknown_legacy_zero'
     selected=[r for r in rows if r.get('task')=='translate_page' and (phase is None or r.get('phase','legacy')==phase) and (pages is None or set(row_pages(r))&set(pages))]
     measured=[r for r in selected if not r.get('cached') and r.get('status') in ('ok','validation_error')]
     sample=sorted({p for r in measured for p in row_pages(r)})
@@ -32,9 +36,15 @@ def estimate(book,pages=None,phase=None):
     result['projected_calls']=len(measured)/len(sample)*total
     result['backend_counts']={b:sum(r['backend']==b for r in measured) for b in {r['backend'] for r in measured}}
     result['validation_errors']=sum(r.get('status')=='validation_error' for r in measured)
-    result['cost_usd_known']=sum(r.get('cost_usd') or 0 for r in measured)
-    result['cost_usd_complete']=all(r.get('cost_usd') is not None for r in measured)
-    result['subscription_cost_note']='Codex subscription calls have no incremental API charge; subscription price and remaining capacity are not estimated.'
+    costs=[r.get('cost_usd') for r in measured]
+    result['cost_usd_known']=sum(v for v in costs if isinstance(v,(int,float)))
+    result['cost_usd_unknown_records']=sum(v is None for v in costs)
+    result['cost_usd_complete']=result['cost_usd_unknown_records']==0
+    estimated=[r.get('estimated_cost_usd') for r in measured if r.get('backend')=='claude_cli']
+    result['estimated_subscription_usd']={'measured_total':sum(v for v in estimated if isinstance(v,(int,float))),
+        'unknown_records':sum(not isinstance(v,(int,float)) for v in estimated),
+        'note':'Claude CLI total_cost_usd is an API-equivalent estimate for subscription calls, not an incremental charge.'}
+    result['subscription_cost_note']='Subscription calls (Codex, Claude CLI) have no incremental API charge; subscription price and remaining capacity are not estimated.'
     return result
 
 

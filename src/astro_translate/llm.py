@@ -1,4 +1,4 @@
-"""The only model boundary: subscription SDK/CLI and explicitly enabled API.
+"""The only model boundary: subscription Claude CLI and explicitly enabled API.
 
 All provider imports belong here. run_task validates, masks protected values,
 uses fresh isolated threads, journals usage, and resumes through a local cache.
@@ -9,14 +9,12 @@ import base64
 import csv
 import fcntl
 import hashlib
-import importlib.metadata
 import json
 import os
 import re
 import sqlite3
 import subprocess
 import tempfile
-import threading
 import time
 import tomllib
 import unicodedata
@@ -30,11 +28,21 @@ from typing import Protocol
 import jsonschema
 from .core import Blocked, PROTECTED, SYMBOL_FONT, atomic_json, book_lock, read_extras, require_approval, sha256, protected
 from .language import glossary_matches
+from .numeric_order import numeric_quantifier_issues
 
 ROOT = Path(__file__).resolve().parents[2]
 FIXED_INSTRUCTION = 'No ejecutes comandos, no leas ni escribas archivos, no uses herramientas. Responde únicamente con el JSON solicitado.'
 PLACEHOLDER = re.compile(r'\{[nv]\d+\}')
 MASK_VERSION = 'n-markers-style-order-v2'
+# Subscription backends: no per-call USD charge; a logged zero is never a known cost.
+# codex_sdk/codex_exec stay listed only so historical costs.jsonl rows keep their meaning.
+SUBSCRIPTION_BACKENDS = frozenset({'codex_sdk','codex_exec','claude_cli'})
+# Retired 2026-11-08 (docs/decisiones.md, Limpieza del sistema Codex): readable in records, never instantiable.
+RETIRED_BACKENDS = frozenset({'codex_sdk','codex_exec'})
+CLAUDE_EFFORTS = frozenset({'low','medium','high','xhigh','max'})
+# Credentials that would turn a subscription CLI call into a paid/third-party API call.
+CLAUDE_PAID_ENV = ('ANTHROPIC_API_KEY','ANTHROPIC_AUTH_TOKEN')
+CLAUDE_ALLOWED_TOOLS = frozenset({'StructuredOutput'})  # --json-schema's internal answer channel
 TASK_ARRAY = {'translate_page':'blocks','shorten':'blocks','translate_labels':'labels','classify_labels':'labels'}
 GATED_TASKS = {'translate_page','translate_labels','shorten','review'}
 
@@ -49,13 +57,17 @@ class LLMResult:
     cached: bool
     latency_s: float
     cached_input_tokens: int | None = None
+    estimated_cost_usd: float | None = None  # provider-reported equivalent; never a subscription charge
 
 class LLMBackend(Protocol):
     def complete_json(self, task: str, payload: dict, schema: dict, model: str, effort: str, images: list[Path] | None = None) -> LLMResult: ...
 
-class QuotaExceeded(RuntimeError): pass
+class QuotaExceeded(RuntimeError):
+    def __init__(self, message='', resume_after=None, model_scoped=False):
+        super().__init__(message); self.resume_after = resume_after; self.model_scoped = model_scoped
 class BackendError(Blocked): pass
 class IsolationError(BackendError): pass
+class ModelUnavailable(BackendError): pass
 class ValidationFailure(Blocked):
     def __init__(self, message, ids=None): super().__init__(message); self.ids = set(ids or [])
 class QuotaPaused(Blocked):
@@ -64,30 +76,62 @@ class QuotaPaused(Blocked):
 
 def _json(value): return json.dumps(value, sort_keys=True, ensure_ascii=False, separators=(',',':'))
 def _digest(value): return hashlib.sha256(_json(value).encode()).hexdigest()
-def _enum(value): return getattr(value,'value',value)
 def _prompt(task, payload):
     clean = {k:v for k,v in payload.items() if not k.startswith('_')}
-    return FIXED_INSTRUCTION+'\n\n'+payload.get('_template','')+'\n\n'+_json(clean)
+    instruction=''
+    if payload.get('_style_pairs'):
+        from .style_spans import PAIR_INSTRUCTION
+        instruction='\n\n'+PAIR_INSTRUCTION
+    if payload.get('_flat_emphasis'):
+        from .emphasis import INSTRUCTION
+        instruction+='\n\n'+INSTRUCTION
+    return FIXED_INSTRUCTION+'\n\n'+payload.get('_template','')+instruction+'\n\n'+_json(clean)
+
+QUOTA_TEXTS = ('usagelimitexceeded','ratelimitexceeded','usage limit','usage_limit','rate limit','rate_limit','quota exceeded','quota_exceeded','insufficient_quota',
+               'hit your session limit','hit your weekly limit','hit your opus limit','hit your sonnet limit','5-hour limit','weekly limit reached')
+MODEL_LIMIT = re.compile(r'\b(?:opus|sonnet|haiku)\b[^.\n]{0,20}\blimit\b',re.I)
+MODEL_UNAVAILABLE_TEXTS = ('model_not_found','not_found_error','not supported','does not exist','invalid model','unknown model','model is not available','not available for your')
 
 def _quota(value):
     text = str(value).lower()
-    return any(x in text for x in ('usagelimitexceeded','ratelimitexceeded','usage limit','usage_limit','rate limit','rate_limit','quota exceeded','quota_exceeded','insufficient_quota'))
+    return any(x in text for x in QUOTA_TEXTS)
 
-def _account_chatgpt(account):
-    data = account.model_dump(mode='json') if hasattr(account,'model_dump') else account
-    return isinstance(data,dict) and isinstance(data.get('account'),dict) and data['account'].get('type')=='chatgpt'
+def _model_scoped_limit(value):
+    return bool(_quota(value) and MODEL_LIMIT.search(str(value)))
 
+_MONTHS = {m:i for i,m in enumerate(('jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'),1)}
+_RESET_CLOCK = re.compile(r'resets?\s+(?:at\s+)?(?:(?P<mon>jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+(?P<day>\d{1,2}),?\s+(?:at\s+)?)?'
+                          r'(?P<h>\d{1,2})(?::(?P<m>\d{2}))?\s*(?P<ap>am|pm)?(?:\s*\((?P<tz>[^)]+)\))?',re.I)
+_RESET_IN = re.compile(r'resets?\s+in\s+(?:(?P<h>\d+)\s*h[a-z]*)?\s*(?:(?P<m>\d+)\s*m[a-z]*)?',re.I)
 
-def _safe_overrides():
-    # Enforced in addition to the profile so accidental future edits fail closed.
-    values = {'web_search':'disabled','project_doc_max_bytes':0,'skills.include_instructions':False,
-              'features.skip_host_skill_discovery':True,'features.shell_tool':False,'features.unified_exec':False,
-              'features.apps':False,'features.plugins':False,'features.multi_agent':False,'agents.enabled':False,
-              'features.view_image':False,'features.browser_use':False,'features.computer_use':False,
-              'features.sleep_tool':False,'features.goals':False,'features.memories':False,'features.skill_search':False,
-              'mcp_servers':{}}
-    return tuple(f'{k}={json.dumps(v).lower() if isinstance(v,bool) else json.dumps(v)}' for k,v in values.items())
-
+def _resume_after(value, now=None):
+    """Best-effort unix time from a provider limit message; None means use backoff."""
+    from datetime import timedelta
+    from zoneinfo import ZoneInfo
+    text=str(value);now=time.time() if now is None else now;found=None
+    epoch=re.search(r'\|(\d{10})\b',text)
+    if epoch:found=float(epoch.group(1))
+    elif (match:=_RESET_IN.search(text)) and (match.group('h') or match.group('m')):
+        found=now+int(match.group('h') or 0)*3600+int(match.group('m') or 0)*60
+    elif (match:=_RESET_CLOCK.search(text)) and (match.group('ap') or match.group('m')):
+        hour=int(match.group('h'));minute=int(match.group('m') or 0);ap=(match.group('ap') or '').lower()
+        if ap:
+            if not 1<=hour<=12:return None
+            hour=hour%12+(12 if ap=='pm' else 0)
+        if hour>23 or minute>59:return None
+        try:zone=ZoneInfo(match.group('tz').strip()) if match.group('tz') else None
+        except (KeyError,ValueError):zone=None
+        current=datetime.fromtimestamp(now,zone) if zone else datetime.fromtimestamp(now).astimezone()
+        if match.group('mon'):
+            try:candidate=current.replace(month=_MONTHS[match.group('mon').lower()[:3]],day=int(match.group('day')),hour=hour,minute=minute,second=0,microsecond=0)
+            except ValueError:return None
+            if candidate.timestamp()<now-86400:candidate=candidate.replace(year=candidate.year+1)
+        else:
+            candidate=current.replace(hour=hour,minute=minute,second=0,microsecond=0)
+            if candidate.timestamp()<=now:candidate+=timedelta(days=1)
+        found=candidate.timestamp()
+    if found is None or not now<found<=now+8*86400:return None
+    return found
 
 def _sandbox_folder(work,provider):
     work=Path(work).resolve();configured=Path(provider.get('sandbox_dir','work/.codex_llm_sandbox'))
@@ -96,113 +140,85 @@ def _sandbox_folder(work,provider):
     folder.mkdir(parents=True,exist_ok=True);return folder
 
 
-def _profile_overrides(profile,cwd=None):
-    # app-server 0.163 rejects --profile; equivalent profile values are supplied
-    # through its public config overrides instead, without replacing user config.
-    home=Path(os.environ.get('CODEX_HOME',Path.home()/'.codex'))
-    file=home/(profile+'.config.toml')
-    if not file.is_file():raise IsolationError('Install the translator profile before using Codex')
-    values=tomllib.loads(file.read_text()); overrides=[]
-    def flatten(data,prefix=()):
-        for key,value in data.items():
-            keys=(*prefix,key)
-            if isinstance(value,dict):flatten(value,keys)
-            else:overrides.append('.'.join(json.dumps(k) for k in keys)+'='+json.dumps(value))
-    flatten(values)
-    servers=set(values.get('mcp_servers',{}))
-    global_config=home/'config.toml'
-    if global_config.exists():servers.update(tomllib.loads(global_config.read_text()).get('mcp_servers',{}))
-    if cwd is not None:
-        for parent in (Path(cwd).resolve(),*Path(cwd).resolve().parents):
-            project=parent/'.codex/config.toml'
-            if project.is_file():servers.update(tomllib.loads(project.read_text()).get('mcp_servers',{}))
-    for server in servers:overrides.append('mcp_servers.'+json.dumps(server)+'.enabled=false')
-    return tuple(overrides)
+def _cli_schema(schema):
+    """The Claude CLI validator rejects meta-schema references; the schema itself is unchanged."""
+    if isinstance(schema,dict):return {k:_cli_schema(v) for k,v in schema.items() if k not in ('$schema','$id')}
+    if isinstance(schema,list):return [_cli_schema(v) for v in schema]
+    return schema
 
 
-class CodexSDKBackend:
-    def __init__(self, work:Path, provider:dict): self.work=Path(work); self.provider=provider
-    def complete_json(self, task,payload,schema,model,effort,images=None):
-        from openai_codex import Codex,CodexConfig,Sandbox,ApprovalMode,TextInput,LocalImageInput
-        from openai_codex.generated.v2_all import ItemStartedNotification,ItemCompletedNotification,TurnCompletedNotification,ThreadTokenUsageUpdatedNotification
-        started=time.monotonic(); profile=self.provider.get('codex_profile','translator')
+class ClaudeCLIBackend:
+    """Official Claude Code CLI on the user's OAuth subscription; never an API key."""
+    def __init__(self, work:Path, provider:dict):self.work=Path(work);self.provider=provider
+    def command(self,schema,model,effort,images):
+        binary=self.provider.get('claude_bin') or 'claude'
+        # Images need stream-json input (base64 content blocks); tools stay disabled either way.
+        stream=('--input-format','stream-json','--verbose') if images else ()
+        output='stream-json' if images else 'json'
+        return [binary,'-p','--model',model,'--effort',effort,*stream,'--output-format',output,
+                '--json-schema',_json(_cli_schema(schema)),'--system-prompt',FIXED_INSTRUCTION,
+                '--tools','','--setting-sources','','--strict-mcp-config','--no-session-persistence',
+                '--disable-slash-commands','--settings',json.dumps({'autoMemoryEnabled':False},separators=(',',':'))]
+    @staticmethod
+    def _stdin(task,payload,images):
+        prompt=_prompt(task,payload)
+        if not images:return prompt
+        content=[]
+        for path in images:
+            path=Path(path);media={'.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.gif':'image/gif'}.get(path.suffix.lower(),'image/png')
+            content.append({'type':'image','source':{'type':'base64','media_type':media,'data':base64.b64encode(path.read_bytes()).decode()}})
+        content.append({'type':'text','text':prompt})
+        return json.dumps({'type':'user','message':{'role':'user','content':content}},ensure_ascii=False)+'\n'
+    @staticmethod
+    def _events(stdout,images):
+        events=[]
+        for line in (stdout.splitlines() if images else [stdout]):
+            try:event=json.loads(line)
+            except ValueError:continue
+            if isinstance(event,dict):events.append(event)
+        for event in events:
+            if event.get('type')=='system' and event.get('subtype')=='init':
+                tools=set(event.get('tools') or [])-CLAUDE_ALLOWED_TOOLS
+                if tools or event.get('mcp_servers'):raise IsolationError('Claude CLI started with tools/MCP: '+','.join(sorted(tools)))
+            if event.get('type')=='assistant':
+                for part in (event.get('message') or {}).get('content') or []:
+                    if isinstance(part,dict) and part.get('type') in ('tool_use','server_tool_use') and part.get('name') not in CLAUDE_ALLOWED_TOOLS:
+                        raise IsolationError('Claude CLI attempted forbidden tool: '+str(part.get('name')))
+        results=[e for e in events if e.get('type')=='result']
+        return results[-1] if results else None
+    def complete_json(self,task,payload,schema,model,effort,images=None):
+        if effort not in CLAUDE_EFFORTS:raise BackendError('Unsupported Claude CLI effort: '+str(effort))
+        started=time.monotonic()
+        env=os.environ.copy()
+        for key in CLAUDE_PAID_ENV:env.pop(key,None)
         folder=_sandbox_folder(self.work,self.provider)
         with tempfile.TemporaryDirectory(prefix='call-',dir=folder) as cwd:
-            cfg=CodexConfig(cwd=cwd,codex_bin=self.provider.get('codex_bin'),
-                config_overrides=(*_profile_overrides(profile,cwd),*_safe_overrides()),
-                env={'OPENAI_API_KEY':'','CODEX_API_KEY':''})
-            with Codex(cfg) as client:
-                if not _account_chatgpt(client.account()): raise BackendError('Codex authentication must be ChatGPT, not an API key')
-                thread=client.thread_start(model=model,cwd=cwd,sandbox=Sandbox.read_only,approval_mode=ApprovalMode.deny_all,
-                    ephemeral=True,developer_instructions=FIXED_INSTRUCTION)
-                user_input=_prompt(task,payload)
-                if images:
-                    user_input=[TextInput(text=user_input),*[LocalImageInput(path=str(Path(p).resolve())) for p in images]]
-                handle=thread.turn(user_input,effort=effort,output_schema=schema,approval_mode=ApprovalMode.deny_all,sandbox=Sandbox.read_only)
-                final=None; usage=None; status=None; timed_out=threading.Event()
-                def timeout():
-                    timed_out.set()
-                    try: handle.interrupt()
-                    except Exception: pass
-                    client.close()
-                timer=threading.Timer(float(self.provider.get('timeout_seconds',180)),timeout);timer.daemon=True;timer.start()
-                try:
-                    for event in handle.stream():
-                        data=event.payload
-                        if isinstance(data,(ItemStartedNotification,ItemCompletedNotification)):
-                            item=getattr(data.item,'root',data.item);kind=_enum(getattr(item,'type',None))
-                            if kind not in ('agentMessage','reasoning','userMessage'):
-                                handle.interrupt();raise IsolationError(f'Codex attempted forbidden item type: {kind}')
-                            if isinstance(data,ItemCompletedNotification) and kind=='agentMessage':final=item.text
-                        if isinstance(data,ThreadTokenUsageUpdatedNotification):usage=data.token_usage.last
-                        if isinstance(data,TurnCompletedNotification):
-                            status=_enum(data.turn.status)
-                            if data.turn.error:
-                                code=_enum(getattr(data.turn.error.codex_error_info,'root',data.turn.error.codex_error_info))
-                                if _quota(code) or _quota(data.turn.error.message):raise QuotaExceeded('Codex subscription usage/rate limit')
-                                raise BackendError('Codex turn failed: '+str(code)+'; '+str(data.turn.error.message)[:1500])
-                    if timed_out.is_set():raise BackendError('Codex SDK timed out')
-                    if status!='completed' or not final:raise BackendError('Codex returned no completed final response')
-                finally:timer.cancel()
-                try: data=json.loads(final)
-                except ValueError: data=final # defensive validation and retry occurs centrally, with usage retained
-                return LLMResult(data,model,effort,getattr(usage,'input_tokens',None),getattr(usage,'output_tokens',None),'codex_sdk',False,time.monotonic()-started,cached_input_tokens=getattr(usage,'cached_input_tokens',None))
-
-
-class CodexExecBackend:
-    def __init__(self, work:Path, provider:dict):self.work=Path(work);self.provider=provider
-    def complete_json(self,task,payload,schema,model,effort,images=None):
-        started=time.monotonic();bin=self.provider.get('codex_exec_bin','codex');profile=self.provider.get('codex_profile','translator')
-        env=os.environ.copy();env.pop('OPENAI_API_KEY',None);env.pop('CODEX_API_KEY',None)
-        auth=subprocess.run([bin,'login','status'],capture_output=True,text=True,env=env,timeout=20)
-        if auth.returncode or 'ChatGPT' not in auth.stdout+auth.stderr:raise BackendError('Codex authentication must be ChatGPT')
-        folder=_sandbox_folder(self.work,self.provider)
-        with tempfile.TemporaryDirectory(prefix='call-',dir=folder) as tmp:
-            base=Path(tmp);cwd=base/'empty';cwd.mkdir();schema_path=base/'schema.json';schema_path.write_text(_json(schema))
-            command=[bin,'-p',profile]
-            for override in (*_profile_overrides(profile,cwd),*_safe_overrides()):command.extend(['-c',override])
-            command+=['exec','--ephemeral','--sandbox','read-only','--skip-git-repo-check','-m',model,'-c',f'model_reasoning_effort={json.dumps(effort)}','--json','--output-schema',str(schema_path)]
-            for path in images or []:command.extend(['--image',str(Path(path).resolve())])
-            command.append('-')
-            try: result=subprocess.run(command,input=_prompt(task,payload),capture_output=True,text=True,cwd=cwd,env=env,timeout=self.provider.get('timeout_seconds',180))
-            except subprocess.TimeoutExpired:raise BackendError('Codex exec timed out') from None
-            final=None;usage={};error=None
-            for line in result.stdout.splitlines():
-                try:event=json.loads(line)
-                except ValueError:continue
-                if event.get('type') in ('item.started','item.completed'):
-                    item=event.get('item',{});kind=item.get('type')
-                    if kind not in ('agent_message','reasoning'):raise IsolationError(f'Codex exec attempted forbidden item: {kind}')
-                    if event['type']=='item.completed' and kind=='agent_message':final=item.get('text')
-                if event.get('type')=='turn.completed':usage=event.get('usage',{})
-                if event.get('type') in ('turn.failed','error'):error=event
-            if error or result.returncode:
-                if _quota(error) or _quota(result.stderr):raise QuotaExceeded('Codex subscription usage/rate limit')
-                raise BackendError('Codex exec failed; no provider stderr or secrets written to logs')
-            if not final:raise BackendError('Codex exec returned no final JSON response')
-            try:data=json.loads(final)
-            except ValueError:data=final
-            return LLMResult(data,model,effort,usage.get('input_tokens'),usage.get('output_tokens'),'codex_exec',False,time.monotonic()-started,cached_input_tokens=usage.get('cached_input_tokens'))
+            try:completed=subprocess.run(self.command(schema,model,effort,images),input=self._stdin(task,payload,images),capture_output=True,text=True,
+                                          cwd=cwd,env=env,timeout=self.provider.get('timeout_seconds',180))
+            except subprocess.TimeoutExpired:raise BackendError('Claude CLI timed out') from None
+        final=self._events(completed.stdout or '',images)
+        message=str((final or {}).get('result') or '')
+        if final is None or final.get('is_error') or final.get('subtype')!='success' or completed.returncode:
+            evidence=message+'\n'+str(completed.stderr or '')[-2000:]
+            if _quota(evidence):
+                raise QuotaExceeded('Claude subscription usage limit',resume_after=_resume_after(evidence),model_scoped=_model_scoped_limit(evidence))
+            detail=('subtype='+str((final or {}).get('subtype'))+'; '+message[:300]) if final else 'no result event; '+str(completed.stderr or '')[-300:]
+            if any(x in evidence.lower() for x in MODEL_UNAVAILABLE_TEXTS):raise ModelUnavailable('Claude model unavailable: '+model+'; '+detail)
+            raise BackendError('Claude CLI failed: '+detail)
+        if final.get('permission_denials'):raise IsolationError('Claude CLI attempted tool use')
+        usage=final.get('usage') or {}
+        parts=[usage.get(k) for k in ('input_tokens','cache_creation_input_tokens','cache_read_input_tokens')]
+        input_tokens=sum(x or 0 for x in parts) if usage.get('input_tokens') is not None else None
+        effective=next(iter(final.get('modelUsage') or {}),None) or model
+        data=final.get('structured_output')
+        if data is None:
+            # The model answered without structured output: central validation retries it.
+            if not message.strip():raise BackendError('Claude CLI returned no structured output')
+            data=message
+        else:data=json.loads(json.dumps(data))
+        cost=final.get('total_cost_usd')
+        return LLMResult(data,effective,effort,input_tokens,usage.get('output_tokens'),'claude_cli',False,time.monotonic()-started,
+                         cached_input_tokens=usage.get('cache_read_input_tokens'),estimated_cost_usd=cost if isinstance(cost,(int,float)) else None)
 
 
 class OpenAIAPIBackend:
@@ -231,7 +247,9 @@ class OpenAIAPIBackend:
 
 
 def _make_backend(name,work,provider):
-    classes={'codex_sdk':CodexSDKBackend,'codex_exec':CodexExecBackend,'openai_api':OpenAIAPIBackend}
+    if name in RETIRED_BACKENDS:
+        raise BackendError(f'Codex backend retired 2026-11-08: {name} is no longer available; configure provider.backend="claude_cli"')
+    classes={'claude_cli':ClaudeCLIBackend,'openai_api':OpenAIAPIBackend}
     if name not in classes:raise BackendError('Unknown LLM backend')
     return classes[name](work,provider)
 
@@ -288,7 +306,7 @@ def _prepare(task,payload,extras,glossary):
         if isinstance(value,dict):return {k:safe_context(v) for k,v in value.items() if not k.startswith('_')}
         if isinstance(value,(int,float)) and not isinstance(value,bool):return _mask_text(str(value),extras,{})
         return value
-    wire={k:safe_context(v) for k,v in payload.items() if not k.startswith('_') and k not in ('glossary','style',TASK_ARRAY.get(task))}
+    wire={k:safe_context(v) for k,v in payload.items() if not k.startswith('_') and k not in ('dependency_fingerprint','correction_revision','glossary','style',TASK_ARRAY.get(task))}
     if TASK_ARRAY.get(task):wire[TASK_ARRAY[task]]=payload.get(TASK_ARRAY[task])
     maps={};array=TASK_ARRAY.get(task)
     if array:
@@ -301,8 +319,36 @@ def _prepare(task,payload,extras,glossary):
             if _symbol_provenance(row):raise Blocked('Symbol-font spans cannot enter LLM requests')
             source=row.get('source',row.get('text',''));mapping={};source_masked=_mask_text(source,extras,mapping);maps[row['id']]=mapping
             entry={'id':row['id'],'source':source_masked}
+            if row.get('_emphasis_protocol'):
+                from .emphasis import contract
+                contract_data=contract(row,source_masked)
+                entry['source']=contract_data['source']
+                entry['emphasis_source']=contract_data['phrases']
+            elif row.get('_style_pairs'):
+                entry['style_pair_instructions']='Each open/close marker pair encloses the equivalent translated phrase. Move complete pairs to natural target order; preserve every pair once, no nesting or text outside pairs.'
+            if row.get('quality_neighbors'):
+                entry['quality_neighbors']=[{
+                    **{k:neighbor[k] for k in ('id','side','request_id') if k in neighbor},
+                    'source':_mask_text(neighbor['source'],extras,{}),
+                    'target':_mask_text(neighbor['target'],extras,{})}
+                    for neighbor in row['quality_neighbors']]
+            if row.get('term_context'):
+                # Same page/spread body already translated: names must agree (auditor p47).
+                entry['term_context']=[{'source':_mask_text(x['source'],extras,{}),'target':_mask_text(x['target'],extras,{})}
+                                       for x in row['term_context']]
+                entry['term_context_instructions']=('Reference only, not to translate: body text of the same page with its approved translation. '
+                    'Name every object, star or proper noun exactly as that translation does.')
+            if row.get('line_continuation'):
+                entry['line_continuation']=[{'side':x['side'],'line_source':_mask_text(x['line_source'],extras,{}),'glossary':x['glossary']}
+                                            for x in row['line_continuation']]
+                entry['line_continuation_instructions']=('This block is one line of a phrase continued in the adjacent block (side). '
+                    'Together, both translations must read as the approved glossary form, each keeping only its own line.')
+            if row.get('_story_break'):
+                # One sentence split by a column/page break (auditor batch-21, p14/p15).
+                entry['story_break']={'marker':row['_story_break']['marker'],'boundary':row['_story_break']['boundary']}
+                entry['story_break_instructions']=row['_story_break']['instructions']
             if 'max_chars' in row:entry['max_chars']=row['max_chars']
-            glossary_source=re.sub(r'\{v\d+\}','',source) if row.get('_style_markers') else source
+            glossary_source=re.sub(r'\{v\d+\}','',source) if row.get('_style_markers') or row.get('_style_pairs') else source
             terms=glossary_matches(glossary_source,glossary,key='target' if task=='shorten' else 'source')
             entry['glossary']=[{'source':x['source'],'target':x['target']} for x in terms]
             if task=='shorten' and max([len(x['target']) for x in terms]+[0])>entry['max_chars']:
@@ -310,7 +356,12 @@ def _prepare(task,payload,extras,glossary):
             if any(protected(x[k],'',extras) for x in terms for k in ('source','target')):raise Blocked('Glossary term includes protected content')
             clean.append(entry)
         wire[array]=clean
-        wire['_style_orders']={r['id']:r['_style_markers'] for r in rows if r.get('_style_markers')}
+        wire['_style_pairs']={r['id']:r['_style_pairs'] for r in rows if r.get('_style_pairs') and not r.get('_emphasis_protocol')}
+        wire['_flat_emphasis']={r['id']:{**r,'source':_mask_text(r['source'],extras,{})} for r in rows if r.get('_emphasis_protocol')}
+        wire['_style_orders']={r['id']:r['_style_markers'] for r in rows if r.get('_style_markers') and not r.get('_emphasis_protocol')}
+        wire['_joined_glossary']={r['id']:r['_joined_glossary'] for r in rows if r.get('_joined_glossary')}
+        wire['_story_breaks']={r['id']:r['_story_break']['marker'] for r in rows if r.get('_story_break')}
+        wire['_initial_upper']=[r['id'] for r in rows if r.get('_initial_upper')]
     else:
         def safe(value):
             if isinstance(value,str):return _mask_text(value,extras,{})
@@ -323,11 +374,14 @@ def _prepare(task,payload,extras,glossary):
 
 
 def _validate(task,data,wire,schema):
+    from .text_quality import text_issues, marked_style_issues, neighbor_issues
     if isinstance(data,str):
         try:data=json.loads(data)
         except ValueError:raise ValidationFailure('JSON does not parse') from None
     try:jsonschema.Draft202012Validator(schema).validate(data)
-    except jsonschema.ValidationError as e:raise ValidationFailure('Schema violation: '+str(e.validator)+' at '+'.'.join(map(str,e.absolute_path))) from None
+    except jsonschema.ValidationError as e:
+        missing=(' missing '+','.join(k for k in e.validator_value if k not in e.instance)) if e.validator=='required' else ''
+        raise ValidationFailure('Schema violation: '+str(e.validator)+missing+' at '+'.'.join(map(str,e.absolute_path))) from None
     array=TASK_ARRAY.get(task)
     if not array:return data
     sent=wire[array];returned=data[array];expected=[x['id'] for x in sent];actual=[x['id'] for x in returned]
@@ -338,6 +392,27 @@ def _validate(task,data,wire,schema):
         row=byid[source['id']]
         if task=='classify_labels':continue
         translated=row['translation']
+        flat=wire.get('_flat_emphasis',{}).get(source['id'])
+        if flat:
+            from .emphasis import reconstruct
+            try:reconstruct(row,flat)
+            except (ValueError,KeyError,TypeError) as exc:
+                bad.append(source['id']);issues.append('emphasis: '+str(exc))
+        if task in ('translate_page','translate_labels','shorten'):
+            quality=text_issues(source['source'],translated,source['id'],
+                                glossary=source.get('glossary',[]),style_guide=wire.get('style',''))
+            if not wire.get('_style_pairs',{}).get(source['id']):quality+=marked_style_issues(source['source'],translated,source['id'])
+            quality+=neighbor_issues(source,translated,byid)
+            if quality:
+                bad.append(source['id']);issues.extend(i['code']+' for id '+source['id'] for i in quality)
+                bad.extend(identifier for i in quality for identifier in i.get('related_units',[]) if identifier in expected)
+        if task in ('translate_page','translate_labels') and numeric_quantifier_issues(source['source'],translated):
+            bad.append(source['id']);issues.append('numeric quantifier displaced after its noun for id '+source['id'])
+        pairs=wire.get('_style_pairs',{}).get(source['id'])
+        if pairs:
+            from .style_spans import decode
+            try:decode(translated,pairs)
+            except ValueError as exc:bad.append(source['id']);issues.append(str(exc))
         style_order=wire.get('_style_orders',{}).get(source['id'])
         if style_order and (re.findall(r'\{v\d+\}',translated)!=style_order or not translated.strip().startswith(style_order[0]) or not translated.strip().endswith(style_order[-1])):
             bad.append(source['id']);issues.append('style markers changed order or boundary')
@@ -346,10 +421,30 @@ def _validate(task,data,wire,schema):
         # Source values were masked, so literal numeric/glyph values may not be introduced.
         if PROTECTED.search(PLACEHOLDER.sub('',translated)):
             bad.append(source['id']);issues.append('protected values introduced')
-        glossary_translation=re.sub(r'\{v\d+\}','',translated) if style_order else translated
+        from .glossary_forms import glossary_form_present
+        glossary_translation=re.sub(r'\{v\d+\}','',translated)
         for term in source.get('glossary',[]):
-            if not re.search(r'(?<!\w)'+re.escape(term['target'])+r'(?!\w)',glossary_translation,re.I):bad.append(source['id']);issues.append('approved glossary form missing for id '+source['id']+': '+term['source']+' => '+term['target'])
+            related=[item['target'] for item in source.get('glossary',[]) if item['target']!=term['target']]
+            if not glossary_form_present(glossary_translation,term['target'],related_terms=related):bad.append(source['id']);issues.append('approved glossary form missing for id '+source['id']+': '+term['source']+' => '+term['target'])
         if 'max_chars' in source and len(translated)>source['max_chars']:bad.append(source['id']);issues.append('character limit exceeded')
+        if source.get('term_context') and task=='translate_page':
+            from .text_quality import term_consistency_issues
+            context=[{'id':f'context{i}',**x} for i,x in enumerate(source['term_context'])]
+            for issue in term_consistency_issues([{'id':source['id'],'source':source['source'],'target':translated}],context):
+                bad.append(source['id']);issues.append('term inconsistent with same-page translation for id '+source['id']+': '+issue['source_term']+' => '+issue['expected'])
+        from .text_quality import story_break_issue, lowercase_initial
+        if source['id'] in wire.get('_initial_upper',()) and lowercase_initial(translated):
+            bad.append(source['id']);issues.append('heading must open with a capital letter, as its source does, for id '+source['id'])
+        marker=wire.get('_story_breaks',{}).get(source['id'])
+        if marker and story_break_issue(translated,marker):
+            bad.append(source['id']);issues.append('story break '+marker+' must sit once at a word boundary with a word on each side for id '+source['id'])
+        from .page_context import joined_glossary_ok
+        for joint in wire.get('_joined_glossary',{}).get(source['id'],[]):
+            partner=byid.get(joint['partner'])
+            if partner is None:continue
+            pair=(translated,partner['translation']) if joint['side']=='after' else (partner['translation'],translated)
+            if not joined_glossary_ok(*pair,joint):
+                bad.extend([source['id'],joint['partner']]);issues.append('approved glossary form split across stacked lines for ids '+source['id']+', '+joint['partner']+': '+joint['source']+' => '+joint['target'])
     if bad:raise ValidationFailure('; '.join(dict.fromkeys(issues)),bad)
     return data
 
@@ -359,12 +454,24 @@ def _restore(task,data,maps,original):
     if not array or task=='classify_labels':return data
     data=json.loads(json.dumps(data));originals={x['id']:x for x in original[array]}
     for row in data[array]:
-        text=row['translation']
+        text=row['translation'];masked_original=text
         text=PLACEHOLDER.sub(lambda m:maps.get(row['id'],{}).get(m.group(),m.group()),text)
         source=originals[row['id']].get('source',originals[row['id']].get('text',''))
         if Counter(PROTECTED.findall(PLACEHOLDER.sub('',source)))!=Counter(PROTECTED.findall(PLACEHOLDER.sub('',text))):raise ValidationFailure('Restored protected values changed',[row['id']])
         if 'max_chars' in originals[row['id']] and len(text)>originals[row['id']]['max_chars']:raise ValidationFailure('Restored text exceeds limit',[row['id']])
         row['translation']=text
+        if 'emphasis' in row:
+            from .emphasis import intervals,occurrence_at
+            masked_text=masked_original
+            transform=lambda value:PLACEHOLDER.sub(lambda m:maps.get(row['id'],{}).get(m.group(),m.group()),value)
+            ranges=intervals(masked_text,row['emphasis'])
+            for phrase,(start,end,_) in zip(row['emphasis'],ranges):
+                phrase['text']=transform(masked_text[start:end])
+                phrase['occurrence']=occurrence_at(text,phrase['text'],len(transform(masked_text[:start])))
+        if originals[row['id']].get('_emphasis_protocol'):
+            from .emphasis import reconstruct
+            try:reconstruct(row,originals[row['id']])
+            except (ValueError,KeyError,TypeError) as exc:raise ValidationFailure('Restored emphasis invalid: '+str(exc),[row['id']]) from None
     return data
 
 
@@ -393,11 +500,12 @@ def _affected_pages(payload,rows=None,ids=None):
     return sorted(set(mapped or declared))
 
 
-def _pause(book,pages,reason,delay):
+def _pause(book,pages,reason,delay,resume_after=None):
     pages=[pages] if isinstance(pages,int) else list(pages or [])
     now=time.time()
     with book_lock(book):
-        atomic_json(book/'work/quota_pause.json',{'timestamp':datetime.now(timezone.utc).isoformat(),'reason':reason,'page':pages[0] if len(pages)==1 else None,'pages':pages,'resume_after_unix':now+delay,'exit_code':75})
+        atomic_json(book/'work/quota_pause.json',{'timestamp':datetime.now(timezone.utc).isoformat(),'reason':reason,'page':pages[0] if len(pages)==1 else None,'pages':pages,
+                                                   'resume_after_unix':resume_after if resume_after else now+delay,'resume_after_source':'provider_reset' if resume_after else 'backoff','exit_code':75})
         path=book/'work/manifest.json'
         if path.exists():
             manifest=json.loads(path.read_text())
@@ -412,14 +520,16 @@ def _check_pause(book):
     if path.exists() and json.loads(path.read_text()).get('resume_after_unix',0)>time.time():raise QuotaPaused('Existing quota pause has not expired')
 
 
-def _review(book,pages):
+def _review(book,pages,detail=None):
     pages=[pages] if isinstance(pages,int) else list(pages or [])
     with book_lock(book):
         path=book/'work/review_queue.json';rows=json.loads(path.read_text()) if path.exists() else []
         rows=[r for r in rows if not (r.get('page') in pages and r.get('reason')=='llm_validation')]
         for page in pages:
             artifacts=list((book/'work/backend_selection').glob(f'p{page:03d}.png'))
-            rows.append({'page':page,'reason':'llm_validation','artifacts':[str(p) for p in artifacts],'suggested_action':'Review model JSON, ids, protected markers and approved terminology'})
+            row={'page':page,'reason':'llm_validation','artifacts':[str(p) for p in artifacts],'suggested_action':'Review model JSON, ids, protected markers and approved terminology'}
+            if detail:row['detail']=detail
+            rows.append(row)
         atomic_json(path,rows)
         path=book/'work/manifest.json'
         if path.exists():
@@ -449,17 +559,14 @@ def _run_unit(task:str,payload:dict)->LLMResult:
     if task in GATED_TASKS:wire['style']=_mask_text(s.read_text(),extras,{})
     template=path(task_config['prompt']).read_text();schema=json.loads(path(task_config['schema']).read_text())
     wire['_template']=template
-    model=task_config['model'];effort=task_config['effort'];backend_name=provider.get('backend','codex_sdk');pages=_affected_pages(payload);page=pages[0] if len(pages)==1 else None
+    if wire.get('_flat_emphasis'):
+        from .emphasis import wire_schema
+        schema=wire_schema(schema,TASK_ARRAY[task])
+    model=task_config['model'];effort=task_config['effort'];backend_name=provider.get('backend','claude_cli');pages=_affected_pages(payload);page=pages[0] if len(pages)==1 else None
     images=[Path(p) for p in payload.get('_images',[])]
     if images and (task!='qa_judge' or payload.get('_images_verified') is not True):raise Blocked('Only locally masked and verified QA images may enter LLM boundary')
-    normalized=json.loads(json.dumps({k:v for k,v in payload.items() if not k.startswith('_')}))
-    def normalize(value):
-        if isinstance(value,str):return unicodedata.normalize('NFC',value.replace('\r\n','\n'))
-        if isinstance(value,list):return [normalize(x) for x in value]
-        if isinstance(value,dict):return {k:normalize(v) for k,v in value.items()}
-        return value
-    cache_key=_digest({'mask_version':MASK_VERSION,'task':task,'payload':normalize(normalized),'model':model,'effort':effort,'backend':backend_name,
-        'glossary':sha256(g),'style':sha256(s),'protected':sha256(d),'template':template,'schema':schema,'images':[sha256(p) for p in images]})
+    from .translation_context import response_key
+    cache_key=response_key(config,g,s,d,payload,task)
     with _parallel_slot(work,int(provider.get('max_parallel',2))):
         # Per-key lock closes race where two processes request the same uncached unit.
         locks=work/'.llm_locks';locks.mkdir(exist_ok=True)
@@ -468,21 +575,36 @@ def _run_unit(task:str,payload:dict)->LLMResult:
             db=_cache_connect(work)
             try:
                 found=db.execute('SELECT result FROM responses WHERE key=?',(cache_key,)).fetchone()
+                if found and _numeric_cache_failures(task,json.loads(found[0])['data'],payload[TASK_ARRAY[task]] if task in TASK_ARRAY else []):
+                    found=None
                 if found:
-                    result=LLMResult(**json.loads(found[0]));result.cached=True;result.latency_s=0;result.input_tokens=0;result.output_tokens=0;result.cached_input_tokens=0
+                    result=LLMResult(**json.loads(found[0]));result.cached=True;result.latency_s=0;result.input_tokens=0;result.output_tokens=0;result.cached_input_tokens=0;result.estimated_cost_usd=0
                     _log(book,{'task':task,'page':page,'pages':pages,'phase':payload.get('_phase','legacy'),'backend':result.backend,'model':result.model,'effort':result.effort,'cached':True,'input_tokens':0,'cached_input_tokens':0,'output_tokens':0,'latency_s':0,'characters':sum(len(r['source']) for r in wire.get(TASK_ARRAY.get(task,''),[])),'cost_usd':0,'status':'cache_hit'})
                     return result
                 active=backend_name;backend=_make_backend(active,work,provider);delays=config.get('quota',{}).get('backoff_seconds',[30,120,600]);quota_attempt=0
-                last_error=None;attempt_wire=wire;accepted={};metrics={'input_tokens':0,'cached_input_tokens':0,'output_tokens':0,'latency_s':0};final_result=None
-                for validation_attempt in range(3):
+                last_error=None;attempt_wire=wire;accepted={};metrics={'input_tokens':0,'cached_input_tokens':0,'output_tokens':0,'latency_s':0,'estimated_cost_usd':0};final_result=None
+                # Optional configured escalation for flat-emphasis units; empty means none.
+                escalation_model=str(provider.get('escalation_model') or '').strip()
+                escalation_effort=str(provider.get('escalation_effort') or '').strip() or effort
+                attempts=6 if wire.get('_flat_emphasis') and escalation_model else 3
+                escalation_unavailable=None
+                for validation_attempt in range(attempts):
+                    if validation_attempt==3:
+                        model,effort=escalation_model,escalation_effort
+                        attempt_wire=json.loads(json.dumps(wire));attempt_wire['validation_error']=str(last_error)
+                        accepted={}
                     while True:
                         start=time.monotonic()
                         try:
                             result=backend.complete_json(task,attempt_wire,schema,model,effort,images=images)
                             break
-                        except QuotaExceeded:
-                            _log(book,{'task':task,'page':page,'pages':pages,'phase':payload.get('_phase','legacy'),'backend':active,'model':model,'effort':effort,'cached':False,'input_tokens':None,'cached_input_tokens':None,'output_tokens':None,'latency_s':time.monotonic()-start,'status':'quota','cost_usd':None if active=='openai_api' else 0})
-                            if quota_attempt<len(delays):
+                        except QuotaExceeded as exc:
+                            escalated=validation_attempt>=3
+                            _log(book,{'task':task,'page':page,'pages':pages,'phase':payload.get('_phase','legacy'),'backend':active,'model':model,'effort':effort,'cached':False,'input_tokens':None,'cached_input_tokens':None,'output_tokens':None,'latency_s':time.monotonic()-start,'status':'quota','cost_usd':None,**({'escalation':'unavailable'} if escalated and exc.model_scoped else {})})
+                            if escalated and exc.model_scoped:
+                                escalation_unavailable=f'{model}/{effort}: model-specific subscription limit';break
+                            resume_after=getattr(exc,'resume_after',None)
+                            if resume_after is None and quota_attempt<len(delays):
                                 delay=delays[quota_attempt];quota_attempt+=1
                                 # Small slices preserve interruptibility; tests inject zero delays.
                                 remaining=float(delay)
@@ -492,13 +614,22 @@ def _run_unit(task:str,payload:dict)->LLMResult:
                             if fallback!='none' and fallback!=active:
                                 if fallback=='openai_api' and not os.getenv('OPENAI_API_KEY'):_pause(book,pages,'quota; paid fallback not enabled/available',delays[-1] if delays else 600)
                                 active=fallback;backend=_make_backend(active,work,provider);quota_attempt=0;continue
-                            _pause(book,pages,'subscription quota exhausted',delays[-1] if delays else 600)
+                            _pause(book,pages,'subscription quota exhausted',delays[-1] if delays else 600,resume_after=resume_after)
                         except Exception as exc:
-                            _log(book,{'task':task,'page':page,'pages':pages,'phase':payload.get('_phase','legacy'),'backend':active,'model':model,'effort':effort,'cached':False,'input_tokens':None,'cached_input_tokens':None,'output_tokens':None,'latency_s':time.monotonic()-start,'status':'backend_error','cost_usd':None if active=='openai_api' else 0})
+                            escalated=validation_attempt>=3 and not isinstance(exc,IsolationError)
+                            _log(book,{'task':task,'page':page,'pages':pages,'phase':payload.get('_phase','legacy'),'backend':active,'model':model,'effort':effort,'cached':False,'input_tokens':None,'cached_input_tokens':None,'output_tokens':None,'latency_s':time.monotonic()-start,'status':'backend_error','cost_usd':None,**({'escalation':'unavailable'} if escalated else {})})
+                            if escalated:
+                                # An unavailable stronger model must not abort the batch: the unit goes to review.
+                                escalation_unavailable=f'{model}/{effort}: {type(exc).__name__}: {str(exc)[:300]}';break
                             if isinstance(exc,BackendError):raise
                             raise BackendError('Provider request failed: '+type(exc).__name__) from None
+                    if escalation_unavailable:break
                     chars=sum(len(r['source']) for r in attempt_wire.get(TASK_ARRAY.get(task,''),[])) or len(_json(attempt_wire))
-                    entry={'task':task,'page':page,'pages':pages,'phase':payload.get('_phase','legacy'),'backend':result.backend,'requested_backend':backend_name,'model':result.model,'effort':result.effort,'input_tokens':result.input_tokens,'cached_input_tokens':result.cached_input_tokens,'output_tokens':result.output_tokens,'latency_s':result.latency_s,'characters':chars,'cached':False,'attempt':validation_attempt+1,'fallback':result.backend!=backend_name,'cost_usd':None if result.backend=='openai_api' else 0}
+                    entry={'task':task,'page':page,'pages':pages,'phase':payload.get('_phase','legacy'),'backend':result.backend,'requested_backend':backend_name,'model':result.model,'effort':result.effort,'input_tokens':result.input_tokens,'cached_input_tokens':result.cached_input_tokens,'output_tokens':result.output_tokens,'latency_s':result.latency_s,'characters':chars,'cached':False,'attempt':validation_attempt+1,'fallback':result.backend!=backend_name,'cost_usd':None,'cost_status':'unknown_subscription_cost' if result.backend!='openai_api' else 'unknown_tariff_or_usage'}
+                    if result.backend=='claude_cli':
+                        # Subscription call: the CLI's USD figure is an API-equivalent estimate, not a charge.
+                        entry['cost_status']='estimated_subscription';entry['estimated_cost_usd']=getattr(result,'estimated_cost_usd',None)
+                    if validation_attempt>=3:entry['escalation']='emphasis_validation'
                     if result.backend=='openai_api':
                         rates=config.get('pricing',{}).get(result.model,{})
                         if result.input_tokens is not None and result.output_tokens is not None and 'input_per_million' in rates and 'output_per_million' in rates:
@@ -510,23 +641,27 @@ def _run_unit(task:str,payload:dict)->LLMResult:
                     try:
                         data=_validate(task,result.data,attempt_wire,schema)
                         array=TASK_ARRAY.get(task)
-                        if validation_attempt==2 and array and accepted:
+                        if validation_attempt%3==2 and array and accepted:
                             merged={**accepted,**{x['id']:x for x in data[array]}}
                             data={array:[merged[x['id']] for x in wire[array]]}
                             _validate(task,data,wire,schema)
                         data=_restore(task,data,maps,payload)
                         entry['status']='ok';_log(book,entry)
-                        final_result=LLMResult(data,result.model,result.effort,metrics['input_tokens'],metrics['output_tokens'],result.backend,False,metrics['latency_s'],cached_input_tokens=metrics['cached_input_tokens']);break
+                        final_result=LLMResult(data,result.model,result.effort,metrics['input_tokens'],metrics['output_tokens'],result.backend,False,metrics['latency_s'],cached_input_tokens=metrics['cached_input_tokens'],estimated_cost_usd=metrics.get('estimated_cost_usd'));break
                     except ValidationFailure as exc:
                         last_error=exc;entry['status']='validation_error';entry['validation_error']=str(exc);_log(book,entry)
                         atomic_json(work/'llm_validation'/f'{cache_key}-attempt-{validation_attempt+1}.json',{'task':task,'phase':payload.get('_phase'),'pages':pages,'error':str(exc),'ids':sorted(exc.ids),'wire':{k:v for k,v in attempt_wire.items() if k!='_template'},'response':result.data})
                         attempt_wire=json.loads(json.dumps(wire));attempt_wire['validation_error']=str(exc)
                         array=TASK_ARRAY.get(task)
-                        if validation_attempt==1 and array and exc.ids:
+                        if validation_attempt%3==1 and array and exc.ids:
                             if isinstance(result.data,dict):accepted={x['id']:x for x in result.data.get(array,[]) if x.get('id') not in exc.ids and x.get('id') in {r['id'] for r in wire[array]}}
                             attempt_wire[array]=[x for x in wire[array] if x['id'] in exc.ids]
                             if not attempt_wire[array]:attempt_wire=wire
-                if final_result is None:_review(book,_affected_pages(payload,ids=last_error.ids));raise ValidationFailure(str(last_error))
+                if final_result is None:
+                    if escalation_unavailable:
+                        detail='escalation unavailable ('+escalation_unavailable+'); last validation error: '+str(last_error)
+                        _review(book,_affected_pages(payload,ids=last_error.ids),detail=detail);raise ValidationFailure(str(last_error)+'; '+detail,last_error.ids)
+                    _review(book,_affected_pages(payload,ids=last_error.ids));raise ValidationFailure(str(last_error))
                 # Do not cache fallback output under the requested backend key.
                 if final_result.backend==backend_name:
                     db.execute('INSERT OR REPLACE INTO responses VALUES (?,?)',(cache_key,_json(asdict(final_result))));db.commit()
@@ -537,9 +672,35 @@ def _run_unit(task:str,payload:dict)->LLMResult:
 
 # Per-block caching and batching wrap the validated provider unit below.
 
+def _numeric_cache_failures(task,data,rows):
+    """Recheck restored numeric and textual quality in both cache layers."""
+    from .text_quality import text_issues, marked_style_issues, neighbor_issues
+    if task not in ('translate_page','translate_labels'):return []
+    sources={r['id']:r.get('source',r.get('text','')) for r in rows}
+    requests={r['id']:r for r in rows}
+    answers={r['id']:r for r in data[TASK_ARRAY[task]]}
+    from .emphasis import reconstruct
+    from .text_quality import story_break_issue, lowercase_initial
+    invalid=[]
+    for row in data[TASK_ARRAY[task]]:
+        req=requests[row['id']]
+        if req.get('_emphasis_protocol'):
+            try:reconstruct(row,req)
+            except (ValueError,KeyError,TypeError):invalid.append(row['id'])
+        if (req.get('_initial_upper') and lowercase_initial(row['translation'])) or (
+                req.get('_story_break') and story_break_issue(row['translation'],req['_story_break']['marker'])):
+            invalid.append(row['id'])
+    return invalid+[r['id'] for r in data[TASK_ARRAY[task]]
+            if numeric_quantifier_issues(sources[r['id']],r['translation'])
+            or text_issues(sources[r['id']],r['translation'],r['id'])
+            or marked_style_issues(sources[r['id']],r['translation'],r['id'])
+            or neighbor_issues(requests[r['id']],r['translation'],answers)]
+
 def run_task(task:str,payload:dict)->LLMResult:
     array=TASK_ARRAY.get(task)
     if not array:return _run_unit(task,payload)
+    from .emphasis import VERSION
+    payload={**payload,array:[{**r,'_emphasis_protocol':VERSION} if r.get('_style_pairs') else r for r in payload.get(array,[])]}
     book=Path(payload['_book']).resolve();work=book/'work';work.mkdir(parents=True,exist_ok=True)
     config=tomllib.loads(Path(payload.get('_config',ROOT/'config/pipeline.toml')).read_text())
     task_config=config['tasks'][task];paths=config.get('paths',{});provider=config.get('provider',{})
@@ -550,11 +711,12 @@ def run_task(task:str,payload:dict)->LLMResult:
     rows=payload.get(array,[]);ids=[r.get('id') for r in rows]
     if any(_symbol_provenance(r) for r in rows):raise Blocked('Symbol-font spans cannot enter LLM requests')
     if not rows or any(not isinstance(i,str) for i in ids) or len(ids)!=len(set(ids)):raise ValidationFailure('Input ids must be unique strings in a nonempty unit')
-    limit=int(config.get('batching',{}).get('max_chars_per_call',6000))
+    limit=min(6000,int(config.get('batching',{}).get('max_chars_per_call',6000)))
     if limit<=0:raise Blocked('max_chars_per_call must be positive')
     # Split oversized text at whitespace without cutting glossary terms or
     # placeholders, then restore the caller's span ids after validated chunks.
     if any(len(r.get('source',r.get('text','')))>limit for r in rows):
+        if any(r.get('_style_pairs') and len(r.get('source',''))>limit for r in rows):raise ValidationFailure('Complete emphasis unit exceeds call limit; reviewed subdivision required')
         if task!='translate_page':
             _review(book,_affected_pages(payload));raise ValidationFailure('Oversized non-page unit requires reviewed subdivision')
         with g.open() as stream:terms=list(csv.DictReader(stream))
@@ -578,10 +740,9 @@ def run_task(task:str,payload:dict)->LLMResult:
             parts=[byid[i] for i in mapping[row['id']]]
             combined.append({'id':row['id'],'translation':' '.join(p['translation'].strip() for p in parts),'glossary_terms_used':list(dict.fromkeys(t for p in parts for t in p['glossary_terms_used']))})
         result.data={array:combined};return result
-    common={'mask_version':MASK_VERSION,'task':task,'model':task_config['model'],'effort':task_config['effort'],'backend':provider.get('backend','codex_sdk'),
-        'glossary':sha256(g),'style':sha256(s),'protected':sha256(d),'prompt':sha256(path(task_config['prompt'])),'schema':sha256(path(task_config['schema']))}
-    context={k:v for k,v in payload.items() if not k.startswith('_') and k!=array}
-    keys={r['id']:_digest({**common,'context':context,'row':{k:unicodedata.normalize('NFC',v.replace('\r\n','\n')) if isinstance(v,str) else v for k,v in r.items() if k not in ('id','bbox','size','rotate','font')}}) for r in rows}
+    from .translation_context import context_data,block_keys
+    common=context_data(config,g,s,d,task)
+    keys=block_keys(config,g,s,d,payload,task)
     locks=work/'.llm_locks';locks.mkdir(exist_ok=True);handles=[]
     try:
         # Sorted block locks avoid duplicate quota consumption for overlapping
@@ -591,18 +752,22 @@ def run_task(task:str,payload:dict)->LLMResult:
         db=_cache_connect(work)
         try:
             db.execute('CREATE TABLE IF NOT EXISTS blocks (key TEXT PRIMARY KEY, result TEXT NOT NULL)')
-            results={};pending=[];seen={};cache_hits=0
+            results={};pending=[];seen={};cache_hits=0;cache_provenance=[]
             for row in rows:
                 found=db.execute('SELECT result FROM blocks WHERE key=?',(keys[row['id']],)).fetchone()
                 if found:
                     item=json.loads(found[0]);item['id']=row['id']
+                    provenance=item.pop('_cache_provenance',{'model':common['model'],'effort':common['effort'],'backend':common['backend']})
                     # Recheck current phrase matching before accepting old block caches.
                     terms=list(csv.DictReader(g.open()))
                     match_source=re.sub(r'\{v\d+\}','',row.get('source',row.get('text','')))
                     target=re.sub(r'\{v\d+\}','',item.get('translation',''))
                     expected=glossary_matches(match_source,terms,key='target' if task=='shorten' else 'source')
-                    valid=task=='classify_labels' or all(re.search(r'(?<!\w)'+re.escape(t['target'])+r'(?!\w)',target,re.I) for t in expected)
-                    if valid:results[row['id']]=item;cache_hits+=1
+                    from .glossary_forms import glossary_form_present
+                    valid=task=='classify_labels' or all(glossary_form_present(target,t['target'],
+                        related_terms=[x['target'] for x in expected if x['target']!=t['target']]) for t in expected)
+                    if _numeric_cache_failures(task,{array:[item]},[row]):valid=False
+                    if valid:results[row['id']]=item;cache_hits+=1;cache_provenance.append(provenance)
                     elif keys[row['id']] not in seen:pending.append(row);seen[keys[row['id']]]=row['id']
                 elif keys[row['id']] not in seen:pending.append(row);seen[keys[row['id']]]=row['id']
             groups=[];current=[];chars=0
@@ -618,19 +783,114 @@ def run_task(task:str,payload:dict)->LLMResult:
                 dependencies={r['id']:_affected_pages(payload,rows=[item for item in covered if keys[item['id']]==keys[r['id']]]) for r in group}
                 result=_run_unit(task,{**payload,array:group,'_pages':_affected_pages(payload,rows=covered),'_page_dependencies':dependencies})
                 if combined.backend!=result.backend and combined.latency_s:raise BackendError('Mixed backends inside one page require review')
-                combined.backend=result.backend;combined.latency_s+=result.latency_s
+                combined.backend=result.backend;combined.model=result.model;combined.effort=result.effort;combined.latency_s+=result.latency_s
                 for metric in ('input_tokens','output_tokens','cached_input_tokens'):
                     old=getattr(combined,metric);new=getattr(result,metric);setattr(combined,metric,None if old is None or new is None else old+new)
                 for item in result.data[array]:
                     results[item['id']]=item
-                    if result.backend==common['backend']:db.execute('INSERT OR REPLACE INTO blocks VALUES (?,?)',(keys[item['id']],_json(item)))
+                    if result.backend==common['backend']:db.execute('INSERT OR REPLACE INTO blocks VALUES (?,?)',(keys[item['id']],_json({**item,'_cache_provenance':{'model':result.model,'effort':result.effort,'backend':result.backend}})))
                 db.commit()
             for row in rows:
                 if row['id'] not in results:results[row['id']]={**results[seen[keys[row['id']]]],'id':row['id']}
+            if not groups and cache_provenance:
+                combined.model=cache_provenance[0]['model'];combined.effort=cache_provenance[0]['effort'];combined.backend=cache_provenance[0]['backend']
             combined.data={array:[results[row['id']] for row in rows]}
             if cache_hits:
-                _log(book,{'task':task,'page':payload.get('_page'),'pages':_affected_pages(payload),'phase':payload.get('_phase','legacy'),'backend':common['backend'],'model':common['model'],'effort':common['effort'],'input_tokens':0,'cached_input_tokens':0,'output_tokens':0,'latency_s':0,'cached':True,'block_cache_hits':cache_hits,'status':'block_cache_hit','cost_usd':0})
+                _log(book,{'task':task,'page':payload.get('_page'),'pages':_affected_pages(payload),'phase':payload.get('_phase','legacy'),'backend':combined.backend,'model':combined.model,'effort':combined.effort,'input_tokens':0,'cached_input_tokens':0,'output_tokens':0,'latency_s':0,'cached':True,'block_cache_hits':cache_hits,'effective_cache_provenance':cache_provenance,'status':'block_cache_hit','cost_usd':0})
             return combined
         finally:db.close()
     finally:
         for handle in handles:handle.close()
+
+
+def validate_cached_translation(task, data, payload, glossary, style, protected_path, schema):
+    """Revalidate restored cache data using the current masked-wire contract."""
+    from collections import defaultdict, deque
+    extras=read_extras(protected_path)
+    terms=list(csv.DictReader(Path(glossary).open()))
+    if any('emphasis' in r for r in data.get(TASK_ARRAY[task],[])):
+        from .retranslation import validate_answer
+        requests={r['id']:r for r in payload[TASK_ARRAY[task]]}
+        for row in data[TASK_ARRAY[task]]:
+            from .emphasis import answer_value
+            validate_answer(requests[row['id']],answer_value(row),extras=extras,glossary=terms)
+        return data
+    wire,maps=_prepare(task,payload,extras,terms)
+    wire['style']=_mask_text(Path(style).read_text(),extras,{})
+    masked=json.loads(json.dumps(data))
+    array=TASK_ARRAY[task]
+    for row in masked[array]:
+        available=defaultdict(deque)
+        for marker,value in maps.get(row['id'],{}).items():available[value].append(marker)
+        temporary={}
+        text=_mask_text(row['translation'],extras,temporary)
+        def replace(match):
+            marker=match.group()
+            if marker not in temporary:return marker
+            value=temporary[marker]
+            if not available[value]:raise ValidationFailure('Cached protected values changed')
+            return available[value].popleft()
+        row['translation']=PLACEHOLDER.sub(replace,text)
+    _validate(task,masked,wire,schema)
+    _restore(task,masked,maps,payload)
+    return data
+
+
+# --- Availability probe for `doctor --probe-models` ---------------------------
+# Minimal call per configured model through the configured backend. It sends no
+# book text, never writes quota_pause.json and journals usage in costs.jsonl.
+PROBE_SCHEMA = {'type':'object','properties':{'ok':{'type':'boolean'}},'required':['ok'],'additionalProperties':False}
+PROBE_TEMPLATE = 'Prueba de disponibilidad del modelo. Devuelve exactamente {"ok": true}.'
+EFFORT_ORDER = ('minimal','low','medium','high','xhigh','max')
+
+
+def probe_targets(config):
+    """Distinct models from [tasks] plus provider.escalation_model, cheapest effort."""
+    targets = {}
+    def add(model, effort, role):
+        item = targets.setdefault(model, {'model':model, 'efforts':[], 'roles':[]})
+        item['efforts'].append(effort); item['roles'].append(role)
+    for name, value in config.get('tasks', {}).items():
+        add(value['model'], value.get('effort', 'low'), name)
+    provider = config.get('provider', {})
+    escalation = str(provider.get('escalation_model') or '').strip()
+    if escalation:
+        add(escalation, str(provider.get('escalation_effort') or '').strip() or 'low', 'escalation')
+    rank = lambda effort: EFFORT_ORDER.index(effort) if effort in EFFORT_ORDER else len(EFFORT_ORDER)
+    return [{'model':t['model'], 'effort':min(t['efforts'], key=rank), 'roles':t['roles']} for t in targets.values()]
+
+
+def probe_models(book, config_path):
+    book = Path(book).resolve(); (book/'work').mkdir(parents=True, exist_ok=True)
+    config = tomllib.loads(Path(config_path).read_text()); provider = config.get('provider', {})
+    name = provider.get('backend', 'claude_cli'); results = []
+    for target in probe_targets(config):
+        model, effort = target['model'], target['effort']
+        start = time.monotonic(); result = None; detail = ''; resume_after = None
+        try:
+            backend = _make_backend(name, book/'work', provider)
+            result = backend.complete_json('doctor_probe', {'_template':PROBE_TEMPLATE, 'probe':'ok'},
+                                           PROBE_SCHEMA, model, effort)
+            status = 'available'
+        except QuotaExceeded as exc:
+            status = 'limited'; detail = str(exc)[:300]; resume_after = exc.resume_after
+        except ModelUnavailable as exc:
+            status = 'unavailable'; detail = str(exc)[:300]
+        except BackendError as exc:
+            status = 'error'; detail = f'{type(exc).__name__}: {str(exc)[:300]}'
+        except Exception as exc:
+            status = 'error'; detail = type(exc).__name__
+        entry = {'task':'doctor_probe', 'phase':'doctor', 'page':None, 'pages':[], 'backend':name,
+                 'requested_backend':name, 'model':result.model if result else model, 'effort':effort,
+                 'cached':False, 'input_tokens':getattr(result, 'input_tokens', None),
+                 'cached_input_tokens':getattr(result, 'cached_input_tokens', None),
+                 'output_tokens':getattr(result, 'output_tokens', None), 'latency_s':time.monotonic()-start,
+                 'characters':0, 'cost_usd':None, 'status':'probe_'+status,
+                 'cost_status':'estimated_subscription' if name == 'claude_cli' else
+                               'unknown_subscription_cost' if name in SUBSCRIPTION_BACKENDS else 'unknown_tariff_or_usage'}
+        if result is not None and name == 'claude_cli':
+            entry['estimated_cost_usd'] = result.estimated_cost_usd
+        _log(book, entry)
+        results.append({**target, 'status':status, 'detail':detail, 'resume_after_unix':resume_after,
+                        'effective_model':result.model if result else None})
+    return results

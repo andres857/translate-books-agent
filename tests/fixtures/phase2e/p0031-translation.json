@@ -1,0 +1,2293 @@
+{
+  "page": 31,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "Polarity, Elements, and Modes",
+      "line_height": 1.05,
+      "bbox": [
+        366.452392578125,
+        21.864179611206055,
+        487.842041015625,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "Polarity, Elements, and Modes",
+          "bbox": [
+            366.452392578125,
+            21.864179611206055,
+            487.842041015625,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 29,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "right",
+      "source_block": 1,
+      "id": "p0031_u0000",
+      "container_id": "p0031_c0000",
+      "scale_group": "p0031_display_12.0",
+      "page": 31,
+      "target": "Polaridad, elementos y modalidades",
+      "target_runs": [
+        {
+          "text": "Polaridad, elementos y modalidades",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE MODES IN YOUR CHART",
+      "line_height": 1.05,
+      "bbox": [
+        132.043701171875,
+        364.6571044921875,
+        323.76513671875,
+        377.6571044921875
+      ],
+      "spans": [
+        {
+          "source": "THE MODES IN YOUR CHART",
+          "bbox": [
+            132.043701171875,
+            364.6571044921875,
+            323.76513671875,
+            377.6571044921875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 13.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 23,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 13.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 13.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0031_u0001",
+      "container_id": "p0031_c0001",
+      "scale_group": "p0031_display_13.0",
+      "page": 31,
+      "target": "LAS MODALIDADES EN TU CARTA",
+      "target_runs": [
+        {
+          "text": "LAS MODALIDADES EN TU CARTA",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Cardinal",
+      "line_height": 1.05,
+      "bbox": [
+        132.0814971923828,
+        409.65948486328125,
+        184.83352661132812,
+        421.65948486328125
+      ],
+      "spans": [
+        {
+          "source": "Cardinal",
+          "bbox": [
+            132.0814971923828,
+            409.65948486328125,
+            184.83352661132812,
+            421.65948486328125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 12.0,
+          "color": 5723990,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 8,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 12.0,
+        "color": 5723990,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 12.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0031_u0002",
+      "container_id": "p0031_c0002",
+      "scale_group": "p0031_display_12.0",
+      "page": 31,
+      "target": "Cardinal",
+      "target_runs": [
+        {
+          "text": "Cardinal",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Fixed",
+      "line_height": 1.05,
+      "bbox": [
+        132.0814971923828,
+        482.05548095703125,
+        166.8934783935547,
+        494.05548095703125
+      ],
+      "spans": [
+        {
+          "source": "Fixed",
+          "bbox": [
+            132.0814971923828,
+            482.05548095703125,
+            166.8934783935547,
+            494.05548095703125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 12.0,
+          "color": 7303023,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 5,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 12.0,
+        "color": 7303023,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 12.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0031_u0003",
+      "container_id": "p0031_c0003",
+      "scale_group": "p0031_display_12.0",
+      "page": 31,
+      "target": "Fija",
+      "target_runs": [
+        {
+          "text": "Fija",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 7303023,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Mutable",
+      "line_height": 1.05,
+      "bbox": [
+        132.0814971923828,
+        554.3194580078125,
+        183.5375213623047,
+        566.3194580078125
+      ],
+      "spans": [
+        {
+          "source": "Mutable",
+          "bbox": [
+            132.0814971923828,
+            554.3194580078125,
+            183.5375213623047,
+            566.3194580078125
+          ],
+          "font": "SohoPro-Bold",
+          "size": 12.0,
+          "color": 5723990,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 7,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 12.0,
+        "color": 5723990,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 12.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 5,
+      "id": "p0031_u0004",
+      "container_id": "p0031_c0004",
+      "scale_group": "p0031_display_12.0",
+      "page": 31,
+      "target": "Mutable",
+      "target_runs": [
+        {
+          "text": "Mutable",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 5723990,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "HIGH MODE",
+      "line_height": 1.05,
+      "bbox": [
+        132.0478057861328,
+        384.80511474609375,
+        229.36581420898438,
+        397.80511474609375
+      ],
+      "spans": [
+        {
+          "source": "HIGH",
+          "bbox": [
+            193.34280395507812,
+            384.80511474609375,
+            229.36581420898438,
+            397.80511474609375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 13.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "MODE",
+          "bbox": [
+            132.0478057861328,
+            384.80511474609375,
+            171.89279174804688,
+            397.80511474609375
+          ],
+          "font": "SohoPro-Bold",
+          "size": 13.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 9,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 13.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 13.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 6,
+      "id": "p0031_u0005",
+      "container_id": "p0031_c0005",
+      "scale_group": "p0031_display_13.0",
+      "page": 31,
+      "target": "MODALIDAD ALTA",
+      "target_runs": [
+        {
+          "text": "MODALIDAD ALTA",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "LOW",
+      "line_height": 1.05,
+      "bbox": [
+        35.80039978027344,
+        73.314697265625,
+        64.30039978027344,
+        85.314697265625
+      ],
+      "spans": [
+        {
+          "source": "LOW",
+          "bbox": [
+            35.80039978027344,
+            73.314697265625,
+            64.30039978027344,
+            85.314697265625
+          ],
+          "font": "SohoPro-Bold",
+          "size": 12.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 12.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 12.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 7,
+      "id": "p0031_u0006",
+      "container_id": "p0031_c0006",
+      "scale_group": "p0031_display_12.0",
+      "page": 31,
+      "target": "BAJA",
+      "target_runs": [
+        {
+          "text": "BAJA",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 12.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "LOW",
+      "line_height": 1.05,
+      "bbox": [
+        355.6263122558594,
+        386.7428894042969,
+        386.5013122558594,
+        399.7428894042969
+      ],
+      "spans": [
+        {
+          "source": "LOW",
+          "bbox": [
+            355.6263122558594,
+            386.7428894042969,
+            386.5013122558594,
+            399.7428894042969
+          ],
+          "font": "SohoPro-Bold",
+          "size": 13.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 13.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 13.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 8,
+      "id": "p0031_u0007",
+      "container_id": "p0031_c0007",
+      "scale_group": "p0031_display_13.0",
+      "page": 31,
+      "target": "BAJA",
+      "target_runs": [
+        {
+          "text": "BAJA",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 13.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "You like to take the initiative and not be at the mercy of someone else’s plans. It is important for you to set and meet goals.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        193.2519989013672,
+        411.32794189453125,
+        350.0328674316406,
+        464.3369445800781
+      ],
+      "spans": [
+        {
+          "source": "You like to take the initiative and ",
+          "bbox": [
+            193.2519989013672,
+            411.32794189453125,
+            347.2102966308594,
+            422.32794189453125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "not be at the mercy of someone ",
+          "bbox": [
+            193.2519989013672,
+            425.3309631347656,
+            350.0328674316406,
+            436.3309631347656
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "else’s plans. It is important for ",
+          "bbox": [
+            193.2519989013672,
+            439.3339538574219,
+            340.4089050292969,
+            450.3339538574219
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "you to set and meet goals. ",
+          "bbox": [
+            193.2519989013672,
+            453.3369445800781,
+            322.97393798828125,
+            464.3369445800781
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 127,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 9,
+      "id": "p0031_u0008",
+      "container_id": "p0031_c0008",
+      "scale_group": "p0031_display_11.0",
+      "page": 31,
+      "target": "Te gusta tomar la iniciativa y no quedar a merced de los planes de otra persona. Para ti es importante fijarte metas y cumplirlas.",
+      "target_runs": [
+        {
+          "text": "Te gusta tomar la iniciativa y no quedar a merced de los planes de otra persona. Para ti es importante fijarte metas y cumplirlas.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Your skill is providing stability, but you can become afraid to move on. Coping with change will be a skill to learn.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        193.2519989013672,
+        482.8939514160156,
+        342.6087951660156,
+        535.9030151367188
+      ],
+      "spans": [
+        {
+          "source": "Your skill is providing stability, ",
+          "bbox": [
+            193.2519989013672,
+            482.8939514160156,
+            342.6087951660156,
+            493.8939514160156
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "but you can become afraid to ",
+          "bbox": [
+            193.2519989013672,
+            496.89697265625,
+            336.7238464355469,
+            507.89697265625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "move on. Coping with change ",
+          "bbox": [
+            193.2519989013672,
+            510.8999938964844,
+            339.57293701171875,
+            521.9000244140625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "will be a skill to learn. ",
+          "bbox": [
+            193.2519989013672,
+            524.9030151367188,
+            299.7198791503906,
+            535.9030151367188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 117,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 10,
+      "id": "p0031_u0009",
+      "container_id": "p0031_c0009",
+      "scale_group": "p0031_display_11.0",
+      "page": 31,
+      "target": "Tu habilidad consiste en aportar estabilidad, pero puedes tener miedo de seguir adelante. Aprender a afrontar los cambios será una habilidad que desarrollar.",
+      "target_runs": [
+        {
+          "text": "Tu habilidad consiste en aportar estabilidad, pero puedes tener miedo de seguir adelante. Aprender a afrontar los cambios será una habilidad que desarrollar.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Without realising it, you may be drawn toward situations that require you to lead. You have to work to develop these skills.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        355.5350036621094,
+        411.3169860839844,
+        513.0110473632812,
+        464.3260192871094
+      ],
+      "spans": [
+        {
+          "source": "Without realising it, you may be ",
+          "bbox": [
+            355.5350036621094,
+            411.3169860839844,
+            513.0110473632812,
+            422.3169860839844
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "drawn toward situations that ",
+          "bbox": [
+            355.5350036621094,
+            425.3199768066406,
+            501.3608093261719,
+            436.3199768066406
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "require you to lead. You have  ",
+          "bbox": [
+            355.5350036621094,
+            439.322998046875,
+            500.12890625,
+            450.322998046875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to work to develop these skills.",
+          "bbox": [
+            355.5350036621094,
+            453.3260192871094,
+            505.408935546875,
+            464.3260192871094
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 124,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 11,
+      "id": "p0031_u0010",
+      "container_id": "p0031_c0010",
+      "scale_group": "p0031_display_11.0",
+      "page": 31,
+      "target": "Sin darte cuenta, quizá te sientas atraído por situaciones que exigen que asumas el liderazgo. Tienes que esforzarte por desarrollar estas habilidades.",
+      "target_runs": [
+        {
+          "text": "Sin darte cuenta, quizá te sientas atraído por situaciones que exigen que asumas el liderazgo. Tienes que esforzarte por desarrollar estas habilidades.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "It might be hard for you to stand your ground. Your challenge may be to stick with something.",
+      "line_height": 1.2730019309303977,
+      "bbox": [
+        355.5350036621094,
+        482.8609924316406,
+        485.2568664550781,
+        535.8700561523438
+      ],
+      "spans": [
+        {
+          "source": "It might be hard for you to ",
+          "bbox": [
+            355.5350036621094,
+            482.8609924316406,
+            485.2568664550781,
+            493.8609924316406
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "stand your ground. Your ",
+          "bbox": [
+            355.5350036621094,
+            496.864013671875,
+            475.3678894042969,
+            507.864013671875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "challenge may be to stick  ",
+          "bbox": [
+            355.5350036621094,
+            510.8670349121094,
+            482.8808898925781,
+            521.8670654296875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "with something.",
+          "bbox": [
+            355.5350036621094,
+            524.8700561523438,
+            435.7911071777344,
+            535.8700561523438
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 93,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 12,
+      "id": "p0031_u0011",
+      "container_id": "p0031_c0011",
+      "scale_group": "p0031_display_11.0",
+      "page": 31,
+      "target": "Quizá te cueste mantenerte firme. Tu desafío quizá sea perseverar en algo.",
+      "target_runs": [
+        {
+          "text": "Quizá te cueste mantenerte firme. Tu desafío quizá sea perseverar en algo.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Your responses are clear and direct. It might be a challenge to feel content in situations where you are not in control.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        355.5350036621094,
+        554.3720703125,
+        503.28485107421875,
+        607.3810424804688
+      ],
+      "spans": [
+        {
+          "source": "Your responses are clear and ",
+          "bbox": [
+            355.5350036621094,
+            554.3720703125,
+            496.99395751953125,
+            565.3720703125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "direct. It might be a challenge  ",
+          "bbox": [
+            355.5350036621094,
+            568.3750610351562,
+            503.28485107421875,
+            579.3750610351562
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to feel content in situations ",
+          "bbox": [
+            355.5350036621094,
+            582.3780517578125,
+            491.18707275390625,
+            593.3780517578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "where you are not in control.",
+          "bbox": [
+            355.5350036621094,
+            596.3810424804688,
+            495.6410217285156,
+            607.3810424804688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 120,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 13,
+      "id": "p0031_u0012",
+      "container_id": "p0031_c0012",
+      "scale_group": "p0031_display_11.0",
+      "page": 31,
+      "target": "Tus respuestas son claras y directas. Quizá te cueste sentirte a gusto en situaciones en las que no tienes el control.",
+      "target_runs": [
+        {
+          "text": "Tus respuestas son claras y directas. Quizá te cueste sentirte a gusto en situaciones en las que no tienes el control.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "You find it hard to assert yourself or to be confident, yet you might find yourself having to lead.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        36.0,
+        99.1700210571289,
+        216.0138702392578,
+        138.17599487304688
+      ],
+      "spans": [
+        {
+          "source": "You find it hard to assert yourself or  ",
+          "bbox": [
+            36.0,
+            99.1700210571289,
+            216.0138702392578,
+            110.1700210571289
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "to be confident, yet you might find ",
+          "bbox": [
+            36.0,
+            113.17301177978516,
+            207.0477752685547,
+            124.17301177978516
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "yourself having to lead. ",
+          "bbox": [
+            36.0,
+            127.1760025024414,
+            152.98390197753906,
+            138.17599487304688
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 99,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 14,
+      "id": "p0031_u0013",
+      "container_id": "p0031_c0013",
+      "scale_group": "p0031_display_11.0",
+      "page": 31,
+      "target": "Te cuesta afirmarte o sentir confianza en ti, pero quizá te encuentres en la situación de tener que liderar.",
+      "target_runs": [
+        {
+          "text": "Te cuesta afirmarte o sentir confianza en ti, pero quizá te encuentres en la situación de tener que liderar.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "It might be difficult for you to do what’s best for your physical health. You may be subconsciously materialistic.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        36.0,
+        159.1090087890625,
+        235.3628387451172,
+        198.114990234375
+      ],
+      "spans": [
+        {
+          "source": "It might be difficult for you to do  ",
+          "bbox": [
+            36.0,
+            159.1090087890625,
+            198.621826171875,
+            170.1090087890625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "what’s best for your physical health. ",
+          "bbox": [
+            36.0,
+            173.11199951171875,
+            215.28677368164062,
+            184.11199951171875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "You may be subconsciously materialistic. ",
+          "bbox": [
+            36.0,
+            187.114990234375,
+            235.3628387451172,
+            198.114990234375
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 114,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 15,
+      "id": "p0031_u0014",
+      "container_id": "p0031_c0014",
+      "scale_group": "p0031_display_11.0",
+      "page": 31,
+      "target": "Quizá te resulte difícil hacer lo mejor para tu salud física. Quizá seas materialista de manera subconsciente.",
+      "target_runs": [
+        {
+          "text": "Quizá te resulte difícil hacer lo mejor para tu salud física. Quizá seas materialista de manera subconsciente.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Too much talking is not your style. It may be hard for you to look at situations objectively.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        36.0,
+        221.33599853515625,
+        208.2368927001953,
+        260.34197998046875
+      ],
+      "spans": [
+        {
+          "source": "Too much talking is not your style.  ",
+          "bbox": [
+            36.0,
+            221.33599853515625,
+            208.2368927001953,
+            232.33599853515625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "It may be hard for you to look at ",
+          "bbox": [
+            36.0,
+            235.3389892578125,
+            192.93482971191406,
+            246.3389892578125
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "situations objectively. ",
+          "bbox": [
+            36.0,
+            249.34197998046875,
+            144.1190185546875,
+            260.34197998046875
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 93,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 16,
+      "id": "p0031_u0015",
+      "container_id": "p0031_c0015",
+      "scale_group": "p0031_display_11.0",
+      "page": 31,
+      "target": "Hablar demasiado no va contigo. Quizá te resulte difícil analizar las situaciones con objetividad.",
+      "target_runs": [
+        {
+          "text": "Hablar demasiado no va contigo. Quizá te resulte difícil analizar las situaciones con objetividad.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "Big displays of emotion don’t come naturally to you. Inwardly, your emotions can be very forceful.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        36.0,
+        279.6579895019531,
+        207.1907958984375,
+        318.6639709472656
+      ],
+      "spans": [
+        {
+          "source": "Big displays of emotion don’t come ",
+          "bbox": [
+            36.0,
+            279.6579895019531,
+            207.1907958984375,
+            290.6579895019531
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "naturally to you. Inwardly, your ",
+          "bbox": [
+            36.0,
+            293.6609802246094,
+            191.96678161621094,
+            304.6609802246094
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "emotions can be very forceful.",
+          "bbox": [
+            36.0,
+            307.6639709472656,
+            183.9818878173828,
+            318.6639709472656
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 98,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 17,
+      "id": "p0031_u0016",
+      "container_id": "p0031_c0016",
+      "scale_group": "p0031_display_11.0",
+      "page": 31,
+      "target": "Las grandes demostraciones de emoción no te salen de manera natural. En tu interior, tus emociones pueden ser muy intensas.",
+      "target_runs": [
+        {
+          "text": "Las grandes demostraciones de emoción no te salen de manera natural. En tu interior, tus emociones pueden ser muy intensas.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "You are very adaptable— sometimes too much so. You may give in too easily and like to go with the flow.",
+      "line_height": 1.2729991566051135,
+      "bbox": [
+        193.464599609375,
+        555.0580444335938,
+        328.93841552734375,
+        608.0670776367188
+      ],
+      "spans": [
+        {
+          "source": "You are very adaptable— ",
+          "bbox": [
+            193.464599609375,
+            555.0580444335938,
+            314.232421875,
+            566.0580444335938
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "sometimes too much so.  ",
+          "bbox": [
+            193.464599609375,
+            569.06103515625,
+            315.1576232910156,
+            580.06103515625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "You may give in too easily  ",
+          "bbox": [
+            193.464599609375,
+            583.0640869140625,
+            323.71453857421875,
+            594.0640869140625
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        },
+        {
+          "source": "and like to go with the flow.",
+          "bbox": [
+            193.464599609375,
+            597.0670776367188,
+            328.93841552734375,
+            608.0670776367188
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 7303023,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 103,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 7303023,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 7303023,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 83,
+      "id": "p0031_u0017",
+      "container_id": "p0031_c0017",
+      "scale_group": "p0031_display_11.0",
+      "page": 31,
+      "target": "Eres muy adaptable, a veces demasiado. Quizá cedas con demasiada facilidad y prefieras dejarte llevar.",
+      "target_runs": [
+        {
+          "text": "Eres muy adaptable, a veces demasiado. Quizá cedas con demasiada facilidad y prefieras dejarte llevar.",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 7303023,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    }
+  ]
+}

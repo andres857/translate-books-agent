@@ -1,0 +1,1288 @@
+{
+  "page": 38,
+  "source_sha256": "517746c22d1897c06c6f5efde58564956c4389321f72b068494a25c5e7858a9c",
+  "memory_context": "a594ca7c47072374b394b2eae36dc37e8fd82717ed82fa719df3d93da58a0514",
+  "blocks": [
+    {
+      "source": "The Zodiac Signs",
+      "line_height": 1.05,
+      "bbox": [
+        65.1968994140625,
+        21.864179611206055,
+        133.5836944580078,
+        33.86418151855469
+      ],
+      "spans": [
+        {
+          "source": "The Zodiac Signs",
+          "bbox": [
+            65.1968994140625,
+            21.864179611206055,
+            133.5836944580078,
+            33.86418151855469
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 12.0,
+          "color": 8882055,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 12.0,
+        "color": 8882055,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 12.0,
+      "color": 8882055,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 1,
+      "id": "p0038_u0000",
+      "container_id": "p0038_c0000",
+      "scale_group": "p0038_display_12.0",
+      "page": 38,
+      "target": "Los signos del zodíaco",
+      "target_runs": [
+        {
+          "text": "Los signos del zodíaco",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 12.0,
+            "color": 8882055,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "THE",
+      "line_height": 1.05,
+      "bbox": [
+        36.076900482177734,
+        86.57816314697266,
+        59.8489990234375,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": "THE ",
+          "bbox": [
+            36.076900482177734,
+            86.57816314697266,
+            59.8489990234375,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 3,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0038_u0001",
+      "container_id": "p0038_c0001",
+      "scale_group": "p0038_display_11.0",
+      "page": 38,
+      "target": "EL",
+      "target_runs": [
+        {
+          "text": "EL",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "SIGN OF THE ZODIAC",
+      "line_height": 1.05,
+      "bbox": [
+        87.25340270996094,
+        86.57816314697266,
+        193.34730529785156,
+        97.57816314697266
+      ],
+      "spans": [
+        {
+          "source": " SIGN OF THE ZODIAC",
+          "bbox": [
+            87.25340270996094,
+            86.57816314697266,
+            193.34730529785156,
+            97.57816314697266
+          ],
+          "font": "SohoPro-Light",
+          "size": 11.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 18,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 11.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 11.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0038_u0002",
+      "container_id": "p0038_c0002",
+      "scale_group": "p0038_display_11.0",
+      "page": 38,
+      "target": "SIGNO DEL ZODÍACO",
+      "target_runs": [
+        {
+          "text": "SIGNO DEL ZODÍACO",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 11.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "TAURUS",
+      "line_height": 1.05,
+      "bbox": [
+        36.34939956665039,
+        100.04248046875,
+        257.19940185546875,
+        150.04248046875
+      ],
+      "spans": [
+        {
+          "source": "TAURUS",
+          "bbox": [
+            36.34939956665039,
+            100.04248046875,
+            257.19940185546875,
+            150.04248046875
+          ],
+          "font": "SohoPro-Bold",
+          "size": 50.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 6,
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Bold",
+        "size": 50.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Bold",
+      "size": 50.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0038_u0003",
+      "container_id": "p0038_c0003",
+      "scale_group": "p0038_display_50.0",
+      "page": 38,
+      "target": "TAURO",
+      "target_runs": [
+        {
+          "text": "TAURO",
+          "style": {
+            "font": "SohoPro-Bold",
+            "size": 50.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ]
+    },
+    {
+      "source": "21 APRIL–21 MAY",
+      "line_height": 1.05,
+      "bbox": [
+        36.0,
+        150.2714385986328,
+        203.2019805908203,
+        171.2714385986328
+      ],
+      "spans": [
+        {
+          "source": "21 APRIL–21 MAY",
+          "bbox": [
+            36.0,
+            150.2714385986328,
+            203.2019805908203,
+            171.2714385986328
+          ],
+          "font": "SohoPro-Light",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-Light",
+        "size": 21.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 100
+      },
+      "font": "SohoPro-Light",
+      "size": 21.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 2,
+      "id": "p0038_u0004",
+      "container_id": "p0038_c0004",
+      "scale_group": "p0038_display_21.0",
+      "page": 38,
+      "target": "21 de abril–21 de mayo",
+      "target_runs": [
+        {
+          "text": "21 de abril–21 de mayo",
+          "style": {
+            "font": "SohoPro-Light",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 100
+          }
+        }
+      ],
+      "translation_method": "deterministic_date"
+    },
+    {
+      "source": "Taurus is calm and cool—the bull is slow to anger and slow to move. Taureans are reserved, stable, and don’t like change. They are in tune with their physical side and with nature.",
+      "line_height": 1.1899995349702381,
+      "bbox": [
+        36.0,
+        190.7626190185547,
+        282.76678466796875,
+        336.71258544921875
+      ],
+      "spans": [
+        {
+          "source": "Taurus is calm and cool—the bull  ",
+          "bbox": [
+            36.0,
+            190.7626190185547,
+            271.00677490234375,
+            211.7626190185547
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "is slow to anger and slow to move. ",
+          "bbox": [
+            36.0,
+            215.7526092529297,
+            282.76678466796875,
+            236.7526092529297
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Taureans are reserved, stable,  ",
+          "bbox": [
+            36.0,
+            240.7425994873047,
+            254.56588745117188,
+            261.74261474609375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and don’t like change. They are  ",
+          "bbox": [
+            36.0,
+            265.73260498046875,
+            264.1817932128906,
+            286.73260498046875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "in tune with their physical side  ",
+          "bbox": [
+            36.0,
+            290.72259521484375,
+            264.85382080078125,
+            311.72259521484375
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "and with nature.",
+          "bbox": [
+            36.0,
+            315.71258544921875,
+            154.60592651367188,
+            336.71258544921875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 21.0,
+          "color": 1907995,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 180,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 21.0,
+        "color": 1907995,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 21.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 3,
+      "id": "p0038_u0005",
+      "container_id": "p0038_c0005",
+      "scale_group": "p0038_display_21.0",
+      "page": 38,
+      "target": "Tauro es tranquilo y sereno: el toro tarda en enfadarse y en moverse. Las personas de Tauro son reservadas, estables y no les gustan los cambios. Están en sintonía con su lado físico y con la naturaleza.",
+      "target_runs": [
+        {
+          "text": "Tauro es tranquilo y sereno: el toro tarda en enfadarse y en moverse. Las personas de Tauro son reservadas, estables y no les gustan los cambios. Están en sintonía con su lado físico y con la naturaleza.",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 21.0,
+            "color": 1907995,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Symbol Polarity Negative Mode Fixed Element Earth Ruling planet Venus Parts of the body",
+      "line_height": 1.043000594429348,
+      "bbox": [
+        51.590599060058594,
+        382.3786926269531,
+        207.82958984375,
+        525.334716796875
+      ],
+      "spans": [
+        {
+          "source": "Symbol  ",
+          "bbox": [
+            51.590599060058594,
+            382.3786926269531,
+            116.51960754394531,
+            405.3786926269531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Polarity  ",
+          "bbox": [
+            51.590599060058594,
+            406.3786926269531,
+            121.16561126708984,
+            429.3786926269531
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Negative",
+          "bbox": [
+            121.16561126708984,
+            406.67864990234375,
+            186.16360473632812,
+            429.67864990234375
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "Mode  ",
+          "bbox": [
+            51.590599060058594,
+            430.3677062988281,
+            101.96060943603516,
+            453.3677062988281
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Fixed",
+          "bbox": [
+            101.96060943603516,
+            430.66766357421875,
+            141.91160583496094,
+            453.66766357421875
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "Element  ",
+          "bbox": [
+            51.590599060058594,
+            454.3567199707031,
+            123.55760192871094,
+            477.3567199707031
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Earth",
+          "bbox": [
+            123.5575942993164,
+            454.65667724609375,
+            163.92259216308594,
+            477.65667724609375
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "Ruling planet  ",
+          "bbox": [
+            51.590599060058594,
+            478.345703125,
+            163.25559997558594,
+            501.345703125
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "source": "Venus",
+          "bbox": [
+            163.25559997558594,
+            478.6456604003906,
+            207.82958984375,
+            501.6456604003906
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "source": "Parts of the body ",
+          "bbox": [
+            51.590599060058594,
+            502.3346862792969,
+            189.84130859375,
+            525.334716796875
+          ],
+          "font": "SohoPro-LightCondensed",
+          "size": 23.0,
+          "color": 5723990,
+          "flags": 4,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 16,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 16,
+          "end": 25,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 25,
+          "end": 30,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 30,
+          "end": 36,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 36,
+          "end": 44,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 44,
+          "end": 50,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 50,
+          "end": 64,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "start": 64,
+          "end": 70,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "start": 70,
+          "end": 87,
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-LightCondensed",
+        "size": 23.0,
+        "color": 5723990,
+        "weight": 300,
+        "bold": false,
+        "italic": false,
+        "serif": true,
+        "width": 75
+      },
+      "font": "SohoPro-LightCondensed",
+      "size": 23.0,
+      "color": 5723990,
+      "rotate": 0,
+      "kind": "paragraph",
+      "context": "figure_label",
+      "vector": true,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0038_u0006",
+      "container_id": "p0038_c0006",
+      "scale_group": "p0038_display_23.0",
+      "page": 38,
+      "target": "Símbolo Polaridad Negativa Modalidad Fija Elemento Tierra Planeta regente Venus Partes del cuerpo",
+      "target_runs": [
+        {
+          "text": "Símbolo Polaridad ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "Negativa ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "Modalidad ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "Fija ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "Elemento ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "Tierra ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "Planeta regente ",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        },
+        {
+          "text": "Venus ",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        },
+        {
+          "text": "Partes del cuerpo",
+          "style": {
+            "font": "SohoPro-LightCondensed",
+            "size": 23.0,
+            "color": 5723990,
+            "weight": 300,
+            "bold": false,
+            "italic": false,
+            "serif": true,
+            "width": 75
+          }
+        }
+      ]
+    },
+    {
+      "source": "Neck and throat",
+      "line_height": 1.05,
+      "bbox": [
+        51.590599060058594,
+        526.6236572265625,
+        168.060302734375,
+        549.6236572265625
+      ],
+      "spans": [
+        {
+          "source": "Neck and throat",
+          "bbox": [
+            51.590599060058594,
+            526.6236572265625,
+            168.060302734375,
+            549.6236572265625
+          ],
+          "font": "SohoPro-BoldCompressed",
+          "size": 23.0,
+          "color": 1907995,
+          "flags": 20,
+          "rotate": 0,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style_runs": [
+        {
+          "start": 0,
+          "end": 15,
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ],
+      "style": {
+        "font": "SohoPro-BoldCompressed",
+        "size": 23.0,
+        "color": 1907995,
+        "weight": 700,
+        "bold": true,
+        "italic": false,
+        "serif": true,
+        "width": 60
+      },
+      "font": "SohoPro-BoldCompressed",
+      "size": 23.0,
+      "color": 1907995,
+      "rotate": 0,
+      "kind": "label",
+      "context": "running_text",
+      "vector": false,
+      "alignment": "left",
+      "source_block": 4,
+      "id": "p0038_u0007",
+      "container_id": "p0038_c0007",
+      "scale_group": "p0038_display_23.0",
+      "page": 38,
+      "target": "Cuello y garganta",
+      "target_runs": [
+        {
+          "text": "Cuello y garganta",
+          "style": {
+            "font": "SohoPro-BoldCompressed",
+            "size": 23.0,
+            "color": 1907995,
+            "weight": 700,
+            "bold": true,
+            "italic": false,
+            "serif": true,
+            "width": 60
+          }
+        }
+      ]
+    }
+  ]
+}
