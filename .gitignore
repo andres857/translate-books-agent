@@ -46,3 +46,6 @@ Thumbs.db
 .claude/scheduled_tasks.lock
 .claude/settings.local.json
 .claude/worktrees/
+
+# Paquetes para mover el estado de los libros entre equipos
+/transfer/
