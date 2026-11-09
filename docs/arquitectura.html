@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arquitectura del traductor</title>
+<style>
+:root{--bg:#f6f5f1;--panel:#fff;--ink:#1d1f24;--muted:#5d6370;--line:#c9ccd3;--accent:#2f5bd3;--orq:#7a4cc2;--a:#2f5bd3;--b:#0f8a6a;--pipe:#b8730a;--qa:#c23b4a;--gate:#55606f;--out:#2b7a2b;--bad:#b3261e;--good:#1e7a3c;--chip:#eef0f4}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#15171c;--panel:#1f232b;--ink:#e8e9ec;--muted:#a3a9b6;--line:#3a404c;--chip:#2a2f39;--accent:#7ea2ff}}
+:root[data-theme="dark"]{--bg:#15171c;--panel:#1f232b;--ink:#e8e9ec;--muted:#a3a9b6;--line:#3a404c;--chip:#2a2f39;--accent:#7ea2ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:24px 16px 8px;max-width:1200px;margin:0 auto}
+h1{margin:0 0 4px;font-size:24px}
+.sub{color:var(--muted);margin:0}
+nav{display:flex;gap:8px;flex-wrap:wrap;max-width:1200px;margin:16px auto 0;padding:0 16px}
+nav button{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer;font:inherit}
+nav button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+main{max-width:1200px;margin:0 auto;padding:16px}
+.arch{display:none}.arch.active{display:block}
+.intro{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:16px}
+.layer{margin:0 0 6px}
+.layer-title{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px 2px}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.arrow{text-align:center;color:var(--muted);font-size:20px;line-height:1;margin:6px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-left:5px solid var(--k,var(--accent));border-radius:10px;padding:10px 12px;cursor:pointer;transition:box-shadow .15s}
+.card:hover{box-shadow:0 2px 10px rgba(0,0,0,.12)}
+.card h3{margin:0 0 2px;font-size:15px;display:flex;justify-content:space-between;gap:8px}
+.card h3 .tog{color:var(--muted);font-weight:400}
+.card p.d{margin:0;color:var(--muted);font-size:13.5px}
+.links{margin-top:6px;display:flex;flex-wrap:wrap;gap:4px}
+.links span{background:var(--chip);border-radius:6px;padding:1px 7px;font-size:12px;color:var(--muted)}
+.links span b{color:var(--ink);font-weight:600}
+.more{display:none;margin-top:8px;border-top:1px dashed var(--line);padding-top:8px;font-size:13.5px}
+.card.open .more{display:block}
+.more ul{margin:4px 0 4px 18px;padding:0}
+.more code{background:var(--chip);padding:0 4px;border-radius:4px;font-size:12.5px}
+.k-orq{--k:var(--orq)}.k-a{--k:var(--a)}.k-b{--k:var(--b)}.k-pipe{--k:var(--pipe)}.k-qa{--k:var(--qa)}.k-gate{--k:var(--gate)}.k-out{--k:var(--out)}.k-bad{--k:var(--bad)}.k-good{--k:var(--good)}
+.tag{font-size:11px;padding:1px 6px;border-radius:5px;margin-left:4px;vertical-align:middle;color:#fff}
+.tag.new{background:var(--good)}.tag.ret{background:var(--bad)}.tag.chg{background:var(--pipe)}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:12.5px;color:var(--muted);margin:8px 0 14px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle}
+.problems{margin-top:18px}
+.controls{display:flex;gap:8px;margin:0 0 10px}
+.controls button{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:4px 10px;border-radius:6px;cursor:pointer;font:inherit;font-size:13px}
+footer{max-width:1200px;margin:0 auto;padding:8px 16px 32px;color:var(--muted);font-size:12.5px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Arquitectura del sistema de traducción de libros</h1>
+  <p class="sub">Tres etapas: el sistema inicial con Codex, el workflow con el que arrancamos en Claude Code y el sistema actual con los arreglos. Haz clic en cualquier bloque para ver cómo funciona.</p>
+</header>
+<nav role="tablist">
+  <button role="tab" aria-selected="true" data-t="codex">1 · Codex (inicial)</button>
+  <button role="tab" aria-selected="false" data-t="claude0">2 · Claude Code (arranque 08-nov)</button>
+  <button role="tab" aria-selected="false" data-t="claude1">3 · Claude Code con arreglos (09-nov)</button>
+</nav>
+<main>
+<div class="legend">
+  <span><i style="background:var(--orq)"></i>Orquestación</span><span><i style="background:var(--a)"></i>Capa A: agentes</span>
+  <span><i style="background:var(--b)"></i>Capa B: LLM de los scripts</span><span><i style="background:var(--pipe)"></i>Pipeline</span>
+  <span><i style="background:var(--qa)"></i>QA</span><span><i style="background:var(--gate)"></i>Gates</span><span><i style="background:var(--out)"></i>Salidas</span>
+</div>
+<div class="controls"><button data-act="open">Expandir todo</button><button data-act="close">Contraer todo</button></div>
+
+<!-- ============ 1. CODEX ============ -->
+<section class="arch active" id="codex">
+<div class="intro"><b>Periodo:</b> 2026-11-04 → 2026-11-07. Claude orquesta y revisa, Codex escribe el código y gpt-6-luna traduce. Termina al expirar la suscripción de Codex, con 27/192 páginas aceptables, G5 sin cumplirse en ningún lote y unas 17 h de sesión.</div>
+
+<div class="layer"><div class="layer-title">Orquestación</div><div class="row">
+<div class="card k-orq"><h3>Claude (sesión) + /goal <span class="tog">+</span></h3><p class="d">Decide fases, lanza Codex, revisa diffs y mira renders a ojo.</p>
+<div class="links"><span>→ <b>Codex companion</b></span><span>→ <b>Revisión visual a ojo</b></span></div>
+<div class="more"><ul><li>Trabajaba con el plan <code>docs/plan_secrets_of_astrology.md</code> y la delegación de andres (G4/G5/G7).</li><li>Lanzaba cada fase (2A…2I) como una tarea Codex de 30–60 min, una tras otra.</li><li>Esperaba con vigilantes <code>until … status</code>. Uno faltó en 2F y se perdieron 5 h.</li><li>55 de 59 lecturas fueron PNG comparativos: era el único control visual real.</li></ul></div></div>
+</div></div>
+<div class="arrow">↓</div>
+
+<div class="layer"><div class="layer-title">Capa A: implementación</div><div class="row">
+<div class="card k-a"><h3>Codex companion (rescue / task) <span class="tog">+</span></h3><p class="d">Codex gpt-6-astra (luego luna xhigh) implementa con TDD.</p>
+<div class="links"><span>← <b>Claude</b></span><span>→ <b>src/astro_translate</b></span></div>
+<div class="more"><ul><li>Se invocaba con <code>codex-companion.mjs task --background --write</code>, con un prompt por fase.</li><li>27 tareas en total, unas 5 descartadas: sandbox bwrap, prompt roto, astra retirada, límite de uso.</li><li>Cuando el plan de la cuenta pasó a free, astra dejó de existir y quedó luna.</li></ul></div></div>
+<div class="card k-a"><h3>.codex/agents + .agents/skills <span class="tog">+</span></h3><p class="d">8 roles definidos (pipeline_engineer, qa_reviewer…) y 8 skills. Casi no se usaron.</p>
+<div class="links"><span>✕ sin uso real</span></div>
+<div class="more"><ul><li>Roles: assembler, batch_runner, figure_specialist, glossary_curator, issue_fixer, pdf_triage, pipeline_engineer y qa_reviewer (gpt-6.1-sol).</li><li>Las skills eran envoltorios finos de la CLI. Nadie hizo el trabajo de qa_reviewer: la revisión visual recayó en Claude.</li></ul></div></div>
+</div></div>
+<div class="arrow">↓</div>
+
+<div class="layer"><div class="layer-title">Capa B: LLM de los scripts</div><div class="row">
+<div class="card k-b"><h3>llm.run_task → CodexSDKBackend <span class="tog">+</span></h3><p class="d">gpt-6-luna/low traduce; escalada fija a gpt-6-astra/high.</p>
+<div class="links"><span>← <b>fidelity_translate</b></span><span>← <b>safe_vlm</b></span><span>→ <b>costs.jsonl</b></span></div>
+<div class="more"><ul><li>Hilo efímero por unidad en <code>work/.codex_llm_sandbox</code> con el perfil <code>translator</code>: sin herramientas, web ni MCP.</li><li>Protección <code>{nN}</code> para números, grados y glifos; validación por schema, glosario y placeholders.</li><li>Caché SQLite por hash de dependencias. Cuota agotada: <code>quota_pause.json</code> y salida 75.</li><li><b>Fallos:</b> 83 de validación (glosario 58, énfasis 18, placeholders 11). La escalada a astra quedó escrita en el código y, cuando el modelo desapareció, abortó lotes enteros.</li></ul></div></div>
+</div></div>
+<div class="arrow">↓</div>
+
+<div class="layer"><div class="layer-title">Pipeline</div><div class="row">
+<div class="card k-pipe"><h3>triage <span class="tog">+</span></h3><p class="d">Clasifica cada página como native / mixed / scanned. No analiza la estructura.</p>
+<div class="links"><span>→ <b>manifest.json</b></span><span>→ <b>produce</b></span></div>
+<div class="more"><p>Solo cuenta caracteres e imágenes. No sabía nada de columnas, fichas, TOC, citas ni texto curvo, y por eso cada patrón se descubrió a mitad de producción (causa raíz nº 1).</p></div></div>
+<div class="card k-pipe"><h3>fidelity_translate + reinsert (PyMuPDF) <span class="tog">+</span></h3><p class="d">Extrae unidades, traduce por Capa B y recompone en el PDF.</p>
+<div class="links"><span>← <b>triage</b></span><span>→ <b>Capa B</b></span><span>→ <b>QA local</b></span></div>
+<div class="more"><ul><li>Fuente original si tiene glifos; si no, reemplazo serif/sans calibrado.</li><li>Escala mínima 0,75; redacción por span; énfasis inline.</li><li>Se fue ampliando fase a fase: flujo de columnas (2C), aperturas (2D), diferido parcial (2E), fichas y callouts (2F), énfasis flat-v1 (2G).</li></ul></div></div>
+<div class="card k-pipe"><h3>produce (lotes de 20) <span class="tog">+</span></h3><p class="d">Orquestador reanudable por lotes con métrica G5.</p>
+<div class="links"><span>→ <b>p*-translated.pdf</b></span><span>→ <b>G5</b></span></div>
+<div class="more"><ul><li>Cada candidato era una copia del libro entero (65 MB): 9,7 GB y disco lleno.</li><li>G5 se calculaba, pero <b>no detenía</b> nada: todos los lotes quedaron entre 0 y 33 % y la producción siguió igual.</li></ul></div></div>
+<div class="card k-pipe"><h3>book_defect_report (2H) <span class="tog">+</span></h3><p class="d">Recompone offline el libro entero y agrupa los defectos por causa.</p>
+<div class="links"><span>← <b>produce</b></span></div>
+<div class="more"><p>Llegó a las 13 h de sesión. Era la herramienta correcta, pero demasiado tarde.</p></div></div>
+</div></div>
+<div class="arrow">↓</div>
+
+<div class="layer"><div class="layer-title">QA y gates</div><div class="row">
+<div class="card k-qa"><h3>QA local + juez VLM (luna) <span class="tog">+</span></h3><p class="d">fidelity_qa, text_quality y un VLM con máscaras seguras.</p>
+<div class="links"><span>← <b>reinsert</b></span><span>→ <b>review_queue</b></span></div>
+<div class="more"><p>Pasaba por alto casi todos los defectos visuales: duplicados, márgenes, contraste, «¡», callouts fundidos y tildes sin pintar.</p></div></div>
+<div class="card k-qa"><h3>Revisión visual a ojo (Claude) <span class="tog">+</span></h3><p class="d">El control real, sin rol, sin criterios escritos y sin registro.</p>
+<div class="links"><span>← <b>Claude</b></span></div>
+<div class="more"><p>Se registraba con <code>review-visual</code>, que quedaba obsoleto con cada cambio de código: el PDF no era determinista.</p></div></div>
+<div class="card k-gate"><h3>Gates G1b · G3 · G4 · G5 · G7 <span class="tog">+</span></h3><p class="d">Aprobaciones por hash. G4, G5 y G7 delegadas a Claude.</p>
+<div class="links"><span>→ <b>approval_history</b></span></div>
+<div class="more"><p>G1b: backend <code>codex_sdk</code>. G3: glosario y guía. G4: piloto. G5: lote al 90 % o más (ignorado). G7: entrega final.</p></div></div>
+</div></div>
+<div class="arrow">↓</div>
+<div class="layer"><div class="layer-title">Salida</div><div class="row">
+<div class="card k-out"><h3>Resultado <span class="tog">+</span></h3><p class="d">Piloto de 20 páginas pulido a mano; 27/192 páginas aceptables.</p>
+<div class="more"><p>En una muestra de 10 páginas de esa producción, el auditor nuevo encontró 3 OK. Los defectos: duplicados, palabras perdidas, tildes que no se pintan y créditos fundidos.</p></div></div>
+</div></div>
+</section>
+
+<!-- ============ 2. CLAUDE CODE ARRANQUE ============ -->
+<section class="arch" id="claude0">
+<div class="intro"><b>Diseño del 2026-11-08</b> (<code>docs/workflow_claude.md</code>). Todo dentro de Claude Code: Sonnet traduce, agentes Opus hacen la estructura, la ingeniería y la auditoría, y se analiza la estructura antes de gastar tokens.</div>
+
+<div class="layer"><div class="layer-title">Orquestación</div><div class="row">
+<div class="card k-orq"><h3>Sesión principal + /loop continue-book <span class="tog">+</span></h3><p class="d">Avanza paso a paso según <code>orchestrator_state.md</code>; se reanuda sola cada hora.</p>
+<div class="links"><span>→ <b>agentes .claude</b></span><span>→ <b>produce</b></span><span>↔ <b>hooks</b></span></div>
+<div class="more"><ul><li>Skill <code>continue-book</code>: lee el estado, respeta <code>quota_pause</code>, relanza agentes muertos y escribe la bitácora.</li><li>Autonomía total por delegación; solo para con el límite de uso.</li><li>Máximo 3 subagentes, con profundidad 1.</li></ul></div></div>
+<div class="card k-orq"><h3>Hooks <span class="tag new">nuevo</span> <span class="tog">+</span></h3><p class="d">Guarda de rutas protegidas y Stop hook que exige auditoría.</p>
+<div class="links"><span>↔ <b>orquestador</b></span></div>
+<div class="more"><ul><li><code>guard_protected.py</code> (PreToolUse): niega editar <code>source.pdf</code>, el glosario, las aprobaciones y los prompts.</li><li><code>stop_pending_audit.py</code> (Stop): impide cerrar el turno con un lote cerrado sin auditar.</li></ul></div></div>
+</div></div>
+<div class="arrow">↓</div>
+
+<div class="layer"><div class="layer-title">Capa A: agentes .claude/agents (Opus, effort high)</div><div class="row">
+<div class="card k-a"><h3>structure-analyst <span class="tag new">nuevo</span> <span class="tog">+</span></h3><p class="d">Analiza el PDF antes de traducir: arquetipos, riesgos y páginas piloto.</p>
+<div class="links"><span>← <b>survey</b></span><span>→ <b>structure.json/md</b></span><span>→ <b>pipeline-engineer</b></span></div>
+<div class="more"><p>Revisa renders de muestra por arquetipo y produce la lista de gaps del compositor (en <i>Secrets</i>, 12) y unas 24 páginas piloto, 1–2 por arquetipo.</p></div></div>
+<div class="card k-a"><h3>pipeline-engineer <span class="tag chg">sustituye a Codex</span> <span class="tog">+</span></h3><p class="d">Una incidencia por encargo: test rojo con un caso real, arreglo general y suite verde.</p>
+<div class="links"><span>← <b>auditor / analyst</b></span><span>→ <b>src/astro_translate</b></span></div>
+<div class="more"><p>Prohibido tocar glosario, prompts, aprobaciones o <code>source.pdf</code>. Nunca reglas por número de página en el código común; lo específico de un libro va a su <code>profile.toml</code>.</p></div></div>
+<div class="card k-a"><h3>book-auditor <span class="tag new">nuevo</span> <span class="tog">+</span></h3><p class="d">El «compañero» que revisa visualmente según <code>criterios_aceptacion.md</code>.</p>
+<div class="links"><span>← <b>candidatos</b></span><span>→ <b>audit/batch-NN.json</b></span><span>→ <b>vista previa</b></span></div>
+<div class="more"><ul><li>Compara original y traducción, con recortes a 200 dpi o más para tildes y glifos.</li><li>Códigos bloqueantes: EN, MISSING, DUP, ORDER, OVERFLOW, OVERLAP, MERGE, NUM, CONTRAST, SCALE, GRAMMAR y GLOSSARY.</li><li>Da <code>probable_cause</code> y <code>rule_proposal</code> para todo lo que la QA no vio.</li></ul></div></div>
+</div></div>
+<div class="arrow">↓</div>
+
+<div class="layer"><div class="layer-title">Capa B: LLM de los scripts</div><div class="row">
+<div class="card k-b"><h3>ClaudeCLIBackend (<code>claude -p</code>) <span class="tag new">nuevo</span> <span class="tog">+</span></h3><p class="d">Sonnet 5.5 en la suscripción; escalada configurable a Opus.</p>
+<div class="links"><span>← <b>fidelity_translate</b></span><span>← <b>safe_vlm</b></span><span>→ <b>costs.jsonl</b></span></div>
+<div class="more"><ul><li>Aislamiento: <code>--tools ""</code>, <code>--setting-sources ""</code>, <code>--strict-mcp-config</code>, <code>--no-session-persistence</code> y <code>autoMemoryEnabled:false</code>. Sin esta última se filtraba la memoria del usuario.</li><li>Las imágenes van en base64 por <code>stream-json</code>, sin herramientas.</li><li>Se eliminan <code>ANTHROPIC_API_KEY</code> y <code>AUTH_TOKEN</code> para no facturar por API.</li><li>Límite de sesión o semanal: salida 75 con la hora de reset. Escalada no disponible: la unidad pasa a review y el lote sigue.</li><li>Costo registrado como <code>estimated_subscription</code>; el real sigue siendo desconocido.</li></ul></div></div>
+</div></div>
+<div class="arrow">↓</div>
+
+<div class="layer"><div class="layer-title">Pipeline</div><div class="row">
+<div class="card k-pipe"><h3>doctor <span class="tag chg">ampliado</span> <span class="tog">+</span></h3><p class="d">Disco, login de claude, modelos disponibles, cuota y bloqueo G5.</p>
+<div class="links"><span>→ <b>produce</b></span></div>
+<div class="more"><p>Con <code>--probe-models</code> hace una llamada mínima por modelo. Detecta lo que con Codex no se vio: plan caducado, modelo retirado, disco lleno.</p></div></div>
+<div class="card k-pipe"><h3>survey <span class="tag new">nuevo</span> <span class="tog">+</span></h3><p class="d">Inventario estructural sin LLM: fuentes, columnas, fichas, TOC, curvas, raster y contraste.</p>
+<div class="links"><span>→ <b>structure-analyst</b></span></div>
+<div class="more"><p>192 páginas en 73 s. Agrupa por firma de rasgos en arquetipos y lista <code>font_risks</code> (fuentes sin tildes).</p></div></div>
+<div class="card k-pipe"><h3>compose-offline --pseudo <span class="tag new">nuevo</span> <span class="tog">+</span></h3><p class="d">Compone el libro entero con español falso (+25 %, tildes, ¡¿) antes de gastar tokens.</p>
+<div class="links"><span>→ <b>defects.md por causa</b></span><span>→ <b>pipeline-engineer</b></span></div>
+<div class="more"><p>Equivale a hacer la 2C–2H el primer día. Usa el compositor real y la QA real, sin tocar el manifest, la caché ni los costos.</p></div></div>
+<div class="card k-pipe"><h3>produce + G5 bloqueante <span class="tag chg">cambiado</span> <span class="tog">+</span></h3><p class="d">Si un lote no llega al 90 %, sale con 76 y no empieza el siguiente.</p>
+<div class="links"><span>→ <b>book-auditor</b></span><span>→ <b>g5_decision</b></span></div>
+<div class="more"><p>Para avanzar hay que recomponer el lote hasta llegar a 0,90 o más, o escribir <code>g5_decision-NN.json</code> con la evidencia.</p></div></div>
+<div class="card k-out"><h3>assemble-final <span class="tog">+</span></h3><p class="d">Une las páginas con QA OK o revisadas; el resto queda en el original.</p></div>
+</div></div>
+</section>
+
+<!-- ============ 3. CON ARREGLOS ============ -->
+<section class="arch" id="claude1">
+<div class="intro"><b>Estado al 2026-11-09.</b> Mismas capas que la etapa 2, pero el flujo pasa de «puerta» a «cadena continua». Además, el código incorpora lo aprendido en el piloto (4 rondas, unas 6 h). Las lecciones están en <code>docs/workflow_claude.md</code> y los tiempos en <code>docs/sesion_2026-11-08_09.md</code>.</div>
+
+<div class="layer"><div class="layer-title">Flujo de producción (nuevo orden)</div><div class="row">
+<div class="card k-pipe"><h3>1 · Producción por tramos explícitos <span class="tag chg">cambiado</span> <span class="tog">+</span></h3><p class="d"><code>run_ranges.sh</code>: 60–79, 80–99… sin parar.</p>
+<div class="links"><span>→ <b>2 · G5 como métrica</b></span><span>→ <b>3 · auditor</b></span></div>
+<div class="more"><p>Con <code>--pages 1-192 --resume</code>, el primer tramo ya compuesto se bloqueaba en cada ejecución (lotes 22, 25 y 26 en bucle). Cada lote de 20 tarda unos 5 min. Los vigilantes usan el PID, no <code>pgrep -f</code>, que se encontraba a sí mismo.</p><p><b>Problema detectado:</b> los lotes 22, 25, 26, 27 y 29 duplicaron tramos ya compuestos. No hubo retraducción real (0–2 llamadas por lote), pero se perdieron unos 12 min. Ahora la decisión G5 se escribe antes de cada tramo y cada tramo tiene una sola pasada (<code>run_ranges2.sh</code>). Pendiente: que <code>produce</code> no abra un lote si todas sus páginas ya están al día.</p></div></div>
+<div class="card k-gate"><h3>2 · G5 como métrica, no como freno <span class="tag chg">cambiado</span> <span class="tog">+</span></h3><p class="d">Cada lote se cierra con <code>g5_decision</code> «continue»; el porcentaje va al informe.</p>
+<div class="links"><span>← <b>produce</b></span><span>→ <b>informe final</b></span></div>
+<div class="more"><p>Lo decidió andres: el libro sale «como salga» y con su porcentaje de acierto. El bloqueo de salida 76 queda para fallos sistémicos.</p></div></div>
+<div class="card k-a"><h3>3 · Auditor en paralelo por lote <span class="tag chg">cambiado</span> <span class="tog">+</span></h3><p class="d">Revisa el lote N mientras se traduce el N+1.</p>
+<div class="links"><span>← <b>candidatos</b></span><span>→ <b>4 · agrupar por causa</b></span></div>
+<div class="more"><p>Si una página no cambió de hash, se toma la auditoría anterior y no se repite. Los resultados por lote: piloto 15/15; 21 → 8/12; 23 → 10/12; 24 → 16/19.</p></div></div>
+<div class="card k-a"><h3>4 · Corrección por causa, ingenieros en paralelo <span class="tag chg">cambiado</span> <span class="tog">+</span></h3><p class="d">Un pipeline-engineer por causa sistémica, cada uno con sus módulos.</p>
+<div class="links"><span>→ <b>5 · recomposición única</b></span></div>
+<div class="more"><ul><li>Ediciones atómicas, porque <code>produce</code> importa el código al arrancar cada lote.</li><li>En cada iteración, solo los tests propios; la suite completa una vez por ronda.</li><li>Causas abiertas ahora: puntuación original huérfana, frases partidas entre páginas, pies de foto sobre las guías punteadas.</li></ul></div></div>
+<div class="card k-out"><h3>5 · Recomposición, firmas y ensamblado <span class="tag new">nuevo</span> <span class="tog">+</span></h3><p class="d"><code>assemble-final --include-review</code> y un informe con porcentajes.</p>
+<div class="links"><span>← <b>auditorías</b></span></div>
+<div class="more"><ul><li><code>review-visual</code> se registra en bloque cuando no hay ningún <code>produce</code> activo, porque comparten el lock de escritura.</li><li>El informe da el % de páginas traducidas, el % de acierto según la QA local y el % según el auditor, con la lista de defectos.</li><li>Las páginas en review entran traducidas, marcadas <code>translated_unreviewed</code>.</li></ul></div></div>
+</div></div>
+<div class="arrow">↓</div>
+
+<div class="layer"><div class="layer-title">Arreglos de infraestructura</div><div class="row">
+<div class="card k-good"><h3>Candidatos PDF deterministas <span class="tag new">nuevo</span> <span class="tog">+</span></h3><p class="d">El <code>/ID</code> sale del contenido y las fuentes van sin marca de tiempo.</p>
+<div class="links"><span>→ <b>review-visual</b></span><span>→ <b>aprobaciones por hash</b></span></div>
+<div class="more"><p>Antes, cada recomposición cambiaba el sha aunque la página fuera idéntica e invalidaba revisiones y aprobaciones. Costó 2 rondas del piloto y explica la invalidación en cascada de la etapa Codex. Lo hace <code>core.save_deterministic</code>.</p></div></div>
+<div class="card k-good"><h3>Candidato de una página + /Group <span class="tog">+</span></h3><p class="d">De 9,8 GB a 307 MB, conservando el grupo de transparencia.</p>
+<div class="more"><p><code>insert_pdf</code> perdía <code>/Group</code> y los colores planos cambiaban un nivel. Por eso fallaban 23 migraciones y salían 28 falsos <code>ink_outside_edit_boxes</code>.</p></div></div>
+<div class="card k-good"><h3>Hooks ajustados <span class="tog">+</span></h3><p class="d">El Stop hook usa <code>closed_at</code>, los marcadores <code>.inprogress</code> y la lista de lotes heredados.</p>
+<div class="more"><p>Antes bloqueaba lotes en curso, lotes de luna obsoletos y lotes cuyo archivo se reescribía con <code>review-visual</code>.</p></div></div>
+<div class="card k-good"><h3>retriage seguro <span class="tag new">nuevo</span> <span class="tog">+</span></h3><p class="d">Simulación por defecto; las aperturas de capítulo pasan de scanned a mixed.</p>
+<div class="more"><p>Solo toca <code>type</code>, <code>route</code> y <code>stages</code>, con historial. En <i>Secrets</i> recuperó 5 aperturas (11, 25, 85, 137, 167) que se habrían quedado sin traducir.</p></div></div>
+</div></div>
+<div class="arrow">↓</div>
+
+<div class="layer"><div class="layer-title">Arreglos de composición y traducción (reutilizables)</div><div class="row">
+<div class="card k-pipe"><h3>Fuentes <span class="tog">+</span></h3><p class="d">Clasificación slab/sans por familia; Roboto Slab, Bitter Italic y Lilita One; calibración de peso y espacio.</p>
+<div class="more"><p>Holgura vertical para que MuPDF no recorte las tildes de mayúsculas: 314 de 743 se perdían. Las etiquetas verticales usan ya las opciones del perfil.</p></div></div>
+<div class="card k-pipe"><h3>Layout <span class="tog">+</span></h3><p class="d">Tinta real frente a cajas, filetes y paneles, colisión de tildes entre líneas y comillas como obstáculo.</p>
+<div class="more"><ul><li><code>line_clearance</code>: holgura de tinta entre líneas en títulos grandes.</li><li><code>rule_limits</code>: el crecimiento se para en filetes y paneles, también si vienen del raster.</li><li><code>split_line_items</code>: una línea por crédito o viñeta.</li><li>La alineación a la derecha se mide con la tinta visible.</li><li><code>run_in_layout</code>, citas display y TOC por fila.</li></ul></div></div>
+<div class="card k-pipe"><h3>Detectores y rutas <span class="tog">+</span></h3><p class="d">Cintas rectas, leyendas, tablas, cita p13 y OCR; índice alfabético en español.</p>
+<div class="more"><p><code>survey_detectors</code> y <code>book_index</code>: traduce las entradas, ordena con la colación es-ES, conserva los números de página y recompone en la misma rejilla.</p></div></div>
+<div class="card k-b"><h3>Contexto de traducción <span class="tog">+</span></h3><p class="d">Pies y callouts se traducen después del cuerpo y con sus términos.</p>
+<div class="more"><ul><li><code>page_context</code>: evita «Pesebre» en el pie y «Colmena» en el cuerpo.</li><li><code>line_continuation</code>: un término del glosario partido entre líneas va en una sola unidad.</li><li>Ordinales de diagrama convertidos por pliego («11.ª»), sin LLM.</li><li>Términos latinos del original aceptados («Imum Coeli»).</li></ul></div></div>
+<div class="card k-qa"><h3>QA ampliada <span class="tog">+</span></h3><p class="d">8 comprobaciones nuevas, nacidas de lo que antes solo veía el auditor.</p>
+<div class="more"><p><code>bullet_line_merge</code>, <code>quote_mark_overlap</code>, <code>right_edge_overflow</code>, <code>english_ordinal_issues</code>, <code>line_ink_collision</code>, <code>rule_or_panel_overflow</code>, <code>term_consistency</code> y <code>ordinal_point_off_baseline</code>. <code>inline_style</code> compara el contenido enfatizado, no su posición. Tests: de 612 a más de 932.</p></div></div>
+</div></div>
+<div class="arrow">↓</div>
+
+<div class="layer"><div class="layer-title">Pendiente</div><div class="row">
+<div class="card k-bad"><h3>Para el próximo libro <span class="tog">+</span></h3><p class="d">Corpus de regresión y detectores que hoy solo ve el auditor.</p>
+<div class="more"><ul><li><code>tests/regression_pages/</code>, organizado por tipo de defecto.</li><li>Detector de pies de foto sobre guías punteadas (p39, p43).</li><li>Fase 4: portada, ruedas curvas 26–31 y 177, bandas SHINE|NURTURE.</li></ul></div></div>
+</div></div>
+</section>
+</main>
+<footer>Generado el 2026-11-09 a partir de <code>docs/retrospectiva_codex.md</code>, <code>docs/workflow_claude.md</code>, <code>docs/decisiones.md</code> y <code>docs/sesion_2026-11-08_09.md</code>.</footer>
+<script>
+document.querySelectorAll('nav button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('nav button').forEach(x=>x.setAttribute('aria-selected',x===b));
+  document.querySelectorAll('.arch').forEach(s=>s.classList.toggle('active',s.id===b.dataset.t));
+}));
+document.querySelectorAll('.card').forEach(c=>{
+  if(!c.querySelector('.more'))return;
+  c.addEventListener('click',e=>{ if(e.target.closest('a'))return; c.classList.toggle('open'); const t=c.querySelector('.tog'); if(t)t.textContent=c.classList.contains('open')?'−':'+'; });
+});
+document.querySelectorAll('.controls button').forEach(b=>b.addEventListener('click',()=>{
+  const open=b.dataset.act==='open';
+  document.querySelectorAll('.arch.active .card').forEach(c=>{ if(!c.querySelector('.more'))return; c.classList.toggle('open',open); const t=c.querySelector('.tog'); if(t)t.textContent=open?'−':'+'; });
+}));
+</script>
+</body>
+</html>

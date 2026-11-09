@@ -75,7 +75,7 @@ Detalle y tiempos en `docs/sesion_2026-11-08_09.md`.
    - la suite completa (20–30 min) se ejecuta **una sola vez por ronda**;
    - nunca cortarla con un timeout corto, que obliga a repetirla.
 6. **Ingenieros en paralelo con módulos asignados** y ediciones atómicas cuando hay una producción en curso, porque `produce` importa el código al arrancar cada lote.
-7. **Producción por tramos explícitos** (`--pages 60-79`, `80-99`…), no `--pages 1-192 --resume`. Con 1–192, el primer tramo ya compuesto vuelve a cerrarse y a bloquearse en cada ejecución.
+7. **Producción por tramos explícitos, una pasada por tramo** (`--pages 60-79`, `80-99`…), no `--pages 1-192 --resume`. Con 1–192, el primer tramo ya compuesto vuelve a cerrarse y a bloquearse en cada ejecución. Si se relanza un tramo tras la salida 76, se abre un lote duplicado. La decisión G5 se escribe antes del tramo siguiente, no reintentando.
 8. **Vigilantes:** usar el PID (`kill -0`) o un archivo marcador, nunca `pgrep -f` con un patrón que aparezca en la propia línea de comandos del vigilante, porque se encuentra a sí mismo. Lo mismo vale para `pkill -f`.
 
 ### Técnica, ya incorporada al código
