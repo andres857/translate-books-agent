@@ -49,3 +49,6 @@ Thumbs.db
 
 # Paquetes para mover el estado de los libros entre equipos
 /transfer/
+
+# Repositorio independiente clonado (lore2203/traductor_libros), con su propio .git
+/traductor_libros/
